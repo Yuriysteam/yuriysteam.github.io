@@ -1,0 +1,15 @@
+name: Yuriy Shiryaev
+description: Graphic designer
+meta_description: "I am a graphic designer from Russia currently living and studying in Prague. Most inspiration I find in meaningful, logical and reasonable things."
+
+markdown: redcarpet
+highlighter: pygments
+logo: true
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Yuriy Shiryaev'
+twitter: 'yuriysteam'
