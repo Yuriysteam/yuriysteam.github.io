@@ -15,6 +15,7 @@
     3.  Utilities
     4.  General
     5.  Single Post
+    5.1 Single project
     6.  Tag Archive
     7.  Third Party Elements
     8.  Pagination
@@ -597,7 +598,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .back-button:before {
     position: relative;
-    bottom: -2px;
+    bottom: 0px;
     font-size: 13px;
     line-height: 0;
     margin-right: 8px;
@@ -625,6 +626,7 @@ margin on the iframe, cause it breaks stuff. */
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
+    bottom: 2px;
 }
 
 /* Blog navigation */
@@ -1072,6 +1074,41 @@ body:not(.post-template) .post-title {
     height: 30px;
     padding: 1px 0 5px 0;
     width: auto;
+}
+
+/* ==========================================================================
+   5.1. Single project
+   ========================================================================== */
+
+.project-cover {
+    width: 100%;
+    margin-top:-30px;
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #FC6720;
+}
+
+.single-project-title {
+    max-width: 700px;
+    color:#fff;
+    margin:0 auto;
+    font-size: 8.5rem;
+    text-align: center;
+    line-height: 1.4em;
+    font-weight: 800;
+    padding-top: 30vh;
+}
+
+.single-project-description {
+    max-width: 700px;
+    color:#fff;
+    margin:0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 0.8em;
+    font-weight: 400;
+    margin-top:40px;
 }
 
 /* ==========================================================================
