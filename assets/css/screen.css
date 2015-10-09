@@ -1356,6 +1356,17 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 900px) {
 
+    .main-header {
+        margin-bottom: 15px;
+        height: 10px;
+    }
+
+    .no-cover.main-header {
+        margin: 0;
+        padding:0;
+        height: 100px;
+}
+    
     .main-nav {
         padding: 15px;
     }
@@ -1368,7 +1379,6 @@ body:not(.post-template) .post-title {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: auto;
         max-height: 40px;
         padding: 15% 0;
     }
@@ -1385,8 +1395,6 @@ body:not(.post-template) .post-title {
         padding: 0;
         margin-left: 0;
     }
-    
-    .
 
     .page-title {
         font-size: 4rem;
