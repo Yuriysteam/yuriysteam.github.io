@@ -1392,7 +1392,7 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        padding: 10px;
+        padding: 0;
         margin-left: 0;
     }
     
