@@ -1358,12 +1358,12 @@ body:not(.post-template) .post-title {
 
     .main-header {
         margin-bottom: 15px;
-        height: 10px;
+        height: 100px;
     }
 
     .no-cover.main-header {
         margin: 0;
-        padding:0;
+        padding: 0;
         height: 100px;
 }
     
@@ -1492,11 +1492,13 @@ body:not(.post-template) .post-title {
 
     .main-header {
         margin-bottom: 15px;
-        height: 0%;
+        height: 100px;
     }
 
     .no-cover.main-header {
-        height: 0%;
+        height: 100px;
+        margin: 0;
+        padding 0;
     }
 
     .archive-template .main-header {
