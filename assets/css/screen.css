@@ -626,7 +626,6 @@ margin on the iframe, cause it breaks stuff. */
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
-    bottom: 2px;
 }
 
 /* Blog navigation */
