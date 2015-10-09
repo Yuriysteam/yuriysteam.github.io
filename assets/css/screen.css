@@ -1392,8 +1392,12 @@ body:not(.post-template) .post-title {
     }
 
     .blog-logo img {
-        padding: 0;
+        padding: 10px;
         margin-left: 0;
+    }
+    
+    .post-logo img {display:none;
+        
     }
 
     .page-title {
