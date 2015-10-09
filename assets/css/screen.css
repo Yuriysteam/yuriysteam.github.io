@@ -502,6 +502,7 @@ margin on the iframe, cause it breaks stuff. */
 .main-nav a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
