@@ -1913,12 +1913,13 @@ body:not(.post-template) .post-title {
     .projects-grid li {
         padding-top: 75%;
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 80px;
     } 
     
     .projects-grid a {
         background: #fff;
-        padding: 20px 0;
+        padding-top: 20px;
+        padding-bottom: 15px;
         top: auto;
         left: 20px;
         right: 20px;
@@ -1927,7 +1928,8 @@ body:not(.post-template) .post-title {
         -ms-transform: translateY(50%);
         -o-transform: translateY(50%);
         transform: translateY(50%);
-        opacity: 1
+        opacity: 1;
+        border-bottom: #EBF2F6 1px solid;
     }
     
     .project-title {
