@@ -1942,6 +1942,7 @@ body:not(.post-template) .post-title {
     }
     
     .project-title { 
+        margin-top: 0;
         font-size: 1.2em;
         line-height: 1.2em;
         color: black;
