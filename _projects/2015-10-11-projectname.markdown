@@ -1,7 +1,8 @@
 ---
 layout: project
-title: Navigation city
-project-cover: ""
+title: Jewish Filmfestival
+date:   2015-10-10 10:18:00
+project-cover: "/projects_img/test/cover.jpeg"
 description: "Short description of the project"
 type: project
 ---
