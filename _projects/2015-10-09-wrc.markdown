@@ -1,0 +1,10 @@
+---
+layout: project
+title: WCR
+date:   2015-10-09 10:18:00
+project-cover: "/projects-img/test/cover.jpeg"
+description: "Short description of the project"
+type: project
+---
+
+Beautiful, clean designs tailored to your business
