@@ -876,7 +876,7 @@ body:not(.post-template) .post-title {
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0
+    right: 0;
 }
 
 
@@ -901,12 +901,19 @@ body:not(.post-template) .post-title {
     transition: 0.25s;
 }
 
-.project-name {
+.project-title {
     display: table-cell;
     vertical-align: middle;
     color: #fff;
-    z-index: 9999;
+    padding: 0 1.5em;
+}
+
+.project-description {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
     padding: 0 1.5em
+
 }
 
 
@@ -1929,7 +1936,7 @@ body:not(.post-template) .post-title {
         -o-transform: translateY(50%);
         transform: translateY(50%);
         opacity: 1;
-        border-bottom: #EBF2F6 1px solid;
+        border-bottom: #dbdfe2 1px solid;
     }
     
     .project-title {
