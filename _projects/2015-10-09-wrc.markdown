@@ -1,8 +1,8 @@
 ---
 layout: project
-title: WCR
+title: WRC
 date:   2015-10-09 10:18:00
-project-cover: "/projects-img/test/cover.jpeg"
+project-cover: "/projects_img/test/cover2.jpeg"
 description: "Short description of the project"
 type: project
 ---

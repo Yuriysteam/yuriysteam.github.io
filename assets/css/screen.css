@@ -438,6 +438,10 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.clear {
+    clear:both;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -636,7 +640,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 nav ul li {
@@ -849,38 +853,46 @@ body:not(.post-template) .post-title {
    4.1 Projects grid
    ========================================================================== */
 
-.projects-grid {
+.projects-grid ul, li{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top:-30px;
-}
-
+    } 
 
 .projects-grid li {
-position: relative;
-    width: 33.33333%;
+    padding-top:30%;
+    background-color: #cded64;
+    position: relative;
     float: left;
-    background-color: azure;
+    width: 33.3333%;
+}
+
+.single-project-cover {
+    background-color: rgba(68, 68, 68, 0.42);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+
+.projects-grid a {
+    text-decoration: none;
     display: block;
-    padding-top:20%;
-    margin-top:-10px;
-    
-}
-.project-title {
-    color:#fff;
-    margin: 0 auto;
-}
-    
-.clear {
-    clear:both;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: 0.25s
 }
 
 
@@ -1458,6 +1470,7 @@ position: relative;
         max-height: 40px;
         padding: 15% 0;
     }
+    
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
@@ -1571,6 +1584,11 @@ position: relative;
     
     .share a {
         width:40%;
+    }
+    
+    .projects-grid li {
+        width: 50%;
+        padding-top:40%;
     }
 }
 
@@ -1871,6 +1889,43 @@ position: relative;
         font-weight: 400;
         margin-top:40px;
     }
+    
+    .projects-grid {
+    margin-top:-30px;
+    }
+    
+    .projects-grid li {
+        padding-top: 75%;
+        width: 100%;
+        margin-bottom: 75px;
+    } 
+    
+    .projects-grid a {
+        background: #fff;
+        padding: 20px 0;
+        top: auto;
+        left: 20px;
+        right: 20px;
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 1
+    }
+    
+    .project-title {
+        font-size: 1.4em;
+        margin-bottom: 0.45652em;
+        font-weight: 800;
+    
+    }
+    
+    .project-description {
+        font-size: 0.75em;
+        margin-bottom: 0.56em    
+    }
+    
 
 }
 

@@ -25,15 +25,18 @@ logo: true
         </ul>
     </nav>
 </header>
-
-<ul class="projects-grid">
+<div class="projects-grid">
+<ul>
     {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
-    <a href="{{item.url}}" class="project-title">
-        <li style="background-image: url({{ item.project-cover }})">
-        <div>{{item.title}}</div>
+        <li>
+            <div class="single-project-cover" style="background-image: url({{ item.project-cover }})"></div>
+            <a class="project-name" href="{{item.url}}" class="project-title">
+                <div class="project-title">{{item.title}}</div>
+                <div class="project-description">{{item.description}}</div>
+            </a>
        </li>
-    </a>
   {% endfor %}
 </ul>
+    </div>
 <div class="clear"></div>

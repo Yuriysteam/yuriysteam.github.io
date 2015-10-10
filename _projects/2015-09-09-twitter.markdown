@@ -2,7 +2,7 @@
 layout: project
 title: Twitter manual
 date:   2015-09-09 10:18:00
-project-cover: "/projects-img/test/cover.jpeg"
+project-cover: "/projects_img/test/cover4.jpeg"
 description: "Short description of the project"
 type: project
 ---
