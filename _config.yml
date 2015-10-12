@@ -7,7 +7,7 @@ highlighter: pygments
 logo: true
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://yuriysteam.github.io'
 paginate: 7
 collections: 
  projects:
