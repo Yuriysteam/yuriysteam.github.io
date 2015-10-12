@@ -7,6 +7,7 @@ categories: Study
 
 
 I have been a graphic design student for almost 5 months. If you going to study design there will be a lot of ups and down, but hopefully at the end you will find yourself willing to continue that journey!
+
 Along the way you face joy, pressure, Google, success, pride, failure, happiness sadness and etc. Oh, yeah, and moments of frustration, when you start your 5th chocolate bar and continue scrolling, scrolling, scrolling looking for some specific details. After surviving several nights like that (plus you start predicting when it’s time to renew your coffee and chocolate supplies) life get’s easier. Still all 5 months were totally worth it and taught me a lot.
 
 ## It’s all about time-managment
