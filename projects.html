@@ -26,17 +26,16 @@ logo: true
     </nav>
 </header>
 <div class="projects-grid">
-<ul>
     {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
-        <li>
-            <div class="single-project-cover" style="background-image: url({{ item.project-cover }})"></div>
-            <a class="project-name" href="{{item.url}}" class="project-title">
+        
+        <a class="project-name" href="{{item.url}}" class="project-title">
+                <div class="single-project-cover" style="background-image: url({{ item.project-cover }})"></div>
+            <div class="project-text-name">    
                 <div class="project-title">{{item.title}}</div>
                 <div class="project-description">{{item.description}}</div>
-            </a>
-       </li>
+            </div>    
+        </a>
   {% endfor %}
-</ul>
+
     </div>
-<div class="clear"></div>
