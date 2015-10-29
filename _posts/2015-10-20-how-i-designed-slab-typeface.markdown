@@ -77,4 +77,4 @@ As well on Friday I had a couple more character basied on a same logic, so I put
 
 Thank you for reading this first post. Please share my experience with others. If you have some comments, suggestions and tips you are welcome to tweet me at [@yuriysteam] (www.twitter.com/yuriysteam). 
 
-*Because right now Iam on a 3ed week of this project, I will try to post the 2nd week a bit ahead to make the process live. Expect to get new post every week between Thursday and Friday.*
+*Because right now I am on a 3ed week of this project, I will try to post the 2nd week a bit ahead to make the process live. Expect to get new post every week between Thursday and Friday.*
