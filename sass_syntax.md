@@ -1,11 +1,3 @@
----
-layout: default
-title: Sass syntax cheatseet
-cover: false
-logo: true
-
----
-
 ##Sass cheatsheet
 
 ###Basic
