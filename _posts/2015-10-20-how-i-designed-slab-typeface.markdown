@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How I designed Slab typeface: week 1"
+title:  "How I designed Slab font: week 1"
 date:   2015-10-29 14:50:00
 categories: Design
 ---
