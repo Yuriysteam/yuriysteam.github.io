@@ -1105,6 +1105,31 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
+   4.2. Contact page
+   ========================================================================== */
+
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email {
+font-size: 22pt;
+margin-top: 30px;
+text-decoration: none;}
+
+.contact-grid {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 100px auto 30px;
+    justify-content: space-between;
+}
+
+/* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
 
@@ -1828,8 +1853,23 @@ body:not(.post-template) .post-title {
     .project-description {
         font-size: 1.2rem;
     }
-}
+    
+    .contact {
+    width: 95%;
+    margin: 0 auto;
+    }
 
+    .email {
+        font-size: 20pt;
+        margin-top: 60px;
+        text-decoration: none;}
+
+    .contact-grid {
+    width: 90%;
+    margin: 90px auto 60px;
+    }
+
+}
 
 /* ==========================================================================
    11. Media Queries - Smaller than 500px
@@ -2100,8 +2140,18 @@ body:not(.post-template) .post-title {
         margin-top: 10px;
         margin-bottom: 30px;
     }
-}
+    
 
+    .email {
+        font-size: 18pt;
+        margin-top: 40px;
+        }
+
+    .contact-grid {
+   
+    margin: 40px auto 10px;
+    }
+}
 
 /* ==========================================================================
    12. Animations
