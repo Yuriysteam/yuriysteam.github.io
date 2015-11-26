@@ -1838,6 +1838,8 @@ text-decoration: none;}
     }
     .single-project-title {
         padding: auto;
+        font-size: 4.2rem;
+        
     }
     .share a {
         width: 40%;
@@ -2103,6 +2105,14 @@ text-decoration: none;}
         background-position: center;
         background-color: #FC6720;
     }
+     .single-project-cover {
+        padding-top: 60%;
+        width: 100%;
+        background-color: #FC6720;
+        background-position: center;
+        background-repeat: no-repeat;
+         background-size: cover;
+     }
     .single-project-title {
         max-width: 90%;
         color: #fff;
@@ -2122,14 +2132,6 @@ text-decoration: none;}
         line-height: 1.8em;
         font-weight: 400;
         margin-top: 40px;
-    }
-    .single-project-cover {
-        padding-top: 60%;
-        width: 100%;
-        background-color: #FC6720;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .projects-grid {
         width: 100%;
