@@ -1182,7 +1182,7 @@ text-decoration: none;}
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0.6em 0;
 }
 
@@ -1394,7 +1394,7 @@ text-decoration: none;}
 .project-cover {
     width: 100%;
     margin-top: -30px;
-    height: 100vh;
+    height: 95vh;
     background-size: cover;
     background-position: center;
     background-color: #FC6720;
@@ -1407,8 +1407,9 @@ text-decoration: none;}
     font-size: 8.5rem;
     text-align: center;
     line-height: 1.4em;
+    letter-spacing: 3px;
     font-weight: 800;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 
 .single-project-description {
@@ -1417,7 +1418,6 @@ text-decoration: none;}
     margin: 0 auto;
     font-size: 2.5rem;
     text-align: center;
-    line-height: 0.8em;
     font-weight: 400;
     margin-top: 40px;
 }
