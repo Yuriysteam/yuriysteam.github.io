@@ -1741,16 +1741,19 @@ text-decoration: none;}
 }
 
 .p700 img{
+    width:100%;
     max-width:700px;
     margin: 50px auto 20px;    
 } 
 
 .p600 img{
+    width:100%;
     max-width:600px;
     margin: 50px auto 20px;
 }
 
 .p500 img{
+    width:100%;
     max-width:500px;
     margin: 50px auto 20px;
 }
