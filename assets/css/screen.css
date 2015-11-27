@@ -22,9 +22,10 @@
     7.  Third Party Elements
     8.  Pagination
     9.  Footer
-    10. Media Queries (Tablet)
-    11. Media Queries (Mobile)
-    12. Animations
+    10. Portfolio image styles
+    11. Media Queries (Tablet)
+    12. Media Queries (Mobile)
+    13. Animations
 
 */
 
@@ -1731,8 +1732,32 @@ text-decoration: none;}
 }
 
 
+
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   10. Portfolio image styles
+   ========================================================================== */
+
+.p900 {
+}
+
+.p700 {
+    width:700px;
+    margin: 30 auto 10;    
+} 
+
+.p600 {
+    width:600px;
+    margin: 30 auto 10;
+}
+
+.p500 {
+    width:500px;
+    margin: 30 auto 10;
+}
+
+
+/* ==========================================================================
+   11. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -1885,7 +1910,7 @@ text-decoration: none;}
 }
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   12. Media Queries - Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
@@ -2166,7 +2191,7 @@ text-decoration: none;}
 }
 
 /* ==========================================================================
-   12. Animations
+   13. Animations
    ========================================================================== */
 
 
