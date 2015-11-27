@@ -1737,20 +1737,20 @@ text-decoration: none;}
    10. Portfolio image styles
    ========================================================================== */
 
-.p900 {
+.p900 img {
 }
 
-.p700 {
+.p700 img{
     width:700px;
     margin: 30px auto 10px;    
 } 
 
-.p600 {
+.p600 img{
     width:600px;
     margin: 30px auto 10px;
 }
 
-.p500 {
+.p500 img{
     width:500px;
     margin: 30px auto 10px;
 }
