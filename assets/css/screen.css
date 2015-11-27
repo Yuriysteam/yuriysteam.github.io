@@ -1403,10 +1403,16 @@ text-decoration: none;}
     box-shadow: inset 0 0 0 10000px rgba(0,0,0,.4);
 }
 
-.single-project-title {
-    max-width: 700px;
-    color: #fff;
+.single-project-wrap {
     margin: 0 auto;
+    max-width: 700px;
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+    
+}
+.single-project-title {
+    color: #fff;
     font-size: 8.5rem;
     text-align: center;
     line-height: 1.2em;
