@@ -1397,7 +1397,7 @@ text-decoration: none;}
 .project-cover {
     width: 100%;
     margin-top: -30px;
-    height: 95vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-color: #FC6720;
@@ -1762,27 +1762,6 @@ text-decoration: none;}
     margin-top:90px;
 }
 
-.p_screenshot {
-    display: block;
-    width:100%;
-    max-width:600px;
-    margin: 50px auto 20px;
-}
-
-.screen_overview {
-    display:inline-block;
-    position: relative;
-}
-
-.viewpoint {
-    display:block;
-    overflow: hidden;
-    position: absolute;
-    height: 563px;
-    left: 24px;
-    top: 91px;
-    width: 320px;    
-}
 
 
 /* ==========================================================================
