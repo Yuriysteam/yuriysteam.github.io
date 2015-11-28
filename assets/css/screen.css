@@ -1432,6 +1432,25 @@ text-decoration: none;}
     line-height: 4rem;
 }
 
+#tabs {
+    display:none;
+    width:250px;
+    margin: 30px auto;}
+
+#tab-description {
+    margin-right:30px;
+    display:inline-block;
+}
+
+#tab-process {
+    margin-left:30px;
+    display:inline-block;
+}
+
+.select {
+background: black;
+}
+
 
 /* ==========================================================================
    6. Author profile
