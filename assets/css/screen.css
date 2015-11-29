@@ -1433,10 +1433,10 @@ text-decoration: none;}
 }
 
 #tabs {
-    display: none;
     cursor: pointer;
     width:250px;
-    margin: 30px auto;}
+    margin: 30px auto;
+}
 
 #tab-description {
     margin-right:30px;
@@ -1457,7 +1457,8 @@ display:none;
 }
 
 .tab-active {
-background:red;}
+background:red;
+}
 
 
 /* ==========================================================================
