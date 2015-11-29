@@ -1434,22 +1434,25 @@ text-decoration: none;}
 
 #tabs {
     cursor: pointer;
-    width:250px;
+    width:286px;
     margin: 30px auto;
+    border: 1px solid;
+    color: 0, 0, 0, 0.74;
+    border-radius: 3px;
 }
 
 #tab-description {
-    margin-right:30px;
+    width:120px;
     display:inline-block;
+    text-align: center;
+    padding:10px;
 }
 
 #tab-process {
-    margin-left:30px;
+    width:120px;
     display:inline-block;
-}
-
-.select {
-background: black;
+    text-align: center;
+    padding:10px;
 }
 
 #show-process {
@@ -1457,7 +1460,8 @@ display:none;
 }
 
 .tab-active {
-background:red;
+    background:rgba(0, 0, 0, 0.74);
+    color:white;
 }
 
 
