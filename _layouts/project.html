@@ -19,15 +19,17 @@ layout: default
 </div>
 
 <div id="tabs">
-<div id=tab-description><a href="">Description</a></div>
-<div id=tab-process><a href="">Process</a></div>
+<div id="tab-description" style="cursor: pointer;">Description</div> <!-- перенести cursor в css-->
+<div id="tab-process" style="cursor: pointer;">Process</div>
 </div>
 <main class="content" role="main">
 
     <article class="post">
 
 <section class="post-content">
-            {{ page.content }}
+            <div id="show-description">{% assign parts = page.content | split: "Process!" %}{{ parts.first }}</div>
+            <div id="show-process">{{ parts.last }}</div>
+            
         </section>
 
         <footer class="post-footer">

@@ -31,6 +31,7 @@
     <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="icons/manifest.json">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
@@ -43,5 +44,19 @@
       </section>
       <section class="poweredby">Made with ♥ on Jekyll</section>
     </footer>
+    <script>
+        $("#show-process").hide(); /* перенести скрывание в css */
+        
+        $("#tab-description").click(function() {
+            $("#show-description").show();
+            $("#show-process").hide();
+        });
+
+        $("#tab-process").click(function() {
+            $("#show-description").hide();
+            $("#show-process").show();
+        });
+
+    </script>
 </body>
 </html>
