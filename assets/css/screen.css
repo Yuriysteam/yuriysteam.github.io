@@ -1433,6 +1433,7 @@ text-decoration: none;}
 }
 
 #tabs {
+    display: none;
     cursor: pointer;
     width:250px;
     margin: 30px auto;}
@@ -1454,6 +1455,9 @@ background: black;
 #show-process {
 display:none;
 }
+
+.tab-active {
+background:red;}
 
 
 /* ==========================================================================
