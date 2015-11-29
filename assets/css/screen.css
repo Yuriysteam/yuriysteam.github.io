@@ -1433,7 +1433,7 @@ text-decoration: none;}
 }
 
 #tabs {
-    
+    cursor: pointer;
     width:250px;
     margin: 30px auto;}
 
@@ -1449,6 +1449,10 @@ text-decoration: none;}
 
 .select {
 background: black;
+}
+
+#show-process {
+display:none;
 }
 
 
