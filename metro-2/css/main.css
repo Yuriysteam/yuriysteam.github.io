@@ -132,8 +132,10 @@ top: 110px;
 	padding-top:10px;
 }
 .tabs-new ul{
-	margin:0px;
-	padding:0px;
+    margin: 0 auto;
+    margin-left: 25%;
+    padding:0px;
+
 }
 .tabs-new ul:after{
 	content:"";
@@ -208,10 +210,11 @@ background-position:top;
 
 
 .metro_map {
-    height:auto;
-    width: 1000px;
+    height:520px;
+    width: 760px;
     margin: -30px auto;
-    background: url(../images/map1.png);
+    background: url(../images/map.png);
+    
 }
 
 .line-description {
