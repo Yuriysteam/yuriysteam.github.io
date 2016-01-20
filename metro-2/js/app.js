@@ -52,8 +52,6 @@ function stop2(){
    imgObj2.style.display='none';
 }
 
-
-
 $( "#point1" ).click(function() {
   $( "#point1-info" ).toggle("slow");
 });
@@ -64,6 +62,23 @@ $( "#point2" ).click(function() {
 
 $(document).ready(function(){
 	$(".tabs-new").lightTabs();
+});
+
+
+$('#map-tab1').click(function(){
+    $('#metro_map').css('background', 'url("images/map-1.png")');
+});
+
+$('#map-tab2').click(function(){
+    $('#metro_map').css('background', 'url("images/map-2.png")');
+});
+
+$('#map-tab3').click(function(){
+    $('#metro_map').css('background', 'url("images/map-3.png")');
+});
+
+$('#map-tab4').click(function(){
+    $('#metro_map').css('background', 'url("images/map-4.png")');
 });
 
 (function($){				

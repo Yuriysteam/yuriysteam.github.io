@@ -209,12 +209,11 @@ background-position:top;
     margin-top: 240px;
 }
 
-
-.metro_map {
+#metro_map {
     height:520px;
     width: 760px;
     margin: -30px auto;
-    background: url(../images/map.png);
+    background: url(../images/map-1.png);
     
 }
 
