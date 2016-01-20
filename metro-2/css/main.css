@@ -54,10 +54,11 @@ body {
 .secret-description {
     color: white;
     font-weight: 300;
-    font-size: 14pt;
-    max-width: 750px;
+    font-size: 13pt;
+    max-width: 800px;
     text-align: center;
-    margin: 20px auto;
+    margin: 0px auto;
+    margin-bottom: 50px;
 }
 
 .soil {
@@ -92,7 +93,7 @@ position:top;
 
 #point2 {
     position: absolute;
-	top: 5px;
+	top: 270px;
 	left: 900px;
 	cursor: pointer;
 }
@@ -117,7 +118,7 @@ top: 110px;
 #point2-info {
     position: absolute;
 
-	top: 70px;
+	top: 310px;
 	left: 940px;
 }
 
@@ -244,10 +245,15 @@ background-size: contain;
 background-position:top;
     height: 437px;
 	position: relative;
-
+}
 footer {
     font-size: 12px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 11pt;
+    font-weight: 300;
+    background-color: #4d4a4a;
 }
 
 @media only screen and (min-width: 480px) {
