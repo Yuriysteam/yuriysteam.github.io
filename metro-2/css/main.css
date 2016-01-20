@@ -11,7 +11,7 @@
    ==================== */
 
 body {
-    font-family: "Merriweather";
+    font-family: "Gotham";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -53,8 +53,8 @@ body {
 
 .secret-description {
     color: white;
-    font-size: 15pt;
-    font-style: none;
+    font-weight: 300;
+    font-size: 14pt;
     max-width: 750px;
     text-align: center;
     margin: 20px auto;
@@ -84,7 +84,7 @@ position:top;
 
 #point1 {
     position: absolute;
-	top: 160px;
+	top: 70px;
 	left: 460px;
 	cursor: pointer;
     z-index: 9999;
@@ -103,27 +103,30 @@ position:top;
 	width: 200px;
 	height: 200px;
 	padding-top: 10px; 
-	background: rgba(206, 206, 206, 0.58);
+	background: rgba(206, 206, 206, 0.83);
 	overflow: auto;
 	text-align: center;
 }
 
 #point1-info {
     position: absolute;
-top: 200px;
+top: 110px;
 	left: 490px;
 }
 
 #point2-info {
     position: absolute;
 
-	top: 265px;
+	top: 70px;
 	left: 940px;
 }
 
 
 .tabs-new{
 	display:inline-block;
+    font-style: normal;
+    font-weight: 300;
+   text-align: center;
 }
 .tabs-new> div{
 	padding-top:10px;
@@ -137,7 +140,6 @@ top: 200px;
 	display:block;
 	clear:both;
 	height:5px;
-	background:#46c765;
 }
 .tabs-new ul li{
 	margin:0px;
@@ -206,9 +208,9 @@ background-position:top;
 
 
 .metro_map {
-    height:754px;
+    height:auto;
     width: 1000px;
-    margin: 30px auto;
+    margin: -30px auto;
     background: url(../images/map1.png);
 }
 
