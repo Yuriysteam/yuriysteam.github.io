@@ -1,0 +1,280 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic,900,900italic);
+* {
+    border: 0px dashed green;
+}
+
+
+/* ====================
+     All screen sizes
+   ==================== */
+
+body {
+    font-family: "Merriweather";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.4;
+}
+
+#container {
+    min-width: 700px;
+    margin: 0 auto;
+    background-color: #4d4a4a;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+#kremlin {
+    width: 100%;
+    height: 65vh;
+    background-image: url(../images/kremlin.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+}
+
+.header {
+    font-size: 42pt;
+    font-family: "Gotham";
+    text-align: center;
+    font-weight: 400;
+    /* color: #d72831; */
+	color: white;
+    padding-top: 30px;
+}
+
+.kremlinred {
+    color: #d72831;
+}
+
+.secret-description {
+    color: white;
+    font-size: 15pt;
+    font-style: none;
+    max-width: 750px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.soil {
+    width: 100%;
+    height: auto;
+}
+
+.station {
+    width: 100%;
+    background: url(../images/bg-station.png);
+background-repeat: no-repeat;
+background-size: contain;
+position:top;
+    height: 437px;
+	position: relative;
+}
+
+/* NEW */
+.points {
+	background-image: url(../images/point.png);
+	width: 40px;
+	height: 40px;
+}
+
+#point1 {
+    position: absolute;
+	top: 160px;
+	left: 460px;
+	cursor: pointer;
+    z-index: 9999;
+}
+
+#point2 {
+    position: absolute;
+	top: 5px;
+	left: 900px;
+	cursor: pointer;
+}
+
+
+.info {
+	display: none;
+	width: 200px;
+	height: 200px;
+	padding-top: 10px; 
+	background: rgba(206, 206, 206, 0.58);
+	overflow: auto;
+	text-align: center;
+}
+
+#point1-info {
+    position: absolute;
+top: 200px;
+	left: 490px;
+}
+
+#point2-info {
+    position: absolute;
+
+	top: 265px;
+	left: 940px;
+}
+
+
+.tabs-new{
+	display:inline-block;
+}
+.tabs-new> div{
+	padding-top:10px;
+}
+.tabs-new ul{
+	margin:0px;
+	padding:0px;
+}
+.tabs-new ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:5px;
+	background:#46c765;
+}
+.tabs-new ul li{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:10px 15px;
+	background:#e9eaeb;
+	color:#707070;
+}
+.tabs-new ul li.active, .tabs-new ul li.active:hover{
+	background:#46c765;
+	color:#fff;
+}
+.tabs-new ul li:hover{
+	background:#d6d6d7;
+}
+
+/*  */
+
+
+.train_back {
+    background-image: url(../images/train.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 437px;
+    width: 100%;
+    position: absolute;
+}
+
+.secret_train_back {
+    background-image: url(../images/train_2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 437px;
+    width: 100%;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.platform {
+     width: 100%;
+    background: url(../images/station.png);
+background-repeat: no-repeat;
+background-size: contain;
+    
+background-position:top;
+    height: 437px;
+	position: relative;
+}
+
+.train_front {
+    display: none;
+    background-image: url(../images/train.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: 240px;
+}
+
+
+.metro_map {
+    height:754px;
+    width: 1000px;
+    margin: 30px auto;
+    background: url(../images/map1.png);
+}
+
+.line-description {
+    color: white;
+    font-size: 15pt;
+    font-style: italic;
+    max-width: 700px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.secret_station {
+    width: 100%;
+    background: url(../images/bg-s-station.png);
+background-repeat: no-repeat;
+background-size: contain;
+position:top;
+    height: 437px;
+	position: relative;
+}
+
+.secret_platform {
+     width: 100%;
+    background: url(../images/s-station.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position:top;
+    height: 437px;
+	position: relative;
+
+footer {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 480px) {
+    /* ====================
+    INTERMEDIATE: Main
+   ==================== */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 480px wide 
+   ============== */
+}
+
+@media only screen and (min-width: 768px) {
+    /* ============
+    WIDE: Main
+   ============ */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 768px wide 
+   ============== */
+    body {
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    /* ===============
+    Maximal Width
+   =============== */
+    /* ==============
+    NOTE FROM RYAN: 
+    These styles are applied to screens larger than 1140px wide 
+   ============== */
+    #container {}
+}

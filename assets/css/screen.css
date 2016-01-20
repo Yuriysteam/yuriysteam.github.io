@@ -1434,25 +1434,26 @@ text-decoration: none;}
 
 #tabs {
     cursor: pointer;
-    width:100%;
-    max-width:328px;
+    width:286px;
     margin: 30px auto;
     border: 1px solid;
-    color: 0, 0, 0, 0.74;
+    
 }
 
 #tab-description {
-    width:43%;
+    width:120px;
     display:inline-block;
     text-align: center;
     padding:10px;
+    color: 0, 0, 0, 0.74;
 }
 
 #tab-process {
-    width:43%;
+    width:120px;
     display:inline-block;
     text-align: center;
     padding:10px;
+    color: 0, 0, 0, 0.74;
 }
 
 #show-process {
