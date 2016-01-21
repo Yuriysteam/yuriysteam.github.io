@@ -36,7 +36,7 @@ imgObj2 = document.getElementById('myImage2');
 // imgObj2.style.right = '-2000px';
 imgObj2.style.transform = 'translateX(-2000px)';
 imgObj2.style.display='none';
-setInterval(function(){ moveLeft2() }, 3000); //4000ms - это частота появления поезда сейчас
+setInterval(function(){ moveLeft2() }, 4000); //4000ms - это частота появления поезда сейчас
 right = -2000;
 function moveLeft2(){
     // right = parseInt(imgObj2.style.right, 10);
