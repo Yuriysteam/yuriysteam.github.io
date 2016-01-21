@@ -1,16 +1,20 @@
 var imgObj=null;
 
 imgObj = document.getElementById('myImage');
-imgObj.style.right = '-2000px';
+// imgObj2.style.right = '-2000px';
+imgObj.style.transform = 'translateX(-2000px)';
 imgObj.style.display='none';
-setInterval(function(){ moveLeft() }, 3000); //4000ms - это частота появления поезда сейчас
-
+setInterval(function(){ moveLeft() }, 4000); //4000ms - это частота появления поезда сейчас
+right = -2000;
 function moveLeft(){
-    right = parseInt(imgObj.style.right, 10);
+    // right = parseInt(imgObj2.style.right, 10);
+    
+	console.log('move 2', right);
 
     if (2000 >= right) {
-        imgObj.style.right = (right + 20) + 'px';
+        imgObj.style.transform = 'translateX(' + (right + 5) + 'px)';
         imgObj.style.display='block';
+		right = right + 5;
 
         setTimeout(function(){moveLeft();},5); // call moveRight in 20msec
         
@@ -20,25 +24,29 @@ function moveLeft(){
 }
 
 function stop(){
-   imgObj.style.right = '-2000px';
+   // imgObj2.style.right = '-2000px';
+	imgObj.style.transform = 'translateX(-2000px)';
    imgObj.style.display='none';
 }
-
 
 
 var imgObj2=null;
 
 imgObj2 = document.getElementById('myImage2');
-imgObj2.style.right = '-2000px';
+// imgObj2.style.right = '-2000px';
+imgObj2.style.transform = 'translateX(-2000px)';
 imgObj2.style.display='none';
-setInterval(function(){ moveLeft2() }, 4000); //4000ms - это частота появления поезда сейчас
-
+setInterval(function(){ moveLeft2() }, 3000); //4000ms - это частота появления поезда сейчас
+right = -2000;
 function moveLeft2(){
-    right = parseInt(imgObj2.style.right, 10);
+    // right = parseInt(imgObj2.style.right, 10);
+    
+	console.log('move 2', right);
 
     if (2000 >= right) {
-        imgObj2.style.right = (right + 30) + 'px';
+        imgObj2.style.transform = 'translateX(' + (right + 5) + 'px)';
         imgObj2.style.display='block';
+		right = right + 5;
 
         setTimeout(function(){moveLeft2();},5); // call moveRight in 20msec
         
@@ -48,7 +56,8 @@ function moveLeft2(){
 }
 
 function stop2(){
-   imgObj2.style.right = '-2000px';
+   // imgObj2.style.right = '-2000px';
+	imgObj2.style.transform = 'translateX(-2000px)';
    imgObj2.style.display='none';
 }
 

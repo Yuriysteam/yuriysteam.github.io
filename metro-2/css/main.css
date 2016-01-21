@@ -29,6 +29,7 @@ body {
     -moz-font-feature-settings: "liga" on;
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.4;
+	overflow-x:hidden;
 }
 
 #container {
