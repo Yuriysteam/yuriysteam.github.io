@@ -1,7 +1,17 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-@import url(../fonts/Gotham-Regular.woff);
-@import url(../fonts/Gotham-Bold.woff);
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Regular.woff);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Bold.woff);
+	font-weight: bold;
+}
+
 * {
     border: 0px dashed green;
 }
@@ -42,7 +52,7 @@ body {
     font-size: 42pt;
     font-family: "Gotham";
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     /* color: #d72831; */
 	color: white;
     padding-top: 30px;
