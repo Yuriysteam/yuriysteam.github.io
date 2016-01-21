@@ -1,6 +1,7 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic,900,900italic);
+@import url(../fonts/Gotham-Regular.woff);
+@import url(../fonts/Gotham-Bold.woff);
 * {
     border: 0px dashed green;
 }
