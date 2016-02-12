@@ -34,7 +34,7 @@ And as well I look at some Scandinavian graphic design, Scandinavian type design
 - [Type basics by typeworkshop](http://www.typeworkshop.com/index.php?id1=type-basics)
 - [Typeface Glossery by FontShop](https://www.fontshop.com/glossary)
 - [So you want to create a font. Part 1](http://ilovetypography.com/2007/10/22/so-you-want-to-create-a-font-part-1)
-- [Designing a Typeface, With Illustrator and FontLab, from Start to Finish - Part 1 (http://design.tutsplus.com/tutorials/designing-a-typeface-with-ai-fontlab-from-start-to-finish-part-1--vector-3458)
+- [Designing a Typeface, With Illustrator and FontLab, from Start to Finish - Part 1](http://design.tutsplus.com/tutorials/designing-a-typeface-with-ai-fontlab-from-start-to-finish-part-1--vector-3458)
 - [The making of FF Tundra](http://ilovetypography.com/2011/10/05/the-making-of-ff-tundra/)
 - [Design a headline typeface](http://www.creativebloq.com/design-headline-typeface-11114307)
 - [Slab Serif Fonts 15 You Should Use](http://www.creativebeacon.com/slab-serif-fonts-15-you-should-use/)
