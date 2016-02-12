@@ -28,26 +28,26 @@ With the goal defined I go to a research part. The best place to start is to loo
 - Muse Slab
 - Slaberlin
 
-And as well I look at some scandinavian graphic design, scandinavian type design, scandinavian architectural design and Finnish/Swedish nature.
+And as well I look at some Scandinavian graphic design, Scandinavian type design, Scandinavian architectural design and Finnish/Swedish nature.
 
-- [How to design your own typeface] (http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
-- [Type basics by typeworkshop] (http://www.typeworkshop.com/index.php?id1=type-basics)
-- [Typeface Glossery by FontShop] (https://www.fontshop.com/glossary)
-- [So you want to create a font. Part 1] (http://ilovetypography.com/2007/10/22/so-you-want-to-create-a-font-part-1)
-- [Designing a Typeface, With Illustrator and FontLab, from Start to Finish - Part 1] (http://design.tutsplus.com/tutorials/designing-a-typeface-with-ai-fontlab-from-start-to-finish-part-1--vector-3458)
-- [The making of FF Tundra] (http://ilovetypography.com/2011/10/05/the-making-of-ff-tundra/)
-- [Design a headline typeface] (http://www.creativebloq.com/design-headline-typeface-11114307)
-- [Slab Serif Fonts 15 You Should Use] (http://www.creativebeacon.com/slab-serif-fonts-15-you-should-use/)
+- [How to design your own typeface](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
+- [Type basics by typeworkshop](http://www.typeworkshop.com/index.php?id1=type-basics)
+- [Typeface Glossery by FontShop](https://www.fontshop.com/glossary)
+- [So you want to create a font. Part 1](http://ilovetypography.com/2007/10/22/so-you-want-to-create-a-font-part-1)
+- [Designing a Typeface, With Illustrator and FontLab, from Start to Finish - Part 1 (http://design.tutsplus.com/tutorials/designing-a-typeface-with-ai-fontlab-from-start-to-finish-part-1--vector-3458)
+- [The making of FF Tundra](http://ilovetypography.com/2011/10/05/the-making-of-ff-tundra/)
+- [Design a headline typeface](http://www.creativebloq.com/design-headline-typeface-11114307)
+- [Slab Serif Fonts 15 You Should Use](http://www.creativebeacon.com/slab-serif-fonts-15-you-should-use/)
 - [Creative Characters: interview Tomi Haaparanta](https://www.myfonts.com/newsletters/cc/201002.html)
-- [Creative Characters: interview Underware] (https://www.myfonts.com/newsletters/cc/200801.html)
-- [The Finnish type scene] (http://luc.devroye.org/finland.html)
-- [Tsto – Finnish design agency] (http://www.tsto.org)
-- [Kokoromoi – Finnish design agency] (http://www.kokoromoi.com)
-- [Merkitys – design studio in Helsinki] (http://www.merkitys.eu)
-- [Lettersfromsweden.se – type agency] (http://lettersfromsweden.se)
-- [Stockholm Design Lab] (http://www.stockholmdesignlab.se)
+- [Creative Characters: interview Underware](https://www.myfonts.com/newsletters/cc/200801.html)
+- [The Finnish type scene](http://luc.devroye.org/finland.html)
+- [Tsto – Finnish design agency](http://www.tsto.org)
+- [Kokoromoi – Finnish design agency](http://www.kokoromoi.com)
+- [Merkitys – design studio in Helsinki](http://www.merkitys.eu)
+- [Lettersfromsweden.se – type agency](http://lettersfromsweden.se)
+- [Stockholm Design Lab](http://www.stockholmdesignlab.se)
 
-As for the tools: I am using [Glyphs app] (https://glyphsapp.com) (which has a students discounts) to convert vector to the font file, Adobe Illustrator to make vector shapes and some occasional sketching with a pencil.
+As for the tools: I am using [Glyphs app](https://glyphsapp.com) (which has a students discounts) to convert vector to the font file, Adobe Illustrator to make vector shapes and some occasional sketching with a pencil.
 
 With a typeface, like with identity design, there must be a system of rules and regularities. For instance the shape of serifs, shape of dots or height of glyphs (x-height).
 
@@ -59,11 +59,11 @@ I started with defining a shape of lowercase “a”. Because there are two opti
 
 I have a preference for double-storey a and serif, which is close to block rectangle shape with a slight cut on the side.
 
-<center>![First characters] (/blog_img/htds/tention-string-1week.png)</center>
+<center>![First characters](/blog_img/htds/tention-string-1week.png)</center>
 
 With sketching and looking at other typefaces and Finnish woods pictures, I found an interesting solution for a's bowl (a geometric rough and straight lines with some natural and soft curves). This idea of combining something raw, rude with natural and soft will define the rest of the shapes.
 
-<center>![First characters] (/blog_img/htds/letters-1week.jpg)</center>
+<center>![First characters](/blog_img/htds/letters-1week.jpg)</center>
 
 I refined the letter in the Illustrator with some additional twicks and help of the vector tools. For now I am not worrying to much about stroke thikness, but I am aware of that.
 
@@ -71,10 +71,10 @@ I refined the letter in the Illustrator with some additional twicks and help of 
 
 As well on Friday I had a couple more character basied on a same logic, so I put them all together. I have very different strokes on “a” and “b” comparing to the rest characters. This will be sort out later.
 
-<center>![First characters] (/blog_img/htds/raf-ideas-1week.png)</center>
+<center>![First characters](/blog_img/htds/raf-ideas-1week.png)</center>
 
 ###To be continued...
 
-Thank you for reading this first post. Please share my experience with others. If you have some comments, suggestions and tips you are welcome to tweet me at [@yuriysteam] (www.twitter.com/yuriysteam). 
+Thank you for reading this first post. Please share my experience with others. If you have some comments, suggestions and tips you are welcome to tweet me at [@yuriysteam](www.twitter.com/yuriysteam). 
 
 *Because right now I am on a 3ed week of this project, I will try to post the 2nd week a bit ahead to make the process live. Expect to get new post every week between Thursday and Friday.*
