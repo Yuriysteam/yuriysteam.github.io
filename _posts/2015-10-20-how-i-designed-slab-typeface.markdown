@@ -59,19 +59,19 @@ I started with defining a shape of lowercase “a”. Because there are two opti
 
 I have a preference for double-storey a and serif, which is close to block rectangle shape with a slight cut on the side.
 
-<center>![First characters](/blog_img/htds/tention-string-1week.png)</center>
+![First characters](/blog_img/htds/tention-string-1week.png)
 
 With sketching and looking at other typefaces and Finnish woods pictures, I found an interesting solution for a's bowl (a geometric rough and straight lines with some natural and soft curves). This idea of combining something raw, rude with natural and soft will define the rest of the shapes.
 
-<center>![First characters](/blog_img/htds/letters-1week.jpg)</center>
+![First characters](/blog_img/htds/letters-1week.jpg)
 
 I refined the letter in the Illustrator with some additional twicks and help of the vector tools. For now I am not worrying to much about stroke thikness, but I am aware of that.
 
-<center>![First letter](/blog_img/htds/a-1week.png)</center>
+![First letter](/blog_img/htds/a-1week.png)
 
 As well on Friday I had a couple more character basied on a same logic, so I put them all together. I have very different strokes on “a” and “b” comparing to the rest characters. This will be sort out later.
 
-<center>![First characters](/blog_img/htds/raf-ideas-1week.png)</center>
+![First characters](/blog_img/htds/raf-ideas-1week.png)
 
 ###To be continued...
 
