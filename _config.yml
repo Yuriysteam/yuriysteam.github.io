@@ -9,6 +9,7 @@ gems: [jekyll-paginate]
 paginate: 15
 paginate_path: "page:num"
 baseurl: /
+timezone: CZ
 domain_name: 'http://yuriy.eu'
 paginate: 7
 collections: 
@@ -16,6 +17,6 @@ collections:
   output: true
 
 # Details for the RSS feed generator
-url:            'http://yuriysteam.github.io'
+url:            'http://yuriy.eu'
 author:         'Yuriy Shiryaev'
 twitter: 'yuriysteam'
