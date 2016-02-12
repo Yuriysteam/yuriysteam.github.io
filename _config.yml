@@ -3,11 +3,13 @@ description: Graphic designer
 meta_description: "I am a graphic designer from Russia currently living and studying in Prague. Most inspiration I find in meaningful, logical and reasonable things."
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: Rouge
 logo: true
+gems: [jekyll-paginate]
 paginate: 15
+paginate_path: "page:num"
 baseurl: /
-domain_name: 'http://yuriysteam.github.io'
+domain_name: 'http://yuriy.eu'
 paginate: 7
 collections: 
  projects:
