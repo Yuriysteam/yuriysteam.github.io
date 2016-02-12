@@ -2,6 +2,15 @@
 border: 0px green dashed; 
 }
 
+@font-face {
+    font-family: 'tf2build';
+    src: url(/fonts/tf2build-webfont.eot');
+    src: url(/fonts/tf2build-webfont.eot?#iefix') format('embedded-opentype'),
+         url(/fonts/tf2build-webfont.woff') format('woff'),
+         url(/fonts/tf2build-webfont.ttf') format('truetype'),
+         url(/fonts/tf2build-webfont.svg#TF2BuildTF2Build') format('svg');
+}
+
 body {
 	background-color:#141313;
 	margin:0;
@@ -149,48 +158,173 @@ line-height: 24px;
 text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 }
 
+.concern-header {
+    font-family: "tf2build";
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#mojo {
+position: absolute;
+width: 250px;
+text-align: left;
+color: #cacaca;
+left: 340px;
+top: 450px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#flamesmodel {
+position: absolute;
+width: 250px;
+text-align: right;
+color: #cacaca;
+left: 870px;
+top: 1050px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#airblast {
+position: absolute;
+width: 350px;
+text-align: center;
+color: #cacaca;
+left: 540px;
+top: 70px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#afterburn {
+position: absolute;
+width: 230px;
+text-align: left;
+color: #cacaca;
+left: 340px;
+top: 920px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#view {
+position: absolute;
+width: 230px;
+text-align: left;
+color: #cacaca;
+left: 630px;
+top: 920px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+
+#abrange {
+position: absolute;
+width: 230px;
+text-align: left;
+color: #cacaca;
+left: 910px;
+top: 920px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#whywecare {
+position: absolute;
+width: 660px;
+text-align: center;
+color: #cacaca;
+left: 380px;
+top: 150px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#insite {
+position: absolute;
+width: 660px;
+text-align: center;
+color: #cacaca;
+left: 380px;
+top: 550px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#footer {
+position: absolute;
+width: 660px;
+text-align: center;
+color: rgba(202, 202, 202, 0.62);
+left: 380px;
+top: 1190px;
+font-size: 12px;
+line-height: 0px;
+}
+
+
 /* Players table */
 
 #pyro_wrap {
     position: absolute;
     width: 660px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
     left: 380px;
-    top: 600px;  
+    top: 600px;
+    line-height:18px;
 }
 
 #ugc {
 width:100%;
-background-color: rgba(0, 255, 255, 0.24);}
+text-align: center;
+margin-bottom: 30px;
+vertical-align: top;
+}
 
 .wrap-header {
 width: 100%;
+    font-family: "tf2build";
     font-size: 32px;
-    line-height: 24px;
     margin-bottom: 20px;
 }
 
 #etfl {
 float:left;
 width:49%;
+    margin-bottom: 30px;
 }
 
 #aus {
 float:right;
 width:49%;
+    margin-bottom: 30px;
 }
 
 .player {
-    width: 65px;
+    width: 75px;
     display:inline-block;
-background-color: rgba(245, 245, 220, 0.33);
-text-align: center;
+    text-align: center;
+    vertical-align: top;
 }
 
-#player_img {
-width:50px;
-height: 50px;
+.player_img {
+width:60px;
+height: 60px;
 background-color: azure;
     margin: 0 auto;
+}
+
+.player_name {
+margin-top:10px;
 }
