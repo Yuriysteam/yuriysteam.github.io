@@ -1,3 +1,7 @@
+* {
+border: 0px green dashed; 
+}
+
 body {
 	background-color:#141313;
 	margin:0;
@@ -25,17 +29,25 @@ img {
 	border:none;
 }
 
-/* Backgrounds go here */
+.clear {
+clear:both;}
+
+/* Backgrounds*/
 
 #bg_01 {
-	background-image:url(../images/header.jpg);
+       background-image:url(../images/header.jpg);
 	background-position:top center;
 	background-repeat:no-repeat;
     background-size: contain;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1440px;
+    height:975px;
 }
 
 #container_01 {
-	background-image:url(../images/header.jpg);
+    background-image:url(../images/header.jpg);
 	background-position:top center;
 	background-repeat:no-repeat;
     background-size: contain;
@@ -51,13 +63,6 @@ img {
 	background-position:top center;
 	background-repeat:no-repeat;
     background-size: contain;
-}
-
-#container_02 {
-	background-image:url(../images/bg_2.jpg);
-	background-position:top center;
-	background-repeat:no-repeat;
-    background-size: contain;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
@@ -65,14 +70,11 @@ img {
 	height:1096px;
 }
 
-#bg_03 {
-	background-image:url(../images/bg_3.jpg);
-	background-position:top center;
-	background-repeat:no-repeat;
-    background-size: contain;
+#container_02 {
+	
 }
 
-#container_03 {
+#bg_03 {
 	background-image:url(../images/bg_3.jpg);
 	background-position:top center;
 	background-repeat:no-repeat;
@@ -84,14 +86,11 @@ img {
 	height:1533px;
 }
 
-#bg_04 {
-	background-image:url(../images/bg_4.jpg);
-	background-position:top center;
-	background-repeat:no-repeat;
-    background-size: contain;
+#container_03 {
+	
 }
 
-#container_04 {
+#bg_04 {
 	background-image:url(../images/bg_4.jpg);
 	background-position:top center;
 	background-repeat:no-repeat;
@@ -103,14 +102,11 @@ img {
 	height:1105px;
 }
 
-#bg_05 {
-	background-image:url(../images/bg_5.jpg);
-	background-position:top center;
-	background-repeat:no-repeat;
-    background-size: contain;
+#container_04 {
+	
 }
 
-#container_05 {
+#bg_05 {
 	background-image:url(../images/bg_5.jpg);
 	background-position:top center;
 	background-repeat:no-repeat;
@@ -122,8 +118,13 @@ img {
 	height:1234px;
 }
 
+#container_05 {
+	
+}
+
 
 /* Texts */
+
 #hero-text {
 position: absolute;
 width: 660px;
@@ -134,4 +135,62 @@ top: 50px;
 font-size: 16px;
 line-height: 24px;
 text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+#greetings {
+position: absolute;
+width: 250px;
+text-align: left;
+color: #cacaca;
+left: 800px;
+top: 300px;
+font-size: 16px;
+line-height: 24px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+/* Players table */
+
+#pyro_wrap {
+    position: absolute;
+    width: 660px;
+    font-size: 16px;
+    line-height: 24px;
+    left: 380px;
+    top: 600px;  
+}
+
+#ugc {
+width:100%;
+background-color: rgba(0, 255, 255, 0.24);}
+
+.wrap-header {
+width: 100%;
+    font-size: 32px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+#etfl {
+float:left;
+width:49%;
+}
+
+#aus {
+float:right;
+width:49%;
+}
+
+.player {
+    width: 65px;
+    display:inline-block;
+background-color: rgba(245, 245, 220, 0.33);
+text-align: center;
+}
+
+#player_img {
+width:50px;
+height: 50px;
+background-color: azure;
+    margin: 0 auto;
 }
