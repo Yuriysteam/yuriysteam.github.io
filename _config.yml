@@ -2,7 +2,7 @@ name: Yuriy Shiryaev
 description: Graphic designer
 meta_description: "I am a graphic designer from Russia currently living and studying in Prague. Most inspiration I find in meaningful, logical and reasonable things."
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 logo: true
 gems: [jekyll-paginate]

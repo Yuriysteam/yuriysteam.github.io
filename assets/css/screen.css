@@ -1795,6 +1795,11 @@ display:none;
     margin-top:90px;
 }
 
+.p-center {
+text-align: center;
+    display: block;
+}
+
 
 
 /* ==========================================================================
