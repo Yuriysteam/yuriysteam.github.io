@@ -2,13 +2,10 @@
 border: 0px green dashed; 
 }
 
+
 @font-face {
     font-family: 'tf2build';
-    src: url(/fonts/tf2build-webfont.eot');
-    src: url(/fonts/tf2build-webfont.eot?#iefix') format('embedded-opentype'),
-         url(/fonts/tf2build-webfont.woff') format('woff'),
-         url(/fonts/tf2build-webfont.ttf') format('truetype'),
-         url(/fonts/tf2build-webfont.svg#TF2BuildTF2Build') format('svg');
+    src: url('../font/tf2build-webfont.woff') format('woff');
 }
 
 body {
@@ -26,12 +23,11 @@ body {
 
 a {
 	text-decoration:none;
-	color:#ffffff;
-	font-size:14px;
+    color:#f7af51;
 }
 
 a:hover {
-	color:#a82e2e;
+	color:#bf7b23;
 }
 
 img {
@@ -149,10 +145,10 @@ text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 
 #greetings {
 position: absolute;
-width: 250px;
+width: 200px;
 text-align: left;
 color: #cacaca;
-left: 580px;
+left: 630px;
 top: 300px;
 font-size: 16px;
 line-height: 24px;
@@ -286,6 +282,10 @@ line-height: 0px;
     line-height:18px;
 }
 
+#pyro_wrap a {
+    color: #cacaca;
+}
+
 #ugc {
 width:100%;
 text-align: center;
@@ -298,6 +298,7 @@ width: 100%;
     font-family: "tf2build";
     font-size: 32px;
     margin-bottom: 20px;
+    color:#f7af51;
 }
 
 #etfl {
@@ -307,8 +308,8 @@ width:49%;
 }
 
 #aus {
-float:right;
-width:49%;
+    float:right;
+    width:49%;
     margin-bottom: 30px;
 }
 
@@ -319,7 +320,7 @@ width:49%;
     vertical-align: top;
 }
 
-.player_img {
+.player_img img{
 width:60px;
 height: 60px;
 background-color: azure;
