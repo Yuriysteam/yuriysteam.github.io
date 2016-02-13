@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Profinacie iOS app design
+title: ProFinacie iOS app design
 date:   2016-02-13 09:30:00
 project-cover: "/projects_img/profinacie/cover.png"
 description: " UX/UI prototyping and app design for Slovak insurance and loan company."
@@ -25,7 +25,7 @@ ProFinacie is one of the leading companies on Slovak market working with insuran
 
 <span class="p700">![dialog hypoteca screen](/projects_img/profinacie/dialog_mortgage.png)</span>
 
-<span class="p-center">*Profinacie has information about rates for mortgages in different banks. A simple dialog allows quickly to find out which bank can offer a better deal.*</span>
+<span class="p-center">*ProFinacie has information about rates for mortgages in different banks. A simple dialog allows quickly to find out which bank can offer a better deal.*</span>
 
 <span class="p700">![Medical emergency and profile](/projects_img/profinacie/med-profile.jpg)</span>
 
@@ -34,7 +34,7 @@ ProFinacie is one of the leading companies on Slovak market working with insuran
 
 <span class="p700">![Video page](/projects_img/profinacie/pf-page.jpg)</span>
 
-<span class="p-center">*A short video presentation has been made for the launch. Can be found on official [Profinacie page](https://www.profinancie.sk).*</span>
+<span class="p-center">*A short video presentation has been made for the launch. Can be found on official [ProFinacie page](https://www.profinancie.sk).*</span>
 
 
 
