@@ -88,7 +88,7 @@ clear:both;}
 	margin-left:auto;
 	margin-right:auto;
 	width:990px;
-	height:1533px;
+	height:1578px;
 	
 }
 
@@ -106,7 +106,7 @@ clear:both;}
 	margin-left:auto;
 	margin-right:auto;
 	width:990px;
-	height:1105px;
+	height:1089px;
 	
 }
 
@@ -330,3 +330,23 @@ background-color: azure;
 .player_name {
 margin-top:10px;
 }
+
+
+/* Social block*/
+
+#social-wrap {
+position: absolute;
+    width: 660px;
+    font-size: 14px;
+    left: 240px;
+    top: 500px;
+    line-height: 18px;
+}
+
+.social {
+    width: 145px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
