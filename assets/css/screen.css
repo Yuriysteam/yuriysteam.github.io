@@ -1,5 +1,5 @@
 * {
-    border: 0px dashed red;
+    border: 0px dashed green;
 }
 
 
@@ -1070,6 +1070,7 @@ body:not(.post-template) .post-title {
     max-width: 1000px;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .projects-grid a {
@@ -1813,6 +1814,106 @@ text-align: center;
 }
 
 
+/* ==========================================================================
+   10.1 Posters page
+   ========================================================================== */
+
+.artwork_left {
+    display: block;
+    position: relative;
+    left: -200px;
+    margin-right: 0;
+    
+}
+
+.artwork_right {
+    display: block;
+    position: relative;
+    right: -200px;
+    margin-right: 0;
+    
+}
+
+.caption_left {
+    display: block;
+    position: relative;
+    left: 170px;
+    top: -250px;
+    width: 150px;
+    text-align:right;
+    margin-bottom:-50px;
+}
+
+.caption_right {
+    display: block;
+    position: relative;
+    left: 400px;
+    top:-250px;
+    width:150px;
+    margin-bottom:-50px;
+    
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+   
+    
+    .artwork_left {
+    display: block;
+    position: relative;
+    left: -180px;
+    margin-right: 0;
+    
+}
+
+.artwork_right {
+    display: block;
+    position: relative;
+    right: -80px;
+    margin-right: 0;
+    
+}
+
+.caption_left {
+    display: block;
+    position: relative;
+    left: 60px;
+    top: -250px;
+    width: 150px;
+    text-align:right;
+    margin-bottom:-50px;
+}
+
+.caption_right {
+    display: block;
+    position: relative;
+    left: 400px;
+    top:-250px;
+    width:150px;
+    margin-bottom:-50px;
+    
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    
+.artwork_left, .artwork_right {
+    display: inline;
+    position:static;
+    }
+    
+.caption_right, .caption_left {
+    display: inline;
+    position: static;
+    text-align: center;
+    display: block;
+        width:100%;
+    margin-bottom:0px;
+}
 
 /* ==========================================================================
    11. Media Queries - Smaller than 900px
