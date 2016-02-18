@@ -1821,23 +1821,23 @@ text-align: center;
 .artwork_left {
     display: block;
     position: relative;
-    left: -200px;
-    margin-right: 0;
+    left: -100px;
+    max-width:500px;
     
 }
 
 .artwork_right {
     display: block;
     position: relative;
-    right: -200px;
-    margin-right: 0;
+    right: -300px;
+    max-width:500px;
     
 }
 
 .caption_left {
     display: block;
     position: relative;
-    left: 170px;
+    left: 150px;
     top: -250px;
     width: 150px;
     text-align:right;
@@ -1855,51 +1855,7 @@ text-align: center;
 }
 
 
-
-@media only screen and (max-width: 1110px) {
-   
-    
-    .artwork_left {
-    display: block;
-    position: relative;
-    left: -180px;
-    margin-right: 0;
-    
-}
-
-.artwork_right {
-    display: block;
-    position: relative;
-    right: -80px;
-    margin-right: 0;
-    
-}
-
-.caption_left {
-    display: block;
-    position: relative;
-    left: 60px;
-    top: -250px;
-    width: 150px;
-    text-align:right;
-    margin-bottom:-50px;
-}
-
-.caption_right {
-    display: block;
-    position: relative;
-    left: 400px;
-    top:-250px;
-    width:150px;
-    margin-bottom:-50px;
-    
-}
-
-}
-
-
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     
 .artwork_left, .artwork_right {
     display: inline;
