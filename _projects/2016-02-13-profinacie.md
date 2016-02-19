@@ -30,11 +30,9 @@ ProFinacie is one of the leading companies on Slovak market working with insuran
 <span class="p700">![Medical emergency and profile](/projects_img/profinacie/med-profile.jpg)</span>
 
 <span class="p-center">*In a case of emergency the app calls an ambulance and gives some first aid tips. If nobody hurt, it allows contacting the insurance company. In profile can be found: list of all services, the archive of stored documents and settings.*</span>
+<iframe src="https://player.vimeo.com/video/155909095?title=0&byline=0&portrait=0" width="100%" height="525" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-
-<span class="p700">![Video page](/projects_img/profinacie/pf-page.jpg)</span>
-
-<span class="p-center">*A short video presentation has been made for the launch. Can be found on official [ProFinacie page](https://www.profinancie.sk).*</span>
+<span class="p-center">*A short video presentation has been made for the launch.*</span>
 
 
 
