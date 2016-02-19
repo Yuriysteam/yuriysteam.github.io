@@ -10,7 +10,7 @@ paginate: 15
 paginate_path: "page:num"
 baseurl: /
 timezone: CZ
-domain_name: 'http://yuriysteam.github.io'
+domain_name: 'http://yuriy.eu'
 paginate: 7
 collections: 
  projects:
