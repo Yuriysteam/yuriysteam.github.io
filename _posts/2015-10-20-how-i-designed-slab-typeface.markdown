@@ -11,7 +11,7 @@ I always wanted to try typeface design. When I got a task of free choice in scho
 
 This is a weekly series about how I create letters and shape them into a harmonies font. It means, that every week there will be a post about my mistakes, corrections, tips and workflow. As well, I am greatly welcome to your comments and tips. 
 
-###Week 1: Goals, tools and research
+### Week 1: Goals, tools and research
 
 Every design project starts with a goal.
 
