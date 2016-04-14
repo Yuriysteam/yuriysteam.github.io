@@ -2,8 +2,9 @@
 
 
 @font-face {
-	font-family: intro; /* имя шрифта для CSS правил */
-	src: url(/fonts/Intro-normal.woff); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+	font-family: intro; 
+	src: url(../fonts/Intro-Normal.woff);
+	font-weight: normal;
   }
 
 
