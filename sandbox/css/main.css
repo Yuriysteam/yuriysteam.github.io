@@ -16,10 +16,12 @@
     src: url('/fonts/tisapro-n7-wf.woff') format('woff');         
     font-weight: bold;
     font-style: normal;
-} */
+}
+
+*/
 
 
-* {
+*{
     border: 0px dashed green;
 }
 

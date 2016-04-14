@@ -1,0 +1,252 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+
+@font-face {
+	font-family: intro; /* имя шрифта для CSS правил */
+	src: url(/fonts/Intro-normal.woff); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+
+* {
+    border: 0px dashed green;
+}
+/* ====================
+     All screen sizes
+   ==================== */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+h1 {
+	font-family: intro;
+	font-size: 45px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: intro;
+	font-size: 40px;
+	color: #000000;
+	text-transform: uppercase;
+}
+    
+nav {
+	height: 80px;
+	max-width: 900px;
+	margin: 0 auto;
+	display:flex;
+	align-items: center;
+	}
+
+#logo {
+	width:200px;
+}
+
+
+.links {
+	width:100%;
+	display:flex;
+	padding:0px;
+	justify-content: flex-end;
+}
+
+.link {
+	margin-left: 20px;
+
+}
+
+
+.main-wrapper {
+	width:1024px;
+	margin: 0 auto;
+}
+
+
+
+.hero {
+	width: 100%;
+	height:560px;
+	background-color: #d8d8d8;
+	background-image: url(/images/skandi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero_h1 {
+	padding-top: 130px;
+	font-size: 50px;
+}
+
+
+.hero_description {
+	width: 390px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.element {
+	width:100%;
+	height:513px;
+	display:flex;
+	margin: 70px 0;
+}
+
+.e_img {
+	width: 60%;
+	height:513px;
+}
+	
+.e_text {
+	width: 40%;
+	}
+
+.e_textwrap {
+	padding:13%;
+	padding-top:100px;
+}
+
+.c-white {
+	color: white;
+}
+
+.e_h2 {
+}
+
+.e_description {
+	max-width: 260px;
+	font-size: 15px;
+	color: #9b9b9b;
+	margin-bottom: 40px;
+}
+
+.e_link {
+	border: solid 4px #d4161d;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	padding:5px;
+	}
+
+
+
+.hero_text {
+	max-width:900px;
+	margin: 0 auto;
+}
+
+/* Images */
+
+#kupe {
+	background-image: url(../images/kupe.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#garderob {
+	background-image: url(../images/gaderob.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#k_mebel {
+	background-image: url(../images/k-mebel.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#o_rabot {
+	background-image: url(../images/o_rabot.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#d_project {
+	background-image: url(../images/d-project.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	nav {
+	width: 90%;
+		margin: 0 auto;
+	}
+	
+	.hero_text {
+		width:90%;
+		margin: 0 auto;
+	}
+	
+	.main-wrapper {
+		width:95%;
+		
+	}
+	
+	.e_textwrap {
+		padding-left: 10%;
+	}
+	
+	
+	h1 {
+	font-size: 35px;
+	}
+
+h2 {
+	font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	
+	
+	nav {
+	width: 95%;
+		margin: 0 auto;
+	}
+	
+	.hero_text {
+		width:95%;
+		margin: 0 auto;
+	}
+	
+	.main-wrapper {
+		width:95%;
+		
+	}
+	.element {
+		display:flex;
+		flex-direction: column;
+	}
+	
+	.e_text {
+		width:100%;
+		order:2;
+	}
+	.e_img {
+	width:100%;
+		order:-1;
+		height:320px;
+	}
+	
+	.e_textwrap {
+		padding-top: 0px;
+	}
+	
+	#logo {
+		width:100px;
+	}
+	
+}
+
