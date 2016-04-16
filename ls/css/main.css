@@ -125,7 +125,7 @@ nav {
 .service-header {
 	width:100%;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .service-col-l {
@@ -152,8 +152,7 @@ nav {
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
-	padding:5px;
-	width:25px;
+	padding:10px;
 	height:25px;
 	text-align: center;
 	vertical-align: middle;
@@ -468,8 +467,8 @@ h2 {
 	}
 	
 	#logo {
-		width:285px;
-		height:54px;
+		width:100px;
+		height:28px;
 	}
 	
 	.link {
@@ -552,5 +551,40 @@ h2 {
 	height:400px;
 	
 }
+	
+	.services {
+		width:95%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.service-header {
+		margin-bottom:0px;
+	}
+	
+	.service {
+		width:100%;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.service-col-l {
+	width:100%;
+}
+
+.service-col-r {
+	width:100%;
+	}
+	
+	.service_count {
+	font-size: 15px;
+	font-weight: bold;
+	padding-left:10px;
+	padding-right:10px;
+	height:25px;
+	text-align: center;
+	vertical-align: middle;	
+	}
 	
 }
