@@ -291,6 +291,14 @@ a #logo {
 	
 }
 
+#logo {
+	background-image: url(../images/logo.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	
+	
+}
+
 #portfolio {
 	display:flex;
 	width:100%;
