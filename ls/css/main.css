@@ -3,20 +3,20 @@
 
 @font-face {
 	font-family: intro; 
-	src: url(../fonts/Intro-Normal.eot);
-	font-weight: normal;
+	src: url(../fonts/Intro-Bold.eot);
+	font-weight: bold;
   }
 
 @font-face {
 	font-family: intro; 
-	src: url(../Intro-Normal.woff);
-	font-weight: normal;
+	src: url(../Intro-Bold.woff);
+	font-weight: bold;
   }
 
 @font-face {
 	font-family: intro; 
-	src: url(../fonts/Intro-Normal.woff2);
-	font-weight: normal;
+	src: url(../fonts/Intro-Bold.woff2);
+	font-weight: bold;
   }
 
 
