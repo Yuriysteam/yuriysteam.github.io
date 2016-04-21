@@ -3,19 +3,19 @@
 
 @font-face {
 	font-family: intro; 
-	src: url(../fonts/IntroRegular-Regular.eot);
+	src: url(../fonts/Intro-Normal.eot);
 	font-weight: normal;
   }
 
 @font-face {
 	font-family: intro; 
-	src: url(../fonts/IntroRegular-Regular.woff);
+	src: url(../Intro-Normal.woff);
 	font-weight: normal;
   }
 
 @font-face {
 	font-family: intro; 
-	src: url(../fonts/IntroRegular-Regular.woff2);
+	src: url(../fonts/Intro-Normal.woff2);
 	font-weight: normal;
   }
 
