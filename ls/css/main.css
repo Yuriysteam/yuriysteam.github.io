@@ -3,7 +3,19 @@
 
 @font-face {
 	font-family: intro; 
-	src: url(http://luxstroy.kz/fonts/Intro-regular.ttf);
+	src: url(../fonts/IntroRegular-Regular.eot);
+	font-weight: normal;
+  }
+
+@font-face {
+	font-family: intro; 
+	src: url(../fonts/IntroRegular-Regular.woff);
+	font-weight: normal;
+  }
+
+@font-face {
+	font-family: intro; 
+	src: url(../fonts/IntroRegular-Regular.woff2);
 	font-weight: normal;
   }
 
