@@ -2059,7 +2059,7 @@ text-align: center;
         margin-top: 10px;
     }
     .project-description {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
 		
     }
 	
@@ -2366,7 +2366,7 @@ text-align: center;
     .project-text-name {
         text-align: center;
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .email {
         font-size: 18pt;
