@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Sword"
+date:   2016-05-01 00:50:00
+categories: Design
+---
+
+Sometimes, it's hard to begin something. And we have our excuses.
+
+![Sword. Sometimes, it's hard to begin something. And we have our excuses.](/blog_img/pdc/sword.jpg)
+
