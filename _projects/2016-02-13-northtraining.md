@@ -1,6 +1,6 @@
 ---
 layout: project
-title: North Traning web page
+title: "North Traning web page"
 date:   2016-02-13 14:30:00
 project-cover: "/projects_img/northtraining/cover.jpg"
 description: "Website templates for Czech language school in Prague"
