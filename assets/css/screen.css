@@ -1488,8 +1488,8 @@ text-decoration: none;}
 #tabs {
     cursor: pointer;
     width:286px;
-    margin: 30px auto;
-    border: 1px solid;
+    margin-top: 10px;
+    
     
 }
 

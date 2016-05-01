@@ -17,12 +17,6 @@ layout: default
 {% assign parts = page.content | split: "Process!" %}
 {% if parts.first != parts.last%}
 
-<div id="tabs">
-<div id="tab-description" class="tab-active">Description</div>
-<div id="tab-process">Process</div>
-</div>
-
-{% endif %}
 <main class="content" role="main">
 
     <article class="post">
@@ -36,8 +30,15 @@ layout: default
 				<div class="intro-text">
 					<div class="intro-task">{{ page.task }}</div>
 					<div class="intro-text-p">{{ page.intro-text }}</div>
+					<div id="tabs">
+<div id="tab-description" class="tab-active">Description</div>
+<div id="tab-process">Process</div>
+</div>
+
+{% endif %}
 				</div>
 			</div>
+			
 			
 			
             <div id="show-description">{{ parts.first }}</div>
