@@ -12,10 +12,6 @@ layout: default
     </nav>
 </header>
 <div class="project-cover" style="background-image: url({{ page.project-cover }})">
-   <div class="single-project-wrap">
-        <div class="single-project-title">{{ page.title }}</div>
-        <div class="single-project-description">{{ page.description }}</div>
-    </div>
 </div>
 
 {% assign parts = page.content | split: "Process!" %}
@@ -30,8 +26,20 @@ layout: default
 <main class="content" role="main">
 
     <article class="post">
-
-<section class="post-content">
+		<section class="post-content">
+			
+			<div class="intro">
+				<div class="intro-info">
+					<div class="single-project-title">{{ page.title }}</div>
+        			<div class="single-project-description">{{ page.description }}</div>
+				</div>
+				<div class="intro-text">
+					<div class="intro-task">{{ page.task }}</div>
+					<div class="intro-text-p">{{ page.intro-text }}</div>
+				</div>
+			</div>
+			
+			
             <div id="show-description">{{ parts.first }}</div>
             <div id="show-process">{{ parts.last }}</div>
             
