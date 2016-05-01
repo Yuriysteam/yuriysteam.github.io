@@ -1451,6 +1451,7 @@ text-decoration: none;}
 .intro {
 	display:flex;
 	padding-top:5%;
+	margin-bottom: 10%;
 }
 
 .intro-info {
@@ -1824,7 +1825,10 @@ display:none;
    10. Portfolio image styles
    ========================================================================== */
 
-.p900 img {
+.logo img {
+	width:100%;
+    max-width:700px;
+    margin: 150px auto 100px; 
 }
 
 .p700 img{
@@ -2378,6 +2382,7 @@ text-align: center;
    
     margin: 40px auto 10px;
     }
+	
 }
 
 /* ==========================================================================
