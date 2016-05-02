@@ -1864,6 +1864,7 @@ body:not(.post-template) .post-title {
 	display: block;
 	max-width: 700px;
 	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 
@@ -2145,11 +2146,8 @@ body:not(.post-template) .post-title {
 			margin: 2rem auto;
 		}
 		.post {
-			width: auto;
-			margin-top: 2rem;
-			margin-bottom: 2rem;
-			margin-left: 16px;
-			margin-right: 16px;
+			width: 95%;
+			margin: 2rem auto;
 			padding-bottom: 2rem;
 			line-height: 1.65em;
 		}
