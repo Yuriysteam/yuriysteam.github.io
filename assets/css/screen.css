@@ -1450,7 +1450,7 @@ text-decoration: none;}
 
 .intro {
 	display:flex;
-	padding-top:5%;
+	padding-top:2%;
 	margin-bottom: 10%;
 }
 
@@ -1489,7 +1489,7 @@ text-decoration: none;}
 #tabs {
     cursor: pointer;
     width:286px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     
     
 }
@@ -1498,7 +1498,7 @@ text-decoration: none;}
     width:120px;
     display:inline-block;
     text-align: center;
-    padding:10px;
+    padding:7px;
     color: 0, 0, 0, 0.74;
 }
 
@@ -1506,7 +1506,7 @@ text-decoration: none;}
     width:120px;
     display:inline-block;
     text-align: center;
-    padding:10px;
+    padding:7px;
     color: 0, 0, 0, 0.74;
 }
 
@@ -1515,8 +1515,8 @@ display:none;
 }
 
 .tab-active {
-    background:rgba(0, 0, 0, 0.74);
-    color:white;
+    color:black;
+	text-decoration: underline;
 }
 
 
