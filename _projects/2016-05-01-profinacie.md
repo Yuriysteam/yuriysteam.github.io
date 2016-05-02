@@ -1,7 +1,7 @@
 ---
 layout: project
 title: ProFinacie iOS app design
-date:   2016-02-13 09:30:00
+date:   2016-05-01 09:30:00
 project-cover: "/projects_img/profinacie/cover.jpg"
 description: "UX/UI prototyping and app design for Slovak insurance and loan company."
 task: "Task: create a user interface for insurance and loan app."
