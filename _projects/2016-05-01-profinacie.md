@@ -24,11 +24,19 @@ type: project
 
 <span class="p-center">ProFinacie has information about rates for mortgages in different banks. A simple dialog allows quickly to find out which bank can offer a better deal.</span>
 
+<span class="p400">![icons](/projects_img/profinacie/icons.jpg)</span>
+
+<span class="p-center">A whole set of icons has been done to match iOS 9 style.</span>
+
 <span class="p700">![Medical emergency and profile](/projects_img/profinacie/med-profile.jpg)</span>
 
 <span class="p-center">In a case of emergency the app calls an ambulance and gives some first aid tips. If nobody hurt, it allows contacting the insurance company. In profile can be found: list of all services, the archive of stored documents and settings.</span>
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/155909095' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+<style>.embed-container { position: relative; margin: 20px; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/155909095' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+<span class="p700">![icons](/projects_img/profinacie/pf-page.jpg)</span>
+
+<span class="p-center">A short video has been developed to present application.</span>
 
 
 
