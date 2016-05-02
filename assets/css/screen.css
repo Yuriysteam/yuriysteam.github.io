@@ -1136,6 +1136,23 @@ body:not(.post-template) .post-title {
 	margin-top: 5px;
 }
 
+.contact-row {
+	width:100%;
+	margin-top:30px;
+	font-size: 2rem;
+	color:black;
+}
+
+.contact-row a {
+	text-decoration: underline;
+}
+
+.contact-message {
+	max-width: 400px;
+	float:right;
+	
+}
+
 
 /* ==========================================================================
    4.2. Contact page
@@ -1821,9 +1838,22 @@ body:not(.post-template) .post-title {
 
 .logo img {
 	width: 100%;
-	max-width: 700px;
+	max-width: 900px;
 	margin: 150px auto 100px;
 }
+
+.p900 img {
+	width: 100%;
+	max-width: 900px;
+	margin: 50px auto 20px;
+}
+
+.p800 img {
+	width: 100%;
+	max-width: 900px;
+	margin: 50px auto 20px;
+}
+
 
 .p700 img {
 	width: 100%;
@@ -2349,6 +2379,12 @@ body:not(.post-template) .post-title {
 		}
 		.contact-grid {
 			margin: 40px auto 10px;
+		}
+		
+		.contact-row {
+			width:95%;
+			margin: 30px auto 0;
+			font-size: 1.7rem;
 		}
 	}
 	/* ==========================================================================
