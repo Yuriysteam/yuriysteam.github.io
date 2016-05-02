@@ -1506,13 +1506,14 @@ body:not(.post-template) .post-title {
 	cursor: pointer;
 	width: 286px;
 	margin: 10px auto 0;
+	
 }
 
 #tab-description {
 	width: 120px;
 	display: inline-block;
 	text-align: center;
-	padding: 7px;
+	padding: 10px;
 	color: 0, 0, 0, 0.74;
 }
 
@@ -1529,8 +1530,8 @@ body:not(.post-template) .post-title {
 }
 
 .tab-active {
-	color: black;
-	text-decoration: underline;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 
