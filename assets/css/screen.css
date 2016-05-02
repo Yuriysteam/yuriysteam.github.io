@@ -979,7 +979,7 @@ nav ul li a {
 	max-width: 1440px;
 	margin: 4rem auto;
 	padding-bottom: 4rem;
-	border-bottom: #EBF2F6 1px solid;
+	border-bottom: #EBF2F6 0px solid;
 	word-break: break-word;
 	hyphens: auto;
 }
@@ -1277,7 +1277,8 @@ body:not(.post-template) .post-title {
 
 .post-footer .share {
 	right: 0;
-	width: 100%;
+	max-width:700px;
+	margin: 0 auto;
 }
 
 .share {
@@ -1895,6 +1896,7 @@ body:not(.post-template) .post-title {
 	max-width: 700px;
 	margin: 0 auto;
 	padding: 0 1rem;
+	font-size: 1.5rem;
 }
 
 
@@ -2271,14 +2273,14 @@ body:not(.post-template) .post-title {
 		.post-footer .author {
 			margin: 0 0 2rem 0;
 			padding: 0 0 1.6rem 0;
-			border-bottom: #EBF2F6 1px dashed;
+			border-bottom: #EBF2F6 0px dashed;
 		}
 		.main-nav a {
 			font-size: 13px;
 		}
 		.post-footer .share {
 			position: static;
-			width: auto;
+			max-width:700px;
 		}
 		.post-footer .share a {
 			margin: 1.4rem 0.8rem 0 0.8rem;
