@@ -16,6 +16,8 @@
     3.  Utilities
     4.  General
     4.1 Projects grid
+	4.2 Contacts page
+	4.3 Fonts project
     5.  Single Post
     5.1 Single project
     6.  Tag Archive
@@ -280,6 +282,27 @@ table {
 	font-style: Bold;
 }
 
+
+@font-face {
+	font-family: "lijnen";
+	src: url("../fonts/lijnen-Regular.woff") format("woff");
+	font-weight: Normal;
+	font-style: Normal;
+}
+
+@font-face {
+	font-family: "lijnen";
+	src: url("../fonts/lijnen-Regular.woff2") format("woff2");
+	font-weight: Normal;
+	font-style: Normal;
+}
+
+@font-face {
+	font-family: "lijnen";
+	src: url("../fonts/lijnen-Regular.eot") format("eot");
+	font-weight: Normal;
+	font-style: Normal;
+}
 
 /* Apply these base styles to all icons */
 
@@ -1180,6 +1203,65 @@ body:not(.post-template) .post-title {
 	justify-content: space-between;
 }
 
+/* ==========================================================================
+   4.3. Font projects
+   ========================================================================== */
+
+.f-name {
+	width:100%;
+	margin-bottom:20px;
+	font-size: 32px;
+}
+
+.f-features {
+	width:100%;
+	font-size: 15px;
+}
+
+#features-select {
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+	border: 0px solid #EBF2F6;
+	padding: 5px;
+   border-radius: 0;
+	margin-bottom:30px;
+	background-image: url(../images/arrow_down.svg);
+	background-position: 130px 10px;
+	background-repeat: no-repeat;
+	background-color: none;
+	margin-right: 30px;
+	width: 150px;
+	
+}
+
+
+.f-showcase {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	padding: 20px;
+	line-height: 100%;
+	font-size: 120px;
+	font-family: "lijnen";
+	overflow: hidden;
+white-space: nowrap;
+}
+
+.f-showcase-full {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	padding: 20px;
+	line-height: 100%;
+	font-size: 45px;
+	font-family: "lijnen";
+	overflow: hidden;
+	line-height: 60px;
+	letter-spacing: 2px;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
