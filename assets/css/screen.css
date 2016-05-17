@@ -1218,6 +1218,15 @@ body:not(.post-template) .post-title {
 	font-size: 15px;
 }
 
+.slider {
+    display: inline-block;
+}
+
+.slider input#font-size {
+    vertical-align:text-bottom;
+    margin-bottom:1px;
+}
+
 #features-select {
 	-webkit-appearance: none;
    -moz-appearance: none;
@@ -1227,7 +1236,7 @@ body:not(.post-template) .post-title {
    border-radius: 0;
 	margin-bottom:30px;
 	background-image: url(../images/arrow_down.svg);
-	background-position: 130px 10px;
+	background-position: 130px 8px;
 	background-repeat: no-repeat;
 	background-color: none;
 	margin-right: 30px;
