@@ -15,12 +15,12 @@ $(document).ready(function () {
 	});
 
 	$("#font-sample").css({
-        "color": $("#features-select option:selected").text(),
+        "color": $("#features-select option:selected").val(),
         "font-size": parseInt($("#font-size").val())
     });
 
     $("#features-select").change(function () {
-        var $color = $("#features-select option:selected").text();
+        var $color = $("#features-select option:selected").val();
         $("#font-sample").css("color", $color);
     });
 
