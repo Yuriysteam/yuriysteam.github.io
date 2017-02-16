@@ -1,0 +1,45 @@
+
+ol {
+  &.rounded-list {
+
+    -webkit-text-stroke: 1px rgba(54, 157, 74,0.2);
+    counter-reset: li; /* Initiate a counter */
+    margin-left: 0; /* Remove the default left margin */
+    padding-left: 0; /* Remove the default left padding */
+    a {
+      color: $dark-green;
+    }
+    > li {
+      position: relative; /* Create a positioning context */
+      margin: 0 0 6px 1.5em; /* Give each list item a left margin to make room for the numbers */
+      padding: 4px 8px; /* Add some spacing around the content */
+      list-style: none; /* Disable the normal item numbering */
+      &:before {
+        content: counter(li); /* Use the counter as content */
+        counter-increment: li; /* Increment the counter by 1 */
+        background: $dark-green;
+
+        border-radius: 1em;
+        -moz-border-radius:1em;
+        -webkit-border-radius: 1em;
+        line-height: 1.75em;
+        width: 1.75em;
+
+        color: $white;
+
+        font-size: 1em;
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 5px;
+        text-align: center;
+
+        position: absolute;
+        top: 0.2em;
+        left: -1.5em;
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}

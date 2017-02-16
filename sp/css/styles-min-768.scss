@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+  .navbar-fixed-top {
+    .navbar-header {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1030px;
+  }
+  .panel-large-padding {
+    padding: 20px 120px 20px;
+  }
+  .panel-invert-large-padding {
+    margin-left: -120px;
+    margin-right: -120px;
+  }
+}

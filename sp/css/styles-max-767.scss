@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+  .img-digicert {
+    margin-right: 15px;
+  }
+
+  .panel-summary {
+    .summary-logo {
+      position: relative;
+      text-align: center;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .button-round {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .button-round-link {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

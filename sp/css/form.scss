@@ -1,0 +1,270 @@
+select.form-control {
+  background: $white;
+  font-size: 12px;
+  option {
+    padding: 3px 20px;
+    &:disabled {
+      color: #bbb;
+    }
+  }
+}
+.panel-qrcode img {
+  max-width: 240px;
+  width: 100%;
+  image-rendering: optimizeSpeed; /* FUCK SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges; /* Firefox                        */
+  image-rendering: -o-crisp-edges; /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: optimize-contrast; /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.panel-secure {
+  .checkbox-label {
+    color: $white;
+  }
+  .checkbox-success input[type="checkbox"]:checked + label {
+    &::before {
+      background-color: $dark-green;
+      border-color: $dark-green;
+    }
+  }
+  .checkbox {
+    margin-top: 1.75em;
+  }
+}
+
+.selectpicker.dropdown-toggle {
+  font-weight: 300;
+  text-transform: none;
+  background: $white;
+  box-shadow: none;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.checkbox label {
+  font-weight: 300;
+}
+
+.panel-input {
+  margin-top: 5px;
+  margin-bottom: 0;
+  position: relative;
+  box-shadow: none !important;
+
+  &.panel-input-first-row {
+    margin-top: 0;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .panel-body {
+    padding: 0;
+  }
+
+  textarea, textarea.form-control, input.form-control, input[type="text"], input[type="password"], input[type="email"], input[type="number"], .form-control[type="text"], .form-control[type="password"], .form-control[type="email"], .form-control[type="tel"], .form-control[contenteditable] {
+    -webkit-text-stroke: unset;
+    box-shadow: none;
+    background: $white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid $dark-gray;
+    z-index: 0;
+
+    height: 45px;
+    padding: 10px 12px;
+    font-size: 14px;
+    margin-top: 26px;
+    margin-bottom: 2px;
+    line-height: normal;
+    @include transition($animation_speed);
+    &:focus {
+      border: 1px solid rgba(247, 124, 76, 0.8);
+      box-shadow: none;
+      outline: 0 none !important;
+    }
+  }
+
+  &.bs-searchbox {
+    margin-top: 0;
+    textarea, textarea.form-control, input.form-control, input[type="text"], input[type="password"], input[type="email"], input[type="number"], .form-control[type="text"], .form-control[type="password"], .form-control[type="email"], .form-control[type="tel"], .form-control[contenteditable] {
+      margin-top: 0;
+    }
+  }
+  label {
+    font-weight: 400;
+    -webkit-text-stroke: 0;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 2em;
+    left: 0;
+    opacity: 0;
+    z-index: 10;
+
+    @include transition();
+    &.on {
+      color: $brown;
+    }
+    &.show {
+      bottom: 47px !important;
+      opacity: 1;
+    }
+  }
+
+  .input-group {
+    position: relative;
+    width: 100%;
+  }
+  .input-group-btn {
+    bottom: 15px;
+    right: 30px;
+  }
+
+  .input-group-addon {
+    bottom: 0;
+    right: 0;
+  }
+  .input-group-btn, .input-group-addon {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    .img-addon {
+      cursor: text;
+      float: right;
+      opacity: 1;
+      @include transition($animation_speed);
+    }
+    .btn {
+      font-size: 18px;
+      padding: 0;
+      background: none;
+      box-shadow: none;
+      .glyphicon {
+        vertical-align: text-bottom;
+      }
+    }
+  }
+}
+
+.help-block {
+  line-height: normal;
+  margin: 0;
+  font-size: 12px;
+  color: $brown;
+  a:not(.btn) {
+    font-weight: 300;
+  }
+}
+
+.panel {
+  .help-block {
+    &.form-error {
+      margin-bottom: 0;
+      color: $orange;
+      opacity: 0;
+      display: block;
+      margin-top: -18px;
+      position: absolute;
+      font-weight: 400;
+      -webkit-text-stroke: 0;
+      @include transition($animation_speed);
+    }
+    &:not(.form-error) {
+      display: none;
+    }
+  }
+}
+
+.has-error {
+  .input-group-addon {
+    color: inherit;
+    border: none;
+    background-color: inherit;
+  }
+}
+
+.has-success {
+  .input-group-addon {
+    color: inherit;
+    border: none;
+    background-color: inherit;
+  }
+
+  .cc-input, textarea, textarea.form-control, input.form-control, input[type="text"], input[type="password"], input[type="email"], input[type="number"], .form-control[type="text"], .form-control[type="password"], .form-control[type="email"], .form-control[type="tel"], .form-control[contenteditable] {
+    background: $light-green;
+    border: 1px solid $green3;
+    outline: 0 none !important;
+  }
+}
+
+.form-control {
+  ::-moz-selection { /* Code for Firefox */
+    color: $white;
+    background: $dark-green;
+    -webkit-text-stroke: unset;
+  }
+
+  ::selection {
+    color: $white;
+    background: $dark-green;
+    -webkit-text-stroke: unset;
+
+  }
+
+  &.text-uppercase {
+    &::-webkit-input-placeholder {
+      /* WebKit browsers */
+      text-transform: none;
+    }
+    &:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      text-transform: none;
+    }
+    &::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      text-transform: none;
+    }
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      text-transform: none;
+    }
+  }
+}
+
+.is-submitted {
+  .has-error {
+    .form-error {
+      margin-top: 0;
+      opacity: 1;
+      position: relative;
+    }
+    .help-block:not(.form-error) {
+      line-height: normal;
+    }
+    .bs-searchbox .form-control {
+      background: $light-orange;
+      border: 1px solid rgba(247, 124, 76, 0.8);
+      box-shadow: none;
+      outline: 0 none !important;
+    }
+  }
+  textarea, textarea.form-control,
+  input.form-control, input[type="text"], input[type="tel"],
+  input[type="password"], input[type="email"], input[type="number"],
+  .form-control[type="text"], .form-control[type="password"],
+  .form-control[type="email"], .form-control[type="tel"],
+  .form-control[contenteditable] {
+    -webkit-text-stroke: unset;
+    &.error {
+      background: $light-orange;
+      border: 1px solid rgba(247, 124, 76, 0.8);
+      box-shadow: none;
+      outline: 0 none !important;
+    }
+  }
+
+}

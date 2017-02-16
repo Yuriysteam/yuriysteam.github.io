@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-23 14:38+0200\n"
+"PO-Revision-Date: 2016-08-22 13:59+0000\n"
+"Last-Translator: Svetlana Popkova <indepumpkin@gmail.com>\n"
+"Language-Team: Russian <http://weblate.dynameyes.com/projects/moneypolo-"
+"secure-payments/app/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: tpl.emoney.bp.php:5 tpl.payment.cc.php:6 tpl.payment.emoney.php:6
+#: tpl.payment.emoney.redirect.php:6 tpl.payment.main.php:6
+#: tpl.payment.mt.php:6 tpl.payment.wire.php:6 tpl.process.less.php:6
+#: tpl.payment.scp.php:6
+msgid "MoneyPolo Secure Payments"
+msgstr "Безопасные платежи MoneyPolo"
+
+#: tpl.loading.php:6
+msgid "Secure Payment SimpleForm"
+msgstr "Безопасные платежи MoneyPolo"
+
+#: tpl.loading.php:45
+msgid "We will redirect to payment form shortly"
+msgstr "Перенаправляем на платежную форму"
+
+#: tpl.loading.php:47 tpl.payment.emoney.redirect.php:36
+msgid "Do not click the back button or close this browser window."
+msgstr "Не нажимайте кнопку Назад и не закрывайте эту страницу."
+
+#: tpl.payment.cc.php:60 tpl.payment.emoney.php:59 tpl.payment.main.php:60
+#: tpl.payment.mt.php:59 tpl.payment.wire.php:58 tpl.process.less.php:59
+msgid "Payments by"
+msgstr "Платежи через"
+
+#: tpl.payment.cc.php:79
+msgid ""
+"Due to security reasons we kindly ask you to actualize you card information."
+msgstr "В целях безопасности просим обновить данные Вашей карты."
+
+#: tpl.payment.cc.php:98 tpl.payment.scp.php:74
+msgid "We store your card information securely using 128-bit encryption."
+msgstr "Мы применяем 128-битное шифрование для хранения данных."
+
+#: tpl.payment.cc.php:99 tpl.payment.scp.php:75
+msgid ""
+"We strictly follow industry-standard security practices and policies to "
+"protect your data."
+msgstr "Мы твердо следуем высоким стандартам и принципам защиты Ваших данных."
+
+#: tpl.payment.cc.php:113 tpl.payment.cc.php:308
+msgid "Payment Method"
+msgstr "Метод оплаты"
+
+#: tpl.payment.cc.php:115 tpl.payment.cc.php:310 tpl.payment.main.php:118
+msgid "Credit or Debit Card"
+msgstr "Платежная карта"
+
+#: tpl.payment.cc.php:118 tpl.payment.cc.php:313 tpl.payment.emoney.php:71
+#: tpl.payment.main.php:94 tpl.payment.mt.php:89 tpl.payment.wire.php:98
+#: tpl.payment.scp.php:100
+msgid "Amount to Pay"
+msgstr "Сумма к оплате"
+
+#: tpl.payment.cc.php:125 tpl.payment.emoney.php:79 tpl.payment.mt.php:97
+#: tpl.payment.wire.php:107
+msgid "How does this payment work?"
+msgstr "Как это работает?"
+
+#: tpl.payment.cc.php:132 tpl.payment.cc.php:321 tpl.payment.emoney.php:87
+#: tpl.payment.main.php:72 tpl.payment.mt.php:105
+msgid "Account Name"
+msgstr "Владелец счета"
+
+#: tpl.payment.cc.php:136 tpl.payment.cc.php:326 tpl.payment.emoney.php:91
+#: tpl.payment.main.php:76 tpl.payment.mt.php:109
+msgid "Account Number"
+msgstr "Номер счета"
+
+#: tpl.payment.cc.php:141 tpl.payment.cc.php:331 tpl.payment.emoney.php:96
+#: tpl.payment.main.php:85 tpl.payment.mt.php:114 tpl.payment.wire.php:169
+msgid "Merchant"
+msgstr "Продавец"
+
+#: tpl.payment.cc.php:146 tpl.payment.cc.php:336 tpl.payment.emoney.php:101
+#: tpl.payment.main.php:90 tpl.payment.mt.php:119 tpl.payment.wire.php:177
+msgid "Website"
+msgstr "Website"
+
+#: tpl.payment.cc.php:160 tpl.payment.cc.php:171 tpl.payment.cc.php:346
+#: tpl.payment.cc.php:359 tpl.payment.scp.php:127
+msgid "CARD NUMBER"
+msgstr "НОМЕР КАРТЫ"
+
+#: tpl.payment.cc.php:162 tpl.payment.cc.php:348
+msgid "Pay with a new card"
+msgstr "Оплатить новой картой"
+
+#: tpl.payment.cc.php:191 tpl.payment.cc.php:381 tpl.payment.scp.php:150
+msgid "For Example: 4925 0000 0000 0087"
+msgstr "Например: 4925 0000 0000 0087"
+
+#: tpl.payment.cc.php:198 tpl.payment.cc.php:400 tpl.payment.scp.php:206
+msgid "EXP. MONTH"
+msgstr "Срок действия. Месяц"
+
+#: tpl.payment.cc.php:214 tpl.payment.cc.php:420 tpl.payment.scp.php:222
+msgid "EXP. YEAR"
+msgstr "Срок действия. Год"
+
+#: tpl.payment.cc.php:227
+msgid "CARD HOLDER NAME (LATIN LETTERS ONLY!)"
+msgstr "ИМЯ НА КАРТЕ (ТОЛЬКО ЛАТИНСКИЕ БУКВЫ)"
+
+#: tpl.payment.cc.php:236
+msgid "For Example: John Smith (LATIN LETTERS ONLY!)"
+msgstr "Например: IVAN PETROV (Только латинские буквы!)"
+
+#: tpl.payment.cc.php:242 tpl.payment.cc.php:438 tpl.payment.scp.php:157
+msgid "CVV/CVC"
+msgstr "CVV/CVC"
+
+#: tpl.payment.cc.php:253 tpl.payment.cc.php:450
+msgid "Last three digits on the back side of your card."
+msgstr "Последние три цифры на оборотной стороне карты."
+
+#: tpl.payment.cc.php:254 tpl.payment.cc.php:451 tpl.payment.scp.php:168
+msgid "Where do I find my CVV/CVC?"
+msgstr "Где мне найти CVV/CVC?"
+
+#: tpl.payment.cc.php:259 tpl.payment.cc.php:483
+msgid "Save this card for future payments."
+msgstr "Сохранить карту для будущих платежей."
+
+#: tpl.payment.cc.php:287 tpl.payment.cc.php:462 tpl.payment.scp.php:182
+msgid "Using Visa, MasterCard or Discover?"
+msgstr "Используете Visa, MasterCard или Discover?"
+
+#: tpl.payment.cc.php:288 tpl.payment.cc.php:463 tpl.payment.scp.php:183
+msgid ""
+"3-Digit Code: Turn your card over and look at the signature box. You should "
+"see either the entire 16-digit credit card number or just the last four "
+"digits followed by a special 3-digit code. This 3-digit code is your CVV "
+"number."
+msgstr ""
+"3-х значный код: Переверните карту и найдите окно для подписи. Вы увидите "
+"напечатанные последние цифры вашей карты, за которыми указан специальный 3-х "
+"значный код. Этот код - ваш CVV номер."
+
+#: tpl.payment.cc.php:294 tpl.payment.cc.php:469 tpl.payment.scp.php:189
+msgid "Using American Express?"
+msgstr "Используете American Express?"
+
+#: tpl.payment.cc.php:295 tpl.payment.cc.php:470 tpl.payment.scp.php:190
+msgid ""
+"4-Digit Code: The American Express security code is a 4-digit number printed "
+"on the front of your card. It appears after and to the right of your card "
+"number."
+msgstr ""
+"4-х значный код: На картах American Express секретный код для Интернет "
+"транзакций содержит 4 цифры и располагается на лицевой стороне карты справа "
+"от номера карты."
+
+#: tpl.payment.cc.php:301 tpl.payment.cc.php:476 tpl.payment.scp.php:196
+msgid "Why do I have to give my credit card verification code?"
+msgstr "Почему я должен передавать мой верификационный код?"
+
+#: tpl.payment.cc.php:302 tpl.payment.cc.php:477 tpl.payment.scp.php:197
+msgid ""
+"For your safety and security, MoneyPolo requires that you enter your card "
+"verification number. Providing this number assures us that you are indeed "
+"the card holder."
+msgstr ""
+"В целях безопасности средств на Вашей карте MoneyPolo запрашивает ввод "
+"верификационного кода. Вводом этого кода Вы подтверждаете, что являетесь "
+"владельцем карты."
+
+#: tpl.payment.cc.php:385 tpl.payment.scp.php:243
+msgid "CARD HOLDER NAME"
+msgstr "ИМЯ НА КАРТЕ"
+
+#: tpl.payment.cc.php:395 tpl.payment.scp.php:252
+msgid "For Example: John Smith"
+msgstr "Например: IVAN PETROV"
+
+#: tpl.payment.cc.php:504 tpl.payment.emoney.php:260
+msgid "Transaction is out of limits"
+msgstr "Транзакция превышает установленные лимиты"
+
+#: tpl.payment.cc.php:504 tpl.payment.emoney.php:260
+msgid "Minimum"
+msgstr "Минимум"
+
+#: tpl.payment.cc.php:504 tpl.payment.emoney.php:260
+msgid "Maximum"
+msgstr "Максимум"
+
+#: tpl.payment.cc.php:504 tpl.payment.emoney.php:260
+msgid "Available"
+msgstr "Доступно"
+
+#: tpl.payment.cc.php:505 tpl.payment.emoney.php:261
+msgid ""
+"Adjust amount of your transaction or go back and choose another payment type."
+msgstr ""
+"Исправьте сумму транзакции либо вернитесь и выберите другой метод оплаты."
+
+#: tpl.payment.cc.php:508 tpl.payment.emoney.php:264 tpl.payment.scp.php:628
+msgid "PAY"
+msgstr "ОПЛАТИТЬ"
+
+#: tpl.payment.cc.php:519 tpl.payment.emoney.php:277 tpl.payment.main.php:214
+#: tpl.payment.mt.php:199 tpl.payment.wire.php:209 tpl.process.less.php:146
+#: tpl.payment.scp.php:662
+msgid "By using MoneyPolo Secure Payments, you agree to our"
+msgstr "Используя сервис Безопасной оплаты MoneyPolo, вы соглашаетесь с нашими"
+
+#: tpl.payment.cc.php:519 tpl.payment.emoney.php:277 tpl.payment.main.php:214
+#: tpl.payment.mt.php:199 tpl.payment.wire.php:209 tpl.process.less.php:146
+#: tpl.payment.scp.php:662
+msgid "Terms and Conditions"
+msgstr "Условиями использования"
+
+#: tpl.payment.cc.php:522 tpl.payment.emoney.php:280 tpl.payment.main.php:217
+#: tpl.payment.mt.php:202 tpl.payment.wire.php:212 tpl.process.less.php:149
+msgid "Powered by"
+msgstr "Сервис предоставлен"
+
+#: tpl.payment.emoney.php:112 tpl.payment.emoney.php:133
+#: tpl.payment.mt.php:127 tpl.payment.wire.php:118
+msgid "Payment Process Flow"
+msgstr "Описание процесса платежа"
+
+#: tpl.payment.emoney.php:114 tpl.payment.emoney.php:135
+#: tpl.payment.wire.php:120
+msgid "You can transfer the amount you wish to pay at your local bank."
+msgstr "Вы можете отправить средства в Вашем местном банке."
+
+#: tpl.payment.emoney.php:117 tpl.payment.emoney.php:138
+msgid ""
+"The final amount in Euros will be sent to the merchant account according to "
+"the rates valid for the day we receive your money on our account."
+msgstr ""
+"Конечная сумма в валюте заказа будет переведена на счет Продавца по курсу на "
+"дату поступления средств на наш счет."
+
+#: tpl.payment.emoney.php:119 tpl.payment.emoney.php:140
+msgid "IMPORTANT: Add your account number to the payment details."
+msgstr "ВНИМАНИЕ: Заполните поле Детали платежа как указано в образце."
+
+#: tpl.payment.emoney.php:159
+msgid "We will charge 1.5% min. US $1 or 1 Euro or 1 GBP"
+msgstr "Комиссия за платеж составляет 1.5% мин. US $1/1 Euro/1 GBP"
+
+#: tpl.payment.emoney.php:167 tpl.payment.emoney.php:168
+msgid "E-Money System"
+msgstr "Электронные деньги"
+
+#: tpl.payment.emoney.php:178
+msgid "QIWI"
+msgstr "QIWI"
+
+#: tpl.payment.emoney.php:184
+msgid "OKPAY"
+msgstr "OKPAY"
+
+#: tpl.payment.emoney.php:190
+msgid "SOFORT"
+msgstr "SOFORT"
+
+#: tpl.payment.emoney.php:197
+msgid "CASHU"
+msgstr "CASHU"
+
+#: tpl.payment.emoney.php:203
+msgid "WebMoney"
+msgstr "WebMoney"
+
+#: tpl.payment.emoney.php:210
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: tpl.payment.emoney.php:222
+msgid "PHONE NUMBER"
+msgstr "НОМЕР ТЕЛЕФОНА"
+
+#: tpl.payment.emoney.php:232
+msgid "For Example: +79261234567"
+msgstr "Например: +79261234567"
+
+#: tpl.payment.emoney.php:248 tpl.payment.wire.php:144
+#: tpl.payment.wire.php:195
+msgid "Total Payment"
+msgstr "Итого к оплате"
+
+#: tpl.payment.emoney.redirect.php:34
+msgid "We will redirect to your processor website shortly"
+msgstr "Перенаправляем Вас на сайт системы электронных платежей"
+
+#: tpl.payment.main.php:107
+msgid "Payment Options"
+msgstr "Способы оплаты"
+
+#: tpl.payment.main.php:119
+msgid "Pay via Visa or Master Card"
+msgstr "Оплата картой Visa или Master Card"
+
+#: tpl.payment.main.php:134
+msgid "MoneyPolo Account"
+msgstr "Со счета в MoneyPolo"
+
+#: tpl.payment.main.php:135
+msgid "Pay using MoneyPolo account"
+msgstr "Оплата со счета в MoneyPolo"
+
+#: tpl.payment.main.php:150
+msgid "Bank Transfer"
+msgstr "Банковский перевод"
+
+#: tpl.payment.main.php:151
+msgid "Pay via domestic or international wire transfer"
+msgstr "Оплата локальным или международным банковсим переводом"
+
+#: tpl.payment.main.php:164
+msgid "E-Money"
+msgstr "Электронные валюты"
+
+#: tpl.payment.main.php:165
+msgid "Pay via E-Money"
+msgstr "Оплатить электронной валютой (E-Money)"
+
+#: tpl.payment.main.php:178
+msgid "Cash Transfer"
+msgstr "Денежный перевод"
+
+#: tpl.payment.main.php:179
+msgid "Pay through transfer systems that supports MoneyPolo"
+msgstr ""
+"Оплатить через системы денежных переводов, работающих с MoneyPolo ("
+"Unistream, Contact, Leader, PrivatMoney и др.)"
+
+#: tpl.payment.main.php:179
+msgid "(takes only 15 minutes)"
+msgstr "(занимает всего 15 минут)"
+
+#: tpl.payment.main.php:194
+msgid "Direct Cash Deposit"
+msgstr "Прямое внесение денег на счет"
+
+#: tpl.payment.main.php:195
+msgid "Pay at the nearest bank branch"
+msgstr "Оплата в ближайшем отделении банка"
+
+#: tpl.payment.mt.php:129
+msgid ""
+"Choose the currency, city and branch adress you wish to send money from."
+msgstr ""
+"Выберите валюту, город и отделение из которого Вы хотите отправить деньги."
+
+#: tpl.payment.mt.php:132
+msgid ""
+"Go to the branch you have chosen and make the money transfer. You will "
+"receive a unique transfer number."
+msgstr ""
+"Идите в выбранное отделение и сделайте денежный перевод в Чехию на свое имя "
+"как оно  указано в форме выше. Обязательно запомните сумму и валюту "
+"перевода.  Вы получите уникальный номер перевода."
+
+#: tpl.payment.mt.php:134
+msgid ""
+"To complete the transfer, follow the link you will receive to your email, "
+"where you will have to enter your unique transfer number. This will notify "
+"the merchant of your transfer and complete your payment."
+msgstr ""
+"Для завершения платежа пройдите по ссылке, которую мы отправили Вам по e-"
+"mail и введите этот уникальный номер. После этого платеж будет зачиислен и "
+"мы проинформируем Продавца об успешной оплате."
+
+#: tpl.payment.mt.php:136
+msgid ""
+"If you already have the transfer number, press the continue button to "
+"complete the transfer."
+msgstr ""
+"Если у Вас уже есть номер перевода, нажмите кнопку Далее и закончите "
+"транзакцию."
+
+#: tpl.payment.mt.php:155
+msgid ""
+"Transfer not found. Please make sure that you entered the correct transfer "
+"number for this payment."
+msgstr ""
+"Перевод не найден. Пожалуйста, убедитесь, что Вы вводите номер перевода "
+"правильно."
+
+#: tpl.payment.mt.php:162
+msgid "Last Step"
+msgstr "Последний шаг"
+
+#: tpl.payment.mt.php:163
+msgid ""
+"For the merchant to be able to receive your payment, please enter the "
+"transfer details."
+msgstr ""
+"Для зачисления Вашего платежа Продавцу,пожалуйста, введите детали перевода."
+
+#: tpl.payment.mt.php:168
+msgid "TRANSFER NUMBER"
+msgstr "НОМЕР ПЕРЕВОДА"
+
+#: tpl.payment.wire.php:79
+msgid "Congratulations!"
+msgstr "Поздравляем!"
+
+#: tpl.payment.wire.php:80
+msgid ""
+"Your bank payment request has been created. You may now log in to your "
+"preferred online bank or visit any branch of the bank specified below to "
+"make the payment. They may need the information on this page so please have "
+"a copy of it by:"
+msgstr ""
+"Запрос на оплату банковским переводом создан. Вы можете войти в Вашу систему "
+"онлайн банкинга или посетить отделение банка для отправки перевода. Вам "
+"потребуются детали платежа, показанные на этой странице. Пожалуйста, "
+"получите копию:"
+
+#: tpl.payment.wire.php:82
+msgid "Printing it, or"
+msgstr "Напечатав или"
+
+#: tpl.payment.wire.php:83
+msgid "Saving it as PDF, or"
+msgstr "Сохранив как PDF, или"
+
+#: tpl.payment.wire.php:84
+msgid "By check your mail"
+msgstr "Проверив ваш e-mail"
+
+#: tpl.payment.wire.php:86
+msgid ""
+"This payment request is valid for 24 hours, after which, it will be "
+"automatically cancelled. For more information, please check your e-mail."
+msgstr ""
+"Запрос на оплату действителен в течение 24х часов, после чего будет "
+"автоматически отменен. Дополнительная информацияя соержится в отправленном "
+"на Ваш e-mail письме."
+
+#: tpl.payment.wire.php:123
+msgid ""
+"The final amount will be sent to the merchant account according to the rates "
+"valid for the day we receive your money on our account."
+msgstr ""
+"Конечная сумма в валюте заказа будет переведена на счет Продавца по курсу на "
+"дату поступления средств на наш счет."
+
+#: tpl.payment.wire.php:125
+msgid "IMPORTANT: Fill payment details carefully."
+msgstr "ВНИМАНИЕ: Аккуратно заполняйте детали платежа, как указано в образце."
+
+#: tpl.payment.wire.php:153
+msgid "Save as PDF"
+msgstr "Сохранить в PDF"
+
+#: tpl.payment.wire.php:155
+msgid "Send by Email"
+msgstr "Послать на E-mail"
+
+#: tpl.payment.wire.php:158
+msgid "Print"
+msgstr "Напечатать"
+
+#: tpl.payment.wire.php:159
+msgid "Back to"
+msgstr "Назад к"
+
+#: tpl.process.less.php:84
+msgid ""
+"Transfer not found. Please make sure that you entered the correct transfer "
+"number for this\n"
+"                      payment."
+msgstr ""
+"Перевод не найден. Пожалуйста, проверьте правильность ввода номера перевода."
+
+#: tpl.process.less.php:97
+msgid "AMOUNT TO LOAD"
+msgstr "СУММА К ЗАЧИСЛЕНИЮ"
+
+#: tpl.process.less.php:112
+msgid "CURRENCY"
+msgstr "ВАЛЮТА"
+
+#: tpl.process.less.php:121 tpl.payment.scp.php:104 tpl.payment.scp.php:629
+msgid "Currency"
+msgstr "Валюта"
+
+#: tpl.process.less.php:131
+msgid "CONTINUE"
+msgstr "ДАЛЕЕ"
+
+#: tpl.payment.scp.php:46
+msgid "SECURE CARD PAYMENTS"
+msgstr "Безопасные карточные платежи"
+
+#: tpl.payment.scp.php:51 tpl.payment.scp.php:52 tpl.payment.scp.php:53
+msgid "RAW"
+msgstr "RAW"
+
+#: tpl.payment.scp.php:51
+msgid "MerchantCode"
+msgstr "MerchantCode"
+
+#: tpl.payment.scp.php:52
+msgid "Data"
+msgstr "Данные"
+
+#: tpl.payment.scp.php:53
+msgid "Signature"
+msgstr "Подпись"
+
+#: tpl.payment.scp.php:92
+msgid "Payment Details"
+msgstr "Детали платежа"
+
+#: tpl.payment.scp.php:94 tpl.payment.scp.php:103 tpl.payment.scp.php:104
+#: tpl.payment.scp.php:259 tpl.payment.scp.php:278 tpl.payment.scp.php:297
+#: tpl.payment.scp.php:318 tpl.payment.scp.php:569 tpl.payment.scp.php:590
+#: tpl.payment.scp.php:611 tpl.payment.scp.php:628 tpl.payment.scp.php:629
+msgid "RequestData"
+msgstr "RequestData"
+
+#: tpl.payment.scp.php:94
+msgid "Details"
+msgstr "Описание"
+
+#: tpl.payment.scp.php:103 tpl.payment.scp.php:628
+msgid "AmountINT"
+msgstr "AmountINT"
+
+#: tpl.payment.scp.php:104 tpl.payment.scp.php:629
+msgid "AmountDEC"
+msgstr "AmountDEC"
+
+#: tpl.payment.scp.php:259 tpl.payment.scp.php:278 tpl.payment.scp.php:297
+#: tpl.payment.scp.php:318 tpl.payment.scp.php:569 tpl.payment.scp.php:590
+#: tpl.payment.scp.php:611
+msgid "1"
+msgstr "1"
+
+#: tpl.payment.scp.php:259 tpl.payment.scp.php:278 tpl.payment.scp.php:297
+#: tpl.payment.scp.php:318 tpl.payment.scp.php:569 tpl.payment.scp.php:590
+#: tpl.payment.scp.php:611
+msgid "ShowClientDetails"
+msgstr "ShowClientDetails"
+
+#: tpl.payment.scp.php:274
+msgid "ADDRESS"
+msgstr "Адрес"
+
+#: tpl.payment.scp.php:293
+msgid "CITY"
+msgstr "Город"
+
+#: tpl.payment.scp.php:314
+msgid "COUNTRY"
+msgstr "Страна"
+
+#: tpl.payment.scp.php:565
+msgid "ZIP"
+msgstr "Индекс"
+
+#: tpl.payment.scp.php:586
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: tpl.payment.scp.php:604 tpl.payment.scp.php:607
+msgid "PHONE"
+msgstr "Телефон"
+
+#: tpl.payment.scp.php:666
+msgid "Powered by MoneyPolo"
+msgstr "Powered by MoneyPolo"

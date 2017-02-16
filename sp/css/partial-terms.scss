@@ -1,0 +1,45 @@
+#div-terms {
+  h1, h2 {
+    font-weight: 200;
+    color: $dark-green;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ol {
+    counter-reset: item
+  }
+  li {
+    display: block
+  }
+  li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item
+  }
+
+  .root-ol {
+    padding-left: 0;
+    > li:before {
+      color: $dark-green;
+      font-size: 20px;
+      font-weight: 200;
+      -webkit-text-stroke: 0;
+      margin-bottom: 0;
+    }
+    > li h2 {
+      display: inline;
+    }
+    li {
+      margin-left: 24px;
+      &:before {
+        margin-left: -22px;
+      }
+    }
+  }
+}

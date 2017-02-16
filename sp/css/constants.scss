@@ -1,0 +1,125 @@
+$animation_speed: 0.5s;
+
+/* sizes */
+$logo-height: 62px;
+$footer-height: 100px;
+$smalltablet_end: 852px;
+$smalltablet_start: 853px;
+$desktop_breakpoint: 992px;
+
+/* colors */
+$light-orange: #f6f6f6;
+$orange: #989898;
+$dark-orange: #757575;
+$brown: #555555;
+$light-brown: #777777;
+$dark-gray: #444444;
+$gray: #f0f0f0;
+$white: #ffffff;
+$light-green: #cfcfcf;
+$dark-green: #333333;
+$green: #606060;
+$green2: #9c9c9c;
+$bright-green: #cccccc;
+$green3: #999999;
+$mp-black: #231f20;
+$black: #000000;
+$speed: 0.5s;
+$light-blue: #cfcfcf;
+$dark-blue: #545454;
+
+$body-background: #ffffff;
+$header-text: #ffffff;
+$header-logo: url("../img/MONEYPOLO/MONEYPOLO.png");
+
+@mixin gradient($top, $bottom) {
+  background-color: $top;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($top), to($bottom));
+  background-image: -webkit-linear-gradient(top, $top, $bottom); /* For Safari 5.1 to 6.0 */
+  background-image: -moz-linear-gradient(top, $top, $bottom); /* For Firefox 3.6 to 15 */
+  background-image: -ms-linear-gradient(top, $top, $bottom);
+  background-image: -o-linear-gradient(top, $top, $bottom); /* For Opera 11.1 to 12.0 */
+  background-image: linear-gradient(to bottom, $top, $bottom); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$top, endColorstr=$bottom);
+}
+
+@mixin box-shadow($horizontal:0, $vertical:3px, $blur:3px, $spread:0, $color:rgba(0, 0, 0, 0.15)){
+  -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+  -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+  box-shadow: $horizontal $vertical $blur $spread $color;
+}
+@mixin transition($time:0.2s, $type:linear){
+  -webkit-transition: all $time $type;
+  -o-transition: all $time $type;
+  -moz-transition: all $time $type;
+  -ms-transition: all $time $type;
+  -kthtml-transition: all $time $type;
+  transition: all $time $type;
+}
+@mixin rel(){
+  position: relative !important;
+}
+
+@mixin abs(){
+  position: absolute;
+}
+
+@font-face {
+  font-family: 'Etelka Light';
+  src: url('../fonts/ETELKALIGHTPRO.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Etelka Reg';
+  src: url('../fonts/ETELKAREGPRO%5B1%5D.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+  url('../fonts/OpenSans-Light.ttf') format('truetype'),
+  url(//fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(//fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+  url(//fonts.gstatic.com/s/opensans/v10/PfybUH-csLekLIU-pU-o7w.woff2) format('woff2'), url(//fonts.gstatic.com/s/opensans/v10/uYKcPVoh6c5R0NpdEY5A-Q.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+  url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+  url(//fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(//fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+  url('../fonts/Roboto-Light.ttf') format('truetype'), url(//fonts.gstatic.com/s/roboto/v15/El-bgsteBznJNL5pgUfFLA.woff2) format('woff2'), url(//fonts.gstatic.com/s/roboto/v15/d-QWLnp4didxos_6urzFtg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+  url('../fonts/Roboto-Regular.ttf') format('truetype'), url(//fonts.gstatic.com/s/roboto/v15/N5Lbe1fynPA1KT8BFvAiGw.woff2) format('woff2'), url(//fonts.gstatic.com/s/roboto/v15/grlryt2bdKIyfMSOhzd1eA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+  url('../fonts/Roboto-Medium.ttf') format('truetype'), url(//fonts.gstatic.com/s/roboto/v15/Op9nD2u96-RO01_6Io91EA.woff2) format('woff2'), url(//fonts.gstatic.com/s/roboto/v15/7KXg6nyyqN8gyMoNwQ7aOQ.woff) format('woff');
+}

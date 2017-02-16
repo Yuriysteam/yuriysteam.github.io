@@ -1,0 +1,242 @@
+.radio-pills {
+  .radio-icon, .description {
+    @extend .middle-cell;
+  }
+
+  li {
+    .radio-icon {
+      width: 30%;
+      max-width: 150px;
+      height: 70px;
+      &.radio-icon-creditcard {
+        background: url("../img/radio-icon-creditcard.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-cashdeposit {
+        background: url("../img/radio-icon-cashdeposit.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-ewallet {
+        background: url("../img/radio-icon-emoney.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-logo {
+        background: url("../img/radio-logo.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-cashtransfer {
+        background: url("../img/radio-cashtransfer.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-banks {
+        background: url("../img/radio-icon-banks.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-directdebit {
+        background: url("../img/radio-icon-directdebit.png") no-repeat center center;
+        background-size: contain;
+      }
+    }
+
+    .description {
+      font-weight: 300;
+      padding-left: 5px;
+      min-width: 51px;
+      font-size: 13px;
+    }
+    a {
+      font-weight: 300;
+      line-height: normal;
+      border: 2px solid $bright-green;
+      padding: 5px;
+      color: #444;
+      @include transition();
+
+      h6 {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+        -webkit-text-stroke: 0;
+      }
+      &:hover, &:active, &:focus {
+        background: $green;
+        color: $white;
+
+        h6 {
+          color: $white;
+          @include transition();
+        }
+      }
+      &:hover, &:active {
+        border: 2px solid transparent;
+        .radio-icon {
+          &.radio-icon-creditcard {
+            background: url("../img/radio-icon-creditcard-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-logo {
+            background: url("../img/radio-logo-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-cashtransfer {
+            background: url("../img/radio-cashtransfer-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-banks {
+            background: url("../img/radio-icon-banks-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+
+          &.radio-icon-cashdeposit {
+            background: url("../img/radio-icon-cashdeposit-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-ewallet {
+            background: url("../img/radio-icon-emoney-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-directdebit {
+            background: url("../img/radio-icon-directdebit-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+        }
+        .description {
+          -webkit-text-stroke: 0;
+          h6 {
+            -webkit-text-stroke: 0;
+          }
+        }
+      }
+    }
+    &:not(:first-child) {
+      padding-top: 10px;
+    }
+  }
+  &.cols-2 {
+    margin: -5px;
+
+    li {
+      padding: 5px;
+      width: 50%;
+      float: left;
+      a {
+        .radio-icon {
+          &.radio-check {
+            height: 40px;
+            font-size: 20px;
+            width: 1em;
+            padding: 15px;
+            -webkit-text-stroke: 0;
+            color: $bright-green;
+          }
+        }
+        .radio-cc-logo {
+          width: 70px;
+          text-align: center;
+          padding-right: 15px;
+          &.radio-has-hover {
+            .hover-icon {
+              display: none;
+            }
+          }
+        }
+        &:hover {
+          .radio-has-hover {
+            img:not(.hover-icon) {
+              display: none;
+            }
+            .hover-icon {
+              display: block;
+            }
+          }
+        }
+      }
+      &.active {
+        .radio-icon {
+          &.radio-check {
+            color: $white;
+          }
+        }
+        a {
+          .radio-has-hover {
+            img:not(.hover-icon) {
+              display: none;
+            }
+            .hover-icon {
+              display: block;
+            }
+          }
+          .description {
+            -webkit-text-stroke: 0;
+            h6 {
+              color: $white;
+              -webkit-text-stroke: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .radio-pills li {
+    a {
+      &:hover, &:active {
+        .radio-icon {
+          &.radio-icon-cashdeposit {
+            background: url("../img/radio-icon-cashdeposit-wide-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+          &.radio-icon-ewallet {
+            background: url("../img/radio-icon-emoney-wide-hover.png") no-repeat center center;
+            background-size: contain;
+          }
+        }
+      }
+    }
+    .radio-icon {
+      width: 40%;
+      &.radio-icon-cashdeposit {
+        background: url("../img/radio-icon-cashdeposit-wide.png") no-repeat center center;
+        background-size: contain;
+      }
+      &.radio-icon-ewallet {
+        background: url("../img/radio-icon-emoney-wide.png") no-repeat center center;
+        background-size: contain;
+      }
+    }
+  }
+}
+
+.radio-pills li .radio-icon, .payment-icon {
+  &.ic-creditcard {
+    background: url("../img/radio-icon-v2-creditcard.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-cashdeposit {
+    background: url("../img/radio-icon-v2-directcashdeposit.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-ewallet {
+    background: url("../img/radio-icon-v2-emoney.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-logo {
+    background: url("../img/radio-icon-v2-moneypolo.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-cashtransfer {
+    background: url("../img/radio-icon-v2-cashtransfer.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-banks {
+    background: url("../img/radio-icon-v2-banks.png") no-repeat center center;
+    background-size: contain;
+  }
+  &.ic-directdebit {
+    background: url("../img/radio-icon-v2-directdebit.png") no-repeat center center;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,24 @@
+html, body, #wrap {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrap {
+  display: table;
+  width: 100%
+}
+
+header, .footer, main {
+  display: block
+}
+
+/* ie7 and under*/
+header, .footer, main {
+  display: table-row
+}
+
+/* height 1px on the header and footer is the sticky footer technique */
+header, .footer {
+  height: 1px
+}

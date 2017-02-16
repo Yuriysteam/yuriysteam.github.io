@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>MoneyPolo Secure Payments</title>
+    <!-- TODO all css files must always be the minified version -->
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/print.min.css">
+    <!--<link rel="stylesheet" href="css/OKPAY/OKPAY.css">-->
+    <link rel="stylesheet" href="css/MONEYPOLO/MONEYPOLO.css">
+    <!-- <link rel="stylesheet" href="css/NGG/NGG.css"> -->
+    <!--<link rel="stylesheet" href="css/RERUM/RERUM.css">-->
+
+    <link rel="icon"
+          type="image/png"
+          href="favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/57x57icon.png"/>
+    <!-- Retina iPhone, iPod touch -->
+    <link rel="apple-touch-icon" sizes="114x114" href="img/114x114icon.png"/>
+    <!-- Standard iPad -->
+    <link rel="apple-touch-icon" sizes="72x72" href="img/72x72icon.png"/>
+    <!-- Retina iPad -->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/144x144icon.png"/>
+</head>
+<body>
+<div id="wrap">
+    <img src="img/logo_mono.png" alt="MoneyPolo" class="mp-logo rel visible-print-block" id="print-logo">
+    <header class="navbar navbar-default navbar-fixed-top navbar-v2">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="row">
+                    <div class="col-md-12 text-left text-center-xs">
+                        <div id="mp-logo">
+                            <div class="header-logo"><i class="header-logo-img"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left text-center-xs margin-top-5">
+                        <span class="header-text"><small>Order description to </small><strong>Internet Mall
+                            a.s.</strong>
+                            <br/>
+                            <a href="http://mall.cz" class="header-link"><span
+                                    class="header-link">www.mall.cz</span></a>
+                        </span>
+                    </div>
+                    <div class="col-md-6 text-right text-center-xs header-text">
+                        <small class="hidden-xs">Total amount you pay:</small>
+                        <div class="currency header-text">
+                            <span class="currency-whole header-text">165</span>.00 EUR
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form method="post" class="wrapper form-validate" autocomplete="off">
+        <main>
+            <div class="middle-cell">
+                <div class="container" id="contents">
+                    <div class="panel panel-large-padding">
+                        <div class="panel-body margin-bottom-20">
+                            <h1 class="text-center">Choose method of payment</h1>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="nav nav-pills nav-grid grid-3 radio-pills panel-invert-large-padding margin-bottom-20"
+                                data-role="tablist">
+                                <li data-value="creditcard">
+                                    <a href="javascript:void(0);" data-link="step-2-creditcard-v3.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-creditcard">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>Credit or Debit Card</h6>
+                                                Pay via Visa or Master Card
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="mpaccount">
+                                    <a href="javascript:void(0);" data-link="step-1-error.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-logo">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>MoneyPolo Account</h6>
+                                                Pay using MoneyPolo account
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="banktransfer">
+                                    <a href="javascript:void(0);" data-link="step-3-banktransfer-v3.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-banks">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>Bank Transfer</h6>
+                                                Pay via domestic or international wire transfer
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="ewallet">
+                                    <a href="javascript:void(0);" data-link="step-2-emoney-v3.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-ewallet">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>E-Money</h6>
+                                                Pay via E-Money
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="directdebit">
+                                    <a href="javascript:void(0);" data-link="step-2-directdebit-v3.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-directdebit">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>Direct Debit</h6>
+                                                Pay through transfer systems for direct debit
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="cashtransfer">
+                                    <a href="javascript:void(0);" data-link="step-4-cashtransfer-v3.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-cashtransfer">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>Cash Transfer</h6>
+                                                Pay through transfer systems that supports MoneyPolo
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-value="cashdeposit">
+                                    <a href="javascript:void(0);" data-link="step-1-error.html"
+                                       class="btn-radio">
+                                        <div class="div-table">
+                                            <i class="radio-icon ic-cashdeposit">
+                                            </i>
+
+                                            <div class="description">
+                                                <h6>Direct Cash Deposit</h6>
+                                                Pay at the nearest bank branch
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="panel-body margin-top-15 panel-invert-large-padding">
+                            <row>
+                                <div class="col-md-12">
+                                    <a href="" class="link-support visible-xs">
+                                        <div class="text-center">
+                                            <i class="icon"></i><br/>
+                                            I have issues with payment
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 pull-right">
+                                    <a href="" class="link-support hidden-xs">
+                                        <div class="text-center">
+                                            <i class="icon"></i><br/>
+                                            I have issues with payment
+                                        </div>
+                                    </a>
+                                </div>
+                            </row>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </form>
+    <footer id="footer" class="col-xs-12">
+        <p class="text-center margin-top-15">
+            By using MoneyPolo Secure Payments, you agree to our <a href="terms-conditions.html" id="btn-terms"
+                                                                    target="_blank">Terms and Conditions</a>.
+        </p>
+
+        <p class="text-center margin-top-15">
+            <img src="img/logo_powered_by.png" alt="MoneyPolo" class="img-footer-logo">
+        </p>
+    </footer>
+</div>
+<script src="js/jquery-1.11.2.min.js" charset="UTF-8"></script>
+<script src="js/script.js" charset="UTF-8"></script>
+<script>
+    var payment_option = "";
+    var $form = $("form");
+
+    $(document).ready(function () {
+        $(".btn-radio").on("click", function () {
+            payment_option = $(this).data("link");
+            $form.attr("action", payment_option);
+            $form.submit();
+        });
+    });
+</script>
+</body>
+</html>
