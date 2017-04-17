@@ -1,6 +1,7 @@
 	* {
 	border: 0px dashed green;
 }
+	
 
 
 /* ==========================================================================
@@ -1105,9 +1106,77 @@ body:not(.post-template) .post-title {
 }
 
 
+
+/* ==========================================================================
+   4.1.1 Chat
+   ========================================================================== */	
+	
+
+.chat {
+	display: block;
+	width: 60%;
+	max-width: 1440px;
+	margin: 0 auto;
+	margin-bottom:20px;
+	min-height:70vh;
+}
+
+.hideLi {
+    display: none;
+    /*opacity: 0;*/
+}
+
+.animation {
+    display: block
+}
+
+.message {
+    display: inline-block;
+    width:auto;
+    max-width: 80%;
+    background: #F8F8F8;
+    border-radius: 2px;
+    margin: 6px 10px;
+    padding:5px 10px;
+}
+
+.buttons-area {
+    position: relative;
+	padding: 0 auto;
+}
+
+.button {
+  position: relative;
+    background: #505EA3;
+    border-radius: 4px;
+    margin: 10px 10px;
+    padding:10px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
 /* ==========================================================================
    4.1 Projects grid
    ========================================================================== */
+
+.header_portfolio {
+	display: block;
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+	margin-bottom:50px;
+	color: black;
+	font-size: 7.5rem;
+	text-align: left;
+	line-height: 1.2em;
+	letter-spacing: 0px;
+	border-top: solid 1px #e8e8e8;
+	padding-top: 40px;
+}
+
 
 .projects-grid {
 	display: flex;
@@ -1148,20 +1217,20 @@ body:not(.post-template) .post-title {
 }
 
 .project-title {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-family: "Graphik-Light";
 }
 
 .project-description {
 	font-family: "Graphik-Light", sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	line-height: 2.4rem;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 .contact-row {
 	width:100%;
-	margin-top:30px;
+	margin-top:40px;
 	font-size: 2rem;
 	color:black;
 }
@@ -1903,7 +1972,6 @@ white-space: nowrap;
 .site-footer a {
 	color: #BBC7CC;
 	text-decoration: none;
-	font-weight: bold;
 }
 
 .site-footer a:hover {
@@ -2042,7 +2110,9 @@ white-space: nowrap;
 		display: block;
 		width: 100%;
 		margin-bottom: 0px;
-	}
+	}	
+	
+	
 	/* ==========================================================================
    11. Media Queries - Smaller than 900px
    ========================================================================== */
@@ -2093,7 +2163,7 @@ white-space: nowrap;
 			line-height: 1.5em;
 		}
 		.post {
-			width: 90%;
+			width: 100%;
 			font-size: 0.95em
 		}
 		body:not(.post-template) .post-title {
@@ -2480,8 +2550,10 @@ white-space: nowrap;
 			font-size: 1.7rem;
 		}
 	}
+	
+	
 	/* ==========================================================================
-   13. Animations
+   14. Animations
    ========================================================================== */
 	/* Used to fade in title/desc on the home page */
 	@-webkit-keyframes fade-in-down {
@@ -2549,3 +2621,4 @@ white-space: nowrap;
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+	
