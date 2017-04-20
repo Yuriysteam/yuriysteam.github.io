@@ -1114,46 +1114,191 @@ body:not(.post-template) .post-title {
 
 .chat {
 	display: block;
-	width: 60%;
+	width: 50%;
 	max-width: 1440px;
 	margin: 0 auto;
 	margin-bottom:20px;
 	min-height:70vh;
 }
 
+.chat-wrapper {
+	overflow: hidden;
+}
+
 .hideLi {
-    display: none;
-    /*opacity: 0;*/
+	display: none;
+	/*opacity: 0;*/
 }
 
 .animation {
-    display: block
+	display: block
 }
 
 .message {
-    display: inline-block;
-    width:auto;
-    max-width: 80%;
-    background: #F8F8F8;
-    border-radius: 2px;
-    margin: 6px 10px;
-    padding:5px 10px;
+	display: inline-block;
+	width:auto;
+	max-width: 80%;
+	background: #F8F8F8;
+	border-radius: 2px;
+	margin: 6px 10px;
+	padding:5px 10px;
+	position: relative;
+	overflow: hidden;
+	color: rgba(0,0,0,0);
+}
+
+.message.is-animate {
+	-webkit-transition: width .5s ease-out, height .5s ease-out, color .45s ease-out;
+	transition: width .5s ease-out, height .5s ease-out, color .45s ease-out;
+}
+
+.message.is-visible {
+	color: #000;
 }
 
 .buttons-area {
-    position: relative;
-	padding: 0 auto;
+	position: relative;
+	height: 60px;
+	margin: 0 auto;
 }
 
 .button {
-  position: relative;
-    background: #505EA3;
-    border-radius: 4px;
-    margin: 10px 10px;
-    padding:10px 15px;
-    color: white;
-    display: inline-block;
-    cursor: pointer;
+	position: relative;
+	background: #505EA3;
+	border-radius: 4px;
+	margin: 10px 10px;
+	padding:10px 15px;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.button.is-chosen {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.list-item.is-message {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transition: -webkit-transform 1s ease-out;
+	transition: -webkit-transform 1s ease-out;
+	transition: transform 1s ease-out;
+	transition: transform 1s ease-out, -webkit-transform 1s ease-out;
+}
+
+.list-item.is-message.is-visible {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.list-item.is-buttons {
+	overflow: hidden;
+}
+
+.list-item.is-buttons .button {
+	-webkit-transform: translate3d(0, 150%, 0);
+	transform: translate3d(0, 150%, 0);
+}
+
+.list-item.is-buttons .button:nth-child(1) {
+	-webkit-transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
+	transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770);
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
+}
+
+.list-item.is-buttons .button:nth-child(2) {
+	-webkit-transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+	transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770);
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+}
+
+.list-item.is-buttons.is-visible .button {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.chat-dots {
+	position: relative;
+	opacity: 1;
+	-webkit-transition: opacity .1s ease-out;
+	transition: opacity .1s ease-out;
+}
+
+.chat-dots.is-hidden {
+	opacity: 0;
+}
+
+.chat-dots .dot, .chat-dots:before, .chat-dots:after {
+	-webkit-animation: jump 2s infinite;
+	animation: jump 2s infinite;
+	width: 4px;
+	height: 4px;
+	background: #000;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.chat-dots .dot {
+	-webkit-animation-delay: -200ms;
+	animation-delay: -200ms;
+}
+
+.chat-dots:before, .chat-dots:after {
+	content: "";
+}
+
+.chat-dots:before {
+	-webkit-animation-delay: -400ms;
+	animation-delay: -400ms;
+}
+
+.chat-dots:after {
+	-webkit-animation-delay: 0ms;
+	animation-delay: 0ms;
+}
+
+@-webkit-keyframes jump {
+
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	20% {
+		-webkit-transform: translate3d(0, -5px, 0);
+		transform: translate3d(0, -5px, 0);
+	}
+
+	40% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+}
+
+@keyframes jump {
+
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	20% {
+		-webkit-transform: translate3d(0, -5px, 0);
+		transform: translate3d(0, -5px, 0);
+	}
+
+	40% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
 }
 
 
