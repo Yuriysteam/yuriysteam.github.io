@@ -15,7 +15,7 @@ var weezzo_1 = {
 	"I am the graphic designer with the speciality in user interfaces",
 	"Or simply saying I am putting text on buttons and then arrange them on screen :)",
 	"For example, I've done a financial project with a lot of buttons called Weezoo",
-	"<img src='https://d13yacurqjgara.cloudfront.net/users/772985/screenshots/3204151/gf_1x.png' />",
+	"<img src='https://d13yacurqjgara.cloudfront.net/users/772985/screenshots/3204151/gf_1x.png' /></br>More about the project ->",
 	"<div id='w_like' class='chat-button button'>Like it!</div> <div  id='w_no' class='chat-button button'>It's no fun</div>"
   ]
 }
@@ -73,7 +73,7 @@ var drink = {
 	"Okey. Drop me a line and we can meet.",
 	  "Looking forward to talking to you",
 	  "{Business card with details}",
-	  "{Gif with cat drinking hot something}"
+	  "<img src='tea.gif'>"
   ]
 }
 
@@ -87,7 +87,7 @@ var biz = {
 	  "And now please leave the e-mail, so I can contact you",
 	  "{form for e-mail}",
 	  "Gotcha. All noted, saved and I am already thinking about the solution.",
-	  "{gif with a cat sitting and working}"
+	  "<img src='work.gif'>"
 
   ]
 }
@@ -133,7 +133,7 @@ var negative = {
 	  "field",
 	  "Thank you for this",
 	  "I will be gone. For now",
-	  "{ninja gif}"
+	  "<img src='ninja.gif'>"
 
   ]
 }
@@ -147,7 +147,7 @@ var prg_2 = {
 	  "{card}",
 	  "Drop me a line. I like travel places",
 	  "Looking forward to talking to you.",
-	  "{Gif with cat drinking hot something}"
+	  "<img src='tea.gif'>"
 
   ]
 }
@@ -168,8 +168,8 @@ var tea_f = {
 	  "Well, at least we are certain about design.",
 	  "Drop me a line and let's meet.",
 	  "{card}",
-	  "Looking forward to talking to you.",
-	  "{Gif with cat drinking hot something}"
+	  "Looking forward to talk to you.",
+	  "<img src='tea.gif'>"
 
   ]
 }
@@ -311,6 +311,9 @@ $(function() {
 		  clickChatButton(taste);
 		  break;
 		case 'portfolio_n':
+		  clickChatButton(negative);
+		  break;
+		case 'typog_n':
 		  clickChatButton(negative);
 		  break;
 	}
