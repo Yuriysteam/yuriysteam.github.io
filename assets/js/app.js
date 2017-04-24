@@ -21,11 +21,11 @@ var weezzo_1 = {
 }
 
 var card = {
-  id: "weezzo_1",
+  id: "card",
   data: [
 	"I do appreciate your attention",
 	"Here is my digital business card",
-	"{card}",
+	"<a href='mailto: yuriysteam@icloud.com?Subject=Hello' target='_top'>yuriysteam@icloud.com</a></br>",
 	"Do you want to talk about some specifics project or maybe see an example of my work? ",
 	"<div id='card_b' class='chat-button button'>Let's talk business</div> <div  id='card_w' class='chat-button button'>Show me your work</div>"
   ]
@@ -126,15 +126,21 @@ var reetimee = {
 var negative = {
   id: "negative",
   data: [
-	"I guess you have a different taste",
-	  "And this is cool.. ",
-	  "Tell me, what do you like? Drop a line or share link",
-	  "I am interested what you are working on",
-	  "field",
-	  "Thank you for this",
+	"I guess we have different tastes...",
+	  "And this is cool.",
+	  "Tell me, what do you like? Or share what you are working on? Drop a line or share link.",
+	   "<input type='text' class='chat-text'>",
+	  "<div id='send_n' class='chat-button button'>Send</div>"
+
+  ]
+}
+
+var follow_up = {
+  id: "follow_up",
+  data: [
+	"Thank you for this",
 	  "I will be gone. For now",
 	  "<img src='ninja.gif'>"
-
   ]
 }
 
@@ -209,7 +215,7 @@ var portfolio = {
 var portfolio_link = {
   id: "portfolio_link",
   data: [
-	 "Link to portfolio"
+	 "Scroll down please to see all works."
   ]
 }
 
@@ -316,6 +322,9 @@ $(function() {
 		case 'typog_n':
 		  clickChatButton(negative);
 		  break;
+		case 'send_n':
+		  clickChatButton(follow_up);
+		  break;
 	}
   })
 
@@ -353,7 +362,7 @@ function renderChatMessages(msgArray) {
 		(function(div, content, i){
 			setTimeout(function(){
 				showAnimate(div, content);
-			}, i * 2500);
+			}, i * 2000);
 		})(div, (!n ? msgArray.data[i] : null), i);
 	}
 
@@ -400,7 +409,7 @@ function showAnimate(div, text) {
 
 				}, 1);
 			}, 150);
-		}, 2500);
+		}, 1800);
 
 	}, 750);
 }

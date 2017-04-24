@@ -1118,7 +1118,7 @@ body:not(.post-template) .post-title {
 	max-width: 1440px;
 	margin: 0 auto;
 	margin-bottom:20px;
-	min-height:70vh;
+	min-height:80vh;
 }
 
 .chat-wrapper {
@@ -1196,6 +1196,15 @@ body:not(.post-template) .post-title {
 
 .list-item.is-buttons {
 	overflow: hidden;
+}
+
+.chat-text {
+	width: 190px;
+	padding: 5px 5px 5px 5px;
+	vertical-align: middle;
+	border: none;
+	background-color: #fff;
+	background-repeat: no-repeat;
 }
 
 .list-item.is-buttons .button {
