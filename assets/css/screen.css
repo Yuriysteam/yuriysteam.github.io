@@ -999,7 +999,7 @@ nav ul li a {
 
 .post {
 	position: relative;
-	width: 80%;
+	width: 90%;
 	max-width: 1440px;
 	margin: 4rem auto;
 	padding-bottom: 4rem;
@@ -1114,7 +1114,7 @@ body:not(.post-template) .post-title {
 
 .chat {
 	display: block;
-	width: 50%;
+	width: 90%;
 	max-width: 1440px;
 	margin: 0 auto;
 	margin-bottom:20px;
@@ -1138,28 +1138,36 @@ body:not(.post-template) .post-title {
 	display: inline-block;
 	width:auto;
 	max-width: 80%;
-	background: #F8F8F8;
-	border-radius: 2px;
-	margin: 6px 10px;
-	padding:5px 10px;
+	background: #f2f2f2;
+	border-radius: 5px;
+	margin: 5px 0px;
+	padding:8px 18px;
 	position: relative;
 	overflow: hidden;
 	color: rgba(0,0,0,0);
+	font-size:30px;
+	line-height: 38px;
 }
 
 .message.is-animate {
+	font-size:30px;
+	line-height: 38px;
 	-webkit-transition: width .5s ease-out, height .5s ease-out, color .45s ease-out;
 	transition: width .5s ease-out, height .5s ease-out, color .45s ease-out;
 }
 
 .message.is-visible {
 	color: #000;
+	font-size:30px;
+	line-height: 38px;
+	font-family: "Graphik-Light";
 }
 
 .buttons-area {
 	position: relative;
-	height: 60px;
-	margin: 0 auto;
+	height: 80px;
+	text-align: center;
+	
 }
 
 .button {
@@ -1167,11 +1175,13 @@ body:not(.post-template) .post-title {
 	background: #1c1934;
 	border-radius: 4px;
 	margin: 10px 10px;
-	padding:10px 15px;
+	padding:10px 10px;
 	color: white;
 	display: inline-block;
 	cursor: pointer;
 	white-space: nowrap;
+	font-size:20px;
+	line-height: 40px;
 }
 
 .button.is-chosen {
@@ -1213,17 +1223,17 @@ body:not(.post-template) .post-title {
 }
 
 .list-item.is-buttons .button:nth-child(1) {
-	-webkit-transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
-	transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
+	-webkit-transition: right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
+	transition: right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
 	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770);
 	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .25s;
 }
 
 .list-item.is-buttons .button:nth-child(2) {
-	-webkit-transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
-	transition: right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
-	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770);
-	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .75s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+	-webkit-transition: right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+	transition: right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770);
+	transition: transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s, right .5s cubic-bezier(1.000, -0.005, 0.785, 0.770), -webkit-transform .5s cubic-bezier(1.000, -0.005, 0.785, 0.770) .5s;
 }
 
 .list-item.is-buttons.is-visible .button {
@@ -1254,8 +1264,8 @@ body:not(.post-template) .post-title {
 }
 
 .chat-dots .dot {
-	-webkit-animation-delay: -200ms;
-	animation-delay: -200ms;
+	-webkit-animation-delay: -100ms;
+	animation-delay: -100ms;
 }
 
 .chat-dots:before, .chat-dots:after {
@@ -1318,7 +1328,7 @@ body:not(.post-template) .post-title {
 
 .header_portfolio {
 	display: block;
-	width: 90%;
+	width: 91%;
 	max-width: 1440px;
 	margin: 0 auto;
 	margin-bottom:50px;
@@ -1371,15 +1381,14 @@ body:not(.post-template) .post-title {
 }
 
 .project-title {
-	font-size: 1.9rem;
+	font-size: 1.7rem;
 	font-family: "Graphik-Light";
 }
 
 .project-description {
 	font-family: "Graphik-Light", sans-serif;
-	font-size: 1.6rem;
-	line-height: 2.4rem;
-	margin-top: 10px;
+	font-size: 1.7rem;
+	margin-top: 0px;
 }
 
 .contact-row {
@@ -1779,18 +1788,18 @@ white-space: nowrap;
 }
 
 .intro {
-	display: flex;
+	display: block;
 	padding-top: 2%;
-	margin-bottom: 10%;
+	margin-bottom: 10px;
 }
 
 .intro-info {
-	width: 50%;
-	padding-right: 10%;
+	width: 100%;
 }
 
 .intro-text {
-	width: 50%;
+	width: 70%;
+	margin-top:30px;
 }
 
 .intro-task {

@@ -11,7 +11,7 @@ var main = {
 var weezzo_1 = {
   id: "weezzo_1",
   data: [
-	"Great, am pleased.",
+	"Great, am pleased",
 	"I am the graphic designer with the speciality in user interfaces",
 	"Or simply saying I am putting text on buttons and then arrange them on screen :)",
 	"For example, I've done a financial project with a lot of buttons called Weezoo",
@@ -404,12 +404,12 @@ function showAnimate(div, text) {
 						setTimeout(function(){
 							$(m).removeAttr("style");
 							$(m).addClass("is-visible");
-						}, 750);
+						}, 650);
 					}, 1);
 
 				}, 1);
-			}, 150);
-		}, 1800);
+			}, 1);
+		}, 1400);
 
 	}, 750);
 }
