@@ -459,7 +459,7 @@ dl {
 	-webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
 	-moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
 	-o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-	margin: 0 0 1.75em 0;
+	margin: 0 0 0 0;
 }
 
 ol,
@@ -1794,12 +1794,13 @@ white-space: nowrap;
 }
 
 .intro-info {
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .intro-text {
-	width: 70%;
-	margin-top:30px;
+	width: 80%;
+	margin:30px auto 40px;
 }
 
 .intro-task {
@@ -2156,56 +2157,62 @@ white-space: nowrap;
 
 
 /* ==========================================================================
-   10. Portfolio image styles
+   10. Portfolio project styles
    ========================================================================== */
 
 .logo img {
 	width: 100%;
 	max-width: 900px;
-	margin: 150px auto 100px;
+	margin: 80px auto 10px;
+}
+
+.p1000 img {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .p900 img {
 	width: 100%;
 	max-width: 900px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0;
 }
 
 .p800 img {
 	width: 100%;
 	max-width: 900px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0;
 }
 
 
 .p700 img {
 	width: 100%;
 	max-width: 700px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0;
 }
 
 .p600 img {
 	width: 100%;
 	max-width: 600px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0px;
 }
 
 .p500 img {
 	width: 100%;
 	max-width: 500px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0px;
 }
 
 .p400 img {
 	width: 100%;
 	max-width: 400px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0px;
 }
 
 .p300 img {
 	width: 100%;
 	max-width: 300px;
-	margin: 50px auto 20px;
+	margin: 0 auto 0px;
 }
 
 .phero img {
@@ -2216,10 +2223,19 @@ white-space: nowrap;
 	text-align: center;
 	display: block;
 	max-width: 700px;
-	margin: 0 auto;
-	padding: 0 1rem;
-	font-size: 1.5rem;
+	margin: 10px auto 100px;
+	padding: 0 3rem;
+	line-height: 2.5rem;
 }
+
+.p-text {
+	display: block;
+	width:70%;
+	margin: 10px auto 80px;
+	padding: 0 3rem;
+	line-height: 2.5rem;
+}
+
 
 
 /* ==========================================================================
@@ -2688,6 +2704,7 @@ white-space: nowrap;
 		}
 		.intro-text {
 			width: 100%;
+			
 		}
 		
 		.intro-task {
