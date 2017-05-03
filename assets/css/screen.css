@@ -819,7 +819,7 @@ margin on the iframe, cause it breaks stuff. */
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
-	height: 60px;
+	height: 50px;
 	margin-left: 30px;
 	padding: 1px 0 5px 0;
 	width: auto;
@@ -1116,8 +1116,7 @@ body:not(.post-template) .post-title {
 	display: block;
 	width: 90%;
 	max-width: 1440px;
-	margin: 0 auto;
-	margin-bottom:20px;
+	margin: 20px auto;
 	min-height:80vh;
 }
 
@@ -1166,6 +1165,7 @@ body:not(.post-template) .post-title {
 .buttons-area {
 	position: relative;
 	height: 80px;
+	padding-top: 50px;
 	text-align: center;
 	
 }
