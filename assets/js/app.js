@@ -25,7 +25,7 @@ var card = {
   data: [
 	"I do appreciate your attention",
 	"Here is my digital business card",
-	"<a href='mailto: yuriysteam@icloud.com?Subject=Hello' target='_top'>yuriysteam@icloud.com</a></br>",
+	"<a href='mailto:yuriysteam@icloud.com'><div class='contact-icon'><img src='/e-mail.png'><span class='contact-detail-text'>Email</span></div></a><div class='clear'></div><a href='facetime-audio:yuriysteam@icloud.com'> <div class='contact-icon'><img src='/facetime.png'><span class='contact-detail-text'>FaceTime Audio</span></div></a><div class='clear'></div></br><a href='https://twitter.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/twitter.png'></div></a><a href='https://dribbble.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/drb.png'></div></a><a href='https://www.instagram.com/yuriysteam/' target='blank'> <div class='contact-icon'><img src='/ing.png'></div></a><div class='clear'></div>",
 	"Do you want to talk about some specifics project or maybe see an example of my work? ",
 	"<div id='card_b' class='chat-button button'>Let's talk business</div> <div  id='card_w' class='chat-button button'>Show me your work</div>"
   ]
@@ -72,7 +72,7 @@ var drink = {
   data: [
 	"Okey. Drop me a line and we can meet.",
 	  "Looking forward to talking to you",
-	  "{Business card with details}",
+	  "<a href='mailto:yuriysteam@icloud.com'><div class='contact-icon'><img src='/e-mail.png'><span class='contact-detail-text'>Email</span></div></a><div class='clear'></div><a href='facetime-audio:yuriysteam@icloud.com'> <div class='contact-icon'><img src='/facetime.png'><span class='contact-detail-text'>FaceTime Audio</span></div></a><div class='clear'></div></br><a href='https://twitter.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/twitter.png'></div></a><a href='https://dribbble.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/drb.png'></div></a><a href='https://www.instagram.com/yuriysteam/' target='blank'> <div class='contact-icon'><img src='/ing.png'></div></a><div class='clear'></div>",
 	  "<img src='tea.gif'>"
   ]
 }
@@ -150,7 +150,7 @@ var prg_2 = {
 	 "Aha, so you live abroad",
 	  "Always wanted to meet awesome designers from foreign countries.",
 	  "Here is my card",
-	  "{card}",
+	  "<a href='mailto:yuriysteam@icloud.com'><div class='contact-icon'><img src='/e-mail.png'><span class='contact-detail-text'>Email</span></div></a><div class='clear'></div><a href='facetime-audio:yuriysteam@icloud.com'> <div class='contact-icon'><img src='/facetime.png'><span class='contact-detail-text'>FaceTime Audio</span></div></a><div class='clear'></div></br><a href='https://twitter.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/twitter.png'></div></a><a href='https://dribbble.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/drb.png'></div></a><a href='https://www.instagram.com/yuriysteam/' target='blank'> <div class='contact-icon'><img src='/ing.png'></div></a><div class='clear'></div>",
 	  "Drop me a line. I like travel places",
 	  "Looking forward to talking to you.",
 	  "<img src='tea.gif'>"
@@ -173,7 +173,7 @@ var tea_f = {
 	  "I really underestimated your beverage choices.",
 	  "Well, at least we are certain about design.",
 	  "Drop me a line and let's meet.",
-	  "{card}",
+	  "<a href='mailto:yuriysteam@icloud.com'><div class='contact-icon'><img src='/e-mail.png'><span class='contact-detail-text'>Email</span></div></a><div class='clear'></div><a href='facetime-audio:yuriysteam@icloud.com'> <div class='contact-icon'><img src='/facetime.png'><span class='contact-detail-text'>FaceTime Audio</span></div></a><div class='clear'></div></br><a href='https://twitter.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/twitter.png'></div></a><a href='https://dribbble.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/drb.png'></div></a><a href='https://www.instagram.com/yuriysteam/' target='blank'> <div class='contact-icon'><img src='/ing.png'></div></a><div class='clear'></div>",
 	  "Looking forward to talk to you.",
 	  "<img src='tea.gif'>"
 
@@ -215,7 +215,7 @@ var portfolio = {
 var portfolio_link = {
   id: "portfolio_link",
   data: [
-	 "Scroll down please to see all works."
+	 "Scroll down, please, to see all works."
   ]
 }
 
