@@ -1332,6 +1332,7 @@ body:not(.post-template) .post-title {
 	height: auto;
 }
 
+.icons-margin {margin-top:18px;}
 
 .contact-detail-text {
 	padding-left: 20px;
