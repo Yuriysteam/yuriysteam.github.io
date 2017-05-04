@@ -189,7 +189,7 @@ var typog = {
 	"So typography it is",
 	  "I did two typefaces",
 	  "<a href='/projects/2016-02-23-ylla.html' target='blank'><img src='/ylla-chat.png' class='ing-chat'/></br>More about Finnish typeface project</a>",
-	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/lijnen-chat.png' class='ing-chat'/></br>More about lijnen</a>",
+	  "<a href='/projects/2017-04-24-lijinen.html' target='blank'><img src='/lijnen-chat.png' class='ing-chat'/></br>More about lijnen</a>",
 	  "<div id='typog_y' class='chat-button button'>This is my type of work!</div> <div  id='typog_n' class='chat-button button'>Nah</div>"
   ]
 }
