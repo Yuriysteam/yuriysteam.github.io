@@ -15,7 +15,7 @@ var weezzo_1 = {
 	"I am the graphic designer with the speciality in user interfaces",
 	"Or simply saying I am putting text on buttons and then arrange them on screen :)",
 	"For example, I've done a financial project with a lot of buttons called Weezoo",
-	"<a href='projects/2017-04-24-weezzo.html' target='blank'><img src='/weezzo-chat.png' width='400px' height='300px'/></br>More about the project</a>",
+	"<a href='projects/2017-04-24-weezzo.html' target='blank'><img class='ing-chat' src='/weezzo-chat.png' class='ing-chat'/></br>More about the project</a>",
 	"<div id='w_like' class='chat-button button'>Like it!</div> <div  id='w_no' class='chat-button button'>It's no fun</div>"
   ]
 }
@@ -27,7 +27,7 @@ var card = {
 	"Here is my digital business card",
 	"<a href='mailto:yuriysteam@icloud.com'><div class='contact-icon'><img src='/e-mail.png'><span class='contact-detail-text'>Email</span></div></a><div class='clear'></div><a href='facetime-audio:yuriysteam@icloud.com'> <div class='contact-icon'><img src='/facetime.png'><span class='contact-detail-text'>FaceTime Audio</span></div></a><div class='clear'></div><div class='icons-margin'><a href='https://twitter.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/twitter.png'></div></a><a href='https://dribbble.com/YuriySteam' target='blank'> <div class='contact-icon'><img src='/drb.png'></div></a><a href='https://www.instagram.com/yuriysteam/' target='blank'> <div class='contact-icon'><img src='/ing.png'></div></a></div><div class='clear'></div>",
 	"Do you want to talk about some specifics project or maybe see an example of my work? ",
-	"<div id='card_b' class='chat-button button'>Let's talk business</div> <div  id='card_w' class='chat-button button'>Show me your work</div>"
+	"<div id='card_b' class='chat-button button'>I have project</div> <div  id='card_w' class='chat-button button'>Show your work</div>"
   ]
 }
 
@@ -37,7 +37,7 @@ var car_ui = {
 	"Great, we speak same language!",
 	"Ok. One more",
 	"For the school final show, I tried to imagine how car UI of the future will look like",
-	  "<a href='projects/2017-04-24-car.html' target='blank'><img src='/car-chat.png' width='400px' height='300px'/></br>More about the project</a>",
+	  "<a href='projects/2017-04-24-car.html' target='blank'><img src='/car-chat.png' class='ing-chat'/></br>More about the project</a>",
 	"<div id='car_y' class='chat-button button'>Looks cool</div> <div  id='car_n' class='chat-button button'>Nah! :| </div>"
   ]
 }
@@ -85,7 +85,9 @@ var biz = {
 	  "Like your attitude. I will ask you to tell me about your project, so I can prepare",
 	  "What do you need? Logo, interface or typeface? Tell me in the form",
 	  "{form for this}",
-	  "And now please leave the e-mail, so I can contact you",
+	  "What do you need it for? Is it your company? Do you want to promote something? What problem are you trying to solve?",
+	  "{form for this}",
+	  "And now, please, leave the e-mail, so I can contact you",
 	  "{form for e-mail}",
 	  "Gotcha. All noted, saved and I am already thinking about the solution.",
 	  "<img src='work.gif'>"
@@ -98,8 +100,8 @@ var weezzo_2 = {
   data: [
 	"Thank you for your interest",
 	  "Recently, I've done a great financial project called Weezzo",
-	  "<a href='projects/2017-04-24-weezzo.html' target='blank'><img src='/weezzo-chat.png' width='400px' height='300px'/></br>More about the project</a>",
-	  "<div id='weezzo__2_y' class='chat-button button'>Like it!</div> <div  id='weezzo__2_n' class='chat-button button'>Maybe something else?</div>"
+	  "<a href='projects/2017-04-24-weezzo.html' target='blank'><img src='/weezzo-chat.png' class='ing-chat'/></br>More about the project</a>",
+	  "<div id='weezzo__2_y' class='chat-button button'>Like it!</div> <div  id='weezzo__2_n' class='chat-button button'>Something else?</div>"
   ]
 }
 
@@ -119,7 +121,7 @@ var reetimee = {
 	"So brands it is",
 	  "Here is an identity I did for a luxury fashion brand",
 	  "I like when a client is fully involved and this project is the great example",
-	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/brand-chat.png' width='400px' height='300px'/></br>More about the project</a>",
+	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/brand-chat.png' class='ing-chat'/></br>More about the project</a>",
 	  "<div id='reetimee_y' class='chat-button button'> I like these things!</div> <div  id='reetimee_n' class='chat-button button'>Still no fun :(</div>"
   ]
 }
@@ -186,8 +188,8 @@ var typog = {
   data: [
 	"So typography it is",
 	  "I did two typefaces",
-	  "<a href='/projects/2016-02-23-ylla.html' target='blank'><img src='/ylla-chat.png' width='400px' height='300px'/></br>More about Finnish typeface project</a>",
-	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/lijnen-chat.png' width='400px' height='300px'/></br>More about lijnen</a>",
+	  "<a href='/projects/2016-02-23-ylla.html' target='blank'><img src='/ylla-chat.png' class='ing-chat'/></br>More about Finnish typeface project</a>",
+	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/lijnen-chat.png' class='ing-chat'/></br>More about lijnen</a>",
 	  "<div id='typog_y' class='chat-button button'>This is my type of work!</div> <div  id='typog_n' class='chat-button button'>Nah</div>"
   ]
 }
@@ -198,7 +200,7 @@ var fotograf = {
 	"Great, great",
 	  "I like branding too, because it express the whole idea or message of the company or person.",
 	  "Like I did for Czech photography magazine",
-	  "<a href='/projects/2016-04-29-fotograf.html' target='blank'><img src='/fotograf-chat.png' width='400px' height='300px'/></br>More about this magazine</a>",
+	  "<a href='/projects/2016-04-29-fotograf.html' target='blank'><img src='/fotograf-chat.png' class='ing-chat'/></br>More about this magazine</a>",
 	  "<div id='fotograf_y' class='chat-button button'>Looks cool</div> <div  id='fotograf_n' class='chat-button button'>Now you lost me</div>"
   ]
 }
@@ -209,8 +211,8 @@ var portfolio = {
 	"Ok",
 	  "What if…",
 	  "Maybe something from my portfolio will be interesting for you?",
-	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/brand-chat.png' width='400px' height='300px'/></br>More about this fashion work</a>",
-	  "<a href='/projects/2016-05-01-profinacie.html' target='blank'><img src='/app-chat.png' width='400px' height='300px'/></br>More about this app</a>",
+	  "<a href='/projects/2016-04-30-reetimee.html' target='blank'><img src='/brand-chat.png' class='ing-chat'/></br>More about this fashion work</a>",
+	  "<a href='/projects/2016-05-01-profinacie.html' target='blank'><img src='/app-chat.png' class='ing-chat'/></br>More about this app</a>",
 	  "<div id='portfolio_y' class='chat-button button'>Not bad. Not bad.</div> <div  id='portfolio_n' class='chat-button button'>Still no fun :(</div>"
   ]
 }
