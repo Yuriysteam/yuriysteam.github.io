@@ -37,7 +37,7 @@ var car_ui = {
 	"Great, we speak same language!",
 	"Ok. One more",
 	"For the school final show, I tried to imagine how car UI of the future will look like",
-	  "<a href='projects/2017-04-24-car.html' target='blank'><img src='/car-chat.png' class='ing-chat'/></br>More about the project</a>",
+	  "<a href='/projects/2017-04-24-car-ui.html' target='blank'><img src='/car-chat.png' class='ing-chat'/></br>More about the project</a>",
 	"<div id='car_y' class='chat-button button'>Looks cool</div> <div  id='car_n' class='chat-button button'>Nah! :| </div>"
   ]
 }
