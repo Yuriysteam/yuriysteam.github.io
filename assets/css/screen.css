@@ -2531,6 +2531,39 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 			margin: 90px auto 60px;
 		}
 		
+		
+		.cv-wrapper {
+			width: 95%;
+			}
+	
+
+		.cv-position {
+	display: block;
+	margin:20px 0 40px;
+		
+	}
+
+		.cv-date {
+	width:100%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+		.cv-text {
+	width: 100%;
+	margin-left: 0px;
+	text-align:left;
+}
+
+		.position-name {
+	font-weight: bold;
+	margin-bottom:6px;
+}
+
+		.position-text {
+	line-height: 1.3em;
+}
+		
 	}
 	/* ==========================================================================
    12. Media Queries - Smaller than 500px
