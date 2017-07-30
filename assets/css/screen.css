@@ -1803,7 +1803,7 @@ white-space: nowrap;
 	height: 80vh;
 	background-size: cover;
 	background-position: center;
-	background-color: #FC6720;
+	background-color: #b9b9b9;
 }
 
 .single-project-wrap {
@@ -2800,12 +2800,12 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
-			background-color: #FC6720;
+			background-color: #b9b9b9;
 		}
 		.single-project-cover {
 			padding-top: 60%;
 			width: 100%;
-			background-color: #FC6720;
+			background-color: #b9b9b9;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
