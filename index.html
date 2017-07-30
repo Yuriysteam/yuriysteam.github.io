@@ -11,7 +11,7 @@ logo: true
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}
         <a class="blog-logo" href="{{ site.baseurl }}">
-            <img src="/assets/images/logo.png" alt="Blog Logo" />
+            <img src="/assets/images/logo.svg" alt="Blog Logo" />
         </a>
         {% endif %}
         <ul class="nav navbar-nav navbar-right">
@@ -33,7 +33,7 @@ logo: true
   {% for item in items reversed %}
         
         <a class="project-name project-title" href="{{item.url}}">
-                <div class="single-project-cover" style="background-image: url({{ item.project-cover }})"></div>
+                <div class="single-project-cover" style="background-image: url({{ item.project-small-cover }})"></div>
             <div class="project-text-name">    
                 <div class="project-title">{{item.title}}</div>
                 <div class="project-description">{{item.description}}</div>
