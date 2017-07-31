@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>{{ site.name }} - {{ site.description }}</title>
-    <meta name="description" content="{{ site.meta_description}}" />
-
+    <meta name="description" content="{{ site.meta_description }}" />
+	<meta property="og:url" content="http://yuriy.eu{{ page.url }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{{ site.name }} – {{ page.title }}" />
+	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:image" content="{{ page.project-cover }}" />
+	<meta property="fb:app_id" content="1496306313741117" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
