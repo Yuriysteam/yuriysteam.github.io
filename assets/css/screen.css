@@ -2389,8 +2389,22 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 	
 .preposition-intro {
 	display:flex;
-	margin:20px 0 40px;
-		
+	margin: 20px 0 90px;
+	}
+
+.preposition-text {
+	font-size: 30px;
+	width: 60%;
+	margin: 50px 30% 50px 10%;
+	line-height: 1.24;
+	text-align: left;
+	}
+
+.preposition-text-small {
+	font-size: 18px;
+	width: 70%;
+	margin: 20px 30% 50px 0%;
+	line-height: 1.4;
 	}
 
 .intro-preposition {
