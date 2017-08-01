@@ -29,3 +29,8 @@ $(document).ready(function () {
         $("#font-sample").css("font-size", parseInt($font_size));
     });
 });
+
+
+$(function () {
+     $('[data-typer-targets]').typer();
+   });
