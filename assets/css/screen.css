@@ -263,46 +263,25 @@ table {
 }
 
 @font-face {
-	font-family: "Graphik-Light";
-	src: url("../fonts/Graphik-Light.woff") format("woff");
-	font-weight: Light;
-	font-style: Light;
-}
-
-@font-face {
-	font-family: "Graphik-Regular";
-	src: url("../fonts/Graphik-Regular.woff") format("woff");
-	font-weight: Normal;
-	font-style: Normal;
-}
-
-@font-face {
-	font-family: "Graphik-SemiBold";
-	src: url("../fonts/Graphik-Semibold.woff") format("woff");
-	font-weight: Bold;
-	font-style: Bold;
+	font-family: "HKGrotesk";
+	src: url("../fonts/HK/HKGrotesk-SemiBold.woff") format("woff");
+	font-weight: bolder;
+	font-style: bolder;
 }
 
 
 @font-face {
-	font-family: "lijnen";
-	src: url("../fonts/lijnen-Regular.woff") format("woff");
-	font-weight: Normal;
-	font-style: Normal;
+	font-family: "HKGrotesk";
+	src: url("../fonts/HK/HKGrotesk-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "lijnen";
-	src: url("../fonts/lijnen-Regular.woff2") format("woff2");
-	font-weight: Normal;
-	font-style: Normal;
-}
-
-@font-face {
-	font-family: "lijnen";
-	src: url("../fonts/lijnen-Regular.eot") format("eot");
-	font-weight: Normal;
-	font-style: Normal;
+	font-family: "HKGrotesk";
+	src: url("../fonts/HK/HKGrotesk-Light.woff") format("woff");
+	font-weight: lighter;
+	font-style: lighter;
 }
 
 /* Apply these base styles to all icons */
@@ -382,10 +361,10 @@ html {
 body {
 	height: 100%;
 	max-height: 100%;
-	font-family: "Graphik-Light", serif;
+	font-family: "HKGrotesk", serif;
 	letter-spacing: 0.01rem;
-	font-size: 1.8rem;
-	line-height: 1.75em;
+	font-size: 1.9rem;
+	line-height: 1.5em;
 	color: #3A4145;
 	-webkit-font-feature-settings: 'kern' 1;
 	-moz-font-feature-settings: 'kern' 1;
@@ -412,7 +391,7 @@ h6 {
 	color: black;
 	line-height: 1.15em;
 	margin: 0 0 0.4em 0;
-	font-family: "Graphik-Semibold", sans-serif;
+	font-family: "HKGrotesk-Bold", sans-serif;
 }
 
 h1 {
@@ -739,7 +718,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav a {
 	text-decoration: none;
-	font-family: 'Graphik-Regular', sans-serif;
+	font-family: 'HKGrotesk-Regular', sans-serif;
 	font-size: 15px;
 }
 
@@ -944,7 +923,7 @@ nav ul li a {
 	font-size: 5rem;
 	letter-spacing: -1px;
 	font-weight: 700;
-	font-family: "Graphik-Semibold", sans-serif;
+	font-family: "HKGrotesk-Bold", sans-serif;
 	color: #fff;
 }
 
@@ -1029,7 +1008,7 @@ body:not(.post-template) .post-title {
 .post-meta {
 	display: block;
 	margin: 1.75rem 0 1.75rem 0;
-	font-family: "Graphik-Regular", sans-serif;
+	font-family: "HKGrotesk-Regular", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.2rem;
 	color: #9EABB3;
@@ -1159,7 +1138,7 @@ body:not(.post-template) .post-title {
 	color: #000;
 	font-size:30px;
 	line-height: 38px;
-	font-family: "Graphik-Light";
+	font-family: "HKGrotesk-Regular";
 }
 
 .buttons-area {
@@ -1409,13 +1388,13 @@ body:not(.post-template) .post-title {
 
 .project-title {
 	font-size: 1.7rem;
-	font-family: "Graphik-Light";
 }
 
 .project-description {
-	font-family: "Graphik-Light", sans-serif;
 	font-size: 1.7rem;
-	margin-top: 0px;
+	margin-top: 2px;
+	line-height: 2.2rem;
+	margin-bottom:50px;
 }
 
 .contact-row {
@@ -1659,7 +1638,7 @@ white-space: nowrap;
 	justify-content: center;
 	padding: 10px 20px;
 	color: #fff !important;
-	font-family: "Graphik-Semibold", sans-serif;
+	font-family: "HKGrotesk-Bold", sans-serif;
 	letter-spacing: 1px;
 	font-size: 0.7em;
 	text-align: center;
@@ -1800,7 +1779,7 @@ white-space: nowrap;
 .project-cover {
 	width: 100%;
 	margin-top: -30px;
-	height: 80vh;
+	height: 90vh;
 	background-size: cover;
 	background-position: center;
 	background-color: #b9b9b9;
@@ -1836,20 +1815,19 @@ white-space: nowrap;
 
 .single-project-title {
 	color: black;
-	font-size: 7.5rem;
+	font-weight:bold;
+	font-size: 9.5rem;
 	text-align: left;
-	line-height: 1.2em;
-	letter-spacing: 0px;
+	line-height: 1em;
 }
 
 .single-project-description {
-	color: black;
+	color: #2c2c2c;
 	margin: 0 auto;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	text-align: left;
 	margin-top: 30px;
-	line-height: 4rem;
-	font: "Graphik-Semibold";
+	line-height: 4.3rem;
 }
 
 #tabs {
@@ -2059,7 +2037,7 @@ white-space: nowrap;
 	width: 80%;
 	max-width: 710px;
 	margin: 4rem auto;
-	font-family: "Graphic-Light", sans-serif;
+	font-family: "HKGrotesk-Regular", sans-serif;
 	font-size: 1.3rem;
 	color: #9EABB3;
 	text-align: center;
@@ -2154,7 +2132,7 @@ white-space: nowrap;
 	margin: 8rem 0 0 0;
 	padding: 0.5rem 15px;
 	border-top: #EBF2F6 1px solid;
-	font-family: "Graphik-Regular", sans-serif;
+	font-family: "HKGrotesk-Regular", sans-serif;
 	font-size: 1rem;
 	line-height: 1.75em;
 	color: #BBC7CC;
@@ -2270,10 +2248,11 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 
 .p-text {
 	display: block;
-	width:70%;
+	width:60%;
 	margin: 10px auto 80px;
 	padding: 0 3rem;
 	line-height: 2.5rem;
+	max-width: 800px;
 	
 }
 
@@ -2375,12 +2354,13 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 }
 
 .position-name {
+	font-size: 2.1rem;
 	font-weight: bold;
 	margin-bottom:6px;
 }
 
 .position-text {
-	line-height: 1.3em;
+	line-height: 1.4em;
 }
 
 /* ==========================================================================
@@ -2648,7 +2628,7 @@ color: #626262;
 		}
 		
 		.intro-text {
-			width: 90%;
+			width: 80%;
 			
 		}
 		
@@ -2678,7 +2658,7 @@ color: #626262;
 
 		.position-name {
 	font-weight: bold;
-	margin-bottom:6px;
+	margin-bottom:15px;
 }
 
 		.position-text {
@@ -2691,6 +2671,11 @@ color: #626262;
 
 .weezzoo-desktop {
 			display: block;
+		}
+		
+		.p-text {
+		display: block;
+		width:80%;
 		}
 		
 	}
@@ -3060,6 +3045,13 @@ color: #626262;
 		.weezzoo-desktop {
 			display: none;
 		}
+		
+		.p-text {
+		display: block;
+		width:90%;
+		}
+
+	
 		
 	}
 	
