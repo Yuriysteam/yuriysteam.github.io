@@ -1815,7 +1815,7 @@ white-space: nowrap;
 
 .single-project-title {
 	color: black;
-	font-weight:bold;
+	font-weight:normal;
 	font-size: 9.5rem;
 	text-align: left;
 	line-height: 1em;
