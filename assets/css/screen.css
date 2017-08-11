@@ -2512,15 +2512,33 @@ color: #626262;
 			display: block;
 		}
 
+.process-d {
+	background: #f9f9f9;
+	padding: 1% 30px;
+}
+
 .pr-header {
 	color: black;
-	text-transform: uppercase;
-	font-size: 2.7rem;
+	font-size: 3.7rem;
 	text-align: left;
 	line-height: 1.2em;
 	font-weight: bold;
 	letter-spacing: 0px;
 	margin: 40px 0 20px;
+	
+}
+
+.contacts-d {
+	text-align: center;
+	margin: 40px;
+	
+}
+
+.contacts-h {
+	font-size: 3.7rem;
+	line-height: 1.2em;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 
@@ -2823,7 +2841,7 @@ color: #626262;
 			margin: 2rem auto;
 		}
 		.post {
-			width: 95%;
+			width: 96%;
 			margin: 2rem auto;
 			padding-bottom: 2rem;
 			line-height: 1.45em;
@@ -3136,7 +3154,7 @@ color: #626262;
 		
 		.info-section {
 		margin-bottom: 10px;
-		padding: 10px;
+		padding: 0px;
 		}
 		
 		.profinacies {
@@ -3164,6 +3182,9 @@ color: #626262;
 	font-weight: 900;
 	
 }
+		.process-d {
+			padding: 0px;
+		}
 		
 
 	
