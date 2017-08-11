@@ -6,6 +6,7 @@ project-cover: "/projects_img/northtraining/cover.jpg"
 project-small-cover: "/projects_img/northtraining/north-training-project.png"
 description: "Website templates for Czech language school in Prague"
 task: "create a web page templates to language courses."
+duration: "1 month"
 intro-text: "North Training is a Prague-based school offering courses in The English language. The school wanted to have a modern and understandable page for the young audience."
 type: project
 ---

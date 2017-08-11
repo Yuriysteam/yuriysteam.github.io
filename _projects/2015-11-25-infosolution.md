@@ -6,6 +6,7 @@ project-cover: "/projects_img/infosolutions/cover.jpg"
 project-small-cover: "/projects_img/infosolutions/info-solutions.png"
 description: "Identity for Blackberry supplier in Russia"
 task: "create a logotype and corporate style"
+duration: "3 months"
 intro-text: "Company “Infolosultions” offers a complex of different services for BlackBerry owners in Russia: store with Blackberry smartphones, phone accessories, repair service and set up help. Was created a modern and bright logotype with emphasis on technology and solutions."
 type: project
 ---

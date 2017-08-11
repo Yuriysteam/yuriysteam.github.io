@@ -1809,8 +1809,13 @@ white-space: nowrap;
 	margin:30px auto 40px;
 }
 
+.info-section {
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
 .intro-task {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .single-project-title {
@@ -2370,9 +2375,6 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
    10.3 Preposition styles
    ========================================================================== */
 
-.fintech {
-	background-color: black;
-}
 
 .preposition-intro {
 	display:flex;
@@ -2380,8 +2382,27 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 	width: 80%;
 	}
 
+.profinacies {
+	background: #fa6b5c;
+	padding: 10px;
+}
+
+.weezzo {
+	background: #2f4a99;
+	padding: 10px;
+}
+
+.mt-cash {
+	background: #ffffff;
+	padding: 10px;
+}
+
+.weezzo-padding {
+	padding: 20px;
+}
+
 .preposition-text {
-	font-size: 3.2rem;
+	font-size: 3rem;
 	width: 60%;
 	margin: 50px 30% 10vh 10%;
 	line-height: 1.24;
@@ -2389,11 +2410,19 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 	}
 
 .preposition-text-small {
-	font-size: 1.1em;
-	width: 70%;
-	margin: 20px 30% 50px 0%;
+	font-size: 1.0em;
+	width: 80%;
+	margin: 20px 20% 50px 0%;
 	line-height: 1.3em;
 	}
+
+.preposition-header {
+	text-transform: uppercase;
+}
+
+.preposition-point {
+	margin-bottom:20px;
+}
 
 .intro-preposition {
 	width: 90%;
@@ -2446,8 +2475,7 @@ color: #626262;
 .fin-project-text {
 	width: 35%;
 	vertical-align: middle;
-	margin-top: 100px;
-	padding: 0px;
+	margin-top: 5vh;
 	
 }
 
@@ -2714,6 +2742,14 @@ color: #626262;
    12. Media Queries - Smaller than 500px
    ========================================================================== */
 	@media only screen and (max-width: 500px) {
+		
+		.main-header {
+			letter-spacing: 0.01rem;
+			font-size: 2.4rem;
+			line-height: 1.5em;
+		}
+		
+		
 		.main-header {
 			margin-bottom: 15px;
 			height: 100px;
@@ -2978,9 +3014,7 @@ color: #626262;
 		
 		.intro-task {
 			color:rgba(0, 0, 0, 0.9);
-			border: 1px solid #cbcbcb;
-			padding:10px;
-			border-radius: 5px;
+			padding: 0px 10px;
 		}
 		
 		.project-text-name {
@@ -3050,8 +3084,9 @@ color: #626262;
 		}
 		
 		.fin-projects {
-			display: block;
+			display: flex;
 			width: 100%;
+			flex-direction: column-reverse;
 		}
 		
 		.fin-project-text {
@@ -3068,8 +3103,8 @@ color: #626262;
 		
 		.preposition-text-small {
 			font-size: 1.2em;
-			width: 90%;
-			margin: 20px 0 30px;
+			width: 100%;
+			margin: 20px auto 30px;
 			line-height: 1.3em;
 			
 		}
@@ -3082,16 +3117,53 @@ color: #626262;
 			display: none;
 		}
 		
+		.p-center {
+			margin: 20px auto 60px
+		}
+		
 		.p-text {
 		display: block;
 		width:90%;
+		margin: 10px auto 60px;
 		}
 		
 		.cv-wrapper {
-	width: 100%;
-	margin: 0 auto;
+		width: 100%;
+		margin: 0 auto;
 		
-	}
+		}
+		
+		.info-section {
+		margin-bottom: 10px;
+		padding: 10px;
+		}
+		
+		.profinacies {
+	background: #fa6b5c;
+	padding: 00px;
+}
+
+		.weezzo {
+	background: #2f4a99;
+	padding: 0px;
+}
+
+.mt-cash {
+	background: #ffffff;
+	padding: 0px;
+}
+
+.weezzo-padding {
+	padding: 0px;
+}
+		
+		.fin-ptoject-name {
+	font-size:18pt;
+	margin: 10px 0 5px;
+	font-weight: 900;
+	
+}
+		
 
 	
 		

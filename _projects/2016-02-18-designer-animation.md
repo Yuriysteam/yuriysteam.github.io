@@ -6,6 +6,7 @@ project-cover: "/projects_img/hardtobeadesigner/cover.jpg"
 project-small-cover: "/projects_img/hardtobeadesigner/hard-to-be-a-designer.png"
 description: "A true story from behind the desk about design duties"
 task: "create a cartoon animation."
+duration: "4 months"
 intro-text: "“Hard to be a designer” is an outcome of a school project about different areas: flags, clients, negotiations, life and design. It is a short animation video about a purple cat, who got a creative task to redesign flags."
 type: project
 ---
