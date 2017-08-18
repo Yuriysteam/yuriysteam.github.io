@@ -3183,7 +3183,9 @@ color: #626262;
 	
 }
 		.process-d {
-			padding: 0px;
+			padding: 15px;
+			box-sizing: border-box;
+			
 		}
 		
 
