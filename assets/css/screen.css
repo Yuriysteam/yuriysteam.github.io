@@ -3192,6 +3192,37 @@ color: #626262;
 	
 		
 	}
+
+
+
+/* ==========================================================================
+   12. Media Queries - Smaller than 350px
+   ========================================================================== */
+	@media only screen and (max-width: 350px) {
+		
+		.single-project-title {
+			font-size: 2.4em;
+			line-height: 1em;
+		}
+		
+		.preposition-text {
+			font-size: 1em;
+			line-height: 1.2em;
+		}
+		
+		.preposition-point {
+			
+			font-size: 0.95em;
+			line-height: 1.1em;
+			margin-bottom: 25px;
+		}
+		
+		.contacts-h{
+			font-size: 2em;
+			line-height: 1em;
+		}
+		
+}
 	
 	
 	/* ==========================================================================
