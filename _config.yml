@@ -8,9 +8,9 @@ logo: true
 gems: [jekyll-paginate]
 paginate: 15
 paginate_path: "page:num"
-baseurl: 'http://yuriy.eu'
 timezone: CZ
 domain_name: 'http://yuriy.eu'
+baseurl: 'http://yuriy.eu'
 paginate: 7
 collections: 
  projects:
