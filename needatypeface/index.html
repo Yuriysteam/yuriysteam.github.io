@@ -1,0 +1,57 @@
+---
+layout: default
+title: CV
+cover: false
+logo: true
+
+---
+
+<meta property="og:url" content="http://yuriy.eu{{ page.url }}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ site.name }} – {{ page.title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:image" content="{{ page.project-cover }}" />
+<meta property="fb:app_id" content="1496306313741117" />
+
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}
+        <a class="blog-logo" href="{{ site.baseurl }}">
+            <img src="/assets/images/logo.svg" alt="Blog Logo" />
+        </a>
+        {% endif %}
+        <ul class="nav navbar-nav navbar-right">
+            {% for nav_item in site.data.nav %} {% if page.url == nav_item.link %}
+            <li class="active">
+                {% else %}
+                <li>
+                    {% endif %}
+                    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+                </li>
+                {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+		<section class="post-content">
+			
+			<div class="intro">
+				<div class="intro-info">
+						<div class="single-project-title">So... you need a typeface?</div>
+				</div>
+				<div class="intro-text">
+			
+					<div class="intro-cv">When you working with well build UI kit or design system – things are easy. Hoewer, to chose a typeface for you need sometimes can be hard. I am making a collection of typefaces devided by style of use. Use this an inspiration.</div>
+				
+			</div>
+			</div>
+			
+				
+			
+		</section>
+	</article>
+</main>	
