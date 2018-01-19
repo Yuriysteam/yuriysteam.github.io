@@ -9,7 +9,7 @@ logo: true
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}
-        <a class="blog-logo" href="http://yuriy.eu">
+        <a class="blog-logo" href="{{ site.url }}">
             <img src="/assets/images/logo.svg" alt="Blog Logo" />
         </a>
         {% endif %}
