@@ -10,7 +10,7 @@ paginate: 15
 paginate_path: "page:num"
 timezone: CZ
 domain_name: 'http://yuriy.eu'
-baseurl: 'http://yuriy.eu'
+baseurl: 
 paginate: 7
 collections: 
  projects:
