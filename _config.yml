@@ -4,9 +4,7 @@ meta_description: "Finacial graphic designer based in Prague, Czech Republic. Th
 
 markdown: kramdown
 highlighter: rouge
-logo: true
-gems: [jekyll-paginate]
-paginate: 15
+logo: true 
 paginate_path: "page:num"
 timezone: CZ
 domain_name: 'http://yuriy.eu'
