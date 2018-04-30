@@ -1,0 +1,67 @@
+---
+layout: default
+title: Contact
+cover: false
+logo: true
+
+---
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}
+        <a class="blog-logo" href="{{ site.baseurl }}">
+            <img src="/assets/images/logo.svg" alt="Logo" />
+        </a>
+        {% endif %}
+        <ul class="nav navbar-nav navbar-right">
+            {% for nav_item in site.data.nav %} {% if page.url == nav_item.link %}
+            <li class="active">
+                {% else %}
+                <li>
+                    {% endif %}
+                    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+                </li>
+                {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+		<section class="post-content">
+			
+			<div class="intro">
+				<div class="intro-info">
+						<div class="single-project-title">Weekend explore</div>
+				</div>
+				<div class="intro-text">
+			
+					<div class="intro-cv">Hello, my name is Yuriy. I am a PragueCollege graduate. I am planing to do a series of short road expeditions during next several weekends. Main goal is to visit great places in CZ, take somebreaftaking selfies and have awesome weekends outside the city. If you like to join - leave your contacts below.</div>
+				
+			</div>
+			</div>
+			
+			<div class="cv-wrapper">
+				<div class="cv-position">
+					<div class="cv-date"></div>
+					<div class="cv-text"><b>Next trip to:</b> <a href="https://goo.gl/maps/2YToViSxaEu" target="_blank">Bezdez Castle</a></br>
+					<b>Date:</b> 19th of May</br>
+			<b>Price:</b> 200 czk per person + ticket for castle and food</br></br></br>
+			<b>Plan:</b></br>
+			We will go by car from Prague city center at 10:00. In 1,5 hour we will arive to Bezdez Castle and can spend several hours for exploration, pictures and lunch.
+			</br>
+			We have a car, so if we see something interesting – we can go there.
+			</br>We will go back to Prague around 18:00.
+			</br></br>P.S. If the demand will be high I will organize trips for both Saturday and Sunday. People with cars are welcome too.
+
+		
+		</div>
+				</div>
+			</div>
+			<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScPwdPBPskz6Qd95A1r3By-cU2iW4BMa0B5ICOK2jNM2h4zBg/viewform?embedded=true" width="500px" height="900px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
+				
+			
+		</section>
+	</article>
+</main>	
