@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Kill all unnecessary
 cover: false
 logo: true
 
@@ -16,11 +16,11 @@ logo: true
 			
 			<div class="intro">
 				<div class="intro-info">
-						<div class="single-project-title">Kill all unnecessary</div>
+					<div class="single-project-title">Kill all <strike>unnecessary</strike></div>
 				</div>
 				<div class="intro-text">
 			
-					<div class="intro-cv">My weekly attempts to make regular object simpler for people to using. It can be advertisment, letter, dish washer instructurn, form on a web page.</div>
+					<div class="intro-cv">My weekly posts about regular things and how to simplify them for people with the design. Those can be an advertisement, letter, electronics or form on a web page.</div>
 				
 			</div>
 			</div>
@@ -31,24 +31,10 @@ logo: true
 {% for post in site.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    
   </p>
 {% endfor %}
 				
-				<!-- Pagination links -->
-<div class="pagination">
-  {% if site.previous_page %}
-    <a href="{{ site.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ site.page }} of {{ site.total_pages }}</span>
-  {% if site.next_page %}
-    <a href="{{ site.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
 	
 	<div class="contact-row">
 		<div class="contact-message">
