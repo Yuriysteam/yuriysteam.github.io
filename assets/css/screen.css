@@ -1121,7 +1121,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-content {
-font-family: HKGrotesk-Regular;
+font-family: "HKGrotesk",sans-serif;
 font-size: 21px;
 color: #292929;
 line-height: 29px;
