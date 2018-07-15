@@ -80,18 +80,31 @@ body {
 }
 
 a {
-	background: transparent;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5d5d2;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
+
 }
+
 
 a:focus {
 	outline: thin dotted;
 }
 
-a:active,
 a:hover {
-	outline: 0;
-	text-decoration: underline;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cc967d;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
+
+
 
 h1 {
 	font-size: 2em;
@@ -285,6 +298,21 @@ table {
 	font-style: lighter;
 }
 
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora/Lora-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora/Lora-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: bold;
+}
+
 /* Apply these base styles to all icons */
 
 [class^="icon-"]:before,
@@ -391,12 +419,13 @@ h6 {
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	color: black;
 	line-height: 1.15em;
-	margin: 0 0 0.4em 0;
-	font-family: "HKGrotesk-Bold", sans-serif;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	font-family: "HKGrotesk-SemiBold", sans-serif;
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 5.5rem;
 	letter-spacing: 0px;
 	text-indent: -3px;
 }
@@ -492,14 +521,12 @@ hr {
 blockquote {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 1.75em 0 1.75em -2.2em;
+	margin: 1.75em 0 1.75em 2.2em;
 	padding: 0 0 0 1.75em;
-	border-left: #4A4A4A 0.4em solid;
 }
 
 blockquote p {
 	margin: 0.8em 0;
-	font-style: italic;
 }
 
 blockquote small {
@@ -700,7 +727,7 @@ margin on the iframe, cause it breaks stuff. */
 	display: table;
 	width: 100%;
 	height: 100%;
-	margin-bottom: 2rem;
+	margin-bottom: 0xrem;
 	text-align: center;
 	background: #222 no-repeat center center;
 	background-size: cover;
@@ -904,7 +931,6 @@ nav ul li a {
 
 .main-nav.overlay a:hover {
 	color: #222;
-	text-decoration: underline;
 }
 
 
@@ -939,7 +965,7 @@ nav ul li a {
 }
 
 .no-cover.main-header {
-	max-height: 160px;
+	max-height: 150px;
 	background: #fff;
 }
 
@@ -989,7 +1015,7 @@ nav ul li a {
 }
 
 body:not(.post-template) .post-title {
-	font-size: 3.6rem;
+	font-size: 5.6rem;
 }
 
 .post-title a {
@@ -1029,7 +1055,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a:hover {
-	text-decoration: underline;
+	
 }
 
 .user-meta {
@@ -1038,15 +1064,6 @@ body:not(.post-template) .post-title {
 	min-height: 77px;
 }
 
-.post-date {
-	display: inline-block;
-	margin-left: 8px;
-	padding-left: 12px;
-	border-left: #d5dbde 1px solid;
-	text-transform: uppercase;
-	font-size: 1.3rem;
-	white-space: nowrap;
-}
 
 .user-image {
 	position: absolute;
@@ -1083,6 +1100,38 @@ body:not(.post-template) .post-title {
 	display: block;
 	font-size: 1.4rem;
 	line-height: 1.5em;
+}
+
+.blog-wrapper {
+	width: 80%;
+	max-width:800px;
+	margin: 0 auto;
+	
+}
+
+.post-name {
+	font-weight: normal;
+	margin-bottom: 3rem;
+	
+}
+
+.post-name a:hover {
+	color:#393634;
+	
+}
+
+.post-content {
+font-family: HKGrotesk-Regular;
+font-size: 21px;
+color: #292929;
+line-height: 29px;
+margin-bottom: 20px;
+}
+
+.post-date {
+font-size: 15px;
+color: #565656;
+margin-bottom: 80px;
 }
 
 
@@ -1366,7 +1415,6 @@ body:not(.post-template) .post-title {
 }
 
 .projects-grid a:hover {
-	text-decoration: underline;
 	margin-bottom: 30px;
 }
 
@@ -1406,7 +1454,6 @@ body:not(.post-template) .post-title {
 }
 
 .contact-row a {
-	text-decoration: underline;
 }
 
 .contact-message {
@@ -1570,7 +1617,7 @@ white-space: nowrap;
 	margin: 0;
 }
 
-.post-template .post-date {
+.post-template {
 	padding: 0;
 	margin: 0;
 	border: none;
@@ -2372,6 +2419,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 	
 .cv-wrapper {
 	width: 80%;
+	max-width:1440px;
 	margin: 0 auto;
 		
 	}
@@ -2599,6 +2647,7 @@ color: #626262;
 			margin: 0;
 			padding: 0;
 			height: 100px;
+			height: auto;
 		}
 		.main-nav {
 			padding: 15px;
@@ -2659,6 +2708,7 @@ color: #626262;
 		}
 		h3 {
 			font-size: 3.1rem;
+			
 		}
 		h4 {
 			font-size: 2.5rem;
@@ -2819,9 +2869,10 @@ color: #626262;
 			height: 100px;
 		}
 		.no-cover.main-header {
-			height: 100px;
+			height: auto;
 			margin: 0;
 			padding: 0;
+			height:100px;
 		}
 		.archive-template .main-header {
 			max-height: 20%;
@@ -2891,13 +2942,10 @@ color: #626262;
 			padding-bottom: 2rem;
 			line-height: 1.45em;
 		}
-		.post-date {
-			display: none;
-		}
 		.post-template .post-header {
 			margin-bottom: 2rem;
 		}
-		.post-template .post-date {
+		.post-template {
 			display: inline-block;
 		}
 		hr {
@@ -3196,6 +3244,12 @@ color: #626262;
 		margin: 0 auto;
 		
 		}
+		
+		.blog-wrapper {
+	width: 96%;
+	margin: 0 auto;
+	
+}
 		
 		.info-section {
 		margin-bottom: 10px;
