@@ -1412,10 +1412,12 @@ margin-bottom: 80px;
 .projects-grid a {
 	text-decoration: none;
 	margin-bottom: 30px;
+	border-bottom: none;
 }
 
 .projects-grid a:hover {
 	margin-bottom: 30px;
+	border-bottom: none;
 }
 
 .project-name {
@@ -1427,6 +1429,9 @@ margin-bottom: 80px;
 	margin-top: 20px;
 }
 
+
+
+
 .single-project-cover {
 	width: 100%;
 	padding-top: 80%;
@@ -1437,7 +1442,18 @@ margin-bottom: 80px;
 
 .project-title {
 	font-size: 1.7rem;
+	display:inline;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5d5d2;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
+
+
+
 
 .project-description {
 	font-size: 1.7rem;
@@ -1454,6 +1470,22 @@ margin-bottom: 80px;
 }
 
 .contact-row a {
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5d5d2;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
+}
+
+.contact-row a:hover {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cc967d;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
 
 .contact-message {
