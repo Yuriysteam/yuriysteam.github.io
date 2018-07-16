@@ -665,6 +665,10 @@ margin on the iframe, cause it breaks stuff. */
 	margin: 0;
 }
 
+p {
+	margin: 1.5rem 0;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
