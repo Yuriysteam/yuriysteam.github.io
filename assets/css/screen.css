@@ -2670,24 +2670,6 @@ color: #626262;
    ========================================================================== */
 	@media only screen and (max-width: 900px) {
 		
-
-		
-		h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	-webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-	-moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-	color: black;
-	line-height: 1.15em;
-	margin-top: 3rem;
-	margin-bottom: 1rem;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
-}
-		
 		.main-header {
 			margin-bottom: 15px;
 			height: 100px;
@@ -2738,7 +2720,7 @@ h6 {
 			width: 100%;
 			font-size: 0.95em
 		}
-		}
+		
 		hr {
 			margin: 2.4em 0;
 		}
@@ -2749,22 +2731,28 @@ h6 {
 		h1 {
 			font-size: 4.5rem;
 			text-indent: 0px;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		h2 {
 			font-size: 3.6rem;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		h3 {
 			font-size: 3.1rem;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 			
 		}
 		h4 {
 			font-size: 2.5rem;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		h5 {
 			font-size: 2.2rem;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		h6 {
 			font-size: 1.8rem;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		.author-profile {
 			padding-bottom: 4rem;
@@ -3082,12 +3070,12 @@ h6 {
 		.post-content .full-img {
 			width: auto;
 			width: calc(100% + 32px);
-			/* expand with to image + margins */
+			
 			margin: 0 -16px;
-			/* get rid of margins */
+			/
 			min-width: 0;
 			max-width: 112%;
-			/* fallback when calc doesn't work */
+			
 		}
 		.post-meta {
 			font-size: 1.3rem;
