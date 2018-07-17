@@ -47,4 +47,8 @@ After internal debate decided that lines need to be marked with letters.
 
 Because metro navigation uses A, B, C letters on signs to help to the right line. As well, traditionally, citizens of Prague say A line or B line, instead of colour.
 
+More out of curiosity: navigation signs for stations. German style arrows with cardinal and station directions. 
+
+<span class="p800">![map](/blog_img/metro/signs.png)</span>
+
 Feel free to send me a comment by <a href="mailto:yuriysteam@icloud.com" target="_top">mail</a> or on <a href="https://t.me/yuriysteam">Telegram</a>.
