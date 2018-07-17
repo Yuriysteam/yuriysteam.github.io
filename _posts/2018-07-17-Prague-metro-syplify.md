@@ -45,6 +45,6 @@ After internal debate decided that lines need to be marked with letters.
 
 <span class="p800">![map](/blog_img/metro/map-prague-metro-v0.2.png)</span>
 
-The reason is because all metro outdor navigation is using A, B, C letters to get you to the right line. Moreover, citizens of Prague use to say A line or B line, insted of colour.
+Because metro navigation uses A, B, C letters on signs to help to the right line. As well, traditionally, citizens of Prague say A line or B line, instead of colour.
 
 Feel free to send me a comment by <a href="mailto:yuriysteam@icloud.com" target="_top">mail</a> or on <a href="https://t.me/yuriysteam">Telegram</a>.
