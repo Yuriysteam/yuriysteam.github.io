@@ -41,7 +41,7 @@ Small details: adding balance to names, lines with the grid, changing colours an
 
 <span class="p800">![map](/blog_img/metro/map-prague-metro-v0.1.png)</span>
 
-After internal debate decided that lines need to be markedwith letters.
+After internal debate decided that lines need to be marked with letters.
 
 <span class="p800">![map](/blog_img/metro/map-prague-metro-v0.2.png)</span>
 
