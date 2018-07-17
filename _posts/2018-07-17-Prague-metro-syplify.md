@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prague metro: simplify "
-date: 2018-07-16 00:00:00
+date: 2018-07-17 00:00:00
 categories: Design
 ---
 
@@ -11,13 +11,13 @@ I had tried several approaches all around the same idea: trying to keep the shap
 
 <span class="p800">![map](/blog_img/metro/dark-v1.png)</span>
 
-<span class="p800">![map](/blog_img/metro/dark-v1.png)</span>
-
 Collection of black and white maps.
 
-<span class="p800">![map](/blog_img/metro/map-vars.png)</span>
+<span class="p800">![map](/blog_img/metro/dark-v2.png)</span>
 
 Made different central solutions.
+
+<span class="p800">![map](/blog_img/metro/map-vars.png)</span>
 
 Yesterday in Artem's Gorbunov Bureau advice page was published an advice about scheme of Prague's metro. Ilya Birman [was giving](https://bureau.ru/bb/soviet/20180717/) a video comment about it.
 
