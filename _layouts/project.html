@@ -10,8 +10,8 @@ layout: default
                 </a>
     </nav>
 </header>
-<div class="project-cover" style="background-image: url({{ page.project-cover }})">
-</div>
+<!--<div class="project-cover" style="background-image: url({{ page.project-cover }})">
+</div> -->
 
 
 {% assign parts = page.content | split: "Process!" %}
@@ -37,7 +37,8 @@ layout: default
 				</div>
 				<div class="intro-text">
 					<div class="info-section">
-					<div class="intro-task"><b>TASK: </b>{{ page.task }}</div>
+					<div class="intro-task"><b>Task: </b>{{ page.task }}</div>
+					<div class="intro-task"><a href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></div>
 					<div class="intro-task">{{ page.link_url }}</div>	
 					</div>
 					<div class="intro-text-p">{{ page.intro-text }}</div>

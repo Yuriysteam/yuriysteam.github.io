@@ -1928,7 +1928,11 @@ white-space: nowrap;
 
 .intro-text {
 	width: 80%;
-	margin:30px auto 40px;
+	margin:30px auto 60px;
+}
+
+.intro-text-p {
+	margin-top:50px;
 }
 
 .info-section {
@@ -1942,11 +1946,11 @@ white-space: nowrap;
 
 .single-project-title {
 	color: black;
-	font-weight: normal;
-	font-size: 9.5rem;
+	font-weight: bold;
+	font-size: 6.5rem;
 	text-align: left;
 	line-height: 1em;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .single-project-description {

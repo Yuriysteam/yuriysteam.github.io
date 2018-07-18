@@ -8,6 +8,7 @@ description: "UX/UI and app design insurance and loan company"
 task: "create a user interface for insurance and loan app."
 intro-text: "ProFinacie is one of the leading companies on Slovak market working with insurances and loans. It presents a variety of services throw their offices and website. Lately, the company wanted to allow it’s customers in Slovakia and Czech Republic to be able to use main service on the go. To fulfil this need was designed modern, convenient and logical app."
 type: project
+block: half
 ---
 <span class="p300">![welcome screen](/projects_img/profinacie/main.png)</span>
 

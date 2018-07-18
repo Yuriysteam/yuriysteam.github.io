@@ -9,6 +9,7 @@ task: "create a logotype and corporate style"
 duration: "3 months"
 intro-text: "Company “Infolosultions” offers a complex of different services for BlackBerry owners in Russia: store with Blackberry smartphones, phone accessories, repair service and set up help. Was created a modern and bright logotype with emphasis on technology and solutions."
 type: project
+block: half
 ---
 
 <span class="p600">![logo](/projects_img/infosolutions/logo.png)</span>
