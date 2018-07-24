@@ -8,7 +8,10 @@ description: "UX/UI and app design insurance and loan company"
 task: "create a user interface for insurance and loan app."
 intro-text: "ProFinacie is working with insurances and loans. For their customers company wanted to provide main service on the go. I designed an app for that."
 type: project
+
 block: half
+template: single-project-cover
+new-cover: "/projects_img/profinacie/cover.jpg"
 ---
 <span class="p300">![welcome screen](/projects_img/profinacie/main.png)</span>
 

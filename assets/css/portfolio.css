@@ -1,7 +1,74 @@
+	* {
+	border: 0px dashed green;
+}
+
 .projects-grid2 {
 	padding: 0 2%;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.projects-grid2 a {
+	border-bottom: none;
+}
+
+
+
+.full {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	max-height: 400px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+	
 }
 
 .half {
+	width: 48%;
+	padding: 0px;
+	margin-bottom: 20px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.tree {
+	width: 32%;
+	padding: 0px;
+	margin-bottom: 20px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.text-name {
+	font-size: 2.4rem;
+	margin: 40px 0;
+}
+
+.image-name {
+	margin: 20px 0;
+}
+
+.no-name {
+	display: none;
+}
+
+.sngl-prj-covr {
+	padding-top: 300px;
+	background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+	background-color: #fff;
+	
+}
+
+.ylla {
+	font-family: "sans-serif";
 }

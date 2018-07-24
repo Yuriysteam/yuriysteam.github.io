@@ -15,21 +15,17 @@ logo: true
   {% for item in items reversed %}
         
         <a class="{{item.block}}" href="{{item.url}}">
-                <div class="single-project-cover" style="background-image: url({{ item.project-small-cover }})"></div>
-            <div class="project-text-name">    
-                <div class="project-title">{{item.title}}</div>
-                <div class="project-description">{{item.description}}</div>
+			<div class="{{ item.template }}" style="background-image: url({{ item.new-cover }})"></div>
+			
+            <div class="{{item.nametemplate}} {{ item.custom-font }}">    
+                <div class="">{{item.title}}</div>
+                <div class="">{{item.description}}</div>
             </div>  
         </a>
   {% endfor %}
 	
-</div>
-	<div class="contact-row">
-		<div class="contact-message">
-			
-			I am making web applications, sites and logotypes. I lead design and development teams. Currently working as product head and on my own projects. Travel, blog and experiment..</br></br>
-Contact me by <a href="mailto:yuriysteam@icloud.com" target="_top">mail</a> or on <a href="https://t.me/yuriysteam">Telegram</a>.</div>
-</div>
 
+	{% include contact-wrap.html %}
+</div>
 
     

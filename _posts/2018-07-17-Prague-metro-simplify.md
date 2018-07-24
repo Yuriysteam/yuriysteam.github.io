@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prague metro: simplify "
+title: "Prague metro: simplify"
 date: 2018-07-17 00:00:00
 categories: Design
 ---
