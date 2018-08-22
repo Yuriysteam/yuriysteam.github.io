@@ -17,7 +17,7 @@ To save time and keep project organised name all files in date format Year-month
 
 <span class="p800">![map](/blog_img/advices/organized_files.png)</span>
 
-I name files at the end of the day. To avoid typing date manually I use <a href="http://yuriy.eu/blog_img/advices/current_date.workflow">action from Automator</a>. It adds the current date to selected file or folder.
+I name files at the end of the day. To avoid typing date manually I use <a href="https://www.dropbox.com/s/eabf46psk6fi8nz/current_date.workflow.zip?dl=0" target="_blank">action from Automator</a>. It adds the current date to selected file or folder.
 
 <span class="p800">![map](/blog_img/advices/current_date.png)</span>
 
