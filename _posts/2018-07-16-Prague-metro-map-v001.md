@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Prague metro map v0.0.1"
+title: "Prague Metro Map v0.0.1"
 date: 2018-07-15 00:00:00
 categories: Design
+permalink: /blog/prague-metro-map-redesign-start
 ---
 
 I have been living in Prague for 4 years and love the city. I love urban areas for modern and old architecture. I love for smart approach to space organisation. And my most favourite is the metro. 

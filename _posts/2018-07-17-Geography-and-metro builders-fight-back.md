@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Geography and metro builders fight back"
+title: "Geography and Metro Builders Fight Back"
 date: 2018-07-24 00:00:00
 categories: Design
+permalink: /blog/geography-and-metro-builders-fight-back
 ---
 
 Last week I was breaking a traditional layout for the Prague metro. This week I started by adding a future D line. Then shameful happened. In 2020 in plans to connect A and B on Zličin. 
