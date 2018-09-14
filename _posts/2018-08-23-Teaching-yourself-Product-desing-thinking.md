@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Teaching Yourself Product Design Thinking"
-date: 2018-08-22 00:07:00
+date: 2018-09-13 00:07:00
 categories: Design
 permalink: /blog/teaching-yourself-product-design-thinking
 ---
