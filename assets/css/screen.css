@@ -109,6 +109,7 @@ a:hover {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	font-family: "HKGrotesk-SemiBold", sans-serif;
 }
 
 abbr[title] {
@@ -298,20 +299,6 @@ table {
 	font-style: lighter;
 }
 
-@font-face {
-	font-family: "Lora";
-	src: url("../fonts/Lora/Lora-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: "Lora";
-	src: url("../fonts/Lora/Lora-Bold.woff") format("woff");
-	font-weight: bold;
-	font-style: bold;
-}
 
 /* Apply these base styles to all icons */
 
@@ -428,6 +415,7 @@ h1 {
 	font-size: 5.5rem;
 	letter-spacing: 0px;
 	text-indent: -3px;
+	font-family: "HKGrotesk-SemiBold", sans-serif;
 }
 
 h2 {
@@ -1007,7 +995,7 @@ nav ul li a {
 
 .post {
 	position: relative;
-	width: 90%;
+	width: 100%;
 	max-width: 1440px;
 	margin: 0rem auto;
 	padding-bottom: 0rem;
@@ -1020,6 +1008,7 @@ nav ul li a {
 
 .post-title a {
 	text-decoration: none;
+	font-family: "HKGrotesk-SemiBold", sans-serif;
 }
 
 .post-excerpt p {
@@ -2827,7 +2816,7 @@ color: #626262;
 			margin-bottom: 20px;
 		}
 		.post-title {
-		font-family: "HKGrotesk";
+		font-family: "HKGrotesk-SemiBold", sans-serif;
 		font-weight: 700;
 }
 		.share a {
@@ -3075,6 +3064,7 @@ h6 {
 		h1 {
 			font-size: 3.8rem;
 			letter-spacing: 0px;
+			font-family: "HKGrotesk-SemiBold", sans-serif;
 		}
 		h2 {
 			font-size: 2.4rem;
