@@ -84,7 +84,7 @@ a {
 	text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #e5d5d2;
+    border-bottom-color: #939191;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
@@ -457,11 +457,24 @@ h6 {
 a {
 	color: black;
 	transition: color ease 0.3s;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #2a2a2a;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
 
 a:hover {
 	color: #111;
 	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #343434;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
 
 p,
@@ -1479,7 +1492,7 @@ margin-bottom: 80px;
 	text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #e5d5d2;
+    border-bottom-color: #939191;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
@@ -1488,7 +1501,7 @@ margin-bottom: 80px;
 .contact-row a:hover {
 	border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #cc967d;
+    border-bottom-color: #72706f;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;

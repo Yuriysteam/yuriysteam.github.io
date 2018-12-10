@@ -27,29 +27,4 @@ Development team lead – <a href='https://dynameyes.com' target='_blank'>Geroni
 
 <span class="p-center">Sunrise, horizons, movement and dynamic</span><br>
 
-
-
-To represent different directions for the brand was designed a custom typeface. The logo is changing according to the service.
-
-[word marks]
-
-A set of stationary documents for signing contracts and sending official documentation.
-[stationary]
-
-
-For different directions used different colour combinations. Business kept calm, personal is bright and energetic and cash transfers are (?)
-
-[logos icons]
-
-
-For outsider advertisement was created a layout for printed ads and posters. The layout is adjustable to different languages and sizes.
-
-[posters]
-
-All campaigns are based on distinctive styles and recognisable characters. 
-
-To represent the brand offline was developed guidelines for branches and offices. 
-
-[offices]
-
-Rowa B to the Moon and beyond. 
+Full case study comming soon

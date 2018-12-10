@@ -12,9 +12,6 @@
 	align-items: flex-start;
 }
 
-.projects-grid2 a {
-	border-bottom: none;
-}
 
 
 
@@ -25,6 +22,8 @@ max-height: 400px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+	border-bottom-width: 0px;
+    border-bottom-style: none;
 	
 }
 
@@ -35,6 +34,8 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+	border-bottom-width: 0px;
+    border-bottom-style: none;
 }
 
 .seven {
@@ -44,6 +45,8 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+	border-bottom-width: 0px;
+    border-bottom-style: none;
 }
 
 .three {
@@ -53,16 +56,14 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+	border-bottom-width: 0px;
+    border-bottom-style: none;
 }
 
-.three-v {
-		width: 24%;
-		 flex-flow: column wrap;
-	margin-bottom: 20px;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-	}
+a .three .seven .half .full :hover {
+	border-bottom-width: 0px;
+    border-bottom-style: none;
+}
 
 .text-name {
 	font-size: 2.4rem;
