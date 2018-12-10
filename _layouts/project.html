@@ -33,11 +33,12 @@ layout: default
 			<div class="intro">
 				<div class="intro-info">
 					<div class="single-project-title">{{ page.title }}</div>
-        			<div class="single-project-description">{{ page.description }}</div>
+        			<!--<div class="single-project-description">{{ page.description }}</div>-->
 				</div>
 				<div class="intro-text">
 					<div class="info-section">
 					<div class="intro-task"><b>Task: </b>{{ page.task }}</div>
+						<div class="intro-task"><b>Role: </b>{{ page.role }}</div>
 					<div class="intro-task"><a href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></div>
 					<div class="intro-task">{{ page.link_url }}</div>	
 					</div>
@@ -49,8 +50,22 @@ layout: default
 			
 			
 			
-            {{ parts.first }}</div>
+            {{ parts.first }}
+			</div>
+			
             <div id="show-process">{{ parts.last }}</div>
+			
+			
+			<div class="intro">
+				<div class="intro-text">
+					<div class="info-section"><h3>About the project</h3>
+					<div class="intro-task">Created in: {{ page.days }}</div>
+					<div class="intro-task">{{ page.author }}</div>	
+					</div>
+					
+					
+				</div>
+			</div>
             
         </section>
 

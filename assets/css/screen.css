@@ -1,5 +1,6 @@
 	* {
 	border: 0px dashed green;
+	
 }
 	
 
@@ -109,7 +110,7 @@ a:hover {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
+	
 }
 
 abbr[title] {
@@ -277,6 +278,7 @@ table {
 	font-style: normal;
 }
 
+/*
 @font-face {
 	font-family: "HKGrotesk";
 	src: url("../fonts/HK/HKGrotesk-SemiBold.woff") format("woff");
@@ -298,7 +300,21 @@ table {
 	font-weight: lighter;
 	font-style: lighter;
 }
+*/
 
+@font-face {
+	font-family: "AftenScreen";
+	src: url("../fonts/AftenScreen.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+	
+	@font-face {
+	font-family: "AftenScreen";
+	src: url("../fonts/AftenScreen-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: bold;
+}
 
 /* Apply these base styles to all icons */
 
@@ -377,11 +393,10 @@ html {
 body {
 	height: 100%;
 	max-height: 100%;
-	font-family: "HKGrotesk", serif;
-	letter-spacing: 0.01rem;
+	font-family: "AftenScreen", sans-serif;	
 	font-size: 1.9rem;
 	line-height: 1.5em;
-	color: #3A4145;
+	color: #282828;
 	-webkit-font-feature-settings: 'kern' 1;
 	-moz-font-feature-settings: 'kern' 1;
 	-o-font-feature-settings: 'kern' 1;
@@ -408,14 +423,14 @@ h6 {
 	line-height: 1.15em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
+	
 }
 
 h1 {
 	font-size: 5.5rem;
 	letter-spacing: 0px;
 	text-indent: -3px;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
+	
 }
 
 h2 {
@@ -490,7 +505,7 @@ dl dd {
 }
 
 li {
-	margin: 0.4em 0;
+	margin: 0.2em 0;
 }
 
 li li {
@@ -738,7 +753,6 @@ p {
 
 .main-nav a {
 	text-decoration: none;
-	font-family: 'HKGrotesk-Regular', sans-serif;
 	font-size: 15px;
 }
 
@@ -819,7 +833,7 @@ p {
 	box-sizing: border-box;
 	display: block;
 	height: 64px;
-	margin-left: 30px;
+	
 	padding: 1px 0 5px 0;
 	width: auto;
 }
@@ -940,7 +954,7 @@ nav ul li a {
 	font-size: 5rem;
 	letter-spacing: -1px;
 	font-weight: 700;
-	font-family: "HKGrotesk-Bold", sans-serif;
+	
 	color: #fff;
 }
 
@@ -949,13 +963,13 @@ nav ul li a {
 	font-size: 2rem;
 	line-height: 1.5em;
 	font-weight: 400;
-	font-family: "Merriweather", serif;
+	
 	letter-spacing: 0.01rem;
 	color: rgba(255, 255, 255, 0.8);
 }
 
 .no-cover.main-header {
-	max-height: 150px;
+	max-height: 95px;
 	background: #fff;
 }
 
@@ -995,7 +1009,7 @@ nav ul li a {
 
 .post {
 	position: relative;
-	width: 100%;
+	width: 70%;
 	max-width: 1440px;
 	margin: 0rem auto;
 	padding-bottom: 0rem;
@@ -1008,7 +1022,7 @@ nav ul li a {
 
 .post-title a {
 	text-decoration: none;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
+	font-family: "", sans-serif;
 }
 
 .post-excerpt p {
@@ -1024,7 +1038,7 @@ nav ul li a {
 .post-meta {
 	display: block;
 	margin: 1.75rem 0 1.75rem 0;
-	font-family: "HKGrotesk-Regular", sans-serif;
+	
 	font-size: 1.5rem;
 	line-height: 2.2rem;
 	color: #9EABB3;
@@ -1099,9 +1113,9 @@ nav ul li a {
 }
 
 .post-name {
-	font-family: "HKGrotesk";
+	
 	font-weight: 800;
-	margin-bottom: 3rem;
+	margin-bottom: 0rem;
 }
 
 .post-name a:hover {
@@ -1110,9 +1124,8 @@ nav ul li a {
 }
 
 .post-content {
-font-family: "HKGrotesk",sans-serif;
-font-size: 21px;
-color: #292929;
+
+font-size: 22px;
 line-height: 29px;
 margin-bottom: 20px;
 }
@@ -1121,7 +1134,7 @@ margin-bottom: 20px;
 font-size: 15px;
 color: #565656;
 margin-bottom: 80px;
-	font-family: "HKGrotesk"
+	
 }
 
 
@@ -1178,7 +1191,7 @@ margin-bottom: 80px;
 	color: #000;
 	font-size:30px;
 	line-height: 38px;
-	font-family: "HKGrotesk-Regular";
+	
 }
 
 .buttons-area {
@@ -1424,7 +1437,7 @@ margin-bottom: 80px;
 
 .single-project-cover {
 	width: 100%;
-	padding-top: 80%;
+	padding-top: 75%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1454,9 +1467,9 @@ margin-bottom: 80px;
 }
 
 .contact-row {
-	width: 90%;
+	width: 100%;
 	max-width: 1440px;
-	margin-top:40px;
+	margin-top:30px;
 	font-size: 2.4rem;
 	color:black;
 	margin-bottom: 10px;
@@ -1483,6 +1496,8 @@ margin-bottom: 80px;
 
 .contact-message {
 	max-width: 800px;
+	font-size: 30px;
+	line-height: 1.1em;
 	float:left;
 	
 }
@@ -1563,7 +1578,7 @@ margin-bottom: 80px;
 	padding: 20px;
 	line-height: 100%;
 	font-size: 120px;
-	font-family: "lijnen";
+	
 	overflow: hidden;
 white-space: nowrap;
 }
@@ -1576,7 +1591,7 @@ white-space: nowrap;
 	padding: 20px;
 	line-height: 100%;
 	font-size: 45px;
-	font-family: "lijnen";
+	
 	overflow: hidden;
 	line-height: 60px;
 	letter-spacing: 2px;
@@ -1781,7 +1796,7 @@ white-space: nowrap;
 	justify-content: center;
 	padding: 10px 20px;
 	color: #fff !important;
-	font-family: "HKGrotesk-Bold", sans-serif;
+	
 	letter-spacing: 1px;
 	font-size: 0.7em;
 	text-align: center;
@@ -1943,12 +1958,12 @@ white-space: nowrap;
 }
 
 .intro-info {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .intro-text {
-	width: 80%;
+	width: 100%;
 	margin:30px auto 60px;
 }
 
@@ -2190,7 +2205,7 @@ white-space: nowrap;
 	width: 80%;
 	max-width: 710px;
 	margin: 4rem auto;
-	font-family: "HKGrotesk-Regular", sans-serif;
+	
 	font-size: 1.3rem;
 	color: #9EABB3;
 	text-align: center;
@@ -2285,7 +2300,7 @@ white-space: nowrap;
 	margin: 8rem 0 0 0;
 	padding: 0.5rem 15px;
 	border-top: #EBF2F6 1px solid;
-	font-family: "HKGrotesk-Regular", sans-serif;
+	
 	font-size: 1rem;
 	line-height: 1.75em;
 	color: #BBC7CC;
@@ -2327,50 +2342,50 @@ white-space: nowrap;
 .p1000 img {
 	width: 100%;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 .p900 img {
 	width: 100%;
 	max-width: 900px;
-	margin: 0 auto 0;
+	margin: 30px auto;
 }
 
 .p800 img {
 	width: 100%;
 	max-width: 900px;
-	margin: 0 auto 0;
+	margin: 30px auto;
 }
 
 
 .p700 img {
 	width: 100%;
 	max-width: 700px;
-	margin: 0 auto 0;
+	margin: 30px auto;
 }
 
 .p600 img {
 	width: 100%;
 	max-width: 600px;
-	margin: 0 auto 0px;
+	margin: 30px auto;
 }
 
 .p500 img {
 	width: 100%;
 	max-width: 500px;
-	margin: 0 auto 0px;
+	margin: 30px auto;
 }
 
 .p400 img {
 	width: 100%;
 	max-width: 400px;
-	margin: 0 auto 0px;
+	margin: 30px auto;
 }
 
 .p300 img {
 	width: 100%;
 	max-width: 300px;
-	margin: 0 auto 0px;
+	margin: 30px auto 30px;
 }
 
 .phero img {
@@ -2387,13 +2402,14 @@ white-space: nowrap;
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	margin: 50px auto;
 }
 
 .p-center {
 	text-align: center;
 	display: block;
 	max-width: 700px;
-	margin: 20px auto 100px;
+	margin: 20px auto 20px;
 	padding-top: 10px;
 	line-height: 2.5rem;
 	font-size:13pt;
@@ -2702,7 +2718,7 @@ color: #626262;
 		.no-cover.main-header {
 			margin: 0;
 			padding: 0;
-			height: 100px;
+			height: 95px;
 		}
 		.main-nav {
 			padding: 15px 15px 0 15px;
@@ -2742,7 +2758,7 @@ color: #626262;
 			line-height: 1.5em;
 		}
 		.post {
-			width: 100%;
+			width: 98%;
 			font-size: 0.95em
 		}
 		
@@ -2756,28 +2772,28 @@ color: #626262;
 		h1 {
 			font-size: 4.5rem;
 			text-indent: 0px;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		h2 {
 			font-size: 3.6rem;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		h3 {
 			font-size: 3.1rem;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 			
 		}
 		h4 {
 			font-size: 2.5rem;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		h5 {
 			font-size: 2.2rem;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		h6 {
 			font-size: 1.8rem;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		.author-profile {
 			padding-bottom: 4rem;
@@ -2816,7 +2832,7 @@ color: #626262;
 			margin-bottom: 20px;
 		}
 		.post-title {
-		font-family: "HKGrotesk-SemiBold", sans-serif;
+		
 		font-weight: 700;
 }
 		.share a {
@@ -2854,7 +2870,7 @@ color: #626262;
 		}
 		
 		.intro-text {
-			width: 80%;
+			width: 90%;
 			
 		}
 		
@@ -2940,7 +2956,7 @@ h6 {
 	line-height: 1.15em;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	font-family: "HKGrotesk-SemiBold", sans-serif;
+	
 }
 		
 		.main-header {
@@ -2958,7 +2974,7 @@ h6 {
 			height: auto;
 			margin: 0;
 			padding: 0;
-			height:100px;
+			height: 110px;
 		}
 		.archive-template .main-header {
 			max-height: 20%;
@@ -3064,7 +3080,7 @@ h6 {
 		h1 {
 			font-size: 3.8rem;
 			letter-spacing: 0px;
-			font-family: "HKGrotesk-SemiBold", sans-serif;
+			
 		}
 		h2 {
 			font-size: 2.4rem;
@@ -3174,7 +3190,7 @@ h6 {
 			background-color: #b9b9b9;
 		}
 		.single-project-cover {
-			padding-top: 60%;
+			padding-top: 75%;
 			width: 100%;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -3228,9 +3244,9 @@ h6 {
 		}
 		
 		.contact-row {
-			width:95%;
-			margin: 30px auto 0;
-			font-size: 1.7rem;
+			width:100%;
+			margin: 30px auto 10px;
+			font-size: 1.5rem;
 		}
 		
 		.message {
@@ -3315,7 +3331,7 @@ h6 {
 		}
 		
 		.p-center {
-			margin: 20px auto 60px
+			margin: 20px auto 40px
 		}
 		
 		.p-text {

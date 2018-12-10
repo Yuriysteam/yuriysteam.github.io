@@ -7,24 +7,30 @@ logo: true
 
 ---
 
+
 {% include navigation.html %}
 
 
-<div class="projects-grid">
+
+<div class="projects-grid2">
+	
+	{% include contact-wrap.html %}
+	
     {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
         
-        <a class="project-name project-title" href="{{item.url}}">
-                <div class="single-project-cover" style="background-image: url({{ item.project-small-cover }})"></div>
-            <div class="project-text-name">    
-                <div class="project-title">{{item.title}}</div>
-                <div class="project-description">{{item.description}}</div>
+        <a class="{{item.block}}" href="{{item.url}}">
+			<div class="{{ item.template }}" style="background-image: url({{ item.new-cover }})"></div>
+			
+            <div class="{{item.nametemplate}} {{ item.custom-font }}">    
+                <div class="item-titel"><b>{{item.title}}</b></div>
+                <div class="item-description {{item.custom}}">{{item.description}}</div>
             </div>  
         </a>
   {% endfor %}
 	
 
-	{% include contact-wrap.html %}
-
+	{% include contact-wrap-bottom.html %}
+	
 </div>
     

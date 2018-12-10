@@ -10,6 +10,7 @@ duration: "1 month"
 intro-text: "North Training is a Prague-based school offering courses in The English language. The school wanted to have a modern and understandable page for the young audience."
 type: project
 block: half
+permalink: projects/northtraining
 ---
 
 <span class="p700">![home page](/projects_img/northtraining/homepage.jpg)</span>
