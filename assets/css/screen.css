@@ -455,23 +455,23 @@ h6 {
 }
 
 a {
-	color: black;
+	color: #0d0d0d;
 	transition: color ease 0.3s;
 	text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #2a2a2a;
+    border-bottom-color: #d8d8d8;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
 }
 
 a:hover {
-	color: #111;
+	color: #0f0e0e;
 	text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #343434;
+    border-bottom-color: #3c3b3b;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
@@ -682,7 +682,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 p {
-	margin: 1.5rem 0;
+	margin: 1.8rem 0;
 }
 
 
@@ -944,6 +944,7 @@ nav ul li a {
 
 .main-nav.overlay a {
 	color: #9EABB3;
+	border-bottom-color: #d0dae0;
 }
 
 .main-nav.overlay a:hover {
@@ -1119,9 +1120,9 @@ nav ul li a {
 }
 
 .blog-wrapper {
-	width: 80%;
+	width: 100%;
 	max-width:800px;
-	margin: 0 auto;
+	margin: 0 auto 0 160px;
 	
 }
 
@@ -1492,7 +1493,7 @@ margin-bottom: 80px;
 	text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #939191;
+      border-bottom-color: #9a9898;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
@@ -1501,7 +1502,7 @@ margin-bottom: 80px;
 .contact-row a:hover {
 	border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #72706f;
+    border-bottom-color: #535252;
 	transition-property: border-bottom, border-color, background, color, fill;
     transition-duration: .33s;
     transition-timing-function: ease-out;
@@ -2893,7 +2894,7 @@ color: #626262;
 			}
 		
 		.blog-wrapper {
-	width: 96%;
+	width: 98%;
 	margin: 0 auto;
 	
 }

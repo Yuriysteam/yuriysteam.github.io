@@ -60,9 +60,36 @@ background-repeat: no-repeat;
     border-bottom-style: none;
 }
 
-a .three .seven .half .full :hover {
+a.half:hover {
 	border-bottom-width: 0px;
     border-bottom-style: none;
+}
+
+a.full:hover {
+	border-bottom-width: 0px;
+    border-bottom-style: none;
+}
+
+a.seven:hover {
+	border-bottom-width: 0px;
+    border-bottom-style: none;
+}
+
+a.three:hover {
+	border-bottom-width: 0px;
+    border-bottom-style: none;
+}
+
+.single-project-cover:hover {
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: transform 0.125s ease-out
+}
+
+.sngl-prj-covr:hover {
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: transform 0.125s ease-out
 }
 
 .text-name {
@@ -71,7 +98,8 @@ a .three .seven .half .full :hover {
 }
 
 .image-name {
-	margin: -10px 0 20px;
+	margin: 0px 0 20px;
+	z-index:999;
 }
 
 .no-name {
@@ -129,6 +157,10 @@ background-repeat: no-repeat;
 	font-weight: bold;
 	line-height: 1.1em;
 	
+}
+
+.tcomment {
+	margin-left: 5px;
 }
 
 @media only screen and (max-width: 750px) {
