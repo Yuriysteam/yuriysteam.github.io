@@ -163,6 +163,26 @@ background-repeat: no-repeat;
 	margin-left: 5px;
 }
 
+.promo {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	text-align: left;
+	border-top: 1px solid #EBF2F6;
+	padding: 20px;
+	display: flex;
+	
+}
+
+.promo-image {
+	width: 100px;
+	margin-right: 30px;
+	height: 100px;
+}
+
+.promo-text {
+	display: inline;
+}
+
 @media only screen and (max-width: 750px) {
 	
 	.half {
