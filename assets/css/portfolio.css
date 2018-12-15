@@ -134,11 +134,19 @@ background-repeat: no-repeat;
 
 .dark-bg {
 	background: #050505;
-	color: white;
+	color: #bfbfbf;
 }
 
 .dark-bg.post-content {
-	color: white;
+	color: #bfbfbf;
+}
+
+.dark-bg .single-project-title {
+	color: #bfbfbf;
+}
+
+.dark-bg.post-content {
+	color: #bfbfbf;
 }
 
 .customfont {

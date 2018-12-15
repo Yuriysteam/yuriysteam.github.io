@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Before starting a project"
+title: "Before starting a project"
 date: 2018-12-14 00:00:00
 categories: Design
 permalink: /blog/template-howto-be-usefull
@@ -45,7 +45,7 @@ People are using banks because of strong motivation to save money or to receive 
 
 **Problem:** luck of money for a new car or flat. Wish to go to a good school.
 
-**Benefit:** help client ear or save money for those wishes.
+**Benefit:** help client earn or save money for those wishes.
 
 **Task:**
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Name Files"
+title: "How to Name Files"
 date: 2018-08-22 00:00:00
 categories: Design
 permalink: /blog/how-to-name-files-as-a-designer

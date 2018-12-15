@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Truedentify verification app
+title: Truedentify Verification Application
 date:   2018-11-18 06:30:00
 project-cover: "/projects_img/truedentify/cover.jpg"
 project-small-cover: "/projects_img/truedentify/cover.jpg"
