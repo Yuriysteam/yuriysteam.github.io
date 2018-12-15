@@ -66,9 +66,7 @@ Last detail is a comma separator on the keyboard. Useful for BTC amounts.
 
 <br>
 
-To reach the goal of exchanging currencies on the go no UI is needed. No UI is better than any UI. Почему
-
-
+To reach the goal of exchanging currencies on the go no UI is needed. No UI is better than any UI.
 
 The exchange happens in the background when the payment is done.
 
