@@ -1036,7 +1036,6 @@ nav ul li a {
 
 .post-title a {
 	text-decoration: none;
-	font-family: "", sans-serif;
 }
 
 .post-excerpt p {
@@ -1983,6 +1982,8 @@ white-space: nowrap;
 
 .intro-text-p {
 	margin-top:50px;
+	font-size: 1.4em;
+	line-height: 1.1em;
 }
 
 .info-section {
@@ -2165,7 +2166,6 @@ white-space: nowrap;
 
 .author-profile .author-meta {
 	margin: 2rem 0;
-	font-family: "Merriweather", serif;
 	letter-spacing: 0.01rem;
 	font-size: 1.7rem;
 }
@@ -3241,7 +3241,7 @@ h6 {
 		
 		.intro-task {
 			color:rgba(0, 0, 0, 0.9);
-			padding: 0px 10px;
+			padding: 0px 0px;
 		}
 		
 		.project-text-name {

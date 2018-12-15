@@ -23,6 +23,14 @@ Development team lead – <a href='https://dynameyes.com' target='_blank'>Geroni
 
 <a href="projects/2018-11-18-aml.html" target="_blacnk">AML System</a> as one of the products has Trudentfy verification app. With team I came up with a user flow, UI design. At latest stages I helped to test and provide feedback to the development team. As a result Trudentify can be found in AppStore and Google Play store.  
 
+Background
+
+Problem
+
+Solution
+
+
+
 Full case comming soon.
 
 
