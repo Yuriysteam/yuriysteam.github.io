@@ -17,13 +17,14 @@ nametemplate: no-name
 new-cover: "/projects_img/rowab/cover2.jpg"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
-Illustrator: Yunjae Woo</br>"
+Illustrator: Yunjae Woo</br>
+Development team lead – <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 ---
 
+<span class="p700 logo">![](/projects_img/rowab/logo.svg)</span>
 
+<span class="p-center">The icon represents a letter R, a dashing coin, a fold and rise.</span>
 
-<span class="p800">![](/projects_img/rowab/logo.svg)</span>
+<span class="p1000 pshadow">![](/projects_img/rowab/promo-web.png)</span>
 
-<span class="p-center">Sunrise, horizons, movement and dynamic</span><br>
-
-Full case study comming soon
+In addition to branding has been created a [UI for internal cabinet](projects/rowab-business.html) with a different approach to payments and a concept of partners.
