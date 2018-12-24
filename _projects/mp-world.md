@@ -20,8 +20,10 @@ Development team lead – <a href='https://dynameyes.com' target='_blank'>Geroni
 days: 182 days
 ---
 
+Inviting to do a first step
+
 <span class="p900 pshadow">![](/projects_img/mp_world/main.png)</span>
-<span class="p-center">*Inviting to do a first step*</span>
+
 
 <span class="p900 pshadow">![](/projects_img/mp_world/all.png)</span>
 <span class="p-center">*In three logical steps: destination and amount calculation, recipient details, payment and confirmation. UI helps make decision about payment methods and fees.*</span>
