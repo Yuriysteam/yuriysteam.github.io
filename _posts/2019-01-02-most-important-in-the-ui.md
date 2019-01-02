@@ -4,11 +4,11 @@ title: "The most important part of the interface"
 date: 2019-01-02 00:00:00
 categories: Design
 permalink: /blog/text-in-ui
-tags: interface,
+tags: interface
 ---
 
 Does not matter what canvas is used: web page, mobile or desktop screen or paper – the user interface is what allows people to interact with a service or app. To make sense of the UI we use text.
 
 <span class="p1000">![user interface with and without text](/blog_img/advices/ui-text.gif)</span>
 
-The text is everywhere in interfaces. Without it, the users fail to understand how to use the UI. Thus to make UI work go with clear messages, sutable typography, legible fonts and clear language.
+The text is everywhere in interfaces. Without it, the users fail to understand how to use the UI. Thus to make UI work go with clear messages, suitable typography, legible fonts and clear language.
