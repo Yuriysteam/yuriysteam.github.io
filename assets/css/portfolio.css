@@ -159,9 +159,20 @@ background-repeat: no-repeat;
 .hero-text {
 	font-size: 3.7em;
 	text-align: left;
-	margin-top: 30px;
 	color: #171717;
 	max-width: 800px;
+	font-weight: bold;
+	line-height: 1.1em;
+	
+}
+
+.hero-blog-text {
+	font-size: 3.9em;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 70px;
+	margin-left: 160px;
+	color: #080808;
 	font-weight: bold;
 	line-height: 1.1em;
 	
@@ -191,7 +202,62 @@ background-repeat: no-repeat;
 	display: inline;
 }
 
-@media only screen and (max-width: 750px) {
+.header-wrap {
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.hero-message {
+	display: block;
+	width: 80%;
+}
+
+.offer {
+	padding-left: 20px;
+	display: block;
+	margin-top:0;
+	border-left: 1px solid #e6e6e6;
+	margin-left: 10px;
+	max-width: 400px;
+	line-height: 1.4em;
+}
+
+.offer-button {
+cursor: pointer;
+padding: 10px 18px;
+height: 36px;
+border: none;
+border-radius: 3px;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+background-image: none;
+white-space: nowrap;
+background: #e9673e;
+text-decoration: none;
+color: white;
+
+}
+
+.offer-button:hover {
+	text-decoration: none;
+	color: white;
+	border-bottom-width: 0px;
+}
+
+.of-button-wrap {
+	margin: 20px 0px;
+}
+
+.offer-h {
+	font-size: 1.2em;
+	line-height: 1.1em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
 	
 	.half {
 	width: 100%;
@@ -216,13 +282,46 @@ background-repeat: no-repeat;
 	.hero-text {
 	font-size: 2.3em;
 	text-align: left;
-	margin-top: 30px;
 	color: #171717;
 	max-width: 800px;
 	font-weight: bold;
 	line-height: 1.1em;
 	
 }
+	.header-wrap {
+	display: block;
+	width: 100%;
+}
+	
+	.hero-message {
+	display: block;
+	width: 100%;
+}
+	
+	.offer {
+	padding-left: 0px;
+	margin-top: 40px;
+	margin-left: 0px;
+	border: 0;
+	width: 100%;;
+}
+	
+}
+
+/* Text and background color for dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+    background-color: #222;
+  }
+	
+	a {color: #ebebeb;}
+	a:hover {color: #d9d9d9;}
+	h1,h2,h3,h4,h5,h6 {color: #ebebeb;}
+	.hero-text {color: #ddd;}
+	.contact-message {color: #ddd;}
+	.single-project-title {color: #ddd;}
+	
 }
 
 

@@ -752,7 +752,6 @@ p {
 	height: 100%;
 	margin-bottom: 0;
 	text-align: center;
-	background: #222 no-repeat center center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -987,7 +986,7 @@ nav ul li a {
 
 .no-cover.main-header {
 	max-height: 95px;
-	background: #fff;
+	
 }
 
 .no-cover .page-title {
@@ -1513,6 +1512,7 @@ margin-bottom: 100px;
 .contact-message {
 	max-width: 800px;
 	font-size: 30px;
+	margin-top: 20px;
 	line-height: 1.1em;
 	float:left;
 	
@@ -3438,7 +3438,13 @@ h6 {
 		}
 		
 }
-	
+
+/* ==========================================================================
+   13. Experimental
+   ========================================================================== */
+
+
+
 	
 	/* ==========================================================================
    14. Animations
