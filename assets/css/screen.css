@@ -3404,6 +3404,10 @@ h6 {
 			
 		}
 		
+		.post-name {
+	margin-bottom: 2rem;
+		}
+		
 
 	
 		
@@ -3436,6 +3440,10 @@ h6 {
 		.contacts-h{
 			font-size: 2em;
 			line-height: 1em;
+		}
+		
+		.post-name {
+	margin-bottom: 2rem;
 		}
 		
 }
