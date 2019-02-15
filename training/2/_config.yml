@@ -1,0 +1,35 @@
+name: "Sketch data"
+description: "Fill your Sketch Designs with Real Data"
+meta_description: "Sketch data suppliers helps to fill your Sketch Designs with Data"
+
+markdown: kramdown
+highlighter: rouge
+logo: true 
+paginate_path: "page:num"
+timezone: CZ
+domain_name: 'http://sketchdatasuppliers.com'
+baseurl:
+plugins:
+  - jekyll-feed
+paginate: 7
+collections: 
+ projects:
+  output: true
+
+# Details for the RSS feed generator
+url:            'http://sketchdatasuppliers.com'
+author:         'Sketch data'
+twitter: 'yuriysteam'
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
