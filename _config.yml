@@ -10,7 +10,7 @@ timezone: CZ
 domain_name: 'http://yuriy.eu'
 baseurl:
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap 
 paginate: 7
 collections: 
  projects:
