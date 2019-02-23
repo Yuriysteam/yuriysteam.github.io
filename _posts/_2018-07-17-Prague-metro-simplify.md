@@ -3,7 +3,6 @@ layout: post
 title: "Prague Metro: Simplify"
 date: 2018-07-17 00:00:00
 categories: Design
-permalink: /blog/prague-metro-simplify
 ---
 
 Czech Republic is a country of traditions. Especially with their metro map. Well... traditions be damned! It appeared the solution to a convenient map is in a different direction. 

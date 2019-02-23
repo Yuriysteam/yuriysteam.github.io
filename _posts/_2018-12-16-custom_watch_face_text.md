@@ -3,7 +3,6 @@ layout: post
 title: "How to add custom text to Apple Watch Face"
 date: 2018-12-16 00:00:00
 categories: Design
-permalink: /blog/apple-watch-text
 tags: apple watch, design
 ---
 

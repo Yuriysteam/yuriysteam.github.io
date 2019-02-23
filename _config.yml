@@ -5,17 +5,17 @@ meta_description: "Fintech product designer. Improving people’s lives through 
 markdown: kramdown
 highlighter: rouge
 logo: true 
-paginate_path: "page:num"
 timezone: CZ
 domain_name: 'http://yuriy.eu'
 baseurl:
 plugins:
   - jekyll-sitemap 
-paginate: 7
+  - jekyll-paginate 
+paginate: 2
+paginate_path: "/pages/page:num/"
+
 collections: 
  projects:
-  output: true
-  trips:
   output: true
 
 # Details for the RSS feed generator

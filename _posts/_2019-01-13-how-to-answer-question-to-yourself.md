@@ -3,7 +3,6 @@ layout: post
 title: "Answer questions about yourself"
 date: 2019-01-13 00:00:00
 categories: Design
-permalink: /blog/answer-questions-about-yourself
 ---
 
 There are two traditional ways to finding an answer to questions: ask people with knowledge or search for more info in the web, books, movies and etc. But how to deal with questions about yourself?
