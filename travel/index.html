@@ -1,0 +1,36 @@
+---
+layout: default
+title: Travelling
+cover: false
+logo: true
+
+
+---
+
+{% include navigation.html %}
+
+
+
+<div class="projects-grid2">
+	
+	
+	{% include travel-wrap.html %}
+	
+     {% assign items = site.trips | sort: 'date' %}
+  {% for item in items reversed %}
+        
+        <a class="three" href="{{item.url}}">
+			<div class="single-project-cover" style="background-image: url({{ item.cover }})"></div>
+			
+            <div class="image-name">    
+                <div class="item-titel"><b>{{item.title}}</b></div>
+                <div class="item-description {{item.custom}}">{{item.when}}</div>
+            </div>  
+        </a>
+  {% endfor %}
+	
+
+	
+</div>
+
+    
