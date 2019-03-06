@@ -16,6 +16,11 @@ collections:
   output: true
  trips:
   output: true
+# cafe:
+#  output: true
+# loots:
+#  output: true
+  
 
 # Details for the RSS feed generator
 url:            'http://yuriy.eu'

@@ -1,16 +1,35 @@
 ---
 layout: post
-title: "Clean Inbox: Add Emails to Calendar as Task"
-date: 2019-02-15 00:00:00
-categories: Design
-permalink: /blog/email-to-calendar
+title: "How to ask for a discount"
+date: 2019-02-23 00:00:00
+categories: People
+permalink: /blog/how-to-ask-for-discount
 tags: interface
 ---
 
-In my daily routine, I use the approach called "Clean Inbox". Each email requires some action and later will be deleted or archived. For example: when it’s a quick reply I do it on the spot. If I need to hold email I move it out to "Hold" folder. When I need to think about a reply I create a task in the calendar about that.
+There are two important rules about discounts: “Always ask for a discount” and “Ask for discount for everything”.
 
-I used to manually create those tasks. It appeared that simple drag-and-drop of the email into the Calendar app can magically move all the data. Link to the message will be saved with the email theme.
+The trick is to ask politely and show respect for people. You might not get a discount, but with some persistence and kindness, the chances are very high.
 
-<span class="p1000">![Email to Calendar](/blog_img/advices/mailapp.png)</span>
+### The template of how to ask for a discount
 
-Same approach I use for reading web articles. I drag-and-drop them and web link will be copied to the calendar. Organize and save the time.
+1. Greet the company or if you know the name of the person greet personally
+2. Thank for service or feature you like
+3. Show respect and give the company right to say no
+4. Ask “How can I get a discount?”
+5. Give a reason why to have a discount. It can be a big purchase, that you are a new client, your birthday is coming or something else. Don’t lie.
+6. Thank again.
+
+### Example
+
+*Hello, dear Amazon!*
+
+*Thank you for your wonderful service! I greatly respect the policy of the company. And I will understand if you can’t answer my request.*
+
+*I am thinking of getting a premium subscription for a year. Can you please tell me how can I get a discount?*
+
+*Thank you for your time.*
+
+It may happen that you will get a rejection. And it means that negotiations started! Thank again a person who replied and asks for a different deal: three months for the price of two, a gift card or something else.
+
+Be kind, use the template and ask for discounts.

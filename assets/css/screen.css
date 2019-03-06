@@ -686,7 +686,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 p {
-	margin: 1.2rem 0;
+	margin: 1.4rem 0;
 }
 
 
@@ -1142,7 +1142,7 @@ nav ul li a {
 .post-content {
 
 font-size: 22px;
-line-height: 29px;
+line-height: 1.3em;
 margin-bottom: 20px;
 }
 
@@ -1761,6 +1761,15 @@ white-space: nowrap;
 	max-width: none;
 	margin: 0 -13%;
 }
+
+.post-content a {
+	color: #FC6720;
+}
+
+.post-content a:hover {
+	color: #692c0f;
+}
+
 
 
 /* The author credit area after the post */
