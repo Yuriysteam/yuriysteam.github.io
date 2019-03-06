@@ -25,6 +25,18 @@ Development team lead – <a href='https://dynameyes.com' target='_blank'>Geroni
 
 <span class="p-center">The icon represents a letter R, a dashing coin, a fold and rise.</span>
 
-<span class="p1000 pshadow">![](/projects_img/rowab/promo-web.png)</span>
+<span class="p700 logo">![](/projects_img/rowab/icon.jpg)</span>
+
+Curently, RowaB is a digital brand. For future has been proposed physical materials. 
+
+![](/projects_img/rowab/identity.jpg)
+
+In the web RowaB presentment on a promo web page showcasing main benefits of the service.
+
+<span class="p1000 pshadow">![](/projects_img/rowab/promo-web.jpg)</span>
+
+As a separate part of the web, I helped to set up the price line up and design a layout to showcase it.
+
+<span class="p1000 pshadow">![](/projects_img/rowab/promo-pricing.jpg)</span>
 
 In addition to branding has been created a [UI for internal cabinet](projects/rowab-business.html) with a different approach to payments and a concept of partners.
