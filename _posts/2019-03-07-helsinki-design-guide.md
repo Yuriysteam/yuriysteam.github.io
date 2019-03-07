@@ -19,6 +19,8 @@ Last update – 7th of March 2019.
 
 [Kiasma Museum of modern art](https://kiasma.fi/en/) Definitely the best in the city. All the times I’ve been the show was great, idea inspiring and astonishing. Ticket €15. First Friday of the month is free. And the building is awesome too.
 
+[Amos Rex museum](https://amosrex.fi/en/) The building is stunning. €18
+
 [Helsinki Design museum](http://www.designmuseum.fi/en/) Showcasing Finnish industrial and graphic design. The exhibition is not big but with a good sense of humour and positive attitude.
 
 ### Transport
