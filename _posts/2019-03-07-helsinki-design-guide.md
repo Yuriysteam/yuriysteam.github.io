@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Design travel guide: Helsinki"
+date: 2019-03-07 00:00:00
+categories: Design
+permalink: /blog/design-travel-guide-helsinki
+tags: travel
+---
+
+<span class="p1000">![Helsinki design travel guide](/blog_img/advices/helsinki.jpg)</span>
+
+The issue with travel guides is lack of inspiration, design orientation and amount of crowd on popular sights. I found out that a successful design trip is a combination of beautiful places with some tech or modern approach to the design of the environment and everyday things. I am looking for technological things which makes the life of citizens better.
+
+To find design kicks I plan where and what I’d like to see. I combined sports, good coffee places and museums.
+
+Last update – 7th of March 2019.
+
+### Museums
+
+[Kiasma Museum of modern art](https://kiasma.fi/en/) Definitely the best in the city. All the times I’ve been the show was great, idea inspiring and astonishing. Ticket €15. First Friday of the month is free. And the building is awesome too.
+
+[Helsinki Design museum](http://www.designmuseum.fi/en/) Showcasing Finnish industrial and graphic design. The exhibition is not big but with a good sense of humour and positive attitude.
+
+### Transport
+
+All West metro stations: Matinkylä, Niittykumpu, Urheilupuisto, Tapiola, Aalto University, Keilaniemi. Also worth visiting Kamppi and Central Railway Station. University of Helsinki entrance looks like a cave! At last on Vuosaari there is a cool metro bridge.<br>The two-hour ticket should cover visiting all of them with talking pictures.
+
+### Food
+
+[Sis. Deli + Café](https://sisdeli.fi) (Kalevankatu 4) Breakfast with porridge pot and coffee is great. Small, cosy and authentic. Interior is a mix of industrial and Scandinavian.
+
+[Story](https://www.restaurantstory.fi/kortteli) (Urho Kekkosenkatu 1, 5 flour) Panorama on the central square of the city from Kamppi. Coffee was tasty. Porridge included. Go there for view. Porridge + coffee breakfast from 11€.
+
+### Locations and places
+
+Eira – modern expensive hoses near the sea shore. A pleasant park and lack of tourists.
+
+P.S. Designers and creatives share your picks and interesting spots by <a href="mailto:yuriysteam@icloud.com" target="_top">mail</a> or on <a href="https://t.me/yuriysteam">Telegram</a>.

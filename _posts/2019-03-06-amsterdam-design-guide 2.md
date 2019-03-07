@@ -37,7 +37,7 @@ Take a free ferry to Noord part of Amsterdam. A ferry departs from Centraal stat
 
 [Pancakes! Amsterdam](https://pancakes.amsterdam) A chain of Amsterdam pancake places. I was in two located in Centraal and Berenstraat 38. Pancakes are tasty and suit well to start the day. Breakfast from 3 pancakes and coffee around €14.
 
-[Pllek restaurant](http://www.pllek.nl) (tt. Neveritaweg 59) Near NDSM ferry station, open fireplace, tasty food and soups. Cosy space made out of industrial ship containers.
+[Pllek restaurant](http://www.pllek.nl) (tt. Neveritaweg 59) Near NDSM ferry station, open fireplace, tasty food and soups. Cosy space made out of industrial ship containers. Noise level is super comfortable.
 
 [Buffet van Odette](https://english.buffet-amsterdam.nl/english/#menu) (Prinsengracht 598) Stylish, expensive and classy buffet. Good for breakfast. €18. View on a canal and interior are cool. To show off :)
 
