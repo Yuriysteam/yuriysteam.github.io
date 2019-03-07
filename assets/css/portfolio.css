@@ -236,7 +236,10 @@ white-space: nowrap;
 background: #e9673e;
 text-decoration: none;
 color: white;
+}
 
+a.offer-button {
+	color: white;
 }
 
 .offer-button:hover {
