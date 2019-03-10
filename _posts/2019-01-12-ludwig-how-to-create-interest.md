@@ -3,7 +3,6 @@ layout: post
 title: "Ludwig Bistronovsky – How to create interest"
 date: 2019-01-12 00:00:00
 categories: Design
-permalink: /blog/how-to-create-interest
 ---
 
 [Ludwig Bistronovsky](https://ldwg.ru) is the art director in Art Lebedev Studio. He did a talk about [how to creat interest](https://www.youtube.com/watch?v=CsFJzkNG5EY) (in Russian). To remeber the material and get most important ideas I made a summary.

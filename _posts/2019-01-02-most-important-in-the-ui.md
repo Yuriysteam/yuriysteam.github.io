@@ -3,7 +3,6 @@ layout: post
 title: "Text is the important part of the interface"
 date: 2019-01-02 00:00:00
 categories: Design
-permalink: /blog/text-in-ui
 tags: interface
 ---
 

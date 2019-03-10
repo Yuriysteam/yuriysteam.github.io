@@ -3,7 +3,6 @@ layout: post
 title: "How to Name Files"
 date: 2018-08-22 00:00:00
 categories: Design
-permalink: /blog/how-to-name-files-as-a-designer
 ---
 
 During 7 years of graphic design, I worked on different design projects. Some were easy and straightforward. Some had twisting bumpy turns and last minute changes which lead to a mess in my files and organisation. During those years I found a small trick on how to stay organized with my work.

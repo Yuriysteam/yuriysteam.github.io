@@ -3,7 +3,6 @@ layout: post
 title: "Design travel guide: Amsterdam"
 date: 2019-03-06 00:00:00
 categories: Design
-permalink: /blog/design-travel-guide-amsterdam
 tags: travel
 ---
 

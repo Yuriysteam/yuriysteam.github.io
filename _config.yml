@@ -7,9 +7,13 @@ highlighter: rouge
 logo: true 
 timezone: CZ
 domain_name: 'http://yuriy.eu'
-baseurl:
+baseurl: 
 plugins:
   - jekyll-sitemap 
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 collections: 
  projects:

@@ -3,7 +3,6 @@ layout: post
 title: "Clean Inbox: Add Emails to Calendar as Task"
 date: 2019-02-15 00:00:00
 categories: Design
-permalink: /blog/email-to-calendar
 tags: interface
 ---
 

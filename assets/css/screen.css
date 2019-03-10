@@ -867,7 +867,6 @@ p {
 	font-size: 12px;
 	text-transform: uppercase;
 	line-height: 35px;
-	background: rgba(0, 0, 0, 0.1);
 	transition: all ease 0.3s;
 }
 
@@ -2236,19 +2235,14 @@ white-space: nowrap;
 
 /* The main wrapper for our pagination links */
 
-.pagination {
-	position: relative;
-	width: 80%;
-	max-width: 710px;
-	margin: 4rem auto;
-	
-	font-size: 1.3rem;
+.pagination {	
+	font-size: 1.5rem;
 	color: #9EABB3;
-	text-align: center;
+	text-align: left;
 }
 
 .pagination a {
-	color: #9EABB3;
+	color: #FC6720;
 	transition: all 0.2s ease;
 }
 
@@ -3043,7 +3037,7 @@ h6 {
 		.subscribe-button:hover {
 			border-color: #ebeef0;
 			color: #2e2e2e;
-			background: #ebeef0;
+			
 		}
 		.back-button {
 			padding: 0 15px 0 10px;

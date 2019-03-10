@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "XIXOIO – Identity for Crypto Banking Ecosystem"
-date:   2018-11-18 11:30:00
+date:   2019-03-08 01:30:00
 description: "Creating a identity for financial startup"
 type: page
 intro-text: "XIXOIO making a complex of apps to cover various banking niches. There are apps to manage cryptocurrencies, send money transfers, bring investments and verify clients. For the whole group was created a visual identity."

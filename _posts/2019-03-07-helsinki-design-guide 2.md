@@ -3,7 +3,6 @@ layout: post
 title: "Design travel guide: Helsinki"
 date: 2019-03-07 00:00:00
 categories: Design
-permalink: /blog/design-travel-guide-helsinki
 tags: travel
 ---
 

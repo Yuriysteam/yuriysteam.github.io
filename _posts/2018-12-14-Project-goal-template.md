@@ -3,7 +3,6 @@ layout: post
 title: "Before starting a project"
 date: 2018-12-14 00:00:00
 categories: Design
-permalink: /blog/template-howto-be-usefull
 ---
 
 Receiving the task. Clearing all details. Spending half of the week to design the first prototype. Work goes into the trash. Feeling of devastation. To save time, effort, nerves and make the design process structured and interesting here is a short template. This makes work useful.
