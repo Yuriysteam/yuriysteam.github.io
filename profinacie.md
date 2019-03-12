@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: ProFinacie iOS app design
 date:   2016-05-01 09:30:00
 project-cover: "/projects_img/profinacie/cover.jpg"

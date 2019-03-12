@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "North Training web page"
 date:   2016-02-13 14:30:00
 project-cover: "/projects_img/northtraining/cover.jpg"
@@ -10,7 +10,6 @@ duration: "1 month"
 intro-text: "North Training is a Prague-based school offering courses in The English language. The school wanted to have a modern and understandable page for the young audience."
 type: project
 block: half
-permalink: projects/northtraining
 ---
 
 <span class="p700">![home page](/projects_img/northtraining/homepage.jpg)</span>
