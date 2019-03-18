@@ -4,6 +4,7 @@ title: "Design travel guide: Prague"
 date: 2019-03-18 00:00:00
 categories: Design
 tags: travel
+new-cover: blog_img/advices/prague.jpg
 ---
 
 <span class="p1000">![Prague design travel guide](/blog_img/advices/prague.jpg)</span>

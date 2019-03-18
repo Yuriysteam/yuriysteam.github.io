@@ -4,6 +4,7 @@ title: "Design travel guide: Helsinki"
 date: 2019-03-07 00:00:00
 categories: Design
 tags: travel
+new-cover: blog_img/advices/helsinki.jpg
 ---
 
 <span class="p1000">![Helsinki design travel guide](/blog_img/advices/helsinki.jpg)</span>

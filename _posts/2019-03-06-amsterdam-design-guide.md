@@ -4,6 +4,7 @@ title: "Design travel guide: Amsterdam"
 date: 2019-03-06 00:00:00
 categories: Design
 tags: travel
+new-cover: blog_img/advices/amsterdam.jpg
 ---
 
 <span class="p1000">![Amsterdam design travel guide](/blog_img/advices/amsterdam.jpg)</span>
