@@ -12,7 +12,7 @@ The issue with travel guides is lack of inspiration, design orientation and amou
 
 To find design kicks I plan where and what I’d like to see. I combined sports, good coffee places and museums.
 
-Last update – 6th of March 2019.
+Last update – 6th of March 2019. Check guids for [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
 
 ### Museums
 
