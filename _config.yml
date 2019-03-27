@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 logo: true 
 timezone: CZ
-domain_name: 'http://yuriy.eu'
+domain_name: 'https://yuriy.eu'
 baseurl: 
 plugins:
   - jekyll-sitemap 
@@ -27,7 +27,7 @@ collections:
   
 
 # Details for the RSS feed generator
-url:            'http://yuriy.eu'
+url:            'https://yuriy.eu'
 author:         'Yuriy Shiryaev'
 twitter: 'yuriysteam'
 
