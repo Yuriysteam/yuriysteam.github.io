@@ -6,7 +6,7 @@ categories: Music
 tags: interface
 ---
 
-In Murch, I have been in Amsterdam and Vienna, discovered new art and found Japanese pop-rock and classical artists. The collection is an energetic mix to kick off the begning of the spring.
+In March, I have been in Amsterdam and Vienna, discovered new art and found Japanese pop-rock and classical artists. The collection is an energetic mix to kick off the begning of the spring.
 
 Apple keynote brought *Love – Unloved* from into. And the Amsterdam trip brought up the energetic story in *Amsterdam – Jaya The Cat*. With the track, I started the flight.
 
