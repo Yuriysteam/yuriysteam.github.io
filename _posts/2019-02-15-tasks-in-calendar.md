@@ -2,6 +2,7 @@
 layout: post
 title: "Clean Inbox: Add Emails to Calendar as Task"
 date: 2019-02-15 00:00:00
+description: "A life hack how to organize emails as Calendar.app tasks" 
 categories: Design
 tags: interface
 ---

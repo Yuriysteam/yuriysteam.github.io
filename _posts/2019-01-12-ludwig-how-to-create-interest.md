@@ -2,6 +2,7 @@
 layout: post
 title: "Ludwig Bistronovsky – How to create interest"
 date: 2019-01-12 00:00:00
+description: "A summary of Ludwig Bistronovsky talk about how to creat interest"
 categories: Design
 ---
 

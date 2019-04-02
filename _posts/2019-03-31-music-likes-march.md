@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Music likes: March"
+description: "Monthly music collection to start the spring season."
 date: 2019-03-31 00:00:00
 categories: Music
 tags: interface

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Teaching Yourself Product Design Thinking"
+description: "A thought process about becomeing better at design thinking and product creation" 
 date: 2018-09-13 00:07:00
 categories: Design
 ---

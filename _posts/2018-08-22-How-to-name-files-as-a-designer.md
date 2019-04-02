@@ -2,6 +2,7 @@
 layout: post
 title: "How to Name Files"
 date: 2018-08-22 00:00:00
+description: "Life hack about naming files as a designer in Mac OS"
 categories: Design
 ---
 

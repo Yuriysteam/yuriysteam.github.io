@@ -6,7 +6,7 @@
 	
 
     <title>{{ site.name }} - {{ page.title }}</title>
-    <meta name="description" content="{{ site.meta_description }}" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:url" content="https://yuriy.eu{{ page.url }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ site.name }} – {{ page.title }}" />

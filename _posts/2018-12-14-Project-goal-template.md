@@ -2,6 +2,7 @@
 layout: post
 title: "Before starting a project"
 date: 2018-12-14 00:00:00
+description: "A template to prepare for the next design challenge"
 categories: Design
 ---
 

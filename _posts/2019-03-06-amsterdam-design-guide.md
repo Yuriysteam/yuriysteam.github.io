@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Design travel guide: Amsterdam"
+description: "Trip guide to Amsterdam designers. Featuring museums, coffee places and environmental design in the the Netherlands capital."
 date: 2019-03-06 00:00:00
 categories: Design
 tags: travel
@@ -13,7 +14,7 @@ The issue with travel guides is lack of inspiration, design orientation and amou
 
 To find design kicks I plan where and what I’d like to see. I combined sports, good coffee places and museums.
 
-Last update – 6th of March 2019. Check guids for [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
+Last update – 6th of March 2019. Check guides for [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
 
 ### Museums
 

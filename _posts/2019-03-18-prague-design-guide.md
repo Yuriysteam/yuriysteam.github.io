@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Design travel guide: Prague"
+description: "Trip guide to Prague designers. Featuring museums, coffee places and environmental design in the the Czech capital."
 date: 2019-03-18 00:00:00
 categories: Design
 tags: travel
@@ -13,7 +14,7 @@ The issue with travel guides is lack of inspiration, design orientation and amou
 
 To find design kicks I plan where and what I’d like to see. I combined sports, good coffee places and museums.
 
-Last update – 18th of March 2019. Check guids for [Amsterdam](http://yuriy.eu/design/2019/03/06/amsterdam-design-guide.html) and [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html). 
+Last update – 18th of March 2019. Check guides for [Amsterdam](http://yuriy.eu/design/2019/03/06/amsterdam-design-guide.html) and [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html). 
 
 ### Museums
 
