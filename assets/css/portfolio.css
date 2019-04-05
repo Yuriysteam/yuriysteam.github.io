@@ -310,7 +310,7 @@ a.offer-button {
 	
 }
 
-/* Text and background color for dark mode */
+/* Text and background color for dark mode 
 @media (prefers-color-scheme: dark) {
   body {
     color: #ddd;
@@ -324,6 +324,6 @@ a.offer-button {
 	.contact-message {color: #ddd;}
 	.single-project-title {color: #ddd;}
 	
-}
+}*/
 
 
