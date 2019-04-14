@@ -276,6 +276,7 @@ table {
 	src: url("/asstets/fonts/casper-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/casper-icons.woff") format("woff"), url("../fonts/casper-icons.ttf") format("truetype"), url("../fonts/casper-icons.svg#icons") format("svg");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 	
 }
 
@@ -308,6 +309,7 @@ table {
 	src: url("/assets/fonts/AftenScreen.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 	
 }
 	
@@ -316,6 +318,7 @@ table {
 	src: url("/assets/fonts/AftenScreen-Bold.woff") format("woff");
 	font-weight: bold;
 	font-style: bold;
+	font-display: swap;
 		
 } 
 
@@ -426,7 +429,7 @@ h6 {
 	line-height: 1.15em;
 	margin-top: 3rem;
 	margin-bottom: 0.2rem;
-	
+	font-family: "AftenScreen", sans-serif;
 }
 
 h1 {
@@ -771,6 +774,41 @@ p {
 	text-decoration: none;
 	font-size: 15px;
 }
+
+.search-nav {
+	font-size: 15px;
+	width: 100px;
+	outline: none;
+	padding: 5px 0;
+	color: #0d0d0d;
+	transition: color ease 0.3s;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
+}
+
+.search-nav :focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.search-list{
+	list-style-type: none;
+	font-size: 28px;
+	margin-bottom: 28px;
+	line-height:1.15em;
+}
+
+ul.search-results {
+	padding: 0;
+	margin-bottom: 100px;
+}
+
 
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
@@ -1149,7 +1187,36 @@ margin-bottom: 20px;
 font-size: 15px;
 color: #565656;
 margin-bottom: 100px;
-	
+}
+
+.post-share {
+	margin-left: 10px;
+	display:inline;
+}
+
+.post-share a{
+	margin-right: 2px;
+	display:inline;
+	color: #0d0d0d;
+	transition: color ease 0.3s;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
+}
+
+.post-share a:hover {
+	color: #0f0e0e;
+	text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #3c3b3b;
+	transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out;
 }
 
 
@@ -2968,6 +3035,10 @@ color: #626262;
 	
 }
 		
+		ul.search-results {
+	margin-bottom: 50px;
+       }
+		
 }
 	/* ==========================================================================
    12. Media Queries - Smaller than 500px
@@ -3005,7 +3076,7 @@ h6 {
 			height: auto;
 			margin: 0;
 			padding: 0;
-			height: 110px;
+			height: 80px;
 		}
 		.archive-template .main-header {
 			max-height: 20%;
@@ -3424,7 +3495,10 @@ h6 {
 		}
 		
 
-	
+	.search-nav {
+	font-size: 15px;
+		width: 60px;
+		}
 		
 	}
 

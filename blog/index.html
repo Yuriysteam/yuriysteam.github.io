@@ -7,17 +7,21 @@ logo: true
 
 ---
 
-{% include navigation.html %}
+{% include navigation-blog.html %}
 
 
 
-<div class="blog-wrapper">			
+<div class="blog-wrapper">
+	
+<div id="search-container">
+<ul class="search-results" id="results-container"></ul>
+</div>	
 
 	{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">
-      Newer
+      ↑ Newer
     </a>
   {% else %}
     <span style="display:none">Newer posts</span>
@@ -42,10 +46,10 @@ logo: true
   {% when '3' or '23' %}{{ d }}rd
   {% else %}{{ d }}th
   {% endcase %} 
-{{ post.date | date: "%B" }}	
-		
-
-	</div>
+{{ post.date | date: "%B" }} 
+		<div class="post-share">Share on <a href="https://twitter.com/intent/tweet?url={{ post.url }}" target="_blank">Twitter</a> <a href="https://telegram.me/share/url?url={{ post.url }}" target="_blank" >Telegram</a> <a href="https://www.facebook.com/sharer/sharer.php?u={ post.url }}" target="_blank">Facebook</a></div>
+	</div> 
+	
 	
 	
 	
@@ -61,7 +65,7 @@ logo: true
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}">
-      Older
+      ↓ Older
     </a>
   {% else %}
     <span style="display:none">Older posts</span>
