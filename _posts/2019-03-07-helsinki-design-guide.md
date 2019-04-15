@@ -26,7 +26,7 @@ Last update – 7th of March 2019. Check guides for [Amsterdam](http://yuriy.eu/
 
 ### Transport
 
-All West metro stations: Matinkylä, Niittykumpu, Urheilupuisto, Tapiola, Aalto University, Keilaniemi. Also worth visiting Kamppi and Central Railway Station. University of Helsinki entrance looks like a cave! At last on Vuosaari there is a cool metro bridge.<br>The two-hour ticket should cover visiting all of them with talking pictures.
+All West metro stations: Matinkylä, Niittykumpu, Urheilupuisto, Tapiola, Aalto University, Keilaniemi. Also worth visiting Kamppi and Central Railway Station. University of Helsinki entrance looks like a cave! At last on Vuosaari there is a cool metro bridge.<br>The two-hour ticket should cover visiting all of them with taking pictures.
 
 ### Food
 
@@ -36,6 +36,6 @@ All West metro stations: Matinkylä, Niittykumpu, Urheilupuisto, Tapiola, Aalto 
 
 ### Locations and places
 
-Eira – modern expensive hoses near the sea shore. A pleasant park and lack of tourists.
+Eira – modern expensive houses near the sea shore. A pleasant park and lack of tourists.
 
 P.S. Designers and creatives share your picks and interesting spots by <a href="mailto:yuriysteam@icloud.com" target="_top">mail</a> or on <a href="https://t.me/yuriysteam">Telegram</a>.

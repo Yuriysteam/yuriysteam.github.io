@@ -9,7 +9,7 @@ tags: interface
 
 In March, I have been to Amsterdam and Vienna, discovered new art and found Japanese pop-rock and classical artists. The collection is an energetic mix to kick off the beginning of the spring.
 
-Apple keynote brought *Love – Unloved* from into. And the Amsterdam trip brought up the energetic story in *Amsterdam – Jaya The Cat*. With the track, I started the flight.
+Apple keynote brought *Love – Unloved* from intro. And the Amsterdam trip brought up the energetic story in *Amsterdam – Jaya The Cat*. With the track, I started the flight.
 
 Amazingly emerging Saigmaster and Walsh show “Beauty” featured a room with deep *Heart – Darkside*. If you have good speakers and a dark room this is the best option to listen to it. Almost put in a trance and enjoyment.
 

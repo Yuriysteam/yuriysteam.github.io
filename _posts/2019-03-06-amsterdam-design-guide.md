@@ -26,7 +26,7 @@ Last update – 6th of March 2019. Check guides for [Helsinki](http://yuriy.eu/d
 
 ### Transport
 
-Metro stations worth visiting: Noord, Noorderpark, Centraal Station, Rokin, Vijzelgracht, De Pijp and Europaplei.<br>The two-hour ticket should cover visiting all of them with talking pictures. Around €7 total.
+Metro stations worth visiting: Noord, Noorderpark, Centraal Station, Rokin, Vijzelgracht, De Pijp and Europaplei.<br>The two-hour ticket should cover visiting all of them with taking pictures. Around €7 total.
 
 Take a free ferry to Noord part of Amsterdam. A ferry departs from Centraal station. Visit NDSM. It's an old shipyard turned into the creative district. 
 

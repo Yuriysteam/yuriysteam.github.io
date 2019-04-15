@@ -20,7 +20,7 @@ Last update – 18th of March 2019. Check guides for [Amsterdam](http://yuriy.eu
 
 [DOX Museum of Modern art](https://www.dox.cz/en/) For sure the first place to visit. The building is awesome. There is a huge zeppelin on the top. Exhibitions are usually exciting. The best option to get there by metro and then walk. Adult €8. Quite good coffee place.
 
-[Kamppa MuseumLocated in the city centre. Having contemporary art from Czech artists and designers. Has a nice look out on the river and Charles bridge. Don't miss the penguins near the river. €12.
+[Kamppa Museum](http://www.museumkampa.cz/en/) Located in the city centre. Having contemporary art from Czech artists and designers. Has a nice look out on the river and Charles bridge. Don't miss the penguins near the river. €12.
 
 [Prague City Gallery (GHMP)](http://en.ghmp.cz) Gallery with several contemporary art exhibitions. Located in several places: The Stone Bell House, Municipal Library, Colloredo-Mansfeld Palace, House of Photography, Villa Bílek, Troja Château and František Bílek’s House in Chýnov. Pick an exhibition from the website and visit a location. €5 per building.
 
@@ -30,9 +30,9 @@ Last update – 18th of March 2019. Check guides for [Amsterdam](http://yuriy.eu
 
 ### Transport
 
-Metro stations are mostly boring. Worth checking: Náměstí Republiky, Andel, Rajská zahrada and Střížkov.<br>The one-hour ticket should cover visiting all of them with talking pictures. €1.25
+Metro stations are mostly boring. Worth checking: Náměstí Republiky, Andel, Rajská zahrada and Střížkov.<br>The one-hour ticket should cover visiting all of them with taking pictures. €1.25
 
-During summer across the Vltava river goes ferries. Can be used with regular transport tiket.
+During summer across the Vltava river goes ferries. Can be used with regular transport ticket.
 
 ### Food
 
