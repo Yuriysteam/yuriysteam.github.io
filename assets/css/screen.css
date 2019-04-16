@@ -1186,7 +1186,8 @@ margin-bottom: 20px;
 .post-date {
 font-size: 15px;
 color: #565656;
-margin-bottom: 100px;
+margin-bottom: 50px;
+	text-align: left;
 }
 
 .post-share {
@@ -3039,6 +3040,12 @@ color: #626262;
 	margin-bottom: 50px;
        }
 		
+		.post-date {
+font-size: 15px;
+color: #565656;
+margin-bottom: 20px;
+}
+		
 }
 	/* ==========================================================================
    12. Media Queries - Smaller than 500px
@@ -3226,7 +3233,7 @@ h6 {
 			margin-top: 1rem;
 		}
 		.post-footer {
-			padding: 5rem 0 3rem 0;
+			padding: 1rem 0 2rem 0;
 			text-align: center;
 		}
 		.post-footer .author {

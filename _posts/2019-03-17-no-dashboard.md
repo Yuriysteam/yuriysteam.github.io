@@ -6,6 +6,7 @@ description: "Reimagining banking experience of the future. Integrating banking 
 categories: Design
 tags: interface
 new-cover: blog_img/advices/nodashboard.jpg
+promo: promo.html
 ---
 
 I think in the future there will be no privacy at all. For instance, modern insurance tracks when clients leave the country and turn foreign health insurance automatically. Integration between services will be easier and fintech, insurance and health care will follow eventually. This means there will be less UI.

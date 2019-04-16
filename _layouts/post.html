@@ -2,6 +2,7 @@
 layout: default
 disqus: false
 archive: false
+promo: true
 post_class: post-template
 ---
 
@@ -24,16 +25,7 @@ post_class: post-template
         <header class="post-header">
             <h1 class="post-name">{{ page.title }}</h1>
             <section class="post-meta">                
-                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
-		{% assign d = page.date | date: "%-d"  %} 
-{% case d %}
-  {% when '1' or '21' or '31' %}{{ d }}st
-  {% when '2' or '22' %}{{ d }}nd
-  {% when '3' or '23' %}{{ d }}rd
-  {% else %}{{ d }}th
-  {% endcase %} 
-{{ page.date | date: "%B" }}
-{{ page.date | date: "%Y" }}</time>
+                
                 <!--{% if page.categories.size > 0 %} 
                     {{ page.categories | array_to_sentence_string | prepend: ' ' }} 
                 {% endif %} -->
@@ -58,12 +50,29 @@ post_class: post-template
         <footer class="post-footer">
 
             <!-- Share links section -->
+            <div class="post-date">
+				<time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
+		{% assign d = page.date | date: "%-d"  %} 
+{% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st
+  {% when '2' or '22' %}{{ d }}nd
+  {% when '3' or '23' %}{{ d }}rd
+  {% else %}{{ d }}th
+  {% endcase %} 
+{{ page.date | date: "%B" }}
+{{ page.date | date: "%Y" }}</time>
+		<div class="post-share">Share on <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}" target="_blank">Twitter</a> <a href="https://telegram.me/share/url?url={{ site.url }}{{ post.url }}" target="_blank" >Telegram</a> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a></div>
+	</div> 
+			
+		{% if page.promo %}
+                {% include promo.html %}
+            {% endif %}	
+  
             
-            
-            <!-- Disqus comments -->
+			<!-- Disqus comments 
             {% if page.disqus %}
                 {% include disqus.html %}
-            {% endif %}
+            {% endif %} -->
             
         </footer>
 
