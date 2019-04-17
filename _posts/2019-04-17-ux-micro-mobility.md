@@ -13,7 +13,7 @@ Micro-mobility gaining popularity because it’s faster than car-based trips. So
 
 <span class="p800">![Micro mobility scooters preview](/projects_img/scooter/preview.jpg)</span>
 
-### LED stripe displays charge level
+### LED stripe displays charge level
 
 <span class="p1000">![Micro mobility scooters charging levels](/projects_img/scooter/charge.jpg)</span>
 
@@ -23,7 +23,7 @@ When it comes to finding a suitable scooter for a ride — battery charge is the
 
 An LED stripe can be a part of a headlights.
 
-[Bird](https://www.bird.co/zero/) and [Lime](https://www.li.me/second-street/lime-s-gen-3-electric-scooter-transform-micro-mobility) already preparing a next generation of vehicles to be more durable and long lasting. LED can be a convenient modification for next generation of public scooters.
+[Bird](https://www.bird.co/zero/) and [Lime](https://www.li.me/second-street/lime-s-gen-3-electric-scooter-transform-micro-mobility) already preparing a next generation of vehicles to be more durable and long lasting. LED can be a convenient modification for next generation of public scooters.
 
 ### AR to show charge levels
 
@@ -39,9 +39,9 @@ Taking a picture of QR or type a digit code is slow. For now, Apple is reserved 
 
 ### No screen
 
-Considering NFC unlocking, charge level in the app or with LED stripe — the scooter of the future will not need a display. Currently, it shows speed and how much charge left. In the future, it will indicate parking zones.
+Considering NFC unlocking, charge level in the app or with LED stripe — the scooter of the future will not need a display. Currently, it shows speed and how much charge left. In the future, it will indicate parking zones.
 
-All of this can be displayed in the app with the map. Less screens and technology on the scooter – cheaper and more durable it can be.
+All of this can be displayed in the app with the map. Less screens and technology on the scooter – cheaper and more durable it can be.
 
 ### Integration with maps
 
@@ -49,7 +49,7 @@ All of this can be displayed in the app with the map. Less screens and technolog
 
 Scooters or e-bikes will make a good addition to city transport. Map integration solves discoverability, charge and parking questions.
 
-For riders with set destination map service collects charge and location data from scooters, combine it with allowed parking zones, bike lanes and terrain and build an optimal route. Based on this information map service can offer a nearby scooter, estimate the price and provide the best ride.
+For riders with set destination map service collects charge and location data from scooters, combine it with allowed parking zones, bike lanes and terrain and build an optimal route. Based on this information map service can offer a nearby scooter, estimate the price and provide the best ride.
 
 <br>
 

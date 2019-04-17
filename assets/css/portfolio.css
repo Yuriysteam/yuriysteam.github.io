@@ -218,7 +218,7 @@ background-repeat: no-repeat;
 	padding-left: 20px;
 	display: block;
 	margin-top:0;
-	border-left: 1px solid #e6e6e6;
+	border-left: 0px solid #e6e6e6;
 	margin-left: 10px;
 	max-width: 400px;
 	line-height: 1.4em;
@@ -260,6 +260,11 @@ a.offer-button {
 	line-height: 1.1em;
 	font-weight: bold;
 	margin-bottom: 10px;
+}
+
+.new-promo {
+	margin-bottom:10px;
+	display: inline-block;
 }
 
 @media only screen and (max-width: 800px) {
@@ -308,7 +313,7 @@ a.offer-button {
 	margin-top: 40px;
 	margin-left: 0px;
 	border: 0;
-	width: 100%;;
+	width: 100%;
 }
 	
 }

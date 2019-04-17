@@ -9,7 +9,7 @@ new-cover: projects_img/scooter/intro.jpg
 promo: promo.html
 ---
 
-Being a [controversial topic](https://www.youtube.com/watch?v=vt1Pcb2cnEw), increase of bike and scooter sharing services becomes a trend of recent years. I designed an experience for micro mobility ride sharing on wearables.
+Being a [controversial topic](https://www.youtube.com/watch?v=vt1Pcb2cnEw), increase of bike and scooter sharing services becomes a trend of recent years. I designed an experience for micro mobility ride sharing on wearables.
 
 <span class="p1000">![Apple Watch Scooter Sharing App](/projects_img/scooter/intro.jpg)</span>
 
