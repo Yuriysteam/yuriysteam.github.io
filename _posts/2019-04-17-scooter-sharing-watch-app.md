@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scooter Sharing App on Apple Watch"
-description: "Propasal for micro mobility on wearable devices."
+description: "Proposal for micro mobility on wearable devices."
 date: 2019-04-16 00:00:00
 categories: "Desing"
 tags: interface
@@ -25,7 +25,7 @@ To make a decision about renting a scooter client needs to know:
 Watch app can provide answers to those questions in the compact, convenient and understandable form. I defined two scenarios which can benefit from using a watch:
 
 - client already in front of a scooter(s),
-- client needs to search for near by vehicles sutable for a ride.
+- client needs to search for nearby vehicles sutable for a ride.
 
 ### In front of a scooter
 
@@ -53,4 +53,4 @@ This user experience can be applied for shared bikes, scooters, e-scooters, mope
 
 Speed is valuable for unlocking, finding the right vehicle and getting to the desired destination. The idea of supporting a watch app might be expensive right now. I believe with time, watch can help companies to differentiate from the competition and provide a smoother and enjoyable experience.
 
-Micro-mobility gaining popularity because it’s faster than car-based trips. Sometimes even faster a public transportation. In my opinion scooters and bikes will not change transportation in the cities, but will be a solid addition to current means. To have a better experince in the future I [propose a set of ideas](/desing/2019/04/16/ux-micro-mobility.html) for scooters and sharing services. 
+Micro-mobility gaining popularity because it’s faster than car-based trips. Sometimes even faster public transportation. In my opinion scooters and bikes will not change transportation in the cities, but will be a solid addition to current means. To have a better experince in the future I [propose a set of ideas](/desing/2019/04/16/ux-micro-mobility.html) for scooters and sharing services. 
