@@ -9,7 +9,7 @@ new-cover: projects_img/scooter/preview.jpg
 promo: promo.html
 ---
 
-Micro-mobility gaining popularity because it’s faster than car-based trips. Sometimes even faster a public transportation. In my opinion scooters and bikes will not change transportation in the cities, but will be a solid addition to current means. To have a better experince in the future I propose a set of ideas for scooters and sharing services.
+Micro-mobility gaining popularity because it’s faster than car-based trips. Sometimes even faster than a public transportation. In my opinion scooters and bikes will not change transportation in the cities, but will be a solid addition to current means. To have a better experince in the future I propose a set of ideas for scooters and sharing services.
 
 <span class="p800">![Micro mobility scooters preview](/projects_img/scooter/preview.jpg)</span>
 
