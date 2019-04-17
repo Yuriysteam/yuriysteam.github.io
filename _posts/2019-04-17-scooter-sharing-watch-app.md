@@ -19,7 +19,7 @@ To make a decision about renting a scooter client needs to know:
 
 - Where is the vehicle?
 - Does it have a battery?
-- Does the scooter damaged? 
+- Has the scooter been damaged? 
 - Will it last to my destination?
 
 Watch app can provide answers to those questions in the compact, convenient and understandable form. I defined two scenarios which can benefit from using a watch:
