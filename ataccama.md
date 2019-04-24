@@ -4,7 +4,7 @@ logo: logo
 title: Product Designer for Ataccama
 company: Ataccama
 designer: "digital "
-intro: I solve challenging design problems in order to help business work and deliver products to your customers.<br><br>I selected the most relevant project for you
+intro: "I solve challenging design problems to help business work and deliver products to your customers.<br><br>I selected the most relevant project for you:"
 
 #ROWA B
 project1: "Strategy and Interfaces for Corporate Finances"
@@ -15,14 +15,14 @@ project1img: "rowab"
 
 #truedentify
 project2: "Verification App Experience"
-project2text: "I lead the design of the product and created a new flow to verify customers. I designed interfaces and accpeted the final result from the development team. I did project managment for design team and developemnt process."
+project2text: "I led the design of the product and created a new verification flow. I designed interfaces and accepted the final result from the development team. I did project management for the design development teams."
 project2link: "More about verification flows"
 project2url: "/projects/truedentify-app.html"
 project2img: "verif"
 
 #MoneypoloWorld
 project3: "Online Money Transfer Experience"
-project3text: "Lead role in creating user experience for online money transfers. I developed UI and UX for transfer process and inside pages."
+project3text: "Lead role in creating the user experience for online money transfers. I developed UI and UX for the sending process and inside pages."
 project3link: "More about online money remittance"
 project3url: "/projects/mp-world.html"
 project3img: "mp"
