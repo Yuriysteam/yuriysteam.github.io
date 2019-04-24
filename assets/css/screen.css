@@ -2802,7 +2802,7 @@ transition: transform 0.125s ease-out;
 
 .contacts-d {
 	text-align: center;
-	font-size: 60px;
+	font-size: 50px;
 	margin: 40px;
 	line-height: 1.3em;
 	
@@ -3535,6 +3535,14 @@ h6 {
 		width: 60px;
 		}
 		
+		.contacts-d {
+	text-align: center;
+	font-size: 40px;
+	margin: 5px;
+	line-height: 1.3em;
+	
+}
+		
 	}
 
 
@@ -3569,6 +3577,14 @@ h6 {
 		.post-name {
 	margin-bottom: 2rem;
 		}
+		
+		.contacts-d {
+	text-align: center;
+	font-size: 35px;
+	margin: 5px;
+	line-height: 1.3em;
+	
+}
 		
 }
 
