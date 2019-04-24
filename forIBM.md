@@ -1,10 +1,10 @@
 ---
 layout: offer
 logo: logo
-title: Product Designer for Ataccama
-company: Ataccama
-designer: "digital "
-intro: "I solve challenging design problems to help business work and deliver products to your customers.<br><br>I selected the most relevant projects for you:"
+title: Product Designer for IBM
+company: IBM
+designer: "UX "
+intro: "Thank you for your time. I believe I can bring benefit to Watson iLab. I can solve challenging design problems and help to deliver the best Watson experience to customers.<br><br>I selected the most relevant projects to show how I think and approach the design process:"
 
 #ROWA B
 project1: "Strategy and Interfaces for Corporate Finances"
