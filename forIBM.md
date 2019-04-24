@@ -14,7 +14,7 @@ project1url: "/projects/rowab-business.html"
 project1img: "rowab"
 
 #truedentify
-project2: "Verification App Experience"
+project2: "Verification App Experience "
 project2text: "I led the design of the product and created a new verification flow. I designed interfaces and accepted the final result from the development team. I did project management for the design development teams."
 project2link: "More about verification flows"
 project2url: "/projects/truedentify-app.html"
