@@ -4,7 +4,7 @@ logo: logo
 title: Product Designer for Ataccama
 company: Ataccama
 designer: "digital "
-intro: I solve challanging design problems in order to help your business work and deliver digital products to your customers.<br><br>I selected the most relevant project for you
+intro: I solve challenging design problems in order to help business work and deliver products to your customers.<br><br>I selected the most relevant project for you
 
 #ROWA B
 project1: "Strategy and Interfaces for Corporate Finances"
