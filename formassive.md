@@ -1,10 +1,10 @@
 ---
 layout: offer
 logo: logo
-title: Product Designer for IBM
-company: IBM
+title: Product Designer for Massive Interactive
+company: Massive
 designer: "UX "
-intro: "Thank you for your time. I believe I can bring benefit to Watson iLab. I can solve challenging design problems and help to deliver the best Watson experience to customers.<br><br>I selected the most relevant projects to show how I think and approach the design process:"
+intro: "I solve challenging design problems to help business work and deliver products to your customers.<br><br>I selected the most relevant projects for you:"
 
 #ROWA B
 project1: "Strategy and Interfaces for Corporate Finances"
@@ -14,7 +14,7 @@ project1url: "/projects/rowab-business.html"
 project1img: "rowab"
 
 #truedentify
-project2: "Verification App Experience "
+project2: "Verification App Experience"
 project2text: "I led the design of the product and created a new verification flow. I designed interfaces and accepted the final result from the development team. I did project management for the design development teams."
 project2link: "More about verification flows"
 project2url: "/projects/truedentify-app.html"
