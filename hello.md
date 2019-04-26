@@ -3,7 +3,7 @@ layout: offer
 logo: logo
 title: Fintech Product Designer
 company: 
-designer: "fintech "
+designer: "a fintech "
 intro: "I solve challenging design problems to help financial companies and startups work and deliver products to your customers.<br><br>I selected the most relevant projects for you:"
 
 #ROWA B
