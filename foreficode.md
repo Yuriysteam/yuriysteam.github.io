@@ -13,19 +13,19 @@ project1link: "More about digital banking experience"
 project1url: "/projects/rowab-business.html"
 project1img: "rowab"
 
-#truedentify
-project2: "Verification App Experience"
-project2text: "I led the design of the product and created a new verification flow. I designed interfaces and accepted the final result from the development team. I did project management for the design development teams."
-project2link: "More about verification flows"
-project2url: "/projects/truedentify-app.html"
-project2img: "verif"
+#MicroMobility
+project3: "Concept of Scooter Sharing on Watch"
+project3text: "I created a user experience, animations and came up with ideas on how to make the experience better."
+project3link: "More about micro mobility concept and ideas"
+project3url: "/desing/2019/04/16/scooter-sharing-watch-app.html"
+project3img: "scoot"
 
 #MoneypoloWorld
-project3: "Online Money Transfer Experience"
-project3text: "Lead role in creating the user experience for online money transfers. I developed UI and UX for the sending process and inside pages."
-project3link: "More about online money remittance"
-project3url: "/projects/mp-world.html"
-project3img: "mp"
+project2: "Online Money Transfer Experience"
+project2text: "Lead role in creating the user experience for online money transfers. I developed UI and UX for the sending process and inside pages."
+project2link: "More about online money remittance"
+project2url: "/projects/mp-world.html"
+project2img: "mp"
 
 ---
 
