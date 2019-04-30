@@ -16,6 +16,7 @@ Disallow: /kuonitumlare
 Disallow: /fordott
 Disallow: /hello
 Disallow: /fornordnet
+Disallow: /fas
 
 
 
