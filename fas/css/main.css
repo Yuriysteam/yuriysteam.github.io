@@ -7927,7 +7927,8 @@ h1 {
   padding-top: 85px;
   padding-bottom: 85px; }
   .section-open-free-account .header {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 0; }
   .section-open-free-account .button {
     margin-top: 40px; }
 
@@ -8104,6 +8105,8 @@ footer {
   padding-bottom: 10px;
   padding-left: 0;
   background: none; }
+  .form-control:focus {
+    box-shadow: none; }
 
 .form-group {
   margin-bottom: 30px; }
@@ -8112,7 +8115,7 @@ footer {
     box-shadow: none;
     background: none; }
 
-h1 {
+.login h1 {
   padding-bottom: 60px;
   color: #333333; }
 
@@ -8203,6 +8206,8 @@ h1 {
       min-width: 300px; }
   .section-2 {
     background: #ffffff; }
+    .section-2 .content-icon {
+      min-width: 50px; }
     .section-2 .advantages p {
       text-align: center; }
     .section-2 .column {
@@ -8246,10 +8251,8 @@ h1 {
         padding-bottom: 0; }
       .section-2 .use-fas-account .button {
         margin-top: 10px; }
-      .section-2 .use-fas-account .goods {
-        padding-right: 25px; }
-      .section-2 .use-fas-account .exchange {
-        padding-right: 30px; }
+      .section-2 .use-fas-account img {
+        max-width: 90px; }
   .section-secure .header {
     padding-top: 60px;
     padding: 10px;
@@ -8378,7 +8381,9 @@ h1 {
   .registration footer {
     padding-top: 70px; }
   .reset .section.section-title {
-    height: 70vh; } }
+    height: 70vh; }
+  .section-secure .secure-items .Security {
+    margin-top: 0; } }
 
 @media screen and (max-width: 325px) {
   .section-title h1 {
