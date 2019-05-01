@@ -7,6 +7,7 @@ project-small-cover: "/projects_img/aml/cover.jpg"
 description: "Creating recognisable brand for B2B"
 task: "create a professional brand image for AML online service"
 intro-text: "AML System is a start-up company providing verification and onboarding services for business online. AML can determine fraud risks and provide scoring for individual and corporate clients. With the in-house team, I lead we created a logotype and recognisable brand."
+role: "In my responsibility was creating the logo and visual style for the brand. I have been negotiating, designing and presenting the brand image. I managed a visual designer and illustrator. When visuals have been developed I helped to structure and create guidelines."
 type: project
 web: amlsystem.com
 

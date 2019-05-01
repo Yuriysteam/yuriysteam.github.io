@@ -7996,6 +7996,132 @@ footer {
   .navbar-light .navbar-toggler:focus {
     outline: none; }
 
+.reset {
+  background: none; }
+
+.button {
+  margin-top: 0; }
+
+.img-fluid {
+  width: 150%;
+  max-width: 100%; }
+
+.navbar .button {
+  padding: 7px 25px;
+  min-width: 75px; }
+
+.navbar .navbar-nav {
+  padding-top: 10px; }
+  .navbar .navbar-nav li {
+    margin-right: 20px; }
+    .navbar .navbar-nav li .dropdown-menu {
+      top: 70%; }
+
+.login .section-title {
+  height: 75vh;
+  padding-bottom: 140px;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  padding-left: 0;
+  padding-right: 0; }
+  .login .section-title .content {
+    margin-top: 0; }
+  .login .section-title form .button {
+    min-width: 165px; }
+  .login .section-title form label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333; }
+  .login .section-title form input {
+    font-size: 15px;
+    color: #333333; }
+  .login .section-title form .form-check-input {
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    border: solid 1px #2e3354;
+    background-color: #ffffff; }
+  .login .section-title form .form-check-label {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #333333;
+    padding-left: 10px; }
+  .login .section-title form .form-check input[type=checkbox] {
+    display: none; }
+  .login .section-title form .form-check label:after {
+    content: '';
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    border: solid 1px #2e3354;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .login .section-title form .form-check input[type=checkbox]:checked + label:after {
+    outline: 1px solid #939598;
+    width: 21px;
+    height: 21px;
+    border-radius: 2px;
+    border: solid 1px #2e3354;
+    background-color: #2e3354;
+    background-image: url("../img/checkmark.svg");
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #aeaeae;
+  width: 360px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  margin-bottom: 30px;
+  background: none; }
+  .form-control:focus, .form-control:active {
+    outline: none;
+    box-shadow: none;
+    background: none; }
+
+h1 {
+  padding-bottom: 60px;
+  color: #333333; }
+
+.form-login-link {
+  padding-top: 20px; }
+  .form-login-link a {
+    font-weight: bold; }
+
+.link {
+  border-bottom: 1px solid #e3e3ea;
+  text-decoration: none;
+  font-weight: bold; }
+  .link:hover {
+    border-bottom: 1px solid #131523;
+    text-decoration: none; }
+
+.reset h1 {
+  padding-bottom: 10px; }
+
+.reset .reset-text {
+  max-width: 360px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 60px; }
+
+.form-check-input.is-valid ~ .form-check-label, .was-validated .form-check-input:valid ~ .form-check-label {
+  color: #2e3354; }
+
 @media screen and (max-width: 1000px) {
   .main {
     margin-left: 0;
@@ -8012,10 +8138,12 @@ footer {
     padding-right: 0px; }
   .button {
     max-height: 50px; }
+  .navbar .navbar-nav {
+    padding-top: 0; }
   .navbar {
     padding-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px; }
+    box-shadow: 0 2px 11px 0 rgba(197, 197, 197, 0.1);
+    background-color: #ffffff; }
     .navbar .navbar-nav .dropdown-menu {
       position: absolute;
       margin-left: -90px; }
@@ -8102,9 +8230,7 @@ footer {
     padding: 10px;
     font-size: 36px;
     max-width: 320px;
-    font-weight: bold;
-    padding-bottom: 100%;
-    position: absolute; }
+    font-weight: bold; }
   .section-secure .secure-items {
     -ms-flex-direction: column-reverse;
         flex-direction: column-reverse; }
@@ -8130,6 +8256,8 @@ footer {
     padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px; }
+    .section-send-cash .header {
+      padding-bottom: 20px; }
   footer {
     margin: 0 1% !important;
     padding: 30px 0; }
@@ -8138,6 +8266,8 @@ footer {
     footer .help,
     footer .links {
       padding-bottom: 40px; }
+  footer .contacts p {
+    text-align: left; }
   .section-info {
     padding: 25px 10px; }
     .section-info .company-info {
@@ -8156,112 +8286,82 @@ footer {
         padding-bottom: 20px;
         border: none; }
   .section-open-free-account .header {
-    font-size: 36px; } }
+    font-size: 36px; }
+  .section-2 .column .column-header {
+    text-align: center; }
+  .login {
+    background-size: 110%;
+    background-position-y: 12%; }
+    .login h1 {
+      padding-bottom: 30px; }
+    .login .col-md-7 {
+      display: none; }
+    .login .img-group {
+      display: none; }
+    .login .section.section-title {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-bottom: 0;
+      padding-top: 40px;
+      margin-bottom: 0px;
+      border: none;
+      height: 100%; }
+    .login form {
+      width: 100%; }
+      .login form .button {
+        margin-top: 0;
+        text-transform: uppercase; }
+      .login form .form-control {
+        width: 100%; }
+      .login form .wrapper {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+        .login form .wrapper:active, .login form .wrapper:focus {
+          text-decoration: none;
+          outline: none; }
+        .login form .wrapper .link {
+          height: 50%; }
+    .login .form-login-link {
+      padding-top: 0;
+      margin-top: 60px; }
+    .login .form-check-label.form-login-link {
+      width: 100%; }
+      .login .form-check-label.form-login-link .form-login-link {
+        padding-top: 0;
+        margin-top: 0; }
+      .login .form-check-label.form-login-link:active, .login .form-check-label.form-login-link:focus {
+        text-decoration: none;
+        outline: none; }
+    .login footer {
+      padding-top: 100px;
+      padding-bottom: 0; }
+  .registration .button {
+    width: 100%; }
+  .registration .link {
+    font-weight: normal; }
+  .registration .form-login-link {
+    font-weight: bold; }
+  .registration footer {
+    padding-top: 70px; }
+  .reset .section.section-title {
+    height: 70vh; } }
 
 @media screen and (max-width: 325px) {
   .section-title h1 {
     font-size: 26px; }
   .section-title .content .text {
     max-width: 100%;
-    font-size: 14px; } }
-
-.button {
-  margin-top: 0; }
-
-.img-fluid {
-  width: 150%;
-  max-width: 100%; }
-
-.navbar .button {
-  padding: 7px 25px;
-  min-width: 75px; }
-
-.navbar .navbar-nav {
-  padding-top: 10px; }
-  .navbar .navbar-nav li {
-    margin-right: 20px; }
-    .navbar .navbar-nav li .dropdown-menu {
-      top: 70%; }
-
-.section-title {
-  height: 75vh;
-  padding-bottom: 140px;
-  border-bottom: 1px solid #d7d7d7;
-  margin-left: 10% !important;
-  margin-right: 10% !important;
-  padding-left: 0;
-  padding-right: 0; }
-  .section-title form .button {
-    min-width: 165px; }
-  .section-title form label {
-    font-size: 13px;
-    font-weight: bold;
-    color: #333333; }
-  .section-title form input {
-    font-size: 15px;
-    color: #333333; }
-  .section-title form .form-check-input {
-    width: 21px;
-    height: 21px;
-    border-radius: 2px;
-    border: solid 1px #2e3354;
-    background-color: #ffffff; }
-  .section-title form .form-check-label {
-    font-size: 15px;
-    font-weight: normal;
-    line-height: normal;
-    letter-spacing: 0.2px;
-    color: #333333;
-    padding-left: 10px; }
-  .section-title form .form-check input[type=checkbox] {
-    display: none; }
-  .section-title form .form-check label:after {
-    content: '';
-    display: block;
-    width: 21px;
-    height: 21px;
-    border-radius: 2px;
-    border: solid 1px #2e3354;
-    background-color: #ffffff;
-    position: absolute;
-    top: 0;
-    left: 0; }
-  .section-title form .form-check input[type=checkbox]:checked + label:after {
-    outline: 1px solid #939598;
-    width: 21px;
-    height: 21px;
-    border-radius: 2px;
-    border: solid 1px #2e3354;
-    background-color: #ffffff;
-    background-image: url("../img/checked.svg");
-    background-position: center; }
-
-.form-control {
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid #2c2e3d;
-  width: 360px;
-  padding-bottom: 10px;
-  padding-left: 0;
-  margin-bottom: 30px;
-  background: none; }
-  .form-control:focus, .form-control:active {
-    outline: none;
-    box-shadow: none;
-    background: none; }
-
-h1 {
-  padding-bottom: 60px;
-  color: #333333; }
-
-.form-login-link {
-  padding-top: 20px; }
-  .form-login-link a {
-    font-weight: bold; }
-
-.link {
-  border-bottom: 1px solid #e3e3ea;
-  text-decoration: none; }
-  .link:hover {
-    border-bottom: 1px solid #131523;
-    text-decoration: none; }
+    font-size: 14px; }
+  .section-2 .content .item {
+    margin-right: 0; }
+  .section-collapse .items .item {
+    padding: 5px; }
+    .section-collapse .items .item .item-text {
+      padding-right: 5px; }
+  .section-collapse .col-md-5 {
+    margin-right: 0; }
+  .login form .wrapper .link {
+    height: 100%; } }

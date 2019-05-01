@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <div class="container main login">
+  <div class="container main login reset">
     <nav class="section justify-content-lg-between navbar navbar-expand-lg navbar-light text-secondary">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,34 +46,21 @@
               <a class="dropdown-item" href="#">English</a>
               <a class="dropdown-item" href="cz.html">Czech</a>
           </li>
-          <li>
-            <a href="register.html" class="button mb-3 btn btn-primary desktop">Register account</a>
-          </li>
           </ul>
     </nav>
-    <section class="row section justify-content-md-center section-title">
-        <div class="col-md-5 col-12 d-flex flex-column align-items-start content">
-          <form  name="login" class="needs-validation" novalidate>
-            <h1>Login</h1>
+    <section class="row section justify-content-md-center align-items-center section-title">
+        <div class="col-md-12 col-12 d-flex flex-column align-items-center content">
+          <form  name="login" class="needs-validation d-flex flex-column align-items-center justify-content-center" novalidate>
+            <h1>Reset password</h1>
+            <span class="reset-text">Please enter your account email for further details on how to reset your password.</span>
             <div class="form-group">
               <label for="InputEmail1">Email</label>
               <input type="email" required class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-            <div class="form-group">
-              <label for="InputPassword1">Password</label>
-              <input type="password" required class="form-control" id="InputPassword1" placeholder="Password">
-            </div>
             <div class="d-flex justify-content-md-between">
-            <button type="submit"  onclick="validate(this.form)" class="btn button btn-primary">LOGIN</button>
-            <a href="#"  class="wrapper mobile"><span class="link">Forgot password<span></a>
-            <span class="desktop"><a href="#" class="link">Forgot password</a></span>
+            <button type="submit"  onclick="validate(this.form)" class="btn button btn-primary">Reset password</button>
             </div>
           </form>
-          <div class="form-check-label form-login-link desktop">No Account yet? <a class="form-login-link link" href="register.html">Register here</a></div>
-          <a class="form-check-label form-login-link mobile" href="register.html">No Account yet? <span class="form-login-link link">Register here</span></a>
-        </div>
-        <div class="col-md-7 justify-content-md-center ">
-          <img src="img/hero.png" srcset="img/hero@2x.png 2x" alt="Group" class="img-fluid img-group">
         </div>
     </section>
     <footer class="row mobile">
