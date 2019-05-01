@@ -7666,7 +7666,8 @@ h1 {
   max-height: 50px;
   padding: 16px 36px;
   font-style: normal;
-  min-width: 250px; }
+  min-width: 250px;
+  box-shadow: 0 5px 13px 0 rgba(6, 14, 38, 0.2); }
 
 .badge {
   position: absolute;
@@ -7703,7 +7704,7 @@ h1 {
       line-height: 1.53;
       letter-spacing: 0.2px; }
     .section-2 .column p {
-      max-width: 260px;
+      max-width: 270px;
       font-size: 15px;
       font-stretch: normal;
       line-height: 1.6;
@@ -7729,6 +7730,8 @@ h1 {
         padding-right: 15px; }
     .section-2 .content .Macbook {
       max-width: 140%; }
+  .section-2 .use-fas-account .columns {
+    padding-bottom: 60px; }
   .section-2 .use-fas-account .header {
     padding-bottom: 60px;
     font-size: 36px;
@@ -7773,7 +7776,8 @@ h1 {
   background: #f5faff; }
 
 .section-collapse {
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 40px; }
   .section-collapse .item-process {
     margin-top: 50px; }
   .section-collapse .col-md-5 {
@@ -7896,6 +7900,8 @@ h1 {
     line-height: 1;
     letter-spacing: 0.1px;
     color: #181b1f; }
+  .section-send-cash .branch {
+    padding-top: 20px; }
   .section-send-cash .column {
     padding: 0; }
   .section-send-cash .header {
@@ -7931,6 +7937,17 @@ footer {
   border-bottom: 1px solid #d7d7d7;
   margin-left: 10% !important;
   margin-right: 10% !important; }
+  footer a {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e3e3ea;
+    transition-property: border-bottom, border-color, background, color, fill;
+    transition-duration: .33s;
+    transition-timing-function: ease-out; }
+    footer a:hover {
+      text-decoration: none;
+      color: #000000;
+      border-bottom-color: #000000; }
   footer h3 {
     font-size: 17px;
     font-weight: bold;
@@ -8018,7 +8035,7 @@ footer {
       top: 70%; }
 
 .login .section-title {
-  height: 75vh;
+  min-height: 75vh;
   padding-bottom: 140px;
   border-bottom: 1px solid #d7d7d7;
   margin-left: 10% !important;
@@ -8063,7 +8080,7 @@ footer {
     top: 0;
     left: 0; }
   .login .section-title form .form-check input[type=checkbox]:checked + label:after {
-    outline: 1px solid #939598;
+    outline: none;
     width: 21px;
     height: 21px;
     border-radius: 2px;
@@ -8073,6 +8090,12 @@ footer {
     background-position: center;
     background-repeat: no-repeat; }
 
+.form-check-input.is-invalid ~ .form-check-label, .was-validated .form-check-input:invalid ~ .form-check-label {
+  color: #333; }
+
+.invalid-feedback.check-box {
+  padding-left: 10px; }
+
 .form-control {
   border: none;
   border-radius: 0;
@@ -8080,9 +8103,11 @@ footer {
   width: 360px;
   padding-bottom: 10px;
   padding-left: 0;
-  margin-bottom: 30px;
   background: none; }
-  .form-control:focus, .form-control:active {
+
+.form-group {
+  margin-bottom: 30px; }
+  .form-group:focus, .form-group:active {
     outline: none;
     box-shadow: none;
     background: none; }
@@ -8245,8 +8270,7 @@ h1 {
       padding-left: 10px; }
     .section-collapse .button-collapse {
       border: none;
-      font-size: 24px;
-      text-align: center; }
+      font-size: 24px; }
     .section-collapse .items .item {
       margin-right: 0;
       padding: 20px; }
@@ -8292,6 +8316,13 @@ h1 {
   .login {
     background-size: 110%;
     background-position-y: 12%; }
+    .login .navbar-toggler {
+      display: none; }
+    .login .navbar-brand {
+      padding: 0;
+      padding-left: 15px; }
+    .login .navbar-brand .logo {
+      max-width: none; }
     .login h1 {
       padding-bottom: 30px; }
     .login .col-md-7 {
