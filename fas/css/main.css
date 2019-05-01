@@ -8037,7 +8037,7 @@ footer {
 
 .login .section-title {
   min-height: 75vh;
-  padding-bottom: 140px;
+  padding-bottom: 80px;
   border-bottom: 1px solid #d7d7d7;
   margin-left: 10% !important;
   margin-right: 10% !important;
@@ -8252,7 +8252,8 @@ footer {
       .section-2 .use-fas-account .button {
         margin-top: 10px; }
       .section-2 .use-fas-account img {
-        max-width: 90px; }
+        max-width: 90px;
+        width: 90px; }
   .section-secure .header {
     padding-top: 60px;
     padding: 10px;
@@ -8314,8 +8315,6 @@ footer {
         border: none; }
   .section-open-free-account .header {
     font-size: 36px; }
-  .section-2 .column .column-header {
-    text-align: center; }
   .login {
     background-size: 110%;
     background-position-y: 12%; }
@@ -8339,7 +8338,9 @@ footer {
       padding-top: 40px;
       margin-bottom: 0px;
       border: none;
-      height: 100%; }
+      min-height: 0;
+      height: 100%;
+      padding-top: 5%; }
     .login form {
       width: 100%; }
       .login form .button {
@@ -8365,7 +8366,8 @@ footer {
       width: 100%; }
       .login .form-check-label.form-login-link .form-login-link {
         padding-top: 0;
-        margin-top: 0; }
+        margin-top: 0;
+        margin-left: 5px; }
       .login .form-check-label.form-login-link:active, .login .form-check-label.form-login-link:focus {
         text-decoration: none;
         outline: none; }
@@ -8382,6 +8384,8 @@ footer {
     padding-top: 70px; }
   .reset .section.section-title {
     height: 70vh; }
+    .reset .section.section-title form .form-group {
+      width: 100%; }
   .section-secure .secure-items .Security {
     margin-top: 0; } }
 
