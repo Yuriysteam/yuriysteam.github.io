@@ -16,7 +16,7 @@ block: half
 template: single-project-cover
 new-cover: "/projects_img/mp_world/mpworld-project.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
-Development team lead – <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 182 days
 ---
 

@@ -16,7 +16,7 @@ new-cover: "/projects_img/aml/cover.jpg"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
-Development team lead – <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 42 days
 ---
 

@@ -17,7 +17,7 @@ dark: "dark-bg"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
-Development team lead – <a style='color:white' href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Development team lead: <a style='color:white' href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 ---
 
 <span class="logo">![](/projects_img/xixoio/logo.svg)</span>

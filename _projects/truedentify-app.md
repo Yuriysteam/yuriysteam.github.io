@@ -18,7 +18,7 @@ new-cover: "/projects_img/truedentify/cover.jpg"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
-Development team lead – <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 ---
 
 <span class="p800 logo">![](/projects_img/truedentify/logo.svg)</span>

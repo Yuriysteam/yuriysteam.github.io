@@ -16,7 +16,7 @@ block: full
 nametemplate: no-name
 new-cover: "/projects_img/mp_new_year/cover.jpg"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
-Development team lead – <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 67 days
 template: sngl-prj-covr
 ---
