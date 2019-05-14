@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The post office and mail delivery in the future"
-description: "The post office of the future will collect, sort and deliver mails by itlesf."
+description: "The post office of the future will collect, sort and deliver mails by itself."
 date: 2019-05-14 00:00:00
 categories: Future
 tags: interface
