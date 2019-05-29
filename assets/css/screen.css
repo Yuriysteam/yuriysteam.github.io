@@ -801,8 +801,8 @@ p {
 .search-list{
 	list-style-type: none;
 	font-size: 28px;
-	margin-bottom: 28px;
-	line-height:1.15em;
+	margin: 14px 0 14px;
+	line-height: 1.15em;
 }
 
 ul.search-results {
