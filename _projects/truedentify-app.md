@@ -14,7 +14,7 @@ block: three
 template: single-project-cover
 nametemplate: image-name
 days: 97 days
-new-cover: "/projects_img/truedentify/cover.jpg"
+new-cover: "/projects_img/truedentify/cover.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>

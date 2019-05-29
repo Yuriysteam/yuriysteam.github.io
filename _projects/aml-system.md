@@ -2,8 +2,8 @@
 layout: project
 title: Brand for AML System
 date:   2018-11-18 07:30:00
-project-cover: "/projects_img/aml/cover.jpg"
-project-small-cover: "/projects_img/aml/cover.jpg"
+project-cover: "/projects_img/aml/cover.png"
+project-small-cover: "/projects_img/aml/cover.png"
 description: "Creating recognisable brand for B2B"
 task: "create a professional brand image for AML online service"
 intro-text: "AML System is a start-up company providing verification and onboarding services for business online. AML can determine fraud risks and provide scoring for individual and corporate clients. With the in-house team, I lead we created a logotype and recognisable brand."
@@ -13,7 +13,7 @@ web: amlsystem.com
 
 block: half
 template: single-project-cover
-new-cover: "/projects_img/aml/cover.jpg"
+new-cover: "/projects_img/aml/cover.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>

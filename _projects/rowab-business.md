@@ -2,8 +2,8 @@
 layout: project
 title:  Strategy and Interfaces for ROWA B Business
 date:   2018-11-18 08:30:00
-project-cover: "/projects_img/rowab/cover.jpg"
-project-small-cover: "/projects_img/rowab/cover.jpg"
+project-cover: "/projects_img/rowab/cover.png"
+project-small-cover: "/projects_img/rowab/cover.png"
 description: "Creating a digital banking experience for businesses"
 intro-text: "Rowa B is a digital banking alternative for small businesses in Europe. It brings convenience for entrepreneurs who work with international partners. Leading the in-house team of designers and developers I delivered the first version of the web application and promo pages."
 task: "design client experience for Rowa B business application MVP"
@@ -14,7 +14,7 @@ web: rowab.com
 block: half
 template: single-project-cover
 nametemplate: image-name
-new-cover: "/projects_img/rowab/cover.jpg"
+new-cover: "/projects_img/rowab/cover.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
@@ -22,7 +22,7 @@ Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo 
 days: 164 days
 ---
 
-<span class="p900">![](/projects_img/rowab/cover2.png)</span>
+<span class="p900">![](/projects_img/rowab/cover-inside.png)</span>
 
 ### Background
 

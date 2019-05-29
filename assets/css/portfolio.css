@@ -4,6 +4,7 @@
 
 .projects-grid2 {
 	padding: 0 2%;
+	max-width: 1440px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -128,7 +129,6 @@ a.three:hover {
 	background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-	background-color: #fff;
 	
 }
 
@@ -318,20 +318,38 @@ a.offer-button {
 	
 }
 
-/* Text and background color for dark mode 
+ /*Text and background color for dark mode */
+
 @media (prefers-color-scheme: dark) {
   body {
-    color: #ddd;
-    background-color: #222;
+    color: #ddc;
+    background-color: #101416;
   }
 	
-	a {color: #ebebeb;}
-	a:hover {color: #d9d9d9;}
-	h1,h2,h3,h4,h5,h6 {color: #ebebeb;}
-	.hero-text {color: #ddd;}
-	.contact-message {color: #ddd;}
-	.single-project-title {color: #ddd;}
+	a {
+		color: #ebebeb;
+		border-bottom-color: #646464;
+	}
 	
-}*/
+	a:hover {color: #d9d9d9;}
+	
+	h1,h2,h3,h4,h5,h6 {color: #ddc;}
+	.hero-text {color: #ddc;}
+	.contact-message {color: #ddc;}
+	.single-project-title {color: #ddc;}
+	
+	.main-nav.overlay a:hover {color: #ddc;}
+	.search-nav {background-color: #101416;}
+	
+	.post-name a:hover {color: #ebebeb;}
+	
+	.post-share a {color: #ebebeb;}
+	.post-share a:hover {color: #d9d9d9;}
+	
+	
+	
+	.promo {border-top: 1px solid #6f6f6f}
+	
+}
 
 

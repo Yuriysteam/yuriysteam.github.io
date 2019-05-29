@@ -14,7 +14,7 @@ role: "I have been ideting and creating visuals assets. Thank I prepared the upd
 
 block: full
 nametemplate: no-name
-new-cover: "/projects_img/mp_new_year/cover.jpg"
+new-cover: "/projects_img/mp_new_year/cover-big.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 67 days

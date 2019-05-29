@@ -2,8 +2,8 @@
 layout: project
 title: lijinen typeface
 date:   2018-11-17 23:30:00
-project-cover: "/projects_img/lijinen/cover.jpg"
-project-small-cover: "/projects_img/lijinen/cover.jpg"
+project-cover: "/projects_img/lijinen/cover-big.png"
+project-small-cover: "/projects_img/lijinen/cover-big.png"
 description: "De Stijl inspired font"
 task: "create a dutch inspired typeface with constructivism geometry and shapes."
 intro-text: "lijenen is a result of my love to De Stijl Dutch style and geometric constructivism shapes.
@@ -15,7 +15,7 @@ role: type designer
 nametemplate: no-name
 block: half
 template: single-project-cover
-new-cover: "/projects_img/lijinen/cover.jpg"
+new-cover: "/projects_img/lijinen/cover-big.png"
 days: 61 days
 ---
 
