@@ -37,6 +37,7 @@ background-size: cover;
 background-repeat: no-repeat;
 	border-bottom-width: 0px;
     border-bottom-style: none;
+	background-color: transparent;
 }
 
 .seven {
@@ -48,6 +49,7 @@ background-size: cover;
 background-repeat: no-repeat;
 	border-bottom-width: 0px;
     border-bottom-style: none;
+	background-color: transparent;
 }
 
 .three {
@@ -59,6 +61,7 @@ background-size: cover;
 background-repeat: no-repeat;
 	border-bottom-width: 0px;
     border-bottom-style: none;
+	background-color: transparent;
 }
 
 a.half:hover {
