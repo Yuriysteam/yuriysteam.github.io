@@ -766,7 +766,7 @@ p {
 
 .main-nav {
 	position: relative;
-	padding: 35px 40px;
+	padding: 35px 50px;
 	margin: 0 auto 30px;
 	max-width: 1440px;
 }
@@ -1160,9 +1160,9 @@ nav ul li a {
 }
 
 .blog-wrapper {
-	width: 100%;
-	max-width:800px;
-	margin: 0 auto 0 160px;
+	max-width: 1440px;
+	margin: 0 auto 160px;
+	padding: 0;
 	
 }
 
@@ -1170,6 +1170,7 @@ nav ul li a {
 	
 	font-weight: 800;
 	margin-bottom: 0rem;
+	padding-right: 40%;
 }
 
 .post-name a:hover {
@@ -1178,10 +1179,10 @@ nav ul li a {
 }
 
 .post-content {
-
 font-size: 22px;
 line-height: 1.3em;
 margin-bottom: 20px;
+	padding-right: 35%;
 }
 
 .post-date {
@@ -2831,6 +2832,17 @@ transition-property: border-bottom, border-color, background, color, fill;
 transition-duration: .33s;
 transition-timing-function: ease-out;}
 
+/* ==========================================================================
+   10.5 Media Queries - Smaller than 1440px
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+	
+	.blog-wrapper {
+	padding: 0 50px;
+		margin: 0 auto 160px;
+
+}
+
 
 	/* ==========================================================================
    11. Media Queries - Smaller than 900px
@@ -2884,7 +2896,7 @@ transition-timing-function: ease-out;}
 			line-height: 1.5em;
 		}
 		.post {
-			width: 98%;
+			width: 100%;
 			font-size: 0.95em
 		}
 		
@@ -3006,7 +3018,7 @@ transition-timing-function: ease-out;}
 			}
 		
 		.blog-wrapper {
-	width: 98%;
+	
 	margin: 0 auto;
 	
 }
@@ -3065,13 +3077,24 @@ transition-timing-function: ease-out;}
 		
 		ul.search-results {
 	margin-bottom: 50px;
+			
        }
 		
 		.post-date {
-font-size: 15px;
-color: #565656;
-margin-bottom: 60px;
+			font-size: 15px;
+			color: #565656;
+			margin-bottom: 60px;
 }
+		.blog-wrapper {
+			padding: 0 15px;}
+		
+		.post-content {
+			padding-right: 0;
+		}
+		
+		.post-name {
+			padding-right: 0;
+		}
 		
 }
 	/* ==========================================================================
@@ -3483,7 +3506,6 @@ h6 {
 		}
 		
 		.blog-wrapper {
-	width: 96%;
 	margin: 0 auto;
 	
 }

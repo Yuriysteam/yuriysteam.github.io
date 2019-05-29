@@ -322,6 +322,7 @@ a.offer-button {
 
 @media (prefers-color-scheme: dark) {
   body {
+	  caret-color: white;
     color: #ddc;
     background-color: #101416;
   }
@@ -331,24 +332,44 @@ a.offer-button {
 		border-bottom-color: #646464;
 	}
 	
-	a:hover {color: #d9d9d9;}
+	a:hover {color: #ebebeb;
+	border-bottom-color: #ebebeb;}
 	
 	h1,h2,h3,h4,h5,h6 {color: #ddc;}
 	.hero-text {color: #ddc;}
 	.contact-message {color: #ddc;}
 	.single-project-title {color: #ddc;}
 	
-	.main-nav.overlay a:hover {color: #ddc;}
-	.search-nav {background-color: #101416;}
+	.main-nav.overlay a:hover {color: #ddc;
+	border-bottom-color: #ddc;}
+	.search-nav {
+		background-color: #101416;
+		color: #ddc;
+	}
 	
-	.post-name a:hover {color: #ebebeb;}
+	.post-name a:hover {color: #ebebeb;
+	border-bottom-color:#ddc;}
 	
-	.post-share a {color: #ebebeb;}
-	.post-share a:hover {color: #d9d9d9;}
+	.post-share a {color: #ddc;
+	border-bottom-color:#818080;}
+	.post-share a:hover {color: #ddc;
+	border-bottom-color:#ddc;}
 	
+	.post-date {color:#9b9b9b;}
 	
+	blockquote {color: #9a9999;}
 	
 	.promo {border-top: 1px solid #6f6f6f}
+	
+	.post-content a:hover {
+		color:#FC6720;
+		border-bottom-color: #FC6720;
+	}
+	.post-content a {color:#FC6720;}
+	
+	.site-footer a:hover {
+		color: #ddc;
+	}
 	
 }
 
