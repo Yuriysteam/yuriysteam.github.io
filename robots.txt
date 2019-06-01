@@ -8,15 +8,12 @@ Disallow: /portfolio2
 Disallow: /resources
 Disallow: /designer-for-fintech
 Disallow: /designdo
-Disallow: /ataccama
 Disallow: /infosolutions.html
 Disallow: /training/case2.html
 Disallow: /kiwi
-Disallow: /kuonitumlare
-Disallow: /fordott
 Disallow: /hello
-Disallow: /fornordnet
-Disallow: /fas
+Disallow: /bb
+
 
 
 
