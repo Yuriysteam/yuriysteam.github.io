@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Design travel guide: Helsinki"
-description: "Trip guide to Helsinki designers. Featuring museums, coffee places and environmental design in the the Finnish capital."
+description: "Trip guide to Helsinki for designers. Featuring museums, coffee places and environmental design in the the Finnish capital."
 date: 2019-03-07 00:00:00
 categories: Design
 tags: travel

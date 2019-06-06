@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Design travel guide: Amsterdam"
-description: "Trip guide to Amsterdam designers. Featuring museums, coffee places and environmental design in the the Netherlands capital."
+description: "Trip guide to Amsterdam for designers. Featuring museums, coffee places and environmental design in the the Netherlands capital."
 date: 2019-03-06 00:00:00
 categories: Design
 tags: travel
