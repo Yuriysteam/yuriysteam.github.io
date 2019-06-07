@@ -20,7 +20,7 @@ logo: true
   {% for item in items reversed %}
         
         <a class="{{item.block}}" href="{{item.url}}">
-			<div class="{{ item.template }}" style="background-image: url({{ item.new-cover }})"></div>
+			<div class="{{ item.template }} {{ item.templateheight }}" style="background-image: url({{ item.new-cover }})"></div>
 			
             <div class="{{item.nametemplate}} {{ item.custom-font }}">    
                 <div class="item-titel"><b>{{item.title}}</b></div>

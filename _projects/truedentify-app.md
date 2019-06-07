@@ -12,6 +12,7 @@ type: project
 
 block: three
 template: single-project-cover
+templateheight: tall
 nametemplate: image-name
 days: 97 days
 new-cover: "/projects_img/truedentify/cover.png"
