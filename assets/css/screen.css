@@ -1064,13 +1064,13 @@ nav ul li a {
 
 .post {
 	position: relative;
-	width: 70%;
 	max-width: 1440px;
 	margin: 0rem auto;
 	padding-bottom: 0rem;
 	border-bottom: #EBF2F6 0px solid;
 	word-break: break-word;
 	hyphens: auto;
+	padding: 0 35px;
 }
 
 
@@ -1162,7 +1162,7 @@ nav ul li a {
 .blog-wrapper {
 	max-width: 1440px;
 	margin: 0 auto 160px;
-	padding: 0;
+	padding: 0 35px;
 	
 }
 
@@ -1179,7 +1179,7 @@ nav ul li a {
 }
 
 .post-content {
-font-size: 22px;
+font-size: 24px;
 line-height: 1.3em;
 margin-bottom: 20px;
 	padding-right: 35%;
@@ -2058,6 +2058,7 @@ white-space: nowrap;
 	display: block;
 	padding-top: 2%;
 	margin-bottom: 10px;
+	max-width: 840px;
 }
 
 .intro-info {
@@ -2068,10 +2069,11 @@ white-space: nowrap;
 .intro-text {
 	width: 100%;
 	margin:30px auto 60px;
+	
 }
 
 .intro-text-p {
-	margin-top:50px;
+	margin-top: 50px;
 	font-size: 1.4em;
 	line-height: 1.1em;
 }
@@ -2432,59 +2434,58 @@ white-space: nowrap;
    10. Portfolio project styles
    ========================================================================== */
 
-.logo img {
+.p-logo img {
 	width: 100%;
-	max-width: 800px;
-	margin: 80px auto 80px;
+	margin: 50px 0;
 }
 
 .p1000 img {
-	width: 100%;
-	max-width: 1000px;
-	margin: 30px auto;
+	max-width: 1440px;
+	width:90%;
 }
 
 .p900 img {
 	width: 100%;
 	max-width: 900px;
-	margin: 30px auto;
+	padding: 30px auto;
 }
 
 .p800 img {
 	width: 100%;
-	max-width: 900px;
-	margin: 30px auto;
+	max-width: 1400px;
+	padding: 30px auto;
 }
 
 
 .p700 img {
 	width: 100%;
 	max-width: 700px;
-	margin: 30px auto;
+	padding: 30px auto;
 }
 
 .p600 img {
 	width: 100%;
 	max-width: 600px;
-	margin: 30px auto;
+	text-align: center;
 }
 
 .p500 img {
 	width: 100%;
 	max-width: 500px;
-	margin: 30px auto;
+	padding: 30px auto;
 }
 
 .p400 img {
 	width: 100%;
 	max-width: 400px;
-	margin: 30px auto;
+	padding: 30px auto;
 }
 
 .p300 img {
 	width: 100%;
 	max-width: 300px;
-	margin: 30px auto 30px;
+	padding: 30px auto;
+	text-align: center;
 }
 
 .phero img {
@@ -2494,7 +2495,7 @@ white-space: nowrap;
 .p100 img {
 	width: 100%;
 	max-width: 100px;
-	margin: 0 auto;
+	padding: 0 auto;
 }
 
 .pshadow img {
@@ -2515,12 +2516,8 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 }
 
 .p-text {
+	max-width: 860px;
 	display: block;
-	width:60%;
-	margin: 10px auto 80px;
-	line-height: 2.5rem;
-	max-width: 800px;
-	
 }
 
 
@@ -2842,6 +2839,11 @@ transition-timing-function: ease-out;}
 		margin: 0 auto 160px;
 
 }
+	
+	.post-content {
+		font-size: 22px;
+	}
+}
 
 
 	/* ==========================================================================
@@ -2896,8 +2898,8 @@ transition-timing-function: ease-out;}
 			line-height: 1.5em;
 		}
 		.post {
-			width: 100%;
-			font-size: 0.95em
+			font-size: 0.95em;
+			padding: 0 15px;	
 		}
 		
 		hr {
@@ -3013,6 +3015,7 @@ transition-timing-function: ease-out;}
 		}
 		
 		
+		
 		.cv-wrapper {
 			width: 100%;
 			}
@@ -3062,10 +3065,7 @@ transition-timing-function: ease-out;}
 			display: block;
 		}
 		
-		.p-text {
-		display: block;
-		width:80%;
-		}
+		
 		
 		.fin-project-text {
 		width: 35%;
@@ -3094,6 +3094,11 @@ transition-timing-function: ease-out;}
 		
 		.post-name {
 			padding-right: 0;
+		}
+		
+		.p1000 img{
+			width: 100%;
+			padding: 2% 0;
 		}
 		
 }
@@ -3143,7 +3148,6 @@ h6 {
 		.main-nav {
 			padding: 0;
 			margin-bottom: 2rem;
-			border-bottom: #e0e4e7 1px solid;
 			padding-right: 10px;
 			margin-top: 10px;
 		}
@@ -3198,7 +3202,6 @@ h6 {
 			margin: 2rem auto;
 		}
 		.post {
-			width: 96%;
 			margin: 2rem auto;
 			padding-bottom: 2rem;
 			line-height: 1.45em;
@@ -3492,11 +3495,7 @@ h6 {
 			margin: 20px auto 40px
 		}
 		
-		.p-text {
-		display: block;
-		width:90%;
-		margin: 10px auto 60px;
-		}
+		
 		
 		.cv-wrapper {
 		width: 100%;
@@ -3574,8 +3573,13 @@ h6 {
 	@media only screen and (max-width: 350px) {
 		
 		.single-project-title {
-			font-size: 2.4em;
+			font-size: 1.8em;
 			line-height: 1em;
+		}
+		
+		.intro-text-p {
+			font-size: 1.4em;
+			margin-top:20px;
 		}
 		
 		.preposition-text {

@@ -1,0 +1,22 @@
+---
+layout: project
+title: Link's Re:Awakening Stickers
+date:   2019-06-06 02:30:00
+description: "Sticker pack to celebrate Link's Awakening release for Nintendo Switch"
+intro-text: "15 stickers to express  cheer, surprise and joy about Link's Awakening release."
+type: project
+web: "<a href='https://t.me/addstickers/Links_Re_Awakening'>Download on Telegram</a>"
+
+block: full
+nametemplate: no-name
+new-cover: "/projects_img/stickers/link-cover.png"
+author: "Author: Yuriy Shiryaev</br>Character and name: Nintendo"
+days: 14 days
+template: sngl-prj-covr
+---
+
+<span class="p1000">![](/projects_img/stickers/link-preview.png)</span>
+
+<span class="p1000">![](/projects_img/stickers/link-preview.png)</span>
+
+<span class="p600">![](/projects_img/stickers/preview.png)</span>

@@ -331,8 +331,9 @@ padding: 0;
 	font-size: 22px;
 line-height: 1.3em;
 margin-bottom: 20px;
-padding: 0 15px;
-}
+	}
+	
+	
 	
 }
 
@@ -342,7 +343,7 @@ padding: 0 15px;
   body {
 	  caret-color: white;
     color: #ddc;
-    background-color: #101416;
+    background-color: #14191c;
   }
 	
 	a {
@@ -380,16 +381,21 @@ padding: 0 15px;
 	.promo {border-top: 1px solid #6f6f6f}
 	
 	.post-content a:hover {
-		color:#FC6720;
+		color:#e05919;
 		border-bottom-color: #FC6720;
 	}
-	.post-content a {color:#FC6720;}
+	.post-content a {color:#e05919;}
 	
 	.site-footer a:hover {
 		color: #ddc;
 	}
 	
 	.cv-header {color: #ddc;}
+	
+	code, tt {
+		background: #2e2e2e;
+		border: 1px solid #4d4d4d;
+	}
 	
 }
 
