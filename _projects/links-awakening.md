@@ -11,7 +11,7 @@ block: full
 nametemplate: no-name
 new-cover: "/projects_img/stickers/link-cover.png"
 author: "Author: Yuriy Shiryaev</br>Character and name: Nintendo"
-days: 12 days
+days: 12 days (published 11.06.19)
 template: sngl-prj-covr
 ---
 
