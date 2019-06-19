@@ -3,7 +3,7 @@ layout: project
 title: Link's Re:Awakening Stickers
 date:   2019-06-06 02:30:00
 description: "Telegram stickers to celebrate Link's Awakening release for Nintendo Switch"
-intro-text: "12 stickers to express cheer, surprise and joy about Link's Awakening release. More coming soon."
+intro-text: "13 stickers to express cheer, surprise and joy about Link's Awakening release. More coming soon."
 type: project
 web: "<a href='https://t.me/addstickers/linksreawakening'>Download on Telegram</a>"
 
@@ -17,4 +17,4 @@ template: sngl-prj-covr
 
 <span class="p1000">![link's awakening telegram stickers](/projects_img/stickers/link-preview.png)</span>
 
-<span class="p600">![link's awakening telegram stickers](/projects_img/stickers/preview.png)</span>
+<span class="p900">![link's awakening telegram stickers](/projects_img/stickers/preview.png)</span>
