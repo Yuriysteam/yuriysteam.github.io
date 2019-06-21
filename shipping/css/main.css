@@ -8215,21 +8215,18 @@ footer {
     -ms-flex-order: 2;
         order: 2; }
   .section-deleviry {
-    margin-top: -90px; } }
-
-.section-deleviry-content .item {
-  padding: 0; }
-
-.section-deleviry-content .item .item-header {
-  padding-left: 6px; }
-
-.footer-contacts {
-  padding: 0;
-  padding-top: 30px;
-  text-align: left;
-  -ms-flex-align: start !important;
-      align-items: flex-start !important;
-  font-size: 34px; }
+    margin-top: -90px; }
+  .section-deleviry-content .item {
+    padding: 0; }
+  .section-deleviry-content .item .item-header {
+    padding-left: 6px; }
+  .footer-contacts {
+    padding: 0;
+    padding-top: 30px;
+    text-align: left;
+    -ms-flex-align: start !important;
+        align-items: flex-start !important;
+    font-size: 34px; } }
 
 @media screen and (max-width: 330px) {
   footer .footer-contacts {
