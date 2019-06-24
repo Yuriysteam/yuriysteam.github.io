@@ -8223,11 +8223,15 @@ footer {
     footer .help-header {
       margin-bottom: 50px; }
   .section-deleviry.section-deleviry-cz {
-    margin-top: 0; } }
+    margin-top: 0px; } }
 
 @media screen and (max-width: 768px) {
+  .section-deleviry.section-deleviry-cz {
+    margin-top: -90px; }
+  form .form-button-arrow {
+    padding-top: 8px; }
   .container-section-cash-text-wrapper {
-    padding-bottom: 20px; }
+    padding-bottom: 40px; }
   .selection-form {
     background: none; }
   .selection-form {

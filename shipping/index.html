@@ -171,7 +171,7 @@
         </div>
         <div id="formWrappper" class="form-wrapper">
           <form name="delivery" class="collapse d-md-block needs-validation" id="collapseForm" onsubmit="call();return false;" method="post" enctype="multipart/form-data" novalidate>
-            <h1 class="form-header">Cargo delivery</h1>
+            <h1 class="form-header desktop">Cargo delivery</h1>
             <div class="form-group">
               <label for="InputCompanyName">Company name</label>
               <input name="companyName" type="text" required class="form-control" id="InputCompanyName" aria-describedby="InputCompanyName" placeholder="e.g. ARA Shipping ">
@@ -271,7 +271,6 @@
                     if(xhr.status == 200) {
                         data = xhr.responseText;
                         if(data == true) {
-                            console.log('work')
                             form.reset()
                             $("#formWrappper").addClass("hide-form");
                             $("#sendedForm").addClass("form-no-visible");
@@ -282,7 +281,6 @@
                             $(".doc-icon").removeClass("show-clear-button");
                             $("#inputFile").removeClass("show-file-name");
                         } else {
-                          console.log('not work')
                         }
                     }
                 }
@@ -351,7 +349,46 @@
 				Work in ARA Shipping
 			</h1>
 			<div class="row items">
-				<div class="item col-md-4 col-12 pr-md-4 pl-0">
+				<div class="item col-md-6 col-12 pr-md-4 pl-0">
+					<h4 class="item-header mb-2 mt-1">
+						Business development manager
+					</h4>
+					<div class="item-header-position mb-2">
+						Praha, Czech Republic
+					</div>
+					<div class="item-text mb-1">
+						<span>You will be responsible for a developing and managing sales and marketing activities. As well as, acquiring new dealers and distributors and keeping existing customers satisfied. </span><br>
+            <b>We require:</b><br>
+            • Sales background<br>
+            • Czech/Slovak and English is a plus<br>
+            • Communication, presentation and negotiation skills<br>
+            • Highly motivated self-starter<br>
+					</div>
+					<a href="mailto:info@arashipping.cz?subject=Application to Business development manager" class="item-link">
+						Apply for this position >
+					</a>
+				</div>
+				<div class="item col-md-6 col-12 px-md-4 pl-0">
+					<h4 class="item-header mb-2 mt-1">
+						AML specialist
+					</h4>
+					<div class="item-header-position mb-2">
+						Praha, Czech Republic
+					</div>
+					<div class="item-text mb-1">
+            <span>AML Manager will define, design and monitor the Fraud and Anti Money-Laudering policy, procedures and standards. He/she sets the mandatory framework rules for the KYC user journey, optimalization and reporting in cooperation with KYC user journey business owner. </span><br>
+            <b>We require:</b><br>
+            • University degree in technical, business, management or legal subject,<br>
+            • Strong Fraud/AML experience<br>
+            • Project/product management<br>
+            • Knowledge of Cargo shipping and Freight<br>
+            • Highly motivated and responsible<br>
+					</div>
+					<a href="mailto:info@arashipping.cz?subject=Application to Business development manager" class="item-link">
+						Apply for this position >
+					</a>
+				</div>
+				<!-- <div class="item col-md-4 col-12 pl-md-4 pl-0">
 					<h4 class="item-header mb-2 mt-1">
 						Frontend Engineer
 					</h4>
@@ -364,35 +401,7 @@
 					<a href="#" class="item-link">
 						Apply for this position >
 					</a>
-				</div>
-				<div class="item col-md-4 col-12 px-md-4 pl-0">
-					<h4 class="item-header mb-2 mt-1">
-						Frontend Engineer
-					</h4>
-					<div class="item-header-position mb-2">
-						Engineering in Palo Alto, California
-					</div>
-					<div class="item-text mb-1">
-						The frontend engineer will focus on developing tools to understand and improve the operation of Uber's airspace systems for UberAIR 
-					</div>
-					<a href="#" class="item-link">
-						Apply for this position >
-					</a>
-				</div>
-				<div class="item col-md-4 col-12 pl-md-4 pl-0">
-					<h4 class="item-header mb-2 mt-1">
-						Frontend Engineer
-					</h4>
-					<div class="item-header-position mb-2">
-						Engineering in Palo Alto, California
-					</div>
-					<div class="item-text mb-1">
-						The frontend engineer will focus on developing tools to understand and improve the operation of Uber's airspace systems for UberAIR 
-					</div>
-					<a href="#" class="item-link">
-						Apply for this position >
-					</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<footer class="row">

@@ -172,7 +172,7 @@
         </div>
         <div id="formWrappper" class="form-wrapper">
           <form name="delivery" class="collapse d-md-block needs-validation" id="collapseForm" onsubmit="call();return false;" method="post" enctype="multipart/form-data" novalidate>
-            <h1 class="form-header">Poptávka přepravy</h1>
+            <h1 class="form-header desktop">Poptávka přepravy</h1>
             <div class="form-group">
               <label for="InputCompanyName">Jméno společnosti</label>
               <input name="companyName" type="text" required class="form-control" id="InputCompanyName" aria-describedby="InputCompanyName" placeholder="např. ARA Shipping ">
@@ -272,7 +272,6 @@
                     if(xhr.status == 200) {
                         data = xhr.responseText;
                         if(data == true) {
-                            console.log('work')
                             form.reset()
                             $("#formWrappper").addClass("hide-form");
                             $("#sendedForm").addClass("form-no-visible");
@@ -283,7 +282,6 @@
                             $(".doc-icon").removeClass("show-clear-button");
                             $("#inputFile").removeClass("show-file-name");
                         } else {
-                          console.log('not work')
                         }
                     }
                 }
@@ -362,7 +360,7 @@
 					<div class="item-text mb-1">
 						The frontend engineer will focus on developing tools to understand and improve the operation of Uber's airspace systems for UberAIR 
 					</div>
-					<a href="#" class="item-link">
+					<a href="mailto:info@arashipping.cz?subject=Application to Business development manager" class="item-link">
 						Mám zájem o tuto pozici >
 					</a>
 				</div>
@@ -376,7 +374,7 @@
 					<div class="item-text mb-1">
 						The frontend engineer will focus on developing tools to understand and improve the operation of Uber's airspace systems for UberAIR 
 					</div>
-					<a href="#" class="item-link">
+					<a href="mailto:info@arashipping.cz?subject=Application to Business development manager" class="item-link">
 						Mám zájem o tuto pozici >
 					</a>
 				</div>
@@ -390,7 +388,7 @@
 					<div class="item-text mb-1">
 						The frontend engineer will focus on developing tools to understand and improve the operation of Uber's airspace systems for UberAIR 
 					</div>
-					<a href="#" class="item-link">
+					<a href="mailto:info@arashipping.cz?subject=Application to Business development manager" class="item-link">
 						Mám zájem o tuto pozici >
 					</a>
 				</div>
