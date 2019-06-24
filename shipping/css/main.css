@@ -7727,6 +7727,16 @@ a {
     font-weight: 300;
     line-height: 1.27;
     color: #626987; }
+  .section-deleviry .section-deleviry-content .item-text-link {
+    color: #1963cb;
+    -webkit-text-decoration-color: #1963cb;
+            text-decoration-color: #1963cb;
+    -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+    .section-deleviry .section-deleviry-content .item-text-link:hover {
+      color: #033780; }
 
 #sendedForm {
   background: #f4f7fa; }
@@ -8121,7 +8131,7 @@ footer {
     font-family: Biryani;
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: bold;
     max-width: 650px;
     line-height: 1.15;
@@ -8182,19 +8192,24 @@ footer {
       font-size: 18px; }
     .section-cash .section-cash-link {
       font-size: 16px; }
-  .section-work .section-work-header {
-    font-size: 26px; }
-  .section-work .item {
-    margin-bottom: 20px; }
-    .section-work .item .item-header {
-      font-size: 18px; }
-    .section-work .item .item-text {
-      font-size: 16px;
-      padding-bottom: 30px; }
-    .section-work .item .item-header-position {
-      font-size: 13px; }
-    .section-work .item .item-link {
-      font-size: 16px; }
+  .section-work {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 12px;
+    padding-right: 12px; }
+    .section-work .section-work-header {
+      font-size: 26px; }
+    .section-work .item {
+      margin-bottom: 20px; }
+      .section-work .item .item-header {
+        font-size: 18px; }
+      .section-work .item .item-text {
+        font-size: 16px;
+        padding-bottom: 30px; }
+      .section-work .item .item-header-position {
+        font-size: 13px; }
+      .section-work .item .item-link {
+        font-size: 16px; }
   footer {
     margin-left: 12px !important;
     padding-left: 0;
@@ -8220,7 +8235,7 @@ footer {
     padding: 0; }
   .section-deleviry-content .item .item-header {
     padding-left: 6px; }
-  .footer-contacts {
+  footer .footer-contacts {
     padding: 0;
     padding-top: 30px;
     text-align: left;
@@ -8231,3 +8246,8 @@ footer {
 @media screen and (max-width: 330px) {
   footer .footer-contacts {
     font-size: 28px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+    max-width: 1440px; } }
