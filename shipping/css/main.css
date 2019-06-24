@@ -7579,6 +7579,12 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background-color: #ffffff; }
 
+a:focus,
+button:focus,
+.section-collapse .button-collapse:focus,
+.nav-link:focus {
+  outline: none; }
+
 a {
   transition-property: border-bottom, border-color, background, color, fill;
   transition-duration: .33s;
@@ -7642,9 +7648,6 @@ a {
   padding: 10px;
   padding-left: 0;
   color: #252525; }
-
-.section-deleviry.section-deleviry-cz {
-  margin-top: -250px; }
 
 .navbar {
   padding: 0 20px;
@@ -7742,6 +7745,9 @@ a {
             text-decoration-line: underline; }
     .section-deleviry .section-deleviry-content .item-text-link:hover {
       color: #033780; }
+
+.section-deleviry-cz .section-header {
+  font-size: 46px; }
 
 #sendedForm {
   background: #f4f7fa; }
@@ -7907,6 +7913,11 @@ form {
   .section-cash .container-section-cash {
     max-width: 100%;
     width: 100%; }
+    .section-cash .container-section-cash .row {
+      margin-left: 0;
+      margin-right: 0; }
+    .section-cash .container-section-cash .item:first-child {
+      padding-left: 0; }
   .section-cash .container-section-cash-text {
     font-size: 30px;
     font-weight: 300;
@@ -8221,13 +8232,9 @@ footer {
     margin-right: 12px !important;
     padding-bottom: 30px; }
     footer .help-header {
-      margin-bottom: 50px; }
-  .section-deleviry.section-deleviry-cz {
-    margin-top: 0px; } }
+      margin-bottom: 50px; } }
 
 @media screen and (max-width: 768px) {
-  .section-deleviry.section-deleviry-cz {
-    margin-top: -90px; }
   form .form-button-arrow {
     padding-top: 8px; }
   .container-section-cash-text-wrapper {
@@ -8263,3 +8270,7 @@ footer {
   .container {
     width: 90%;
     max-width: 1440px; } }
+
+@media screen and (max-width: 1300px) {
+  .section-deleviry-cz .section-header {
+    font-size: 42px; } }
