@@ -7643,6 +7643,9 @@ a {
   padding-left: 0;
   color: #252525; }
 
+.section-deleviry.section-deleviry-cz {
+  margin-top: -250px; }
+
 .navbar {
   padding: 0 20px;
   width: 100%;
@@ -7716,7 +7719,9 @@ a {
     margin-bottom: 100px;
     z-index: 100; }
   .section-deleviry .section-deleviry-content .section-deleviry-content-header {
-    padding: 10px; }
+    padding: 10px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
     .section-deleviry .section-deleviry-content .section-deleviry-content-header h2 {
       font-size: 42px;
       font-weight: bold;
@@ -7731,8 +7736,8 @@ a {
     color: #1963cb;
     -webkit-text-decoration-color: #1963cb;
             text-decoration-color: #1963cb;
-    -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
+    -webkit-text-decoration-style: solid;
+            text-decoration-style: solid;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline; }
     .section-deleviry .section-deleviry-content .item-text-link:hover {
@@ -7900,7 +7905,8 @@ form {
     font-weight: bold;
     color: #ffffff; }
   .section-cash .container-section-cash {
-    max-width: 100%; }
+    max-width: 100%;
+    width: 100%; }
   .section-cash .container-section-cash-text {
     font-size: 30px;
     font-weight: 300;
@@ -8012,8 +8018,6 @@ footer {
   font-size: 24px;
   color: #1b2240;
   padding-bottom: 130px; }
-  .navbar-link-lang-mobile:last-child {
-    padding-left: 30px; }
 
 .navbar-link-lang-mobile-selected {
   font-size: 24px;
@@ -8180,7 +8184,7 @@ footer {
     .section-cash .item-text {
       font-size: 16px; }
     .section-cash .section-cash-text {
-      padding-top: 20px;
+      padding-top: 30px;
       font-size: 18px;
       font-weight: bold;
       color: #c7d3d2; }
@@ -8217,9 +8221,13 @@ footer {
     margin-right: 12px !important;
     padding-bottom: 30px; }
     footer .help-header {
-      margin-bottom: 50px; } }
+      margin-bottom: 50px; }
+  .section-deleviry.section-deleviry-cz {
+    margin-top: 0; } }
 
 @media screen and (max-width: 768px) {
+  .container-section-cash-text-wrapper {
+    padding-bottom: 20px; }
   .selection-form {
     background: none; }
   .selection-form {

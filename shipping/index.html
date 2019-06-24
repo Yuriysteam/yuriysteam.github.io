@@ -70,21 +70,18 @@
             </a>
           </div>
           <div class="navbar-collapse-wrapper d-flex flex-column mobile">
-              <a class="navbar-link px-2" href="#">
+              <a href="#cargo" class="navbar-link px-2">
                 Cargo delivery
               </a>
-              <a class="navbar-link px-2" href="#">
+              <a href="#cash" class="navbar-link px-2">
                 Cash transfers
               </a>
-              <a class="navbar-link px-2" href="#">
+              <a href="#contact" class="navbar-link px-2">
                   Contact us
               </a>
               <div class="link-wrapper d-flex">
                 <a class="navbar-link-lang-mobile ml-2" href="cz/index.html">
                   Czech 
-                </a>
-                <a class="navbar-link-lang-mobile navbar-link-lang-mobile-selected" href="index.html">
-                  English 
                 </a>
               </div>
               <a class="navbar-link px-2" href="mailto:info@arashipping.cz">
@@ -97,7 +94,7 @@
         </div>
       </nav>
       <img src="img/cameron-venti-1126957-unsplash.png" class="img-fluid navbar-image align-top" alt="cameron-venti">
-      <h1 class="section-header-mobile mobile">Ocean freight services and cash transfers</h1>
+      <h1 id="cargo" class="section-header-mobile mobile">Ocean freight services and cash transfers</h1>
     </div>
     <div class="row section section-deleviry">
       <div class="col-md-8 col-12 section-deleviry-content pr-lg-3">
@@ -131,7 +128,7 @@
               <img src="img/path-9.svg" alt="tracking" class="content-icon">
               <h3 class="item-header">Cargo tracking</h3>
             </div>
-            <p class="item-text">Track cargo on <a class="item-text-link" href="marinetraffic.com">marinetraffic.com</a>.
+            <p class="item-text">Track cargo on <a class="item-text-link" target="_blank" href="https://www.marinetraffic.com/">marinetraffic.com</a>.
               We will provide a tug or barge name to locate the ship.</p>
           </div>
           <div class="item  pl-lg-2 d-flex align-items-start flex-column col-12 col-md-6">
@@ -177,14 +174,14 @@
             <h1 class="form-header">Cargo delivery</h1>
             <div class="form-group">
               <label for="InputCompanyName">Company name</label>
-              <input name="companyName" type="text" required class="form-control" id="InputCompanyName" aria-describedby="InputCompanyName" placeholder="např. Ara Shipping ">
+              <input name="companyName" type="text" required class="form-control" id="InputCompanyName" aria-describedby="InputCompanyName" placeholder="e.g. ARA Shipping ">
               <div class="invalid-feedback">
                   Company name is requered
               </div>
             </div>
             <div class="form-group">
               <label for="InputPhone">Contact phone</label>
-              <input name="phone" type="tel" required class="form-control" id="InputPhone" aria-describedby="InputPhone" placeholder="např. +420 776 322 597">
+              <input name="phone" type="tel" required class="form-control" id="InputPhone" aria-describedby="InputPhone" placeholder="e.g. +420 776 322 597">
               <div class="invalid-feedback">
                   Phone is requered
               </div>
@@ -295,14 +292,14 @@
           </script>
       </div>
     </div>
-    <div class="row section section-cash">
+    <div id="cash" class="row section section-cash">
 			<div class="row flex-nowrap mb-4 mx-0 d-flex justify-content-md-start align-items-center">
 				<img src="img/cash.svg" alt="cash"/>
 				<h1 class="section-header mb-0 pt-3 pl-2">Cash money transfers</h1>
 			</div>
 			<div class="container px-0 container-section-cash">
 				<div class="row">
-					<div class="col-lg-7 col-12 px-0 pr-lg-5">
+					<div class="col-lg-7 col-12 px-0 pr-lg-5 container-section-cash-text-wrapper">
 						<span class="container-section-cash-text">
 							With FAS Finance send cash transfers abroad with the&nbsp;lowest fees possible.
 						</span>
@@ -341,7 +338,7 @@
 						</div>
 						<div class="section-cash--wrapper-link">
 							<img src="img/group-6.svg" alt="logo-fas">
-							<a href="https://fasfinance.com" class="section-cash-link">
+							<a href="https://fasfinance.com" target="_blank" class="section-cash-link">
 							About FAS Finance
 							</a>
 						</div>	
@@ -409,11 +406,11 @@
 				</div>
 			</div>
 			<div class="col-md-3 footer-column col-6 pl-0 pr-2 d-flex flex-column j align-items-lg-start align-items-end">
-				<h4 class="help-header">
+				<h4 id="contact" class="help-header">
 					Help
 				</h4>
-				<a class="help-link pb-3" href="#">Contact Us</a>
-				<a class="help-link pb-3" href="#">Track cargo</a>
+				<a class="help-link pb-3" target="_blank" href="mailto:info@arashipping.cz">Contact Us</a>
+				<a class="help-link pb-3" target="_blank" href="https://www.marinetraffic.com/">Track cargo</a>
 			</div>
 			<div class="footer-contacts col-md-6 d-flex flex-column align-items-end">
 				<a class="pb-2" href="mailto:info@arashipping.cz">info@arashipping.cz</a>
