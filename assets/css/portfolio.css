@@ -362,7 +362,7 @@ margin-bottom: 20px;
 	.main-nav.overlay a:hover {color: #ddc;
 	border-bottom-color: #ddc;}
 	.search-nav {
-		background-color: #101416;
+		background-color: #14191c;
 		color: #ddc;
 	}
 	
@@ -396,6 +396,7 @@ margin-bottom: 20px;
 		background: #2e2e2e;
 		border: 1px solid #4d4d4d;
 	}
+     .back-button {color: #ddc;}
 	
 }
 
