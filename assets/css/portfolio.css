@@ -193,6 +193,7 @@ background-repeat: no-repeat;
 	display: flex;
 	padding-top:2rem;
 	text-align: left;
+    max-width: 1000px;
 	
 }
 
