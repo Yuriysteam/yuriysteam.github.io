@@ -278,6 +278,12 @@ padding: 0;
 
 .tall {padding-top:500px;}
 
+
+.course-title {font-size: 120px;
+    font-weight: bold;
+line-height: 1.1em;
+padding: 0;}
+
 @media only screen and (max-width: 900px) {
 	
 	.half {
@@ -331,6 +337,11 @@ padding: 0;
 line-height: 1.3em;
 margin-bottom: 20px;
 	}
+    
+    .course-title {font-size: 70px;
+    font-weight: bold;
+line-height: 1.1em;
+padding: 0;}
 	
 	
 	

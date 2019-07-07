@@ -1,0 +1,35 @@
+---
+layout: default
+
+---
+
+
+{% include navigation.html %}
+
+
+<main class="content" role="main">
+
+    <article class="post">
+		<section class="post-content">
+			
+			<div class="intro">
+				<div class="intro-info">
+					<div class="course-title"><b>{{ page.title}}</b></div>
+                    {% if page.courseback %}
+                {% include back.html %}
+            {% endif %}	
+				<div class="preposition-text">{{ page.intro }}</div>
+			</div>
+	
+		
+		</div> 
+            
+                 {{content}}
+	 
+	{% if page.promo %}
+                {% include promo.html %}
+            {% endif %}	
+			
+		</section>
+	</article>
+</main>	
