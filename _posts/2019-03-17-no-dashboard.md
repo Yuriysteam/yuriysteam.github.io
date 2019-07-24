@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No dashboard for fintech products"
+title: "No Dashboard for Fintech Products"
 date: 2019-03-17 00:00:00
 description: "Reimagining banking experience of the future. Integrating banking services into purchasing flow."
 categories: Design

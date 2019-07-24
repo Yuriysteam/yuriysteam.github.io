@@ -4,30 +4,31 @@ logo: logo
 title: Design Tips for Developers
 date:   2019-07-07 00:00:00
 description: "Design Tips for Developers"
-intro: With “Design Tips for Developers” my goal is to help developers and designers earn more by making work better. Simple and powerful tips about tasks, design, designers and clients can help with qulity of work, presentation, understanding colegues and clients. 
+intro: With “Design Tips for Developers” my goal is to help developers and designers earn more by making work better. Following  tips about tasks, design, designers and clients can increase the qulity of work, presentation, understanding of colegues and clients. 
 1promo: promo.html
 
 ---
 
-## Important in 2 minutes
+<!--## Important in 2 minutes-->
 
-Mission is to bring benefit by acomplishing the project goal. Be useful to the client.
+<!--Mission is to bring benefit by acomplishing the project goal. Be useful to the client. If client does not see the benefit, sell more.
 
-Developers and designers are equal part of the team. Both participate and resposible for the product they are doing.
+<!--Developers, designers and managers are equal part of the team. Both participate and resposible for the final result. Final result is a workig product, page, app or service.-->
 
-Objects which are together tend to be persived as a goup. Inner space is smaller then outer space.
 
 ## Mindset
 
 Goal and misson
 
-<a href="/ddt/task.html">Responsibilities and task</a>
+Responsibilities and task
 
 Managment
 
 ## Design
 
-<a href="/ddt/proximity.html">Proximity law</a> 
+<a href="ddt/anchorobjects.html">Anchor objects</a>
+
+Proximity law 
 
 Outer and inner spacing
 

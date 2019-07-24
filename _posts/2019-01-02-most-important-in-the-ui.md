@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Text is the important part of the interface"
+title: "Text is the Most Important Part of the Interface"
 date: 2019-01-02 00:00:00
 description: "One gif about the most important part in any UI"
 categories: Design

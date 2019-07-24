@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design travel guide: Prague"
+title: "Design Travel Guide: Prague"
 description: "Trip guide to Prague designers. Featuring museums, coffee places and environmental design in the the Czech capital."
 date: 2019-03-18 00:00:00
 categories: Design

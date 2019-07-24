@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Link's Awakening Telegram stickers"
+title: "Link's Awakening Telegram Stickers"
 description: ""
 date: 2019-06-17 00:00:00
 categories: Design

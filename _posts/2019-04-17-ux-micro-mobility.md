@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ideas for better scooter sharing experince"
+title: "Ideas for Scooter Sharing Experince"
 description: "Concept of improvements for micro mobility sharing experince for scooters, e-bikes and shared transport"
 date: 2019-04-16 00:00:00
 categories: Desing

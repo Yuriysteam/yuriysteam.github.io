@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Banking experience designed for the future"
+title: "Banking Experience Designed for the Future"
 date: 2018-12-14 00:00:00
 categories: Design
 permalink: /blog/banking-concept

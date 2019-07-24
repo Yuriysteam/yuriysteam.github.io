@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enable dark mode in CSS for Safari iOS 13"
+title: "Enable Dark Mode in CSS for Safari iOS 13"
 description: ""
 date: 2019-06-09 00:00:00
 categories: Design

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Music likes: April"
+title: "Music Likes: April"
 description: "Monthly music collection to continue the spring season."
 date: 2019-05-03 00:00:00
 categories: Music
