@@ -18,3 +18,9 @@ template: sngl-prj-covr
 <span class="p1000">![link's awakening telegram stickers](/projects_img/stickers/link-preview.png)</span>
 
 <span class="p900">![link's awakening telegram stickers](/projects_img/stickers/preview.png)</span>
+
+### One month after launch
+
+Downloads: **168**
+
+Usage: **546**
