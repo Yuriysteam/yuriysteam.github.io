@@ -1817,7 +1817,7 @@ white-space: nowrap;
 	display: block;
 	max-width: 120%;
 	height: auto;
-	margin: 10px auto;
+	margin: 0px auto 40px;
 	padding: 0em 0;
 }
 
@@ -3019,7 +3019,7 @@ transition-timing-function: ease-out;}
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: 0px auto;
+	margin: 0px auto 40px;
 	padding: 0em 0;
 }
 		
