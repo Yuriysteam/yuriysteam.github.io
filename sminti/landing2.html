@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="ru">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Weezzex Landing 2</title>
+   </head>
+   <body class="wezzex-2">
+      <!-- Navigation-->
+      <div class="navigation">
+         <div class="container" id="menu">
+            <nav class="navbar navbar-light navbar-expand-lg">
+               <a class="navbar-brand" href="#">
+               <img src="images/logo.png" width="200" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Landing</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                     </li>
+                     <li class="nav-item login">
+                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link green-text" href="#">Registration</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        RUS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                           <a class="dropdown-item" href="#">ENG</a>
+                           <a class="dropdown-item" href="#">CZ</a>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- Weezzex Hero Block -->
+      <div id="hero" class="hero-block">
+         <div class="row">
+            <div class="container">
+               <div class="col-12">
+                  <h1 class="text-shadow">Сервис по работе с криптовалютой для серьезных компаний</h1>
+                  <h3 class="green-text text-shadow">12+ пар, простое внедрение, помощь 24/7 и всего от 0.5%</h3>
+               </div>
+               <div class='hero-blocks row'>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/percent.png" alt="percent" >
+                     <h6>0.5 % за транзакцию</h6>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/bitcoin.png" alt="percent" >
+                     <h6>6 криптовалют и 10+ фиатных</h6>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/free.png" alt="percent" >
+                     <h6>Бесплатное пополнение депозита и вывод средств</h6>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/forma.png" alt="percent" >
+                     <h6>Официальный договор</h6>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/greece.png" alt="percent" >
+                     <h6>Деятельность в рамках самого требовательного законодательства</h6>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12 white-text">
+                     <img src="images/greece.png" alt="percent" >
+                     <h6>Деятельность в рамках самого требовательного законодательства</h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row hero-form-block">
+            <div class="container">
+               <div class="choice">
+                  <p class="white-text choice-sell">Я продаю</p>
+                  <p class="white-text choice-buy">Я покупаю</p>
+               </div>
+               <div class="buy">
+                  <form>
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="buy-sum" placeholder="Сумма">
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="buy-sell">
+                           <option value="" disabled selected>Выбор валюты для продажи</option>
+                           <option value="33">USD</option>
+                           <option value="44">CZK</option>
+                           <option value="55">RUB</option>
+                           <option value="66">EUR</option>
+                           <option value="77">GBP</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="buy-buy">
+                           <option value="" disabled selected>Выбор валюты для покупки</option>
+                           <option value="33">USD</option>
+                           <option value="44">CZK</option>
+                           <option value="55">RUB</option>
+                           <option value="66">EUR</option>
+                           <option value="77">GBP</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <p class="count-buy dark-green-bg call-to-action">Рассчитать</p>
+                     </div>
+                  </form>
+                  <div class="results results-buy">
+                     <p class="results-in dark-green-text">Amount in: <span class="results-amount-in"></span> <span class="results-rate-in"></span></p>
+                     <p class="results-out dark-green-text">Amount out: <span class="results-amount-out"></span> <span class="results-rate-out"></span></p>
+                     <p class="results-rate dark-green-text">Rate: <span class="results-amount-rate"></span></p>
+                  </div>
+               </div>
+               <div class="sell">
+                  <form>
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="sell-sum" placeholder="Сумма">
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="sell-sell">
+                           <option value="" disabled selected>Выбор валюты для продажи</option>
+                           <option value="33">USD</option>
+                           <option value="44">CZK</option>
+                           <option value="55">RUB</option>
+                           <option value="66">EUR</option>
+                           <option value="77">GBP</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <select class="form-control" id="sell-buy">
+                           <option value="" disabled selected>Выбор валюты для покупки</option>
+                           <option value="33">USD</option>
+                           <option value="44">CZK</option>
+                           <option value="55">RUB</option>
+                           <option value="66">EUR</option>
+                           <option value="77">GBP</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <p class="count-sell dark-green-bg call-to-action">Рассчитать</p>
+                     </div>
+                  </form>
+                  <div class="results results-sell">
+                     <p class="results-in dark-green-text">Amount in: <span class="results-amount-in"></span> <span class="results-rate-in"></span></p>
+                     <p class="results-out dark-green-text">Amount out: <span class="results-amount-out"></span> <span class="results-rate-out"></span></p>
+                     <p class="results-rate dark-green-text">Rate: <span class="results-amount-rate"></span></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Routine Block -->
+      <div class="section-block" id="routine">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>Занимайтесь делом.<br>Всю рутину мы берем на себя</h2>
+               <p class="margin-small">Непрофильные процессы забирают уймц времени и “съедают” до 38% бюджета. <br>Мы берем на себя все тонкости работы с криптовалютными переводами:</p>
+            </div>
+         </div>
+         <div class="container margin-mid text-center">
+            <div class="row">
+               <div class="col">
+                  <img src="images/style.png" alt="">
+                  <p>Оформление</p>
+               </div>
+               <div class="col">
+                  <img src="images/report.png" alt="">
+                  <p>Формирование отчетов</p>
+               </div>
+               <div class="col">
+                  <img src="images/count.png" alt="">
+                  <p>Ведение бухгалтерии</p>
+               </div>
+               <div class="col">
+                  <img src="images/convert.png" alt="">
+                  <p>Конвертацию</p>
+               </div>
+               <div class="col">
+                  <img src="images/www.png" alt="">
+                  <p>Еще какая-то услуга тут</p>
+               </div>
+            </div>
+         </div>
+         <div class="margin-small container text-center">
+            <p >Клиенту остается только уделять время своему бизнесу, принимая оплату фиатными деньгами или любым из представленных видом монет.<br>
+               Отсутствие распыленности положительно скажется на остновной деятельности фирмы, повысив показатели востребованности, лояльности, среднего чека
+               и других важных характеристик бизнеса.
+            </p>
+         </div>
+      </div>
+      <!-- Coop Block -->
+      <div class="section-block" id="coop">
+         <div class="container">
+            <div class="col-12 text-center">
+               <h2>Сотрудничество проходит в следующей
+                  <br>последовательности:
+               </h2>
+            </div>
+         </div>
+         <div class="container margin-mid text-center">
+            <div class="row">
+               <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form1.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Открытие счета</h5>
+                        <p>
+                           Финансовая организация создает собственный счет внутри системы, с пополнением в случае необходимости
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/checklist.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Активация счета</h5>
+                        <p>
+                           С помощью API организация подключает счет и получает обменный курс
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form2.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Заполнение клиентом формы</h5>
+                        <p>
+                           Клиент компании заполняет онлайн-форму для проведения транзакции
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form3.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Покупка криптовалюты</h5>
+                        <p>
+                           Мы списываем сумму со счета компании и отправляем монеты покупателю
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form4.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Продажа монет</h5>
+                        <p>
+                           После поступления монет пересылаем сумму в фиатных деньгах на счет компании внутри системы
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row margin-mid-left">
+                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form5.png" alt=""></div>
+                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                        <h5>Оплата клиенту</h5>
+                        <p>
+                           Транзакция с криптовалютой подтверждается для компании, и она переводит средства на счет продавца 
+                        </p>
+                     </div>
+                  </div>
+                  <a href="" class="dark-navy call-to-action">перейти в личный кабинет</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- rate Block -->
+      <div class="section-block" id="rate">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>Лучший курс криптовалют для наших<br>партнеров</h2>
+               <p class="margin-small">Наши аналитики регулярнно мониторят курсы самых востребованных бирж, находя выгодные решения для конкретных запросов. Предлогаем максимально возможный курс с учетом рисокв, связаных с изменениями финансовых ситуаций. Указываем показатели которые можем гарантировать.</p>
+            </div>
+         </div>
+      </div>
+      <!-- Tariff Block -->
+      <div class="section-block" id="tariff">
+         <div class="container text-center">
+            <div class="diapason-bg"></div>
+            <div class="col-12 ">
+               <h2 class="white-text">Самые выгодные тарифы:<br>от 0.7% с транзакции за большие объемы скидки</h2>
+               <p class="margin-small white-text">На основании учета возможных скачков создали фиксированные тарифы.<br>Наши клиенты могут устанаавливать свои наценки для пользователей к которым мы не имеемотношения.<br>При больших суммах транзакций и постоянном обороте средств, снижаем комиссию до минимальной возможной.</p>
+            </div>
+            <div class="row margin-mid">
+               <div class="col-md-4 col-xs-12 col-sm-12 white-bg">
+                  <h4>Сборы</h4>
+                  <img src="images/stars.png" alt="">
+                  <ul class=leaders>
+                     <li><span>Разовая комиссия</span>
+                        <span>0.7%</span>
+                     <li><span>Вывод</span>
+                        <span>Свободно</span>
+                     <li><span>Возврат</span>
+                        <span>0.001 СС</span>
+                     <li><span>Перевод в Crypto кошелек</span>
+                        <span>3 USD</span>
+                  </ul>
+               </div>
+               <div class="col-md-4 col-xs-12 col-sm-12">
+                  <img class="margin-large" src="images/refresh.png" alt="">
+                  <a class="navy call-to-action" href="#">регистрация</a>
+               </div>
+               <div class="col-md-4 col-xs-12 col-sm-12 white-bg">
+                  <h4>Варианты вывода средств</h4>
+                  <img src="images/stars.png" alt="">
+                  <p>Международный банковский перевод</p>
+                  <p>SEPA</p>
+                  <p>Счет в Moneypolo</p>
+                  <p>Crypto transfer</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Reasons Block -->
+      <div class="section-block" id="reasons">
+         <div class="container text-center">
+            <div class="col-12">
+               <h2>Вот почему нас уже выбрали более<br>1 300 компаний</h2>
+            </div>
+            <div class="row main-row">
+               <div class="col-md-4 col-sm-12 col-xs-12 text-right">
+                  <div class="row margin-small">
+                     <div class="col col-right">
+                        <p><b>Обмен криптовалют внутри
+                           личного кабинета</b>
+                        </p>
+                        <p>Вы можете проследить все операции</p>
+                     </div>
+                     <img src="images/transfer.png" alt=""> 
+                  </div>
+                  <div class="row margin-small">
+                     <div class="col col-right">
+                        <p><b>Легкая интеграция
+                           самому или с нашей помощью</b>
+                        </p>
+                        <p>Подключить сервис можно в 2 клика нашего или вашего программиста</p>
+                     </div>
+                     <img src="images/think.png" alt=""> 
+                  </div>
+                  <div class="row margin-small">
+                     <div class="col col-right">
+                        <p><b>Минимум тех. работ</b></p>
+                        <p>Все регулирование системы бурем на себя</p>
+                     </div>
+                     <img src="images/cycle.png" alt=""> 
+                  </div>
+                  <div class="row margin-small">
+                     <div class="col col-right">
+                        <p><b>Полная отчетность</b></p>
+                        <p>Клиент регулярно получает отчеты о работе нашего сервиса с его компанией</p>
+                     </div>
+                     <img src="images/pizza.png" alt=""> 
+                  </div>
+                  <div class="row margin-small">
+                     <div class="col col-right">
+                        <p><b>Многообразие пар
+                           для обмена</b>
+                        </p>
+                        <p>Предлагаем более 24х пар для покупки или продажи криптовалют</p>
+                     </div>
+                     <img src="images/thumbuplist.png" alt=""> 
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-12 col-xs-12"></div>
+               <div class="col-md-4 col-sm-12 col-xs-12 text-left">
+                  <div class="row margin-small">
+                     <img src="images/calc.png" alt=""> 
+                     <div class="col col-left">
+                        <p><b>Гарантия курса</b></p>
+                        <p>Во время сделки фиксируем курс обмена на время от 5 до 15 мин.</p>
+                     </div>
+                  </div>
+                  <div class="row margin-small">
+                     <img src="images/bigmoney.png" alt="">
+                     <div class="col col-left">
+                        <p><b>Неограчиненная сумма
+                           пополнения депозита</b>
+                        </p>
+                        <p>Мы не устанавливаем максимальные и минимальные платежы</p>
+                     </div>
+                  </div>
+                  <div class="row margin-small">
+                     <img src="images/perc-free.png" alt=""> 
+                     <div class="col col-left">
+                        <p><b>Бесплатное пополнение и
+                           вывод</b>
+                        </p>
+                        <p>Берем процент только за транзакции</p>
+                     </div>
+                  </div>
+                  <div class="row margin-small">
+                     <img src="images/orbit.png" alt="">
+                     <div class="col col-left">
+                        <p><b>Работа по 
+                           Юриспруденции ЕС</b>
+                        </p>
+                        <p>Подчиняемся самой строгой законодательной системе</p>
+                     </div>
+                  </div>
+                  <div class="row margin-small">
+                     <img src="images/agreement.png" alt=""> 
+                     <div class="col col-left">
+                        <p><b>Официальный договор</b></p>
+                        <p>Составляем с клиентом юридически грамотное соглашение</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Free Connect Block -->
+      <div class="section-block blue-box" id="freec">
+         <div class="container text-center">
+            <div class="col-12 text-white margin-mid">
+               <h2>Бесплатно подключиться к сервису</h2>
+            </div>
+            <form class="margin-mid">
+               <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email:">
+               </div>
+               <div class="form-group">
+                  <input type="tel" name="tel" class="form-control" placeholder="Телефон:">
+               </div>
+               <div class="form-group">
+                  <button type="submit" class="dark-green-bg call-to-action">Подключиться</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <!-- Partner Block -->
+      <div class="section-block" id="partner">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>как стать партнером <span class="dark-green-text">weezzex</span></h2>
+               <p class="margin-small" style="opacity: 0.7;">Для начала сотрудничества необходимо предоставит пакет документов. Мы работаем полностью легально, а законодательство требует детальной проверки каждого клиента. однажды пройдя ее, вы получаете уверенность в:</p>
+               <div class="row margin-large">
+                  <div class="col">
+                     <div class="circle-wrapper">
+                        <div class="circle-wrapper-inner">
+                           <img src="images/protection.png" alt="">
+                           <p class="margin-xsmall">Полной безопасности переводов</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="circle-wrapper">
+                        <div class="circle-wrapper-inner">
+                           <img src="images/hands.png" alt="">
+                           <p class="margin-xsmall">Чистоте сотрудничества</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="circle-wrapper">
+                        <div class="circle-wrapper-inner">
+                           <img src="images/list.png" alt="">
+                           <p class="margin-xsmall">Выполнении нами всех обязательств</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="circle-wrapper">
+                        <div class="circle-wrapper-inner">
+                           <img src="images/fix.png" alt="">
+                           <p class="margin-xsmall">Быстром устранении возможных сбоев и 
+                              прочих моментов
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <h2>перечень необхоодимых документов</h2>
+               <div class="documents-slider margin-large">
+                  <a href="images/placeholder.png" data-lightbox="place-1"><img alt="" src="images/placeholder.png"></a>
+                  <a href="images/placeholder-1.png" data-lightbox="place-2"><img alt="" src="images/placeholder-1.png"></a>
+                  <a href="images/placeholder.png" data-lightbox="place-3"><img alt="" src="images/placeholder.png"></a>
+                  <a href="images/placeholder-1.png" data-lightbox="place-4"><img alt="" src="images/placeholder-1.png"></a>
+               </div>
+               <div class="arrows">
+                  <p class="left"><i class="fas fa-chevron-circle-left"></i></p>
+                  <p class="right"><i class="fas fa-chevron-circle-right"></i></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Offer Block -->
+      <div class="section-block green-box" id="offer">
+         <div class="container text-center">
+            <div class="col-12 text-white margin-mid">
+               <h2>Кому предназначается наше предложение</h2>
+               <p class="margin-mid">Создали полностью белую компанию с прозрачной отчетностью для помощи в работе:</p>
+            </div>
+            <div class="row text-white">
+               <div class="col">
+                  <img alt="stars" src="images/3-stars.png">
+                  <h4>Криптобиржам</h4>
+               </div>
+               <div class="col">
+                  <img alt="stars" src="images/3-stars.png">
+                  <h4>Криптобиржам</h4>
+               </div>
+               <div class="col">
+                  <img alt="stars" src="images/3-stars.png">
+                  <h4>Криптобиржам</h4>
+               </div>
+               <div class="col">
+                  <img alt="stars" src="images/3-stars.png">
+                  <h4>Криптобиржам</h4>
+               </div>
+               <div class="col">
+                  <img alt="stars" src="images/3-stars.png">
+                  <h4>Криптобиржам</h4>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Results Block -->
+      <div class="section-block" id="results">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>Таких результатов можете достичь и вы</h2>
+               <div class="row margin-large">
+                  <div class="col-md-5 col-sm-12 col-xs-12 flex-items-middle"><img src="images/working.png" alt="">
+                  </div>
+                  <div class="col-md-7 col-sm-12 col-xs-12">
+                     <div class="company-slider">
+                        <div class="company-slide text-left">
+                           <h3>Трейдинг компания <span class="dark-green-text">weew.io</span></h3>
+                           <h6 class='margin-sm'>
+                           Задачи:</h6>
+                           <ul>
+                              <li>Предоставить пользователям качетвенный сервис</li>
+                              <li>Повысить посещаемость площадки</li>
+                              <li>Привелеч новых трейдеров</li>
+                           </ul>
+                           <h6 class='margin-sm'>
+                           Решение:</h6>
+                           <ul>
+                              <li>Помогли собрать и заверить полный перечень документации</li>
+                              <li>Составить официальный договор</li>
+                              <li>Подключили сервис</li>
+                           </ul>
+                           <h3 class="text-center">Результаты</h3>
+                           <div class="row white-text teal-bg text-center green-box-results">
+                              <div class='col'>
+                                 <h4>38 600</h4>
+                                 <p>транзакций проводится в день</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>24</h4>
+                                 <p>пары доступно для обмена</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>60</h4>
+                                 <p>новых юзеров добовляется в день</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>10</h4>
+                                 <p>месяцев используется сервис</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="company-slide text-left">
+                           <h3>Трейдинг компания <span class="dark-green-text">weewoo.io</span></h3>
+                           <h6 class='margin-sm'>
+                           Задачи:</h6>
+                           <ul>
+                              <li>Предоставить пользователям качетвенный сервис</li>
+                              <li>Повысить посещаемость площадки</li>
+                              <li>Привелеч новых трейдеров</li>
+                           </ul>
+                           <h6 class='margin-sm'>
+                           Решение:</h6>
+                           <ul>
+                              <li>Помогли собрать и заверить полный перечень документации</li>
+                              <li>Составить официальный договор</li>
+                              <li>Подключили сервис</li>
+                           </ul>
+                           <h3 class="text-center">Результаты</h3>
+                           <div class="row white-text teal-bg text-center green-box-results">
+                              <div class='col'>
+                                 <h4>34 600</h4>
+                                 <p>транзакций проводится в день</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>54</h4>
+                                 <p>пары доступно для обмена</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>90</h4>
+                                 <p>новых юзеров добовляется в день</p>
+                              </div>
+                              <div class='col'>
+                                 <h4>80</h4>
+                                 <p>месяцев используется сервис</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cryptworld Block -->
+      <div class="section-block" id="cryptworld">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2><span class="dark-green-text">Weezzex:</span> Легально и без обмана<br>работаем с криптомиром</h2>
+               <div class="row margin-large">
+                  <div class="col-md-8 col-sm-12 col-xs-12 text-left">
+                     <p>Наши компания официально зарегистрированным брендом имеющим лицензию на работу с криптовалютными переводами по всей Европе. оПдчинение самой требовательно йЧешской юриспрдуенции обеспечивает клиентам гарантию честности и прозрачноти всез сделок. Имеем огромное преимущество перед офшорными фирмами с сомнительной, неподтвержденной репутацией.</p>
+                     <p>У нас открыты счета в европейских банках для высокой скорости проведения операций. Сотрудничество обеспечивает высокую оценку вашей работы с клиентами. Перестаньте отвлекаться от основной деятельности, поручив все операции с криптовалютой нам.</p>
+                     <div class="row text-center mir3">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                           <div class="kript-image flex-items-middle"><img src="images/like.png" alt=""></div>
+                           <p>Предоставить сервис наивысшего качества для полной удовлетворенности заказчика</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                           <div class="kript-image flex-items-middle"><img src="images/guarantee.png" alt=""></div>
+                           <p>Выполнять транзакции быстро и с гарантией поступления средств на счет получателя</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                           <div class="kript-image flex-items-middle"><img src="images/income.png" alt=""></div>
+                           <p>Сделать покупку и продажу криптовалют доступным и прибыльным видом бизнеса</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12 flex-items-middle big-coin"><img src="images/bitcoin-2.png" alt=""></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Survey Block -->
+      <div class="section-block" id="survey">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>Результаты опроса: 97.3% клиентов из 680<br>опрошенных довольны нашей работой</h2>
+               <div class="row margin-xlarge">
+                  <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+                     <img src='images/logo-black.png' alt="">
+                     <p class="margin-large">Для начала сотрудничества необходимо предоставит пакет документов. Мы работаем полностью легально, а законодательство требует детальной проверки каждого клиента. однажды пройдя ее, вы получаете уверенность в:</p>
+                     <a href="" class="call-to-action">Регистрация</a>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 flex-items-middle donut-wrapper">
+
+                     <div class="col-md-3 col-xs-12 col-sm-12 chart-text desktop-chart-text">
+                        <div class="chart-block chart-left-top">
+                           <h5>5%</h5>
+                           <p>Предвосхитили ожидания</p>
+                        </div>
+                        <div class="chart-block chart-left-bottom">
+                           <h5>68%</h5>
+                           <p>Полностью всем довольны</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-xs-12 col-sm-12 flex-items-middle donut-wrapper">
+                        <div class="donut-chart-block block">
+                           <div class="donut-chart">
+                              <div id="part1" class="portion-block">
+                                 <div class="circle"></div>
+                              </div>
+                              <div id="part2" class="portion-block">
+                                 <div class="circle"></div>
+                              </div>
+                              <div id="part3" class="portion-block">
+                                 <div class="circle"></div>
+                              </div>
+                              <div id="part35" class="portion-block">
+                                 <div class="circle"></div>
+                              </div>
+                              <div id="part4" class="portion-block">
+                                 <div class="circle"></div>
+                              </div>
+                              <p class="center">98%</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-md-3 col-xs-12 col-sm-12 chart-text desktop-chart-text">
+                        <div class="chart-block chart-right-top">
+                           <h5>25%</h5>
+                           <p>В целом довольны</p>
+                        </div>
+                        <div class="chart-block chart-right-bottom">
+                           <h5>2%</h5>
+                           <p>Недовольны</p>
+                        </div>
+                     </div>
+
+                        <div class="chart-text mobile-chart-text">
+                                                   <div class="chart-block chart-left-top">
+                           <h5>5%</h5>
+                           <p>Предвосхитили ожидания</p>
+                        </div>
+                        <div class="chart-block chart-left-bottom">
+                           <h5>68%</h5>
+                           <p>Полностью всем довольны</p>
+                        </div>
+                        <div class="chart-block chart-right-top">
+                           <h5>25%</h5>
+                           <p>В целом довольны</p>
+                        </div>
+                        <div class="chart-block chart-right-bottom">
+                           <h5>2%</h5>
+                           <p>Недовольны</p>
+                        </div>
+                     </div>
+                 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Questions Block -->
+      <div class="section-block" id="questions">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>пора ответить на ряд ваших вопросов</h2>
+               <div id="accordion" class="col-md-10 offset-md-1">
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <h5>
+                           Вы можете доказать легальность своей работы 
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                        <h5>
+                           Банк может отказать нам в сотрудничестве
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+                        <h5>
+                           А если деньги на мой счет не поступят?
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h5>
+                           А если у вас нет той монеты, которую я хочу купить?
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <h5>
+                           Мне кажется слишком сложным оформление у вас
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <h5>
+                           Сколько времени займет пополнение счета?
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div role="button" class="card-header collapsed" id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <h5>
+                           Не легче ли пойти на биржу криптовалют и там все сделать?
+                        </h5>
+                        <span><img src="images/icon_arrow_down.png" alt=""></span>
+                     </div>
+                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                        <div class="card-body">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Test Block -->
+      <div class="section-block blue-box" id="test">
+         <div class="container text-center">
+            <div class="col-12 text-white margin-mid">
+               <h2>Протестируйте систему бесплатно</h2>
+            </div>
+            <form class="margin-mid">
+               <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email:">
+               </div>
+               <div class="form-group">
+                  <input type="tel" name="tel" class="form-control" placeholder="Телефон:">
+               </div>
+               <div class="form-group">
+                  <button type="submit" class="dark-green-bg call-to-action">Протестировать</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <!-- Testimonials Block -->
+      <div class="section-block" id="testimonials">
+         <div class="container text-center">
+            <div class="col-12 ">
+               <h2>Оцениваем свою работу по отзывам партнеров</h2>
+               <div class="video-slider margin-mid">
+                  <div class="video-slide ">
+                     <video class="video" width="400">
+                        <source src="https://bellweather.agency/wp-content/uploads/2017/07/placeholder-video.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                     </video>
+                     <div class="playpause"><img src='images/play.png' alt="s"></div>
+                  </div>
+                  <div class="video-slide ">
+                     <video class="video" width="400">
+                        <source src="https://bellweather.agency/wp-content/uploads/2017/07/placeholder-video.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                     </video>
+                     <div class="playpause"><img src='images/play.png' alt="s"></div>
+                  </div>
+                  <div class="video-slide ">
+                     <video class="video" width="400">
+                        <source src="https://bellweather.agency/wp-content/uploads/2017/07/placeholder-video.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                     </video>
+                     <div class="playpause"><img src='images/play.png' alt="s"></div>
+                  </div>
+               </div>
+               <div class="arrows">
+                  <p class="left-video"><i class="fas fa-chevron-circle-left"></i></p>
+                  <p class="right-video"><i class="fas fa-chevron-circle-right"></i></p>
+               </div>
+               <div class="documents-testi-slider margin-mid">
+                  <a href="images/document-4.png" data-lightbox="image-1"><img src='images/document-4.png' alt=''></a>
+                  <a href="images/document-3.png" data-lightbox="image-2"><img src='images/document-3.png' alt=''></a>
+                  <a href="images/document-2.png" data-lightbox="image-3"><img src='images/document-2.png' alt=''></a>
+                  <a href="images/document-1.png" data-lightbox="image-4"><img src='images/document-1.png' alt=''></a>
+                  <a href="images/document-4.png" data-lightbox="image-5"><img src='images/document-4.png' alt=''></a>
+                  <a href="images/document-3.png" data-lightbox="image-6"><img src='images/document-3.png' alt=''></a>
+                  <a href="images/document-2.png" data-lightbox="image-7"><img src='images/document-2.png' alt=''></a>
+                  <a href="images/document-1.png" data-lightbox="image-8"><img src='images/document-1.png' alt=''></a>
+               </div>
+               <div class="arrows">
+                  <p class="left-testi-document"><i class="fas fa-chevron-circle-left"></i></p>
+                  <p class="right-testi-document"><i class="fas fa-chevron-circle-right"></i></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer block -->
+      <footer class="dark-navy">
+         <div class="container dark-navy" id="footer-nav">
+            <nav class="navbar navbar-expand-lg">
+               <span class="navbar-text">
+               @2018 <span class="green-text">Weezzex</span> All rights reserved.
+               </span>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Term & Policy</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </footer>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Lightbox CSS -->
+      <link rel="stylesheet" href="css/lightbox.css">
+      <!-- Slick CSS -->
+      <link rel="stylesheet" href="css/slick.css">
+      <!-- Custom Responsive CSS -->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- FA Icons CSS -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery.matchHeight.js"></script>
+      <script src="js/lightbox.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+   </body>
+</html>
