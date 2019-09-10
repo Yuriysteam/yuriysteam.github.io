@@ -92,6 +92,7 @@ html {
 body {
 	background: url(../images/pattern.png);
 	background-repeat: repeat;
+	position: relative;
 }
 
 h1,

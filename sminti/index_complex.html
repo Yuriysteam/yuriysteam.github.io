@@ -24,7 +24,7 @@
 
    </head>
 
-   <body>
+   <body data-spy="scroll" data-target="#navbar-example">
 
      <div class="container-fluid">
 
@@ -34,7 +34,7 @@
 
             <div class="col" id="menu">
 
-               <nav class="navbar navbar-light navbar-expand-lg">
+               <nav id="top-navbar" class="navbar navbar-light navbar-expand-lg">
 
                   <a class="navbar-brand" href="#">
 
@@ -57,13 +57,7 @@
 
                   <div class="collapse navbar-collapse" id="navbarNav">
 
-                     <ul class="navbar-nav">
-
-                        <li class="nav-item">
-
-                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-
-                        </li>
+                     <ul class="navbar-nav nav nav-pills">
 
                         <li class="nav-item">
 
@@ -73,19 +67,19 @@
 
                         <li class="nav-item">
 
-                           <a class="nav-link" href="#">FAQ</a>
+                           <a class="nav-link" href="#bills">Receive Payments</a>
 
                         </li>
 
                         <li class="nav-item">
 
-                           <a class="nav-link" href="#">Services</a>
+                           <a class="nav-link" href="#min">Buy and Sell</a>
 
                         </li>
 
                         <li class="nav-item">
 
-                           <a class="nav-link" href="#">Landing</a>
+                           <a class="nav-link" href="#coop">Top up and Withdraw</a>
 
                         </li>
 
@@ -179,75 +173,200 @@
 
          </div>
 
-         <!-- Diapason Block -->
-
-         <!-- <div id="diapason" class="row">
-
-            <div class="container text-center">
-
-               <div class="diapason-bg"></div>
-
+         <!-- Bills Block -->
+         <div id="bills" class=" row text-center text-white">
+            <div class="container bills-bg">
                <div class="col-12">
-
-                  <h1>We serve 16 000+ clients because of three advanced services</h1>
-
-                  <div class="row">
-
-                     <div class="col">
-
-                        <div class="hvr-grow-shadow">
-
-                           <h4>Pay for goods and services with cryptocurrency</h4>
-
-                           <img src="images/stars.png" alt="">
-
-                           <p>With help from our developer or by your own, connect our services to your site. You may issue invoices online by sending a message or displaying invoice details during the order confirmation. We help businesses keep pace with the times, ahead of the competition.</p>
-
-                           <a class="navy call-to-action" href="#">More details</a>
-
-                        </div>
-
-                     </div>
-
-                     <div class="col">
-
-                        <div class="hvr-grow-shadow">
-
-                           <h4>Top up and withdraw with cryptocurrency</h4>
-
-                           <img src="images/stars.png" alt="">
-
-                           <p>With help from our developer or by your own, connect our services to your site. You may issue invoices online by sending a message or displaying invoice details during the order confirmation. We help businesses keep pace with the times, ahead of the competition.</p>
-
-                           <a class="navy call-to-action" href="#">More details</a>
-
-                        </div>
-
-                     </div>
-
-                     <div class="col">
-
-                        <div class="hvr-grow-shadow">
-
-                           <h4>Services for <br> individuals</h4>
-
-                           <img src="images/stars.png" alt="">
-
-                           <p>With help from our developer or by your own, connect our services to your site. You may issue invoices online by sending a message or displaying invoice details during the order confirmation. We help businesses keep pace with the times, ahead of the competition.</p>
-
-                           <a class="navy call-to-action" href="#">More details</a>
-
-                        </div>
-
-                     </div>
-
-                  </div>
-
+                  <h2>Receive payments <span class="green-text"> | Issue invoices</span></h2>
                </div>
-
+               <div class="container margin-large-top text-center">
+                  <div class="row">
+                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="row margin-small">
+                           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/bit.png" alt=""></div>
+                           <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                              <h5>Account opening</h5>
+                              <p>
+                                 You open an account in our system connecting throw API
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row margin-small">
+                           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/fingering.png" alt=""></div>
+                           <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                              <h5>Payment options for buyers </h5>
+                              <p>
+                                 Buyer can choose cryptocurrency payment and send it to crypto wallet
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row margin-small">
+                           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/time.png" alt=""></div>
+                           <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                              <h5>Waiting for funds</h5>
+                              <p>
+                                 During 15 minutes our service is waiting for funds to arrive
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row margin-small">
+                           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/bitguy.png" alt=""></div>
+                           <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                              <h5>Payment confirmation </h5>
+                              <p>
+                                 After full amount arrives we notify the client and send to their account equal amount in fiat
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row margin-small">
+                           <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/richbeach.png" alt=""></div>
+                           <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                              <h5>Withdrawal</h5>
+                              <p>
+                                 The client can withdraw funds at any time 
+                              </p>
+                           </div>
+                        </div>
+                        <a href="#connect" class="green-bg call-to-action">Open account</a>
+                     </div>
+                  </div>
+               </div>
             </div>
+         </div>
+      
+         <!-- 15 Min Block -->
+         <div class="row section-block text-center" id="min">
+            <div class="container">
+               <div class="col-12">
+                  <h2 class="text-center">Buy and sell cryptocurrency<br>within <span class="dark-green-text">15 min</span></h2>
+               </div>
+            </div>
+            <div class="container margin-mid">
+               <div class="row">
+                  <div class="cell col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                           <img src="images/form1.png" alt=""> 
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Opening of the account</h5>
+                           <p>Individuals open account in our system by purchasing cryptocurrency</p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                           <img src="images/form2.png" alt="">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Filling in the online form</h5>
+                           <p>To start exchanging cryptocurrency fill an online form</p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                           <img src="images/form3.png" alt="">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Exchange rate fixation</h5>
+                           <p>We fix rates from 5 to 15 minutes for buying and selling respectively </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                           <img src="images/form4.png" alt="">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Buying</h5>
+                           <p>We deduct coins from an account and send to the specified address</p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                           <img src="images/form5.png" alt="">
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Selling</h5>
+                           <p>After funds arrive at the internal wallet, we send amount in fiat and <br> send to the merchant</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <a href="#connect" class="dark-navy call-to-action">Open account</a>
+            </div>
+         </div>
 
-         </div> -->
+         <!-- Coop Block -->
+         <div class="row section-block" id="coop">
+            <div class="container">
+               <div class="col-12 text-center">
+                  <h2>Top up and Withdraw</h2>
+                  <h3>Cooperation step by step:</h3>
+               </div>
+            </div>
+            <div class="container margin-mid text-center">
+               <div class="row">
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form1.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Opening of the account</h5>
+                           <p>
+                              The financial organisation creates an account in our system and top it up if necessary
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/checklist.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Account activation</h5>
+                           <p>
+                              With API organisation connects to the system and receives the exchange rate
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form2.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Filling in the client form</h5>
+                           <p>
+                              Company's client filling in the online form for making a transfer
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form3.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Purchasing of cryptocurrency</h5>
+                           <p>
+                              We deduct the amount from the account and send to the buyer
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form4.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Selling of coins</h5>
+                           <p>
+                              After coins arrived, we send equal amount in fiat to company's account in the system
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row margin-mid-left">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img src="images/form5.png" alt=""></div>
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                           <h5>Payment to client</h5>
+                           <p>
+                              When cryptocurrency transfer is confirmed, company send funds to the merchant's account
+                           </p>
+                        </div>
+                     </div>
+                     <a href="#connect" class="dark-navy call-to-action">Open account</a>
+                  </div>
+               </div>
+            </div>
+         </div>
 
          <!-- Mass Block -->
 
@@ -259,7 +378,7 @@
 
                   <h1>JURISDICTION OF THE EUROPEAN UNION OPENS A LOT OF PROSPECTS</h1>
 
-                  <p class="mass-p">Registered and fully comply with the EU regulations.<br><span class="italic-rubik">All our actions are monitored by government agencies, thus our customers are protected from:</span></p>
+                  <p class="mass-p">Registered and fully comply with the EU regulations.</span></p>
 
                   <div class="row">
 
