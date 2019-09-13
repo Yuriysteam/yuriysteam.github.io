@@ -21,11 +21,11 @@ days: 12 days (published 11.06.19)
 
 ### One month after launch
 
-Downloads: **168**     Usage: **546**
+Downloads: **168**      Usage: **546**
 
 ### Reception 
 
-Reddit post got 800+ upvotes in the first 6 hours in [r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/d3qxsv/marin_emoji_from_celebrate_links_awakening/) and made it to the top of Hot list.
+[Reddit post](https://www.reddit.com/r/NintendoSwitch/comments/d3qxsv/marin_emoji_from_celebrate_links_awakening/) got **1000+ upvotes** in 7 hours on r/NintendoSwitch. It made to the top of Hot list.
 
 <span class="p900">![link's awakening emoji reddit](/projects_img/stickers/reddit.png)</span>
 

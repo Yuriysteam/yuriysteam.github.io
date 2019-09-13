@@ -12,6 +12,7 @@ type: project
 web: amlsystem.com
 
 block: half
+nametemplate: no-name
 template: single-project-cover
 new-cover: "/projects_img/aml/cover.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
