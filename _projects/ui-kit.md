@@ -7,12 +7,12 @@ intro-text: ""
 type: project
 web: "<a href='/files/Verification-ui-kit.sketch' onclick='ym(56223715, 'reachGoal', 'uikit'); return true;'>Download for Free</a>"
 
-block: full
-nametemplate: no-name
-new-cover: "/projects_img/uikit/cover.png"
+block: half
+template: single-project-cover
+nametemplate: name
+new-cover: "/projects_img/uikit/cover_2.png"
 author: "Author: Yuriy Shiryaev"
 days: 7 days
-template: sngl-prj-covr
 ---
 
 

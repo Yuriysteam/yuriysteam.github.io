@@ -9,6 +9,8 @@ task: ""
 role: 
 
 block: three
+block: half
+template: single-project-cover
 template: single-project-cover
 nametemplate: image-name
 new-cover: "/projects_img/products/banking-ui.jpg"
