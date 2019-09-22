@@ -21,7 +21,7 @@ days: 12 days (published 11.06.19)
 
 ### One month after launch
 
-Downloads: **168**      Usage: **546**
+Downloads: **188**      Usage: **646**
 
 ### Reception 
 
