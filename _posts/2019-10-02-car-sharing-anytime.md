@@ -2,7 +2,7 @@
 layout: post
 title: "How to fix Anytime's carsharing newsletter"
 description: ""
-date: 2019-09-26 00:00:00
+date: 2019-10-02 00:00:00
 categories: Design
 tags: interface
 new-cover: projects_img/scooter/preview.jpg
@@ -81,4 +81,4 @@ For comparison:
 
 P.S. I am not working or associated with Anytime in any way.
 
-P.P.S. This post appeared because I have a principal. Instead of criticising — fix it. 
+P.P.S. This post appeared because I have a principal: “Instead of criticising — fix it.” 
