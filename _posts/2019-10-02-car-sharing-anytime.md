@@ -11,7 +11,7 @@ promo: promo.html
 
 I received an email from the local carsharing:
 
-<span class="p900">![anytime carsharing newsletter](/blog_img/posts/email_newsletter_anytime.png)</span>
+<span class="p900"> <img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/email_newsletter_anytime.png"></span>
 
 As I understand, this is the newsletter for the current customers. The idea was to let people know how to benefit from taking a car for a longer time. Unfortunately, besides the complicated layout, the message misses the customer. Only after going to the web I found out that 399 Kč is a good deal, compared to the regular tariff – 1200 Kč for 4 hours. I think I know how to do it better.
 
@@ -54,7 +54,9 @@ Images are about price and hours. Illustrations are nice, but there is no sense 
 
 Let's start with cleaning and defining the message. Instead of the question, I used a statement of why 4 hours ride will be useful for the client:
 
-<span class="p700">![anytime carsharing newsletter](/blog_img/posts/headline.png)</span>
+<span class="p700">
+
+<img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/headline.png"></span>
 
 Czechs love to get financial benefits. I supported the headline with numbers. I changed word tariff to a more suitable and simple term "rent".
 
@@ -67,17 +69,17 @@ Next, use cases for having a car for 4 hours. In Prague to cross the city from o
 
 There is some waiting time and it will not be convenient to lose the car in those situations. When illustrating those cases ideally, the car should be a part of the action. Checking images in the web:
 
-<span class="p1000">![anytime carsharing newsletter](/blog_img/posts/photos.png)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/photos.png"></span>
 
 Images, of course, should be taken with a real Anytime car and preferably within Prague's setting. And fixing the layout of the newsletter:
 
-<span class="p900">![anytime carsharing newsletter](/blog_img/posts/newsletter_fix.png)</span>
+<span class="p900"><img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/newsletter_fix.png"></span>
 
 I address information differently, changed the perspective and presented how 4 hours of carsharing can be beneficial. As a small touch, the company can add a list of interesting locations near Prague where clients can go.
 
 For comparison:
 
-<span class="p1000">![anytime carsharing newsletter](/blog_img/posts/compare.png)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/compare.png"></span>
 
 P.S. I am not working or associated with Anytime in any way.
 

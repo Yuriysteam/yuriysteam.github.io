@@ -21,8 +21,8 @@
 	
 	<meta name="yandex-verification" content="0542dd8789b34050" />
 	
-	<link rel="preload" href="/assets/fonts/AftenScreen.woff" as="font" type="font/woff" >
-	<link rel="preload" href="/assets/fonts/AftenScreen-Bold.woff" as="font" type="font/woff">
+	<link async rel="preload" href="/assets/fonts/AftenScreen.woff" as="font" type="font/woff" >
+	<link async rel="preload" href="/assets/fonts/AftenScreen-Bold.woff" as="font" type="font/woff">
     <link async rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
 	<link async rel="stylesheet" type="text/css" href="/assets/css/portfolio.css" />
 	
@@ -73,9 +73,12 @@
       <section class="poweredby">Made with ♥ on Jekyll</section>
     </footer>
 </body>
+    
+    {% include lazyload.html %}
 
     <!-- Script pointing to search-script.js -->
 <script src="/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+    
 	
 	<!-- Configuration -->
 <script>
@@ -85,6 +88,7 @@ SimpleJekyllSearch({
   json: '/search.json'
 })
 </script>
-	
+
+    
 <!-- <script src="/assets/js/jquery-3.2.1.min.js"></script> -->
 </html>
