@@ -1,0 +1,180 @@
+---
+layout: default
+title: Contact
+cover: false
+logo: true
+
+---
+
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}
+        <a class="blog-logo" href="{{ site.baseurl }}">
+            <img src="/assets/images/logo.png" alt="Blog Logo" />
+        </a>
+        {% endif %}
+        <ul class="nav navbar-nav navbar-right">
+            {% for nav_item in site.data.nav %} {% if page.url == nav_item.link %}
+            <li class="active">
+                {% else %}
+                <li>
+                    {% endif %}
+                    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+                </li>
+                {% endfor %}
+        </ul>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+		<section class="post-content">
+			
+			<div class="intro">
+				<div class="intro-info">
+						<div class="single-project-title">Resources</div>
+				</div>
+				<div class="intro-text">
+			
+					<div class="intro-cv">I know you here for some links. Let's get this show started</div>
+				
+			</div>
+			</div>
+			
+			<div class="cv-wrapper">
+				<div class="cv-header">General</div>
+				<div class="cv-position">
+					<div class="cv-date">2017</div><div class="cv-text">BA (Hons) in Graphic design, Teesside University</div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2016</div><div class="cv-text">HND in Graphic design, Prague College</div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2009</div><div class="cv-text">Vladimir High School 25</div>
+				</div>
+				<div class="cv-header">WORK EXPERIENCE</div>
+				<div class="cv-position">
+					<div class="cv-date">2016 — current</div><div class="cv-text"><div class="position-name">Designer, Marketing Department at MoneyPolo</div><div class="position-text">
+					UI/UX – responsibility for application design execution, user scenarios and product development</br>
+					Web design – preparation of promo blocks and landing pages,</br>
+					Support of company’s branding and presentation,</br>
+				Marketing design – preparation of graphic materials for social media campaigns,</br>
+			Print design – preparation of a variety print materials,
+			</br>Managing company's and outsource designers.
+		</br></br>
+Projects: <a href="/projects/2017-04-24-v.html" target="_blank">v</a>,  <a href="https://www.facebook.com/moneypolo/" target="_blank">Facebook pages</a>, <a href="https://www.facebook.com/events/561186317419844/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A889662077735467%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A889662077735467%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D" target="_blank">«Pojdte bruslit'»</a>, <a href="https://moneypolo.world" target="_blank">«MoneyPolo»</a></div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2016 — 2017</div><div class="cv-text"><div class="position-name">Co-lead graphic designer at Creative Bakery</div><div class="position-text">Identity design, UI/UX design, print design and animation.
+					</br></br>
+Projects: <a href="/projects/2016-05-01-profinacie.html" target="_blank">ProFinacie iOS app</a></div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2015 — 2016</div><div class="cv-text"><div class="position-name">Graphic designer in EvoCreative</div><div class="position-text">Identity design, web design, layout design and print design.
+					</br></br>
+Projects: <a href="/projects/2016-02-13-northtraining.html" target="_blank">North Training</a>, <a href="/projects/2015-11-27-evatheme.html" target="_blank">Landing pages</a></div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2013 — 2014</div><div class="cv-text"><div class="position-name">Print designer for WHO Europe</div><div class="position-text">Help with design and translation for brochures about road safety facts and road safety statistics.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2011 — 2013</div><div class="cv-text"><div class="position-name">Graphic designer for InfoSolutions</div><div class="position-text">Web design, brand identity, advertisement and print jobs. Also was supporting the companies web-site.
+					</br></br>Projects: <a href="/projects/2015-11-25-infosolution.html" target="_blank">Infosolutions identity</a>, <a href="https://inforesheniya.ru" target="_blank">Web page (2013)</a></div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2010 — 2014</div><div class="cv-text"><div class="position-name">Interpreter (Ru - En, En - Ru)</div><div class="position-text">Working for American charity organisation in Russia “Hope chest”, “Boaz” and “Orphans Tree” to provide communication support.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2010 — 2013</div><div class="cv-text"><div class="position-name">Editor in chief in Smpnews.ru</div><div class="position-text">Web news portal devoted to modern mobile platforms and news gadgets. Also had a personal column.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2010 — 2012</div><div class="cv-text"><div class="position-name">Web designer for Vkefire.com</div><div class="position-text">Created a web-blog for comedy podcast. Also provided a technical and design support.</div></div>
+				</div>
+				<div class="cv-header">VOLUNTEER EXPERIENCE</div>
+				<div class="cv-position">
+					<div class="cv-date">2014 — 2017</div><div class="cv-text"><div class="position-name">International Student Association in Teesside University</div><div class="position-text">A member and organizer of a university club for foreign students. Organization of different meetings and talks.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2011 — 2013</div><div class="cv-text"><div class="position-name">Radio host on Xradio.su</div><div class="position-text">A member and organizer of a university club for foreign students. Organization of different meetings and talks.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2010 — 2012</div><div class="cv-text"><div class="position-name">Student project volunteer</div><div class="position-text">Participated in university student project “Campus”, gave a series of lectures about a help of IT technology in student’s daily life.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2011</div><div class="cv-text"><div class="position-name">Evernote MeetUp host</div><div class="position-text">Organised a meeting for “Evernote” interested people in Vladimir city.</div></div>
+				</div>
+				<div class="cv-header">ACHIEVEMENTS</div>
+				<div class="cv-position">
+					<div class="cv-date">2012</div><div class="cv-text"><div class="position-name">Twitter international translator</div><div class="position-text">Helped with translation into the Russian language to Twitter.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2011</div><div class="cv-text"><div class="position-name">Imagine Cup 2011</div><div class="position-text">Won the third place in the project devoted to road public transportation. Designed and presented an idea.</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date">2010</div><div class="cv-text"><div class="position-name">HackDay conference</div><div class="position-text">Won a game design competition, created game characters look, user interface and level designs.</div></div>
+				</div>
+				<div class="cv-header">Skills</div>
+				<div class="cv-position">
+					<div class="cv-date"></div><div class="cv-text"><div class="position-name">Design skills</div><div class="position-text">Main tools:
+					<ul>
+						<li>Adobe Creative Cloud (Photoshop, InDesign, Illustrator, After Effects, Muse, Adobe XD)</li>
+						<li>Sketch</li>
+						<li>Aperture</li>
+					</ul>
+					</br>
+					
+					UI/UX and prototyping:
+					<ul>
+						<li>Brackets</li>
+						<li>Marvel</li>
+						<li>Zeplin</li>
+						<li>Framer</li>
+					</ul>
+					</br>
+					Web design:
+					<ul>
+						<li>HTML 5/CSS</li>
+						<li>Java Script</li>
+						<li>Jekyll</li>
+						<li>Wordpress</li>
+					</ul>
+					</br>
+					Typography:
+					<ul>
+						<li>Glyphs</li>
+					</ul>
+					</br>
+					General:
+					<ul>
+						<li>Keynote</li>
+						<li>Pages</li>
+						<li>Numbers</li>
+					</ul>
+					</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date"></div><div class="cv-text"><div class="position-name">Language proficiency</div><div class="position-text">Native Russian speaker — attended a journalistic club during school.</br>
+					English — fluent speaker, IELTS certificate with score 6.0, have been working for 3 years as an interpreter.</br>
+					Czech — pre-intermediate speaker. The pre-intermediet level in Czech courses.
+					</div></div>
+				</div>
+				<div class="cv-position">
+					<div class="cv-date"></div><div class="cv-text"><div class="position-name">Other skills</div><div class="position-text">
+					<ul>
+						<li>Fire show performer</li>
+						<li>photographer</li>
+						<li>video-editor</li>
+						<li>presenter</li>
+						</ul>
+					</div></div>
+				</div>
+
+
+
+			</div>
+				
+			
+		</section>
+	</article>
+</main>	

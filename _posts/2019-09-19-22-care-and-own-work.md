@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Principal: care about work and own it"
+title: "Care about work & own it"
 description: "Some of my life and work principals"
 date: 2019-09-22 00:00:00
 categories: Design

@@ -1,0 +1,560 @@
+* {
+	border: 0px dashed green;
+	
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('fonts/WorkSans-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #101416;
+}
+
+h2 {margin-bottom: 5px;}
+h3 {margin-bottom: 5px;}
+
+p {margin-top: 0px;
+margin-bottom: 30px;
+font-weight: 400;}
+
+.container {
+  max-width: 1440px;
+  background: silver;
+  color: #e3ddcd;
+  background: #101416;
+  margin: 0 auto;
+  font-family: 'WorkSans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 35px;
+}
+
+header .logo {
+  background: url('images/Dynameyes_logo.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 200px;
+  height: 40px;
+}
+
+header nav div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 30px;
+}
+
+header nav a {
+  color: #e3ddcd;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.62);
+  text-decoration: none;
+  margin-left: 50px;
+  padding-bottom: 4px;
+}
+
+header nav a:hover,
+header nav a.selected {
+  border-radius: 4px;
+  background-color: #525252;
+  border: none;
+  padding: 7px 20px;
+}
+
+.introduce-big-text {
+  font-size: 74px;
+  padding-left: 150px;
+  padding-right: 129px;
+  margin-bottom: 110px;
+}
+
+.introduce-course-name {
+    font-size: 74px;
+  padding-left: 50px;
+  padding-right: 10px;
+  margin-bottom: 60px;
+    margin-top: 40px;
+    letter-spacing: -1px;
+}
+
+.introduce-course-description {
+    font-size: 24px;
+  color: #e3ddcd;
+  max-width: 900px;
+    padding-left: 50px;
+    
+}
+
+.introduce-course-info {
+    color: #b7b6b6;
+font-weight: 300;
+font-size: 27px;
+line-height: 36px;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.course-description {
+    display: flex
+}
+
+.app-block {
+  display: flex;
+  padding: 0 34px;
+}
+
+.app-img {
+  background: url('images/app-image.png') no-repeat;
+  background-size: contain;
+  width: 1139px;
+  height: 561px;
+}
+
+.app-text p:first-child {
+  color: #5194ea;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.app-text p {
+  margin-top: 0;
+}
+
+.app-text {
+  font-size: 15px;
+  color: #dddddd;
+  margin-left: 27px;
+  margin-top: 70px;
+  width: 190px;
+}
+
+.gadgets-block {
+  display: flex;
+  margin-top: 12px;
+  align-items: flex-end;
+  padding: 0 34px;
+}
+
+.watch-text p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #b39b00;
+  margin-bottom: 10px;
+}
+
+.watch-text p {
+  margin-top: 0;
+}
+
+.watch-text {
+  font-size: 15px;
+  color: #dddddd;
+  margin-top: 95px;
+  width: 190px;
+  align-self: flex-start;
+}
+
+.watch-img {
+  background: url('images/watch-img.png') no-repeat;
+  background-size: contain;
+  width: 611px;
+  height: 436px;
+  margin-right: 100px;
+}
+
+.mobile-text p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #da513a;
+  margin-bottom: 10px;
+}
+
+.mobile-text p {
+  margin-top: 0;
+}
+
+.mobile-text {
+  font-size: 15px;
+  color: #dddddd;
+  width: 190px;
+  margin-left: -80px;
+  margin-bottom: 50px;
+}
+
+.mobile-img {
+  background: url('images/mobile-img.png') no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 496px;
+}
+
+.introduce-small-text {
+  font-size: 40px;
+  color: #e3ddcd;
+  display: flex;
+  justify-content: center;
+  margin-top: 189px;
+}
+
+.introduce-small-text p {
+  width: 1000px;
+}
+
+
+.work {
+    width:100%;
+    height: 2800px;
+    margin: 30px 0;
+    background-image: url(images/work.png);
+    background: cover, center, top, no-repeat;
+    background-size: cover
+}
+.experince-block {
+  display: flex;
+  justify-content: center;
+}
+
+.experince-block .years {
+  font-size: 74px;
+  color: #e95750;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.experince-block .experince {
+  color: #ca403a;
+  font-size: 38px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.experince-text {
+  color: #b7b6b6;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 36px;
+  width: 611px;
+}
+
+.experince-years {
+  position: relative;
+  left: -130px;
+  top: 20px;
+}
+
+.team-header {
+  color: #e3ddcd;
+  font-size: 40px;
+  padding-left: 90px;
+}
+
+.team-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  width: 430px;
+  margin-bottom: 52px;
+}
+
+.member-avatar img {
+  width: 122px;
+  height: 122px;
+  margin-right: 20px;
+}
+
+.member-name {
+  margin-bottom: 4px;
+  color: #b7b6b6;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.member-profession {
+  margin: 0px;
+  font-size: 18px;
+  color: #dddddd;
+  font-weight: 300;
+}
+
+.clients-block {
+  background: #212121;
+  padding: 40px 0 5px 0;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.clients-text p {
+  font-size: 40px;
+  color: #e3ddcd;
+  margin: 0 0 77px 100px;
+}
+
+.subscription-text {
+    font-size: 24px;
+  color: #e3ddcd;
+  margin: 10px 10px 0px 40px;
+}
+
+.clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.money-polo {
+  background: url('images/client-logo-moneypolo.png') no-repeat;
+  background-size: contain;
+  width: 122px;
+  height: 62px;
+  background-position: bottom;
+}
+
+.lockstep {
+  background: url('images/lockstep.png') no-repeat;
+  background-size: contain;
+  width: 148px;
+  height: 75px;
+  background-position: bottom;
+}
+
+.immgroupltd {
+  background: url('images/immgroupltd.png') no-repeat;
+  background-size: contain;
+  width: 133px;
+  height: 67px;
+  background-position: bottom;
+}
+
+.watrerloo {
+  background: url('images/watrerloo.png') no-repeat;
+  background-size: contain;
+  width: 149px;
+  height: 75px;
+  background-position: bottom;
+}
+
+.immfx {
+  background: url('images/immfx.png') no-repeat;
+  background-size: contain;
+  width: 149px;
+  height: 75px;
+  background-position: bottom;
+}
+
+.sro {
+  background: url('images/sro.png') no-repeat;
+  background-size: contain;
+  width: 143px;
+  height: 72px;
+  background-position: bottom;
+}
+
+.forgefactory {
+  background: url('images/forgefactory.png') no-repeat;
+  background-size: contain;
+  width: 144px;
+  height: 72px;
+  background-position: bottom;
+}
+
+.atlantis {
+  background: url('images/atlantis.png') no-repeat;
+  background-size: contain;
+  width: 149px;
+  height: 75px;
+  background-position: bottom;
+}
+
+.client-logo {
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  padding-left: 80px;
+  margin-top: 210px;
+}
+
+.contacts-block {
+  margin-right: 175px;
+}
+
+.contacts-header,
+.products-header {
+  font-size: 40px;
+  color: #e3ddcd;
+}
+
+.contact-email {
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 37px;
+}
+
+.contact-email a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.62);
+}
+
+.contact-email a:link,
+.contact-email a:visited,
+.contact-email a:hover,
+.contact-email a:active {
+  color: #ffffff;
+}
+
+.phone-number {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.country-info {
+  font-size: 17px;
+  color: #706c6c;
+  margin-top: 0px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #c9c6c6;
+  font-size: 13px;
+  border-bottom: 1px solid #575757;
+  margin-right: 30px;
+}
+
+.footer-logo {
+  background: url("images/Dynameyes_logo_small.svg") no-repeat;
+  width: 64px;
+  height: 30px;
+  background-size: contain;
+  margin-right: 30px;
+}
+
+.product-wrapper {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.product-img-dslack {
+  background: url("images/dslack.png") no-repeat;
+  width: 224px;
+  height: 128px;
+  background-size: contain;
+}
+
+.product-img-uikit {
+  background: url("images/uikit.png") no-repeat;
+  width: 224px;
+  height: 137px;
+  background-size: contain;
+}
+
+.product-description-header {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 0.62;
+  letter-spacing: 0.72px;
+}
+
+.product-description-header p {
+  margin-bottom: 20px;
+}
+
+.product-info {
+  margin-left: 18px;
+  margin-top: -24px;
+  width: 325px;
+}
+
+.product-description-link {
+  width: 131px;
+  height: 24px;
+  border-radius: 4px;
+  background: #525252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-description-link a {
+  font-size: 11px;
+  font-weight: 500;
+  color: #ded0d0;
+  text-decoration: none;
+}
+
+.product-description-text {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.31px;
+  color: #e3dbdb;
+}
+
+.product-description-text p {
+  margin-top: 15px;
+}
