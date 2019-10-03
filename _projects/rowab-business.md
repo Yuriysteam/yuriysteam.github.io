@@ -48,7 +48,7 @@ days: 164 days
 
 <span class="p800">![](/projects_img/rowab/login.jpg)</span>
 
-The core part of ROWA B Business is paying partners. Banks use long forms and multi-step windows. We simplified the process to three steps.</span>
+<span class="p-text">The core part of ROWA B Business is paying partners. Banks use long forms and multi-step windows. We simplified the process to three steps.</span>
 
 <span class="pshadow p900">![](/projects_img/rowab/sending.gif)</span>
 

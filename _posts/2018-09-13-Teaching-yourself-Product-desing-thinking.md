@@ -53,7 +53,7 @@ Or, clients have money in local currency and want to pay for something with the 
 
 To exchange currencies there is a separate screen. 
 
-<span class="p300">![revolut exchange screen](/blog_img/advices/rev_exchange.gif)</span>
+<span class="p300"><img src="/assets/images/lazy.png" alt="revolut exchange screen" data-echo="/blog_img/advices/rev_exchange.gif"></span>
 
 There are only four words on the screen: Exchange 2x and Balance 2x. Name of the screen and action are the same. Because the action is the button it's not confusing. 
 
@@ -75,7 +75,7 @@ The exchange happens in the background when the payment is done.
 
 ## Send money to friends
 
-<span class="p300">![revolut payment screen](/blog_img/advices/rev_payments.gif)</span>
+<span class="p300"><img src="/assets/images/lazy.png" alt="revolut payment screen" data-echo="/blog_img/advices/rev_payments.gif"></span>
 
 Only one word for the headline.
 

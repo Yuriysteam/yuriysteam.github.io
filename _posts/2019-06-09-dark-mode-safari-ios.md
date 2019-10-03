@@ -16,7 +16,7 @@ Implementing dark mode is easy. Include media query to CSS of a web page:
 
 I believe we should provide the best experience when the browser automatically detects the user’s choice. Soon there will be a crowd on iPhones and iPads with iOS 13 who turn on dark mode and go browsing.  Care about the viewer and their eyes. Prepare your web pages.
 
-![Dark mode iOS web](/blog_img/advices/dark.png)
+<img src="/assets/images/lazy.png" alt="Dark mode iOS web" data-echo="/blog_img/advices/dark.png">
 
 ### Three main design principles for dark mode
 

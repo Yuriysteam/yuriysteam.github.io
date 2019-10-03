@@ -11,15 +11,15 @@ promo: promo.html
 
 Micro-mobility gaining popularity because it’s faster than car-based trips. Sometimes even faster than a public transportation. In my opinion scooters and bikes will not change transportation in the cities, but will be a solid addition to current means. To have a better experince in the future I propose a set of ideas for scooters and sharing services.
 
-<span class="p800">![Micro mobility scooters preview](/projects_img/scooter/preview.jpg)</span>
+<span class="p800"><img src="/assets/images/lazy.png" alt="Micro mobility scooters preview" data-echo="/projects_img/scooter/preview.jpg"></span>
 
 ### LED stripe displays charge level
 
-<span class="p1000">![Micro mobility scooters charging levels](/projects_img/scooter/charge.jpg)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="Micro mobility scooters charging levels" data-echo="/projects_img/scooter/charge.jpg"></span>
 
 When it comes to finding a suitable scooter for a ride — battery charge is the most important criteria. It's a bummer to find a pool of scooters, open the app, tap on every vehicle and find out that all of them have a dead battery. There are no visual indicators on scooters to let you know they’re out of commission. I propose to use an LED stripe to show charge level.
 
-<span class="p1000">![Micro mobility scooters charging levels](/projects_img/scooter/light.jpg)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="Micro mobility scooters charging levels" data-echo="/projects_img/scooter/light.jpg"></span>
 
 An LED stripe can be a part of a headlights.
 
@@ -27,13 +27,13 @@ An LED stripe can be a part of a headlights.
 
 ### AR to show charge levels
 
-<span class="p1000">![Micro mobility scooters charging levels](/projects_img/scooter/ar.jpg)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="Micro mobility scooters charging levels" data-echo="/projects_img/scooter/ar.jpg"></span>
 
 LED stripe with charge level is a technical improvement. Augmented Reality (AR) can be a software improvement to solve discoverability and low battery problem. Unfortunately, GPS only solution will not be accurate. With [software enchantments](https://eng.uber.com/rethinking-gps/), mobile internet and Bluetooth — positioning of a single vehicle can be accurate up to 2 meters.
 
 ### Vehicle unlock with NFC
 
-<span class="p1000">![Micro mobility scooters charging levels](/projects_img/scooter/nfc.jpg)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="Micro mobility scooters charging levels" data-echo="/projects_img/scooter/nfc.jpg"></span>
 
 Taking a picture of QR or type a digit code is slow. For now, Apple is reserved to open NFC chip to third-party developers. I believe this will change with time.
 
@@ -45,7 +45,7 @@ All of this can be displayed in the app with the map. Less screens and technolog
 
 ### Integration with maps
 
-<span class="p700">![Micro mobility scooters charging levels](/projects_img/scooter/map.jpg)</span>
+<span class="p700"><img src="/assets/images/lazy.png" alt="Micro mobility scooters charging levels" data-echo="/projects_img/scooter/map.jpg"></span>
 
 Scooters or e-bikes will make a good addition to city transport. Map integration solves discoverability, charge and parking questions.
 

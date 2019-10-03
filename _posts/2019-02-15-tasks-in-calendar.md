@@ -11,6 +11,6 @@ In my daily routine, I use the approach called "Clean Inbox". Each email require
 
 I used to manually create those tasks. It appeared that simple drag-and-drop of the email into the Calendar app can magically move all the data. Link to the message will be saved with the email theme.
 
-<span class="p1000">![Email to Calendar](/blog_img/advices/mailapp.png)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="Email to Calendar" data-echo="/blog_img/advices/mailapp.png"></span>
 
 Same approach I use for reading web articles. I drag-and-drop them and web link will be copied to the calendar. Organize and save the time.

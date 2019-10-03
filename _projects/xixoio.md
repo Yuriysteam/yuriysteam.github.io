@@ -21,15 +21,15 @@ Illustrator: Yunjae Woo</br>
 Development team lead: <a style='color:white' href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 ---
 
-<span class="p-logo">![](/projects_img/xixoio/logo.svg)</span>
+<span class="p-logo"><img src="/assets/images/lazy.png" alt="xixoio logo" data-echo="/projects_img/xixoio/logo.svg"></span>
 
 <span class="p-text">To support the vision was designed strict and concise stationary set. For convenience and time-saving design team shipped digital templates. Company's managers and designers can use them to instantly create new business cards or agreement for partners.</span> 
 
-<span class="p1000">![](/projects_img/xixoio/docs.png)</span>
+<span class="p1000"><img src="/assets/images/lazy.png" alt="XIXOIO docs" data-echo="/projects_img/xixoio/docs.png"></span>
 
 <span class="p-text">In the future XIXOIO is going to distribute crypto tokens. The name of the new cryptocurrency is XIX. I came up with a visual idea of how new currency should be presented. The symbol was added to the company's font for easy use.</span> 
 
-<span class="p300">![](/projects_img/xixoio/xix-anima.gif)</span>
+<span class="p300"><img src="assets/images/lazy.png" alt="" data-echo="/projects_img/xixoio/xix-anima.gif"></span>
 
 
 

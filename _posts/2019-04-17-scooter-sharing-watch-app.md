@@ -31,7 +31,7 @@ Watch app can provide answers to those questions in the compact, convenient and 
 
 Scooter is in front of you. Unlock and go. Currently, services use a QR or digit code to identify and unlock vehicles. Geopositioning and mobile internet help to verify if the client really near the vehicle.
 
-<span class="p800">![Apple Watch Scooter Sharing App: Unlock near by scooter](/projects_img/scooter/Unlock.gif)</span>
+<span class="p800"><img src="/assets/images/lazy.png" alt="Apple Watch Scooter Sharing App: Unlock near by scooter" data-echo="/projects_img/scooter/Unlock.gif"></span>
 
 <span class="p-center">[▶ High resolution video](https://vimeo.com/330054514)</span>
 
@@ -41,7 +41,7 @@ Watch is about quick interactions. One screen helps to make decision about renti
 
 If there are no scooters in close proximity (let’s say 10 meters), watch can help to locate vehicles in walkable distance. Search gives a list of scooters with charge and distance to them. In case all near by scooters have low battery, search is always  accessible afrer scooter cards.
 
-<span class="p800">![Apple Watch Scooter Sharing App: search and unlock](/projects_img/scooter/Search.gif)</span>
+<span class="p800"><img src="/assets/images/lazy.png" alt="Apple Watch Scooter Sharing App: search and unlock" data-echo="/projects_img/scooter/Search.gif"></span>
 
 <span class="p-center">[▶ High resolution video](https://vimeo.com/330065063)</span>
 
@@ -49,7 +49,7 @@ If there are no scooters in close proximity (let’s say 10 meters), watch can h
 
 This user experience can be applied for shared bikes, scooters, e-scooters, mopeds or cars. 
 
-<span class="p700">![Apple Watch Scooter Sharing App: electric car app](/projects_img/scooter/car.jpg)</span>
+<span class="p700"><img src="/assets/images/lazy.png" alt="Apple Watch Scooter Sharing App: electric car app" data-echo="/projects_img/scooter/car.jpg"></span>
 
 Speed is valuable for unlocking, finding the right vehicle and getting to the desired destination. The idea of supporting a watch app might be expensive right now. I believe with time, watch can help companies to differentiate from the competition and provide a smoother and enjoyable experience.
 

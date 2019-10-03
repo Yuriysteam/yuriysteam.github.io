@@ -27,6 +27,6 @@ Downloads: **188**      Usage: **646**
 
 [Reddit post](https://www.reddit.com/r/NintendoSwitch/comments/d3qxsv/marin_emoji_from_celebrate_links_awakening/) got **1000+ upvotes** in 7 hours on r/NintendoSwitch. It made to the top of Hot list.
 
-<span class="p900">![link's awakening emoji reddit](/projects_img/stickers/reddit.png)</span>
+<span class="p1000">![link's awakening emoji reddit](/projects_img/stickers/reddit.png)</span>
 
 Got [mentioned](https://www.reddit.com/r/zelda/comments/c124up/lahd_cute_links_awakening_emoji/) in r/Zelda [twice](https://www.reddit.com/r/zelda/comments/d3oqdb/lahd_marin_emoji_from_links_awakening/).
