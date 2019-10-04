@@ -36,8 +36,6 @@ Includes 40km, 6.99/km afterwards.
 You can select this tariff by default in the car rental screen in our application Anytime Carsharing CZ. Well let's go!
 ```
 
-
-
 In short: “Four hours, 399 CZK. Go to movies, do shopping, have a meeting. Buy, 399 CZK, Please, buy.” The newsletter is not talking about my benefits as a customer: why the price is better, how can I win from taking the car longer or why will it be more convenient. Instead, business speaking about their needs.
 
 ##### Use cases:
@@ -54,9 +52,7 @@ Images are about price and hours. Illustrations are nice, but there is no sense 
 
 Let's start with cleaning and defining the message. Instead of the question, I used a statement of why 4 hours ride will be useful for the client:
 
-<span class="p700">
-
-<img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/headline.png"></span>
+<span class="p700"><img src="/assets/images/lazy.png" alt="anytime carsharing newsletter" data-echo="/blog_img/posts/headline.png"></span>
 
 Czechs love to get financial benefits. I supported the headline with numbers. I changed word tariff to a more suitable and simple term "rent".
 
