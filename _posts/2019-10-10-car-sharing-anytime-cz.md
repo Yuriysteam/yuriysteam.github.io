@@ -2,7 +2,7 @@
 layout: post
 title: "Jak opravit newsletter carsharingu Anytime"
 description: ""
-date: 2019-10-02 00:00:00
+date: 2019-10-10 00:00:00
 categories: Design
 tags: interface
 new-cover: projects_img/scooter/preview.jpg
