@@ -4,7 +4,7 @@ title: "Best joy-cone controller settings in Overwatch for Nintendo Switch"
 description: "Fixing aiming with gyro and sticks on Nintendo Switch"
 date: 2019-10-16 01:00:00
 categories: Design
-new-cover: /blog_img/posts/previewow.jpg
+new-cover: blog_img/posts/previewow.jpg
 tags: people
 ---
 
