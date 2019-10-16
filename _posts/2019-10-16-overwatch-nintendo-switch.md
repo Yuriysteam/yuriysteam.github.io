@@ -16,4 +16,4 @@ These recommendations for playing in docked mode with joy-cone grip. I have been
 
 For playing in tabletop mode with joy-con grip increase gyro Yaw-axis to 16. For playing in handheld mode increase gyro Yaw-axis to 20 and maybe aim assist.
 
-P.S. Even with this setting aiming is a bit wobbly and lose. Sticks are too sensitive. The game looks impressive when running in handheld mode: a toy Overwatch on the Switch. In docked mode it's clearly visiable that this is a port. 
+P.S. Even with this setting aiming is a bit wobbly and loose. Sticks are too sensitive. The game looks impressive when running in handheld mode: a toy Overwatch on the Switch. In docked mode it's clearly visible that this is a port. 
