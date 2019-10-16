@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best joy-cone controller settings in Overwatch for Nintendo Switch"
+title: "Best joy-con controller settings in Overwatch for Nintendo Switch"
 description: "Fixing aiming with gyro and sticks on Nintendo Switch"
 date: 2019-10-16 01:00:00
 categories: Design
@@ -8,7 +8,7 @@ new-cover: blog_img/posts/previewow.jpg
 tags: people
 ---
 
-These recommendations for playing in docked mode with joy-cone grip. I have been trying to get as close as possible to Splatoon 2 feeling.
+These recommendations for playing in docked mode with joy-con grip. I have been trying to get as close as possible to Splatoon 2 feeling.
 
 <span class="p800"><img src="/assets/images/lazy.png" alt="joy-cones controller settings in Overwatch for Nintendo Switch" data-echo="/blog_img/posts/ow1.jpeg"></span>
 
