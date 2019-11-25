@@ -10,9 +10,9 @@ tags: people
 
 These recommendations for playing in docked mode with joy-con grip. I have been trying to get as close as possible to Splatoon 2 feeling.
 
-<span class="p800"><img src="/assets/images/lazy.png" alt="joy-cones controller settings in Overwatch for Nintendo Switch" data-echo="/blog_img/posts/ow1.jpeg"></span>
+<img src="/assets/images/lazy.png" alt="joy-cones controller settings in Overwatch for Nintendo Switch" data-echo="/blog_img/posts/ow1.jpeg">
 
-<span class="p800"><img src="/assets/images/lazy.png" alt="joy-cones controller settings in Overwatch for Nintendo Switch" data-echo="/blog_img/posts/ow2.jpeg"></span>
+<img src="/assets/images/lazy.png" alt="joy-cones controller settings in Overwatch for Nintendo Switch" data-echo="/blog_img/posts/ow2.jpeg">
 
 For playing in tabletop mode with joy-con grip increase gyro Yaw-axis to 16. For playing in handheld mode increase gyro Yaw-axis to 20 and maybe aim assist.
 
