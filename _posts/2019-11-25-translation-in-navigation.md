@@ -1,16 +1,17 @@
 ---
-taylayout: post
+layout: post
 title: "How to transliterate for navigation"
 description: "How to do translation for navigation systems"
 date: 2019-11-25 02:00:00
 categories: Design
-new-cover: 
 tags: design
 ---
 
-Names for stations, stops, praks, streets in navigation should not translate directly. The idea of translation to help passengers, who are not familiar with the local language, to recognize the name and orient themselves in the space. Transliteration usualy should be done by letters and not by meaning. As exclussion 
+[Этот пост по-русски](/design/2019/11/26/translation-in-navigation-ru.html)
 
-As an example in Tokyo metro foreigners, who do not know the Japanese language, without any issues can read that this is a Nihombashi station:
+Names for stations, stops, praks, streets in navigation should not translate directly. The idea of translation to help passengers, who are not familiar with the local language, to recognize the name and orient themselves in the space. Transliteration usualy should be done by letters and not by meaning.
+
+As an example in Tokyo metro foreigners, who do not know the Japanese language, without any issues can read that this is Nihombashi station:
 
 <img src="/assets/images/lazy.png" alt="translation in navigation system signs" data-echo="/blog_img/tokyo/nihombashi.jpg">
 
