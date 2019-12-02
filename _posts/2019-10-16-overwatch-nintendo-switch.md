@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best joy-con controller settings in Overwatch for Nintendo Switch"
+title: "Best Joy-con Controller settings in Overwatch for Nintendo Switch"
 description: "Fixing aiming with gyro and sticks on Nintendo Switch"
 date: 2019-10-16 01:00:00
 categories: Design

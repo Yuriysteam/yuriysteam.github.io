@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to transliterate for navigation"
+title: "How to Transliterate for Navigation"
 description: "How to do translation for navigation systems"
 date: 2019-11-25 02:00:00
 categories: Design

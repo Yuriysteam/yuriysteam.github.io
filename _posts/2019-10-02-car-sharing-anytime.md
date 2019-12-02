@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to fix Anytime's carsharing newsletter"
+title: "How to Fix Anytime's Carsharing Newsletter"
 description: ""
 date: 2019-10-02 00:00:00
 categories: Design

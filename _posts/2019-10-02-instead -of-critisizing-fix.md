@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instead of criticising — fix it."
+title: "Instead of Criticising — Fix It."
 description: "Some of my life and work principals"
 date: 2019-10-02 01:00:00
 categories: Design
