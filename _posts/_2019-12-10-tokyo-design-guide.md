@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Design Travel Guide: Helsinki"
-description: "Trip guide to Helsinki for designers. Featuring museums, coffee places and environmental design in the the Finnish capital."
-date: 2019-03-07 00:00:00
+title: "Design Travel Guide: Tokyo"
+description: "Trip guide to Tokyo for designers. Featuring museums, coffee places and environmental design in the the Finnish capital."
+date: 2019-12-10 00:00:00
 categories: Design
 tags: travel
-new-cover: blog_img/advices/helsinki.jpg
+new-cover: blog_img/advices/tokyo.jpg
 ---
 
 <span class="p1000">![Helsinki design travel guide](/blog_img/advices/helsinki.jpg)</span>
@@ -14,11 +14,19 @@ The issue with travel guides is lack of inspiration, design orientation and amou
 
 To find design kicks I plan where and what I’d like to see. I combined spots, good coffee places and museums.
 
-Last update – 7th of March 2019. Check guides for [Amsterdam](/design/2019/03/06/amsterdam-design-guide.html), [Tokyo](/design/2019/12/10/tokyo-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
+Last update – 10th of December 2019. Check guides for [Amsterdam](http://yuriy.eu/design/2019/03/06/amsterdam-design-guide.html), [Helsinki](/design/2019/03/07/helsinki-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
 
 ### Museums
 
-[Kiasma Museum of modern art](https://kiasma.fi/en/) Definitely the best in the city. All the times I’ve been the show was great, idea inspiring and astonishing. Ticket €15. First Friday of the month is free. And the building is awesome too.
+[Kiasma Museum of modern art](https://kiasma.fi/en/) 
+
+[teamLab Borderless](https://borderless.teamlab.art) number one design museum in Tokyo to visit. The whole inside is an instalation and set of projection. 3200 yen 
+
+
+
+ an an installation 
+
+Definitely the best in the city. All the times I’ve been the show was great, idea inspiring and astonishing. Ticket €15. First Friday of the month is free. And the building is awesome too.
 
 [Amos Rex museum](https://amosrex.fi/en/) The building is stunning. €18
 

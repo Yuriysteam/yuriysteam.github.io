@@ -10,11 +10,11 @@ new-cover: blog_img/advices/amsterdam.jpg
 
 <span class="p1000">![Amsterdam design travel guide](/blog_img/advices/amsterdam.jpg)</span>
 
-The issue with travel guides is lack of inspiration, design orientation and amount of crowd on popular sights. I found out that a successful design trip is a combination of beautiful places with some tech or modern approach to the design of the environment and everyday things. I am looking for technological things which makes the life of citizens better.
+The issue with travel guides is lack of inspiration, design orientation and amount of crowd on popular sights. I found out that a successful design trip is a combination of beautiful places, modern technology and being in well thought environment and small everyday things. 
 
-To find design kicks I plan where and what I’d like to see. I combined sports, good coffee places and museums.
+To find design kicks I plan where and what I’d like to see. I combined spots, good coffee places and museums.
 
-Last update – 6th of March 2019. Check guides for [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
+Last update – 6th of March 2019. Check guides for [Helsinki](http://yuriy.eu/design/2019/03/07/helsinki-design-guide.html), [Tokyo](/design/2019/12/10/tokyo-design-guide.html) and [Prague](/design/2019/03/18/prague-design-guide.html). 
 
 ### Museums
 
