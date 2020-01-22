@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Mobile Verification UI Kit
-date:   2019-08-19 02:30:00
-description: "Free Mobile Verification Sketch UI kit for iOS and Flutter"
+date:   2018-11-18 03:27:00
+description: "Mobile Verification Sketch UI kit"
 intro-text: ""
 type: project
 web: "<a href='/files/Verification-ui-kit.sketch' onclick='ym(56223715, 'reachGoal', 'uikit'); return true;'>Download for Free</a>"
 
-block: half
+block: product
 template: single-project-cover
 nametemplate: name
 new-cover: "/projects_img/uikit/cover_2.png"
