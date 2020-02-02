@@ -23,6 +23,6 @@ And a neomorphism UI by [Khushboo Choudhary](https://dribbble.com/khushary). It 
 
 There are no changes to how Gmail functioning and how clients' read and write emails. I believe stylistic changes does not deserve time we spend on them. Changing a style will not significantly affect how the product brings benefits to the customer.
 
-A new colour in for check out buttons will bring less customer compared to the integration with Apple Pay for example.
+A new colour for buttons will bring less customer compared to the integration with Apple Pay, for example.
 
- A new style is only showing off and adding a value to the service. The new design is beneficial, helpful to customers and solve problems.
+A new style is only showing off and adding a value to the service. The new design is beneficial, helpful to customers and solve problems.
