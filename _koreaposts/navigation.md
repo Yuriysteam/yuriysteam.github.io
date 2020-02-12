@@ -6,6 +6,7 @@ description: "Всякие планы и тому подобное"
  
 nametemplate:  k-big-title
 block: half
+font: k-font
 
 ---
 

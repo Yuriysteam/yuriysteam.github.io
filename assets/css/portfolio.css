@@ -94,35 +94,38 @@ align-items: flex-start;
 .k-big-title {
     display: block;
     font-size: 72px;  
-    line-height: 1.2;
-    font-weight: bold;  
+    line-height: 1.1;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .k-middle-title  {
-    font-size: 52px;
+    font-size: 65px;
     display: block;
     line-height: 1.1;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .k-small-title  {
-    font-size: 32px;
+    font-size: 34px;
     line-height: 1.2;
     font-weight: bold;
     display: block;
+    font-family: 'Montserrat', sans-serif;
 }
-
-
 
 
 
 .korea-description {
     display: block;
-    font-size: 28px;
+    font-size: 26px;
     color: #1c1c1c;
     margin-top: 10px;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -420,7 +423,39 @@ margin-bottom: 20px;
 line-height: 1.1em;
 padding: 0;}
 	
-	
+	.k-big-title {
+    display: block;
+    font-size: 32px;  
+    line-height: 1.2;
+    font-weight: bold;  
+}
+
+
+.k-middle-title  {
+    font-size: 32px;
+    display: block;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.k-small-title  {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+
+.korea-description {
+    display: block;
+    font-size: 18px;
+    color: #1c1c1c;
+    margin-top: 10px;
+    font-weight: 400;
+}
 	
 }
 
@@ -484,6 +519,10 @@ padding: 0;}
 		border: 1px solid #4d4d4d;
 	}
      .back-button {color: #ddc;}
+    
+    .korea-description { 
+    color: #ddc;
+}
 	
 }
 
