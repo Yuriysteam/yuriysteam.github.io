@@ -1,0 +1,35 @@
+---
+layout: default
+title: Finacial product designer
+cover: false
+logo: true
+
+
+---
+
+{% include navigation.html %}
+
+
+<div class="korean-grid">
+	
+	
+    {% assign items = site.koreaposts | sort: 'date' %}
+  {% for item in items reversed %}
+        
+        
+    <article class="{{item.block}}">
+    <h2 class="{{item.nametemplate}}"><a href="{{item.url}}">{{item.title}}</a> </h2>
+    <h3 class="korea-description">{{item.description}}</h3>
+    </article>
+    
+  {% endfor %}
+	
+
+	
+	
+</div>
+
+<!-- <a class="{{item.block}}" href="{{item.url}}">
+            <div class="{{item.nametemplate}}">{{item.title}}</div>
+            <div class="korea-description {{item.custom}}">{{item.description}}</div>  
+        </a>-->

@@ -18,7 +18,7 @@ paginate_path: "/blog/page:num/"
 collections: 
  projects:
   output: true
- trips:
+ koreaposts:
   output: true
 # cafe:
 #  output: true

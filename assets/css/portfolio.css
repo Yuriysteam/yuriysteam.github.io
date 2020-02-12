@@ -74,6 +74,58 @@ background-repeat: no-repeat;
 	background-color: transparent;
 }
 
+
+
+/* Korean part */
+
+.korean-grid {
+padding: 3% 2%;
+max-width: 1440px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+
+.k-big-title {
+    display: block;
+    font-size: 72px;  
+    line-height: 1.2;
+    font-weight: bold;  
+}
+
+
+.k-middle-title  {
+    font-size: 52px;
+    display: block;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.k-small-title  {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+
+.korea-description {
+    display: block;
+    font-size: 28px;
+    color: #1c1c1c;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
 a.half:hover {
 	border-bottom-width: 0px;
     border-bottom-style: none;
