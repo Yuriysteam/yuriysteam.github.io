@@ -640,36 +640,116 @@ ol li {
 }
 
 .text-main {
-  padding: 122px 0 30px;
+  padding: 60px 0 30px;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
   .text-main {
-    padding: 40px 0 30px;
+    padding: 25px 0 30px;
   }
 }
 
 .text-main__container {
   max-width: 1330px !important;
+  position: relative;
+}
+
+.text-main__video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  width: 95%;
+  height: 95%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .text-main__title {
-  max-width: 1091px;
-  margin-bottom: 11px;
+  position: relative;
+  width: 100%;
+  margin: 0 -60px;
+}
+
+.text-main__title-img {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 0;
+  padding: 0 0 27%;
+}
+
+.text-main__title-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 5px;
+}
+
+.text-main__title-img img.-mobile {
+  display: none;
+}
+
+@media (max-width: 1360px) {
+  .text-main__title {
+    margin: 0 -4.5%;
+  }
+}
+
+@media (max-width: 568px) {
+  .text-main__title {
+    margin: 0 -3%;
+  }
+
+  .text-main__title-img {
+    padding: 0 0 75%;
+  }
+
+  .text-main__title-img img.-mobile {
+    display: block;
+  }
+
+  .text-main__title-img img.-desktop {
+    display: none;
+  }
+}
+
+.text-main__title h1 {
+  display: none;
 }
 
 .text-main__text {
+  position: relative;
+  z-index: 10;
   max-width: 774px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
   color: #64696d;
+  margin-top: -60px;
+}
+
+@media (max-width: 1200px) {
+  .text-main__text {
+    margin-top: -20px;
+  }
 }
 
 @media (max-width: 1024px) {
   .text-main__text {
     font-size: 16px;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 568px) {
+  .text-main__text {
+    margin-top: 0;
   }
 }
 
@@ -730,7 +810,7 @@ ol li {
   max-width: 438px;
   border-radius: 4px;
   background-color: #5ceaa0;
-  padding: 35px 30px 27px;
+  padding: 30px;
 }
 
 @media (min-width: 1024px) {
@@ -815,6 +895,7 @@ ol li {
 .benefits {
   position: relative;
   padding: 50px 0 0;
+  font-size: .1em;
 }
 
 @media (max-width: 1024px) {
@@ -853,11 +934,15 @@ ol li {
   }
 }
 
+.benefits__parallax {
+  position: relative;
+}
+
 .benefits__img {
   display: none;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 15em;
 }
 
 @media (min-width: 1600px) {
@@ -1314,6 +1399,13 @@ ol li {
   }
 }
 
+@media (max-width: 350px) {
+  .contacts__container:after {
+    width: 150px;
+    bottom: -61px;
+  }
+}
+
 .contacts h2 {
   font-weight: 400;
   text-align: left;
@@ -1561,7 +1653,7 @@ ol li {
 }
 
 .header__lang a:hover:after {
-    width: 0 !important;
+  width: 0 !important;
 }
 
 .footer {

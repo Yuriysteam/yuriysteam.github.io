@@ -51,8 +51,21 @@
             <div class="l-container">
 
                 <div class="text-main">
+                    
                     <div class="text-main__container">
+                        
                         <div class="text-main__title">
+                            <div class="text-main__video">
+                                <video class="video" loop="loop" autoplay="autoplay" preload="auto" muted="muted"
+                                    poster="assets/images/placeholder-bg.jpg">
+                                    <source src="assets/video/video-bg.mp4" type="video/mp4" />
+                                    <source src="assets/video/video-bg.webm" type="video/webm" />
+                                </video>
+                            </div>
+                            <div class="text-main__title-img">
+                                <img class="-desktop" src="assets/images/title-img-desktop.svg" alt="We turn waste into useful energy">
+                                <img class="-mobile" src="assets/images/title-img-mobile.svg" alt="We turn waste into useful energy">
+                            </div>
                             <h1>We turn waste into useful energy</h1>
                         </div>
                         <div class="text-main__text">
@@ -85,9 +98,11 @@
                 </div>
 
                 <div class="benefits" id="investors">
-                    <span class="benefits__img js-parallax-on-scroll" data-parallax-on-scroll>
-                        <img src="assets/images/side-element.png" alt="">
-                    </span>
+                    <div class="benefits__parallax" id="js-parallax-on-scroll">
+                        <span class="benefits__img">
+                            <img src="assets/images/side-element.png" alt="">
+                        </span> 
+                    </div>
                     <div class="benefits__container">
 
                         <div class="benefits__header">
@@ -241,7 +256,6 @@
         </div>
     </footer>
     <!-- end footer -->
-
     <script src="assets/scripts/app.js"></script>
 </body>
 

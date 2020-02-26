@@ -12,3 +12,10 @@ for (let anchor of anchors) {
     })
   })
 }
+
+window.onscroll = function emParallax() {
+  if (window.pageYOffset > 0) {
+    document.getElementById("js-parallax-on-scroll").style.fontSize =
+      (window.pageYOffset / 20) * .1 + "em";
+  }
+}
