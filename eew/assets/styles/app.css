@@ -945,12 +945,17 @@ ol li {
   top: 15em;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1280px) {
   .benefits__img {
     display: block;
   }
 }
-
+@media (max-width: 1620px) {
+  .benefits__img {
+    top: auto;
+    bottom: 10em;
+  }
+}
 .benefits__img img {
   display: block;
   object-fit: contain;
@@ -1118,12 +1123,15 @@ ol li {
   display: block;
   width: 49px;
   min-width: 49px;
-  height: 49px;
+  height: auto;
   margin-right: 20px;
-  margin-top: 5px;
-  background-color: #d8d8d8;
 }
-
+.benefits-list__item-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 .benefits-list__item-content {
   margin-bottom: 0 !important;
   font-size: 15px;
@@ -1307,9 +1315,13 @@ ol li {
   min-width: 49px;
   height: 49px;
   margin-bottom: 16px;
-  background-color: #d8d8d8;
 }
-
+.time-line__item-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 @media (max-width: 1024px) {
   .time-line__item-img {
     margin-right: 11px;
@@ -1335,6 +1347,7 @@ ol li {
   .time-line__item-title {
     margin-bottom: 0;
     font-size: 15px;
+    margin-top: 6px;
   }
 }
 
@@ -1427,7 +1440,7 @@ ol li {
 
 .contacts__content {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   flex: 1;
 }
 
@@ -1479,7 +1492,7 @@ ol li {
 .contacts__item-email {
   display: block;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #30a960;
   white-space: nowrap;
@@ -1499,7 +1512,7 @@ ol li {
 
 .contacts__item-phone {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #5f5e5e;
   text-decoration: none;
