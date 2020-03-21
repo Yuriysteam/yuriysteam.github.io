@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Mobile Verification UI Kit
+title: Mobile Fintech Verification UI Kit
 date:   2018-11-18 03:27:00
 description: "Mobile Verification Sketch UI kit"
 intro-text: ""

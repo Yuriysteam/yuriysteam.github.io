@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Strategy and Interfaces for ROWA B Business
+title:  Strategy and Interfaces for fintech startup ROWA B Business
 date:   2018-11-18 08:30:00
 project-cover: "/projects_img/rowab/cover.png"
 project-small-cover: "/projects_img/rowab/cover.png"
