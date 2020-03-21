@@ -108,7 +108,7 @@ a:hover {
 
 
 h1 {
-	font-size: 2em;
+	font-size: 3.7em;
 	margin: 0.67em 0;
 	
 }
@@ -1595,6 +1595,7 @@ margin-bottom: 80px;
 	font-size: 30px;
 	margin-top: 20px;
 	line-height: 1.1em;
+    font-weight: 500;
 	
 }
 
@@ -2076,6 +2077,8 @@ white-space: nowrap;
 	margin-top: 50px;
 	font-size: 1.4em;
 	line-height: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1.1px;
 }
 
 .info-section {
@@ -2090,7 +2093,7 @@ white-space: nowrap;
 .single-project-title {
 	color: black;
 	font-weight: bold;
-	font-size: 6.5rem;
+	font-size: 6.7rem;
 	text-align: left;
 	line-height: 1em;
 	margin-bottom: 20px;

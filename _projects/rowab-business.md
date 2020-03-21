@@ -9,7 +9,6 @@ intro-text: "Rowa B is a digital banking alternative for small businesses in Eur
 task: "<b>Task: </b>design client experience for Rowa B business application MVP"
 role: "<b>Role: </b>I took the full responsibility for ideating, strategising, defining and designing the final result. Alongside, I have managed a visual designer for producing branding, illustrator for preparing suitable materials and copywriters for describing an idea in written form."
 type: project
-web: rowab.com
 
 block: half
 template: single-project-cover
@@ -73,5 +72,3 @@ days: 164 days
 <span class="p-text">To speed up the development and design process I made a UI system. Each page is built out of components. We were able to shipped pages and design previews two times faster. This helped to spend more time on development and testing.</span>
 
 <span class="p800">![](/projects_img/rowab/elements.jpg)</span>
-
-Follow ROWA B on it's [offical page](http://rowab.com). Rowa B will be launched in 2019.
