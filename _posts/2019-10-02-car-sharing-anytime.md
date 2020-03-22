@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Fix Anytime's Carsharing Newsletter"
-description: ""
+description: "How to Fix Anytime's Carsharing Newsletter"
 date: 2019-10-02 00:00:00
 categories: Design
 tags: interface

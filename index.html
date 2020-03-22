@@ -19,7 +19,7 @@ logo: true
     {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
         
-        <a class="{{item.block}}" href="{{item.url}}">
+        <a class="{{item.block}}" title="{{item.title}}" href="{{item.url}}">
 			<div class="{{ item.template }} {{ item.templateheight }} lazy" style="background-image: url(/assets/images/lazy.png);" data-echo-background="{{ item.new-cover }}"></div>
 			
             <div class="{{item.nametemplate}} {{ item.custom-font }}">    
