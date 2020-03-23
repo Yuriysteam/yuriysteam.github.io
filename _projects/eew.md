@@ -36,7 +36,7 @@ The logo has a stencil variation for placement on cars, bins, and walls.<br><br>
 
 
 
-<video max-width="1000px" class="video" loop="loop" autoplay="autoplay" preload="auto" muted="muted">
+<video width="100%" class="video" loop="loop" autoplay="autoplay" preload="auto" muted="muted">
 <source src="/projects_img/eew/web.mp4" type="video/mp4">
 <source src="/projects_img/eew/web.webm" type="video/webm">
  </video>
