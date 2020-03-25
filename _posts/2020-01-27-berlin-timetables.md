@@ -7,7 +7,7 @@ categories: Design
 tags: design
 ---
 
-Germany has one of the most imazing, clear and compact timetables:
+Germany has one of the most outstanding, clear and compact timetables:
 
 <img src="/assets/images/lazy.png" alt="Navigation system signs Berlin" data-echo="/blog_img/berlin/railway_timetable.jpeg">
 
