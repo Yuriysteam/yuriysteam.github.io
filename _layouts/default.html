@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
 
-    <title>{{ site.name }} - {%if page.title %}
-       {{ page.title }}
-   {% else %}
-       {{ site.title }}
-   {% endif %}</title>
+    <title>{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:url" content="https://yuriy.eu{{ page.url }}" />
 	<meta property="og:type" content="article" />
