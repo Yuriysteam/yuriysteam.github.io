@@ -1725,9 +1725,7 @@ margin-bottom: 13px;
 }
 
 @media (max-width: 1024px) {
-  .contacts__item-email {
-    font-size: 15px;
-  }
+  
 }
 
 .contacts__item-email:hover {
