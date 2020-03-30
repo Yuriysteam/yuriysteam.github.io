@@ -2056,7 +2056,6 @@ white-space: nowrap;
 
 .intro {
 	display: block;
-	padding-top: 2%;
 	margin-bottom: 10px;
 	max-width: 870px;
 }
@@ -2073,11 +2072,10 @@ white-space: nowrap;
 }
 
 .intro-text-p {
-	margin-top: 50px;
+	margin-top: 30px;
 	font-size: 1.4em;
 	line-height: 1.1em;
     font-weight: 500;
-    letter-spacing: 1.1px;
 }
 
 .info-section {
@@ -3594,7 +3592,7 @@ h6 {
 		
 		.intro-text-p {
 			font-size: 1.4em;
-			margin-top:20px;
+			margin-top: 20px;
 		}
 		
 		.preposition-text {
