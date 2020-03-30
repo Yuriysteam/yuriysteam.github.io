@@ -7,7 +7,7 @@ categories: Music
 tags: interface
 ---
 
-March 2020 collection inspired by sitting home and dream of travelling and going out again.
+March collection inspired by sitting at home, dreaming of travelling and going out again.
 
 To your years: *Sinners Grin* *by* *Ivy*, *Paper trails* *by* *Darkside* , *Chance! by Peppertones* and more. 
 
