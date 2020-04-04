@@ -1,0 +1,30 @@
+---
+layout: default
+title: Самостоятельные поездки в Южную Корею
+cover: false
+logo: true
+
+
+---
+
+{% include navigation.html %}
+
+
+<div class="korean-grid">
+	
+	
+    {% assign items = site.koreaposts | sort: 'date' %}
+  {% for item in items reversed %}
+        
+        
+    <article class="{{item.block}} {{item.font}}">
+    <h2 class="{{item.nametemplate}}"><a href="{{item.url}}">{{item.title}}</a> </h2>
+    <h3 class="korea-description">{{item.description}}</h3>
+    </article>
+    
+  {% endfor %}
+	
+
+	
+	
+</div>
