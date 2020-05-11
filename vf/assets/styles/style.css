@@ -1,64 +1,22 @@
-@font-face {
-  font-family: 'Font';
-  src: url('https://variablefonts.monotype.com/MetaVariableDemo-Set.woff2') format('woff2');
-  font-style: normal italic;
-  font-weight: 100 900;
-}
+#pad {
+      position: absolute;
 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
 
-:root {
-	--myWeight: 100;
-}
+      background: #222;
 
-body {
-	background: black;
-	overflow: hidden;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-.bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	opacity: 0;
-}
+    #label {
+      font: 40px Arial;
+      color: white;
 
-canvas {
-	opacity: 0.2;
-}
-
-.title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin: 0;
-	line-height: 1;
-	font-family: "Font";
-	color: white;
-	font-size: 12vw;
-	font-weight: var(--myWeight);
-	text-transform: uppercase;
-	letter-spacing: -0.5vw;
-	white-space: nowrap;
-  	overflow: hidden;
-}
-
-.btn {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border: none;
-	padding: 16px 24px 15px;
-	background: white;
-	border-radius: 4px;
-	text-transform: uppercase;
-	outline: none;
-	cursor: pointer;
-	font-family: "Font";
-	font-weight: 600;
-	font-size: 24px;
-}
+      /* This makes the label text non-selectable */
+      user-select: none;
+    }
