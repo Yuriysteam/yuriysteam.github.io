@@ -17,10 +17,8 @@ function changeAxis(eID,num,axis,fldReset) {
   document.querySelector('#' + eID + 'Val').value = num;
   document.querySelector('#' + eID).setAttribute('aria-valuenow',num);
   tmpVal = '"' + axis + '" ' + num;
-  // Open to another approach that allows me to dump eval
-  // eval(axis.toLowerCase() +"Val  = tmpVal");
-  // Thanks to Aaron Smith for the non-eval fix
-  // https://twitter.com/basiphobe/status/1013801568360189952
+ 
+   
   new Function(axis.toLowerCase() +"Val  = tmpVal")();
   setStyles();
   if (fldReset == '1') {

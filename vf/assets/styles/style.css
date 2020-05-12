@@ -2,10 +2,10 @@
   --page-bg: #fff;
 }
 
-/* FF Meta Variable Demo Font */
+/* Variable Demo Font */
 @font-face {
-  font-family: "Noboto Flex";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2729/NobotoFlex-VF.ttf")
+  font-family: "LustraGX";
+  src: url("/vf/assets/fonts/LustraGX.ttf")
     format("truetype");
 }
 
@@ -13,7 +13,7 @@ body {
   background-color: var(--page-bg);
   font-size: 125%;
   color: #333;
-  font-family: "Noboto Flex", sans-serif;
+  font-family: "LustraGX", sans-serif;
   padding: 0;
   margin: 0;
 }
