@@ -5,7 +5,7 @@
 /* Variable Demo Font */
 @font-face {
   font-family: "LustraGX";
-  src: url("/vf/assets/fonts/LustraGX.ttf")
+  src: url("../fonts/LustraGX.ttf")
     format("truetype");
 }
 
@@ -38,8 +38,13 @@ aside {
 }
 
 h1, h2 {
-  font-weight: 600;
+  font-weight: 500;
 }
+
+h1 {
+  font-size: 5em;
+}
+
 
 form {
   font-family: sans-serif;
