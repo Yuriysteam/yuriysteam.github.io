@@ -1,6 +1,3 @@
-
-
-
 var mic
 var vol = 0
 
