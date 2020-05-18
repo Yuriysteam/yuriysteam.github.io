@@ -1,7 +1,15 @@
+
+
+
 var mic
 var vol = 0
 
+
 function setup() {
+    
+var myDiv = createDiv('click to start audio');
+   myDiv.position(0, 0);    
+    
   createCanvas(windowWidth, windowHeight);
   // Create an Audio input
   mic = new p5.AudioIn();
