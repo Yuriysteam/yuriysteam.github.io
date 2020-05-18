@@ -1,5 +1,6 @@
 let mic;
 
+
  function setup(){
   let cnv = createCanvas(500, 500);
   cnv.mousePressed(userStartAudio);
@@ -15,4 +16,9 @@ function draw(){
 
   micLevel = mic.getLevel();
   ellipse(250, 250, 400, micLevel*300);
+
+    
+    
 }
+
+
