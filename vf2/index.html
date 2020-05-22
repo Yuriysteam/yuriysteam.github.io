@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Variable font + Sound = Magic!</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="assets/js/p5.min.js"></script>    
+    <script type="text/javascript" src="assets/js/p5.sound.min.js"></script>  
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+	
+	<link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+ <body>
+     
+   <!--  
+     
+     
+<main>
+  <h1>ВАРИАТИВНЫЙ ЖИР</h1>
+</main>
+
+<aside>
+  <form id="FontToggle">
+   <!-- <h2>Font Settings <button type="button" aria-label="Reset all." onclick="changeAxis('WGHT','140','wght',1);changeAxis('SPAC','80','SPAC',1);changeAxis('HEIG','400','HEIG',1);changeAxis('ASCE','600','ASCE',1);changeAxis('DESC','600','DESC',1);changeAxis('DIAC','0','DIAC',1);changeAxis('MONO','0','MONO',1);changeAxis('CURV','0','CURV',1);this.focus();">&#8634;</button></h2> 
+    <p>
+      <label for="WGHT">Weight <span aria-hidden="true">(<output for="WGHT" form="FontToggle" id="WGHTVal">140</output>)</span>:</label>
+      <span>
+        <span>1</span>
+        <input type="range" id="WGHT" step="1" min="1" max="900" value="140" aria-valuemin="1" aria-valuemax="900" aria-valuenow="500" oninput="changeAxis(this.id,value,'wght');">
+        <span>900</span>
+        <span><!--<button type="button" aria-label="Reset weight." onclick="changeAxis('WGHT','140','wght',1);">&#8634;</button>></span>
+      </span>
+    </p>
+    <p>
+      <label for="SPAC">Spacing / tracking <span aria-hidden="true">(<output for="SPAC" form="FontToggle" id="SPACVal">80</output>)</span>:</label>
+      <span>
+        <span>0</span>
+        <input type="range" id="SPAC" step="1" min="0" max="200" value="80" aria-valuemin="0" aria-valuemax="200" aria-valuenow="80" oninput="changeAxis(this.id,value,'SPAC');">
+        <span>200</span>
+        <span>--<button type="button" aria-label="Reset spacing / tracking." onclick="changeAxis('SPAC','80','SPAC',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="HEIG">Height <span aria-hidden="true">(currently <output for="HEIG" form="FontToggle" id="HEIGVal">400</output>)</span>:</label>
+      <span>
+        <span>165</span>
+        <input type="range" id="HEIG" step="1" min="165" max="456" value="400" aria-valuemin="165" aria-valuemax="456" aria-valuenow="400" oninput="changeAxis(this.id,value,'HEIG');">
+        <span>456</span>
+        <span><button type="button" aria-label="Reset height." onclick="changeAxis('HEIG','400','HEIG',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="ASCE">Ascenders <span aria-hidden="true">(currently <output for="ASCE" form="FontToggle" id="ASCEVal">600</output>)</span>:</label>
+      <span>
+        <span>456</span>
+        <input type="range" id="ASCE" step="1" min="456" max="1000" value="600" aria-valuemin="456" aria-valuemax="1000" aria-valuenow="600" oninput="changeAxis(this.id,value,'ASCE');">
+        <span>1000</span>
+        <span><button type="button" aria-label="Reset ascenders." onclick="changeAxis('ASCE','600','ASCE',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="DESC">Descenders <span aria-hidden="true">(currently <output for="DESC" form="FontToggle" id="DESCVal">600</output>)</span>:</label>
+      <span>
+        <span>456</span>
+        <input type="range" id="DESC" step="1" min="456" max="1000" value="600" aria-valuemin="456" aria-valuemax="1000" aria-valuenow="600" oninput="changeAxis(this.id,value,'DESC');">
+        <span>1000</span>
+        <span><button type="button" aria-label="Reset descenders." onclick="changeAxis('DESC','600','DESC',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="DIAC">Diacritics distance <span aria-hidden="true">(currently <output for="DIAC" form="FontToggle" id="DIACVal">0</output>)</span>:</label>
+      <span>
+        <span>0</span>
+        <input type="range" id="DIAC" step="1" min="0" max="100" value="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" oninput="changeAxis(this.id,value,'DIAC');">
+        <span>100</span>
+        <span><button type="button" aria-label="Reset diacritics distance." onclick="changeAxis('DIAC','0','DIAC',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="MONO">Monospace <span aria-hidden="true">(currently <output for="MONO" form="FontToggle" id="MONOVal">0</output>)</span>:</label>
+      <span>
+        <span>0</span>
+        <input type="range" id="MONO" step="1" min="0" max="100" value="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" oninput="changeAxis(this.id,value,'MONO');">
+        <span>100</span>
+        <span><button type="button" aria-label="Reset monospace." onclick="changeAxis('MONO','0','MONO',1);">&#8634;</button></span>
+      </span>
+    </p>
+    <p>
+      <label for="CURV">Curvature <span aria-hidden="true">(currently <output for="CURV" form="FontToggle" id="CURVVal">0</output>)</span>:</label>
+      <span>
+        <span>0</span>
+        <input type="range" id="CURV" step="1" min="0" max="100" value="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" oninput="changeAxis(this.id,value,'CURV');">
+        <span>100</span>
+        <span><button type="button" aria-label="Reset curvature." onclick="changeAxis('CURV','0','CURV',1);">&#8634;</button></span>
+      </span>
+    </p> 
+
+  </form>
+</aside> -->
+
+    
+</body>
+    
+   
+</html>

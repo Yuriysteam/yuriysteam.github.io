@@ -5,7 +5,7 @@ html, body {
 
 @font-face {
   /* Downloaded from axis-praxis.org, font from https://github.com/TypeNetwork/fb-Amstelvar. */
-  src: url("/vf/assets/fonts/AmstelvarAlpha-Variations.ttf")
+  src: url("/vf/assets/fonts/FromLustraGX.ttf")
     format("truetype");
   font-family: Amstelvar;
 }

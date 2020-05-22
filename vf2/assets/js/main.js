@@ -6,7 +6,7 @@ var paragraph;
      cnv.style('display', 'block'); 
      cnv.mousePressed(userStartAudio);
      
-     paragraph = createP("Click and speak");
+     paragraph = createP("НАЖМИ И АААААА");
      mic = new p5.AudioIn();
      mic.start();
      
@@ -24,7 +24,7 @@ function draw(){
     micLevel = mic.getLevel();
 
 weightControl = sin(frameCount/10.0)*100+150;
-  paragraph.elt.style['font-variation-settings'] = `"wght" ${micLevel*10000}, "wdth" ${micLevel*10000}`;
+  paragraph.elt.style['font-variation-settings'] = `"wght" ${micLevel*25000}, "wdth" ${micLevel*5000}`;
   paragraph.position(10, -200);
     
     
