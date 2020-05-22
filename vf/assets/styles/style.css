@@ -1,161 +1,29 @@
-:root {
-  --page-bg: #fff;
+html, body {
+  height: 100%;
 }
 
-/* Variable Demo Font */
+
 @font-face {
-  font-family: "LustraGX";
-  src: url("../fonts/LustraGX.ttf")
+  /* Downloaded from axis-praxis.org, font from https://github.com/TypeNetwork/fb-Amstelvar. */
+  src: url("/vf/assets/fonts/AmstelvarAlpha-Variations.ttf")
     format("truetype");
+  font-family: Amstelvar;
 }
 
 body {
-  background-color: var(--page-bg);
-  font-size: 125%;
-  color: #333;
-  font-family: "LustraGX", sans-serif;
-  padding: 0;
+    font-family: Amstelvar;
   margin: 0;
-}
-
-main, aside {
-  display: block;
-  box-sizing: border-box;
-  width: 90%;
-  max-width: 38em;
-  margin: 1em auto;
-  padding: 1em 2em;
-  line-height: 1.5;
-  color: #333;
-  border-radius: 0.5em;
-  /*   font-variation-settings: "wght" 400, "ital" 1; */
-}
-
-aside {
-  max-width: 20em;
-  padding: 0;
-  background-color: transparent;
-}
-
-h1, h2 {
-  font-weight: 500;
-}
-
-h1 {
-  font-size: 5em;
-}
-
-
-form {
-  font-family: sans-serif;
-  font-size: 90%;
-  padding: 2em;
-}
-
-input,
-button,
-textarea,
-select {
-  font-size: 100%;
-  color: #333;
-}
-
-form > h2 {
   display: flex;
-  align-items: flex-start
-}
+color: fff;
+text-align: center;    
+    
 
-input[type="range"] {
-  width: calc(100% - 4.3em);
-  width: 80%;
-}
+  /* This centers our sketch horizontally. */
+  justify-content: center;
 
-form p {
-  margin-top: 2em;
-}
-
-form p:first-child {
-  margin-top: 0;
-}
-
-form p:last-child {
-  margin-bottom: 0;
-}
-
-form p > span {
-  display: flex;
-  justify-content: space-between;
-}
-
-form p > span > span {
-  font-size: 85%;
-}
-
-form button {
-  background-color: transparent;
-  padding: 0.25em 0.5em;
-  margin-left: 0.5em;
-  border: none;
-  border-radius: 50%;
-}
-
-form button:focus,
-form button:hover {
-  color: #eee;
-  background-color: #333;
-  outline: none;
-}
-
-@media screen and (min-width: 50em) {
-  body {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 0;
-  }
-}
-
-/* The animation */
-
-@keyframes TOOLTIP {
-  from {
-    bottom: 1em;
-    background-color: rgba(0,0,0,0);
-    border: .05em solid rgba(255,255,255,0);
-    color: rgba(255,255,255,0);
-    box-shadow: 0 0 0 rgba(0,0,0,1);
-  }
-  to {
-    bottom: 2em;
-    background-color: rgba(0,0,0,.85);
-    border: .05em solid rgba(255,255,255,1);
-    color: rgba(255,255,255,1);
-    box-shadow: .15em .15em .5em rgba(0,0,0,1);
-  }
-}
-
-/* Style for the tool-tip */
-
-button[aria-label] {
-  position: relative;
-}
-
-button[aria-label]:focus::after,
-button[aria-label]:hover::after {
-  position: absolute;
-  display: block;
-  z-index: 1;
-  bottom: 2em;
-  right: 0;
-  width: 6em;
-  max-width: 12em;
-  padding: .5em .75em;
-  border: .05em solid rgba(255,255,255,1);
-  border-radius: .2em;
-  box-shadow: .15em .15em .5em rgba(0,0,0,1);
-  content: attr(aria-label);
-  background-color: rgba(0,0,0,.85);
-  color: rgba(255,255,255,1);
-  font-size: .8rem;
-  text-align: left;
-  animation: TOOLTIP .1s ease-out 1;
+  /* This centers our sketch vertically. */
+  align-items: center;
+    
+    font-size: 200px;
+  font-variation-settings: "wght" 10, "wdth" 0, "opsz" 10;
 }
