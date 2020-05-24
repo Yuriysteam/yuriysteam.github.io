@@ -5,7 +5,7 @@ html, body {
 
 @font-face {
   /* Downloaded from axis-praxis.org, font from https://github.com/TypeNetwork/fb-Amstelvar. */
-  src: url("/vf/assets/fonts/AmstelvarAlpha-Variations.ttf")
+  src: url("/vf/assets/fonts/FromLustraGX.ttf")
     format("truetype");
   font-family: Amstelvar;
 }
@@ -23,6 +23,6 @@ text-align: center;
   /* This centers our sketch vertically. */
   align-items: center;
     
-    font-size: 200px;
+    font-size: 30px;
   font-variation-settings: "wght" 10, "wdth" 0, "opsz" 10;
 }
