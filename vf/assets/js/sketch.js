@@ -8,14 +8,15 @@ var div, start_button;
     div = createDiv("ПОЕХАЛИ");
     div.attribute('contenteditable', 'true')
     div.addClass('name');
-    mic = new p5.AudioIn();
-    mic.start();
+    
     
      
      
     start_button = createDiv('ПУСК');
     start_button.addClass('start');
     start_button.mousePressed(userStartAudio);
+     mic = new p5.AudioIn();
+    mic.start();
      
 }
 
