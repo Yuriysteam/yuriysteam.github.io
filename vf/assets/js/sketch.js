@@ -1,6 +1,6 @@
 let mic;
 
-
+var div, start_button;
 
  function setup(){
     noCanvas();
@@ -8,7 +8,6 @@ let mic;
     div = createDiv("ПОЕХАЛИ");
     div.attribute('contenteditable', 'true')
     div.addClass('name');
-     
     mic = new p5.AudioIn();
     mic.start();
     
