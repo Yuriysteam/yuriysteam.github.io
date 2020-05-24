@@ -1,39 +1,44 @@
-let button;
-let gifLength = 180;
+let mic;
 
-var mic;
-var canvas;
 
-function setup() {
-    var p5Canvas = createCanvas(600, 400);
-    canvas = p5Canvas.canvas;
-    background (0);
-    
+
+ function setup(){
+    noCanvas();
+     
+    div = createDiv("ПОЕХАЛИ");
+    div.attribute('contenteditable', 'true')
+    div.addClass('name');
+     
     mic = new p5.AudioIn();
     mic.start();
     
-    button = createButton('Start');
-    button.mousePressed(userStartAudio);
-    capturer.start();
+     
+     
+    start_button = createDiv('ПУСК');
+    start_button.addClass('start');
+    start_button.mousePressed(userStartAudio);
+     
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }
 
 
-function draw () {
-    background(0);
+
+function draw() {
+    
+    
+   micLevel = mic.getLevel();
+    
+
+  // weightControl = sin(frameCount/1.0)*100;
+   div.elt.style['font-variation-settings'] = `"wght" ${micLevel*190000}, "wdth" ${micLevel*1000}`;
    
     
-    var vol = mic.getLevel();
-    fill(255, 255, 255);
-    ellipse (300,200, vol*2000, vol*2000);
-    console.log(vol);
     
-    if (frameCount < gifLength) {
-        
-    capture.capture (canvas);
-    }
-    else if (frameCount === gifLength) {
-      capture.stop();
-      capture.safe();
-    }
-    
+   console.log(micLevel);
 }
+
+
+
