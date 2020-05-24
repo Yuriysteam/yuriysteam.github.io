@@ -15,7 +15,8 @@ var div, start_button;
     start_button = createDiv('ПУСК');
     start_button.addClass('start');
     start_button.mousePressed(userStartAudio);
-     mic = new p5.AudioIn();
+    
+    mic = new p5.AudioIn();
     mic.start();
      
 }
@@ -33,7 +34,7 @@ function draw() {
     
 
   // weightControl = sin(frameCount/1.0)*100;
-   div.elt.style['font-variation-settings'] = `"wght" ${micLevel*10000}, "wdth" ${micLevel*1000}`;
+   div.elt.style['font-variation-settings'] = `"wght" ${micLevel*4000}, "wdth" ${micLevel*5000}`;
    
     
     
