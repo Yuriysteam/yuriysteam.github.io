@@ -46,6 +46,7 @@ text-transform: uppercase;
     background: #2b1bea;
     padding: 10px 20px;
     margin: 20px auto;
+     transform: rotate(-18deg);
     width: 90px;
     
 }

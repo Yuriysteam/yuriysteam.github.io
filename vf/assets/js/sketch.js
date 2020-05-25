@@ -36,7 +36,7 @@ function draw() {
   // weightControl = sin(frameCount/1.0)*100;
    div.elt.style['font-variation-settings'] = `"wght" ${micLevel*4000}, "wdth" ${micLevel*5000}`;
    
-    
+
     
    console.log(micLevel);
 }
