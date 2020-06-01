@@ -399,9 +399,9 @@ input[type=range]::-ms-track {
 /*  2. Fonts  ============================================================== */
 
 @font-face {
-  src: url("../fonts/FromLustraGX.ttf")
+  src: url("../fonts/Xynta.ttf")
     format("truetype");
-  font-family: FromLustraGX;
+  font-family: Xynta;
 }
   
 @font-face {    
@@ -416,7 +416,7 @@ input[type=range]::-ms-track {
 
 body {
     background: #0D0D0E;
-    font-family: FromLustraGX;
+    font-family: Xynta;
 }
 
 .navigation {
@@ -469,7 +469,7 @@ body {
 }
 
 #arttext {
-    font-family: FromLustraGX;
+    font-family: Xynta;
     color: white;
     font-size: 90px;
     text-align: center;
