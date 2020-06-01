@@ -299,8 +299,9 @@ background-repeat: no-repeat;
 
 .offer {
 	padding-left: 20px;
+    
 	display: block;
-	margin-top:0;
+	margin-top: 15px;
 	border-left: 0px solid #e6e6e6;
 	margin-left: 10px;
 	max-width: 400px;

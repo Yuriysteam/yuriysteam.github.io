@@ -1,6 +1,10 @@
-// Gif animation part
+//list the inputs and open the third one
+// var motu = new Tone.UserMedia();
 
-
+//opening the input asks the user to activate their mic
+// motu.open().then(function(){
+// 	//promise resolves when input is available
+// });
 
 let animationFrames = []
 let startRecordingTimerId = null
@@ -16,7 +20,7 @@ function recordingInvoker() {
 
 function saveSnapShotInMemory() {
   html2canvas(document.querySelector('.art'), {
-    scale: 100
+    scale: 50
   }).then(canvas => {
     animationFrames.push(canvas.toDataURL('image/png'))
   })
