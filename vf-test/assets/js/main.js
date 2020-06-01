@@ -20,7 +20,7 @@ function recordingInvoker() {
 
 function saveSnapShotInMemory() {
   html2canvas(document.querySelector('.art'), {
-    scale: 20
+    scale: 50
   }).then(canvas => {
     animationFrames.push(canvas.toDataURL('image/png'))
   })
