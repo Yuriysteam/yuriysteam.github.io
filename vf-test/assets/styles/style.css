@@ -1,6 +1,6 @@
 * {
-	border: 0px dashed green;
-	
+  border: 0px dashed green;
+  box-sizing: border-box;
 }
 
 
@@ -29,8 +29,10 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -71,9 +73,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -82,8 +87,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -103,9 +110,12 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -125,8 +135,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -182,10 +194,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -194,7 +210,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -204,7 +221,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -258,12 +276,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -289,8 +313,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -308,8 +334,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -326,8 +354,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -369,13 +399,17 @@ template {
 }
 
 input[type=range]:focus {
-  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
 }
 
 input[type=range] {
-  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
-  width: 100%; /* Specific width is required for Firefox. */
-  background: transparent; /* Otherwise white in Chrome */
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -383,7 +417,8 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type=range]:focus {
-  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
 }
 
 input[type=range]::-ms-track {
@@ -391,7 +426,7 @@ input[type=range]::-ms-track {
   cursor: pointer;
 
   /* Hides the slider so custom styles can be added */
-  background: transparent; 
+  background: transparent;
   border-color: transparent;
   color: transparent;
 }
@@ -399,63 +434,105 @@ input[type=range]::-ms-track {
 /*  2. Fonts  ============================================================== */
 
 @font-face {
-  src: url("../fonts/Xynta.ttf")
-    format("truetype");
+  src: url("../fonts/Xynta.ttf") format("truetype");
   font-family: Xynta;
 }
-  
-@font-face {    
-    src: url('../fonts/IBMPlexMono-Regular.ttf')
-     format("truetype");
-    font-family: 'IBM Plex Mono';
+
+@font-face {
+  src: url('../fonts/IBMPlexMono-Regular.ttf') format("truetype");
+  font-family: 'IBM Plex Mono';
 }
 
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v7/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVccvfuNmo.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v7/zYXgKVElMYYaJe8bpLHnCwDKhdXeFb5N.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
 
 
 /*  3. Desktop  ============================================================== */
 
 body {
-    background: #0D0D0E;
-    font-family: Xynta;
+  background: #0D0D0E;
+  font-family: Xynta;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-height: 999999px;
+  max-width: 100%;
+  width: 100%;
+}
+
+#p5_loading {
+  font-size: 0;
+}
+
+.l-wrapper {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
 }
 
 .navigation {
-    height: 40px;
-    margin: 0 auto;
+  height: 40px;
+  margin: 0 auto;
 }
 
 .logo {
-    text-align: center;
-    color: white;
-    font-size: 40px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.logo svg {
+  position: relative;
+  z-index: 1000;
+  width: 93px;
 }
 
 .wrapper {
-    display: block;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  display: block;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 40;
 }
 
-.instruction {
-    
-}
 
-.art {  
-    width: 500px;
-    height: 500px;
-    background-image: url("../images/Sample.png");
-    background: contain, no-repeat, ;
-    display:block;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; 
+.art {
+  width: 500px;
+  height: 500px;
+  background-image: url("../images/Sample.png");
+  /* background: contain, no-repeat, ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
 }
 
 .upload {
-   color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6);
     font-family: 'IBM Plex Mono', monospace;
     font-style: normal;
     font-weight: normal;
@@ -464,101 +541,135 @@ body {
     margin-left: 10px;
     align-items: flex-start;
     align-self: flex-start;
-    display: block;
-    
+    display: block; */
+  align-self: flex-start;
+}
+
+.upload input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.upload input+label {
+  font-family: 'IBM Plex Mono',
+    monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 31px;
+  background: url("data:image/svg+xml,%3Csvg width='21' height='17' viewBox='0 0 21 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18.9584 15.2624H2.11569C1.74502 15.2624 1.44458 14.962 1.44458 14.5913V1.17266C1.44458 0.801997 1.74502 0.502441 2.11569 0.502441H18.9584C19.3281 0.502441 19.6295 0.801997 19.6295 1.17266V14.5913C19.6295 14.962 19.3281 15.2624 18.9584 15.2624Z' stroke='white' stroke-linecap='square'/%3E%3Cpath d='M1.86145 9.34661L6.44634 4.76172L16.3228 14.9235' stroke='white' stroke-linecap='square'/%3E%3Cpath d='M12.8759 10.1209L15.9319 7.06491L19.2119 10.344' stroke='white' stroke-linecap='square'/%3E%3C/svg%3E ") left center no-repeat;
+  min-height: 17px;
 }
 
 #arttext {
-    font-family: Xynta;
-    color: white;
-    font-size: 90px;
-    text-align: center;
-    display: block;
-    padding: 10px 20px;
+  font-family: Xynta;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  /* transition: all .05s ease; */
 }
 
 .control {
-    align-items: center;
-    align-self: center;
-    margin-bottom: 2em;
-    
-    
+  align-items: center;
+  align-self: center;
+  margin-bottom: 2em;
+
+
 }
 
 .toolbar {
-    font-family: 'IBM Plex Mono', monospace;
-    margin: 20px auto 0;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-sizing: border-box;
-    border-radius: 4px;
-    width:1000px;
-    height: 58px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: nowrap;
+  position: relative;
+  z-index: 200;
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 20px auto 0;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 1000px;
+  height: 58px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap;
 }
 
-.bw, .tp, .size, .ratio {
-    width: 25%;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bw,
+.tp,
+.size,
+.ratio {
+  width: 25%;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .switch {
-    width: 44px;
-    height: 22px;
-    background: url("../images/switch.svg");
-    background-size: 44px 23px; 
-    margin: 0 10px;
+  width: 44px;
+  height: 22px;
+  background: url("../images/switch.svg");
+  background-size: 44px 23px;
+  margin: 0 10px;
 }
 
-.icon-left, .icon-center, .icon-right {
-    width: 29px;
-    height: 22px;
-    background-size: 29px 22px; 
-    margin: 0 10px;
-    background: no-repeat;
+.icon-left,
+.icon-center,
+.icon-right {
+  width: 29px;
+  height: 22px;
+  background-size: 29px 22px;
+  margin-right: 20px;
+  background: no-repeat;
 }
 
 .icon-left {
-    background: url("../images/left.svg");
+  background: url("../images/left.svg");
 }
 
 .icon-right {
-    background: url("../images/right.svg");
+  background: url("../images/right.svg");
+  margin-right: 0;
 }
 
 .icon-center {
-    background: url("../images/center.svg");
+  background: url("../images/center.svg");
 }
 
 
 .slidecontainer {
-    margin-left: 10px;
-    margin-top: -8px;
+  margin-left: 10px;
+  margin-top: -8px;
 }
 
 .rectangle1 {
-    width: 22px;
-    height: 22px;
-    background: url("../images/Rectangle.svg");
-    background-size: 22px 22px; 
-    margin: 0 5px;
-    padding
+  width: 22px;
+  height: 22px;
+  background: url("../images/Rectangle.svg");
+  background-size: 22px 22px;
+  margin: 0 5px;
 }
 
 .rectangle9 {
-    width: 15px;
-    height: 26px;
-    background: url("../images/916Rectangle.svg");
-    background-size: 15px 26px; 
-    margin: 0 5px 0 30px;
-    padding-top: -4px;
+  width: 15px;
+  height: 26px;
+  background: url("../images/916Rectangle.svg");
+  background-size: 15px 26px;
+  margin: 0 5px 0 30px;
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -569,8 +680,9 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 8px;
   background: #ffffff;
   cursor: pointer;
-    margin-top: -8px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+  margin-top: -8px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  /* Add cool effects to your sliders! */
 }
 
 /* All the same stuff for Firefox */
@@ -606,7 +718,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: rgba(255, 255, 255, 0.2;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 input[type=range]::-moz-range-track {
@@ -625,22 +737,26 @@ input[type=range]::-ms-track {
   border-color: transparent;
   color: transparent;
 }
+
 input[type=range]::-ms-fill-lower {
   background: rgba(255, 255, 255, 0.2);
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
+
 input[type=range]:focus::-ms-fill-lower {
   background: rgba(255, 255, 255, 0.2);
 }
+
 input[type=range]::-ms-fill-upper {
   background: rgba(255, 255, 255, 0.2);
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
-input[type=range]:focus::-ms-fill-upper {
+
+/* input[type=range]:focus::-ms-fill-upper {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -656,7 +772,7 @@ input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
-  animate: 0.2s;
+  animation: 0.2s;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 1.3px;
@@ -680,7 +796,7 @@ input[type=range]::-moz-range-track {
   width: 100%;
   height: 8.4px;
   cursor: pointer;
-  animate: 0.2s;
+  animation: 0.2s;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   background: #3071a9;
   border-radius: 1.3px;
@@ -699,7 +815,7 @@ input[type=range]::-ms-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
-  animate: 0.2s;
+  animation: 0.2s;
   background: transparent;
   border-color: transparent;
   border-width: 16px 0;
@@ -731,11 +847,250 @@ input[type=range]:focus::-ms-fill-lower {
 }
 input[type=range]:focus::-ms-fill-upper {
  background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 
 
 .examples {}
 
+.instruction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.57;
+  height: 100%;
+  width: 195px;
+  padding: 0 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+  height: 100vh;
+}
 
+.instruction span {
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+}
 
+.instruction__button {
+  cursor: pointer;
+  padding-left: 49px;
+  min-height: 24px;
+  background: url("data:image/svg+xml, %3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.51025 11.3364H18.5003' stroke='white' stroke-width='2' stroke-linecap='square' /%3E%3Cpath d='M24.1619 0.280762V22.0948' stroke='white' stroke-width='2' /%3E%3Cpath d='M7.13132 17.8426L0.611816 11.3231L7.13132 4.80579' stroke='white' stroke-width='2' stroke-linecap='square' /%3E%3C/svg%3E") left center no-repeat;
+  transition: all .2s ease;
+  position: relative;
+  z-index: 15;
+}
+
+.instruction__content {
+  position: absolute;
+  top: 24px;
+  left: -1000%;
+  transition: all .2s ease;
+  padding: 70px 125px 40px;
+  background: #0D0D0E;
+  height: 100%;
+  z-index: 10;
+}
+
+.instruction__text {
+  max-width: 195px;
+  min-width: 195px;
+}
+
+.instruction.is-active .instruction__button {
+  background: url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.3'%3E%3Cpath d='M23.6514 11.8923L7.66137 11.8923' stroke='white' stroke-width='2' stroke-linecap='square'/%3E%3Cpath d='M1.99967 22.9479L1.99967 1.13394' stroke='white' stroke-width='2'/%3E%3Cpath d='M19.0303 5.38602L25.5498 11.9055L19.0303 18.4229' stroke='white' stroke-width='2' stroke-linecap='square'/%3E%3C/g%3E%3C/svg%3E%0A") left center no-repeat;
+}
+
+.instruction .instruction__button svg path {
+  transition: all .2s ease;
+}
+
+.instruction.is-active .instruction__button svg path {
+  fill-opacity: 1;
+}
+
+.instruction.is-active .instruction__content {
+  left: 0;
+}
+
+.instruction__text p {
+  margin: 0 0 20px;
+}
+
+.instruction__footer {
+  margin-top: 50px;
+}
+
+.instruction__link {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .2s ease;
+  border-bottom-color: transparent;
+}
+
+.instruction__link:hover {
+  border-bottom-color: #fff;
+}
+
+.tp__btn {
+  opacity: 0.2;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.tp__btn.is-active {
+  opacity: 1;
+}
+
+.bw__switch {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 11.7163px;
+  width: 43px;
+  height: 22px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin: 0 5px;
+}
+
+.bw__switch:after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 4.15px;
+  transform: translateY(-50%);
+  transition: all .2s ease;
+}
+
+.bw__switch.-white:after {
+  left: 4.15px;
+}
+
+.bw__switch.-black:after {
+  left: auto;
+  right: 4.15px;
+}
+
+.bw__option {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.2);
+  transition: all .2s ease;
+}
+
+.bw__option.is-active {
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    text-align: left;
+    margin-top: -6px;
+  }
+
+  .logo svg {
+    width: 102px;
+  }
+
+  .navigation {
+    height: auto;
+    margin: 0 20px;
+  }
+
+  .wrapper {
+    margin: 0 20px;
+    height: auto;
+  }
+
+  .art {
+    margin-top: 25px;
+  }
+
+  .instruction {
+    left: auto;
+    right: 0;
+    top: -47px;
+    padding: 0;
+  }
+
+  .instruction__button {
+    align-self: flex-end;
+  }
+
+  .instruction__content {
+    left: auto;
+    right: -1000%;
+    padding: 0 30px;
+    top: 0;
+    padding-top: 110px;
+  }
+
+  .instruction.is-active .instruction__content {
+    right: 0;
+    left: auto;
+  }
+
+  .toolbar {
+    flex-flow: wrap;
+    margin: 20px 20px 0;
+    border: none;
+    height: auto;
+    width: auto;
+  }
+
+  .bw,
+  .tp,
+  .size,
+  .ratio {
+    width: 50%;
+    justify-content: flex-start;
+    padding: 20px 0;
+  }
+
+  .tp {
+    order: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .size {
+    order: 2;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .bw {
+    order: 3;
+  }
+
+  .ratio {
+    order: 4;
+  }
+
+  .rectangle9 {
+    margin-left: 20px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .art {
+    max-width: 270px;
+  }
+}

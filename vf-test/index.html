@@ -10,54 +10,86 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-
-<nav class="navigation">
-    <div class="logo">ЛОГО</div>
-</nav>
-
-
-<main class="wrapper">
-    <div class="instruction">
+<div class="l-wrapper">
+    <nav class="navigation">
+        <div class="logo">
+            <svg width="103" height="58" viewBox="0 0 103 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M64.562 44.2332L55.5541 47.0566V6.85682L77.7379 0V5.91569L68.7299 8.73908V5.64679L64.562 6.99127V44.2332ZM12.4646 52.1812L0.56604 55.8113V49.9629L3.52388 49.089V15.5443L25.4388 8.75472V48.0806L16.4308 50.7695V14.3343L12.4646 15.6788V52.1812ZM51.5211 51.1432L29.4717 58V18.2036L51.5211 11.3467V51.1432ZM38.4797 52.2188V18.338L42.5131 17.0608V50.9415L38.4797 52.2188ZM80.4265 47.0566L102.476 40.1998V0.403342L80.4265 7.26016V47.0566ZM89.4345 7.39461V41.2754L93.4679 39.9981V6.11736L89.4345 7.39461Z"
+                fill="white" />
+            </svg>
     </div>
+    </nav>
 
-    <div class="art">
-        <div class="upload">загрузить фон</div>
-        <div id="arttext" contenteditable="true">ВАББА ЛАББА ДАБ ДАБ</div>
-        <div class="control">
-            <button onclick="toggleMic(); recordingInvoker();"
-                    title="Click start needed as security in browser increased and voice mic can only be started from a gesture on page">
-                ЗАПУСТИТЬ
-            </button>
+
+    <main class="wrapper">
+        <div class="instruction js-spoiler">
+            <div class="instruction__button js-spoiler-toggle">
+                <svg width="12" height="34" viewBox="0 0 12 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.976 6.58513C7.12533 6.58513 6.50933 6.40913 6.128 6.05713C5.74667 5.70513 5.556 5.26513 5.556 4.73713C5.556 4.44379 5.62933 3.93046 5.776 3.19713C5.92267 2.52246 6.23067 1.96513 6.7 1.52513C7.16933 1.05579 7.91733 0.821128 8.944 0.821128C9.79467 0.821128 10.4107 0.997128 10.792 1.34913C11.1733 1.70113 11.364 2.14113 11.364 2.66913C11.364 2.96246 11.2907 3.47579 11.144 4.20913C10.9973 4.88379 10.6893 5.45579 10.22 5.92513C9.75067 6.36513 9.00267 6.58513 7.976 6.58513ZM4.324 33.5571C3.20933 33.5571 2.35867 33.2785 1.772 32.7211C1.18533 32.1345 0.892 31.3865 0.892 30.4771C0.892 30.1838 0.936 29.8171 1.024 29.3771L4.764 10.6771H9.34L5.512 29.7291H8.46L7.712 33.5571H4.324Z"
+                        fill="white" fill-opacity="0.3" />
+                </svg>
+            </div>
+            <div class="instruction__content js-spoiler-content">
+                <div class="instruction__text">
+                    <p>Напишите <span>что-нибудь.</span></p>
+                    <p>Дайте доступ <span>к микрофону</span>, включите трек или скажите что-нибудь.</p>
+                    <p>Нажмите на кнопку <span>«Запись»,</span> чтобы создать гифку. Выберите <span>нужный размер</span> и сохраните.</p>
+                    <p>Вы можете загрузить <span>свой бэкграунд.</span></p>
+                    <div class="instruction__footer">
+                        <p>Проект сделан <span>в Парке</span></p>
+                        <a class="instruction__link" href="#">Скачать шрифт</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-</main>
+        <div class="art" id="art">
+            <!-- <div class="upload" id="upload">загрузить фон</div> -->
+            <div class="upload">
+                <input id="upload" type="file" autocomplete="off" />
+                <label for="upload">Загрузить фон</label>
+            </div>
+            <div id="arttext" contenteditable="true">ВАББА ЛАББА ДАБ ДАБ</div>
+            <div class="control">
+                <button onclick="toggleMic(); recordingInvoker();"
+                        title="Click start needed as security in browser increased and voice mic can only be started from a gesture on page">
+                    ЗАПУСТИТЬ
+                </button>
+            </div>
+        </div>
 
-<div class="toolbar">
+    </main>
 
-    <div class="bw">Б
-        <div class="switch"></div>
-        Ч
-    </div>
+    <div class="toolbar">
 
-    <div class="tp">
-        <div class="icon-left"></div>
-        <div class="icon-center"></div>
-        <div class="icon-right"></div>
-    </div>
+        <div class="bw">
+            <span class="bw__option js-color-toggle" id="toggle-white">Б</span>
+            <button class="bw__switch" id="toggle-btn" data-option-on="white"
+                data-option-off="black"><span></span></button>
+            <span class="bw__option js-color-toggle" id="toggle-black">Ч</span>
+        </div>
+        <div class="tp">
+            <div class="tp__btn -left icon-left" id="text-align-left"></div>
+            <div class="tp__btn -center icon-center" id="text-align-center"></div>
+            <div class="tp__btn -right icon-right" id="text-align-right"></div>
+        </div>
 
-    <div class="size">Tt
-        <div class="slidecontainer">
-            <input type="range" min="10" max="80" value="40" class="slider" id="myRange"></div>
-    </div>
+        <div class="size">Tt
+            <div class="slidecontainer">
+                <input type="range" min="40" max="120" value="90" step="1" class="slider" id="myRange"></div>
+        </div>
 
-    <div class="ratio">
-        <div class="rectangle1"></div>
-        1:1
-        <div class="rectangle9"></div>
-        9:16
-    </div>
+        <div class="ratio">
+            <div class="rectangle1"></div>
+            1:1
+            <div class="rectangle9"></div>
+            9:16
+        </div>
+    </div>    
 </div>
+
 
 <!-- <div class="examples">
  More axamples here</div>
@@ -73,6 +105,7 @@
 <script type="text/javascript" src="assets/js/p5.min.js"></script>
 <script type="text/javascript" src="assets/js/p5.sound.min.js"></script>
 <script type="text/javascript" src="assets/js/sketch.js"></script>
+<script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script>
 
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
