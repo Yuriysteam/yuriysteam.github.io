@@ -5,7 +5,7 @@ date:   2018-11-18 03:28:00
 description: "Telegram stickers to express love to Japan"
 type: project
 intro-text: "22 stickers to share favourite food, activities and mascots."
-web: "<a href='https://t.me/addstickers/japantalks'>Get on Telegram</a> <a href='https://apps.apple.com/cz/app/melonpan/id1520175595?app=messages'>Get on AppStore</a>"
+web: "<a href='https://t.me/addstickers/japantalks'>Get on Telegram</a>    <a href='https://apps.apple.com/cz/app/melonpan/id1520175595?app=messages'>Get on AppStore</a>"
 
 block: product
 template: single-project-cover
