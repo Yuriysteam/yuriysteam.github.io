@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Люки в парке" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Люки в парке</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container">
+      <header>
+        <div class="logo">Люкодел</div>
+        <div class="made-in">сделано в Парке</div>
+      </header>
+      <div class="content">
+        <div class="left-side">
+          <div class="options-wrapper">
+            <div class="options-title">Форма</div>
+            <div class="items-wrapper" id="formItems">
+              <div class="item">
+                <div
+                  class="item-button active"
+                  data-option="form"
+                  data-name="circle"
+                  data-value="circle.png"
+                >
+                  <div class="circle"></div>
+                </div>
+                <div class="item-title">Круг</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="form"
+                  data-name="rectangle"
+                  data-value="rectangle.png"
+                >
+                  <div class="rect"></div>
+                </div>
+                <div class="item-title">Квадрат</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="form"
+                  data-name="sector"
+                  data-value="sector.png"
+                >
+                  <div class="sector"></div>
+                </div>
+                <div class="item-title">Сектор</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="options-wrapper">
+            <div class="options-title">Бренд</div>
+            <div class="items-wrapper" id="brandItems">
+              <div class="item">
+                <div
+                  class="item-button active"
+                  data-option="brand"
+                  data-name="empty"
+                  data-value=""
+                >
+                  <div class="empty"></div>
+                </div>
+                <div class="item-title">Без</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="brand"
+                  data-name="moscow"
+                  data-value="moscow.png"
+                >
+                  <div class="moscow"></div>
+                </div>
+                <div class="item-title">Москва</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="brand"
+                  data-name="perm"
+                  data-value="perm.png"
+                >
+                  <div class="perm"></div>
+                </div>
+                <div class="item-title">Пермь</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="options-wrapper">
+            <div class="options-title">Узор</div>
+            <div class="items-wrapper" id="patternItems">
+              <div class="item">
+                <div
+                  class="item-button active"
+                  data-option="pattern"
+                  data-name="empty"
+                  data-value=""
+                >
+                  <div class="empty"></div>
+                </div>
+                <div class="item-title">Без</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="pattern"
+                  data-name="cat"
+                  data-value="cat.png"
+                >
+                  <div class="cat"></div>
+                </div>
+                <div class="item-title">Котик</div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="item-button"
+                  data-option="pattern"
+                  data-name="bird"
+                  data-value="bird.png"
+                >
+                  <div class="bird"></div>
+                </div>
+                <div class="item-title">Птичка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="canvas-area">
+            <div class="layer" id="mainLayer"></div>
+          </div>
+          <div class="action-button">Хочу такой люк!</div>
+        </div>
+      </div>
+
+      <footer>
+        <div>место для footer</div>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
