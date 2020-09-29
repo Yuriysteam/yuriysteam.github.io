@@ -4,7 +4,7 @@ title: "VOICERAPTOR 9000"
 date:   2020-06-23 01:30:00
 description: "Made in Park: Service for making visual covers"
 type: page
-intro-text: "It's a web app where musicians create album covers, bloggers making stories, and designers came up with font animations."
+intro-text: "Web app where musicians create album covers, bloggers making stories, and designers came up with font animations."
 task: "<b>Task: </b>create a project in Intuition's Park."
 role: "<b>Role: </b>I came up with the idea, assembled the team, helped with font design, did coding, hosting, and publication."
 web: "<a href='https://voiceraptor-9000.com' target='_blank'>voiceraptor-9000.com</a>"
@@ -22,7 +22,7 @@ UI and font designer: <a href='https://www.behance.net/fairymymyu' target='_blan
 
 ## Idea
 
-In Park, I brought up the idea to connect variable font and sound. Together we developed it into a web application for creating visual covers. I hope in the future album cavers will be more responsive and reflect the mood of the song. Typography is one way to go.
+<span class="p-text">In Park, I brought up the idea to connect variable font and sound. Together we developed it into a web application for creating visual covers. I hope in the future album covers will be more responsive and reflect the mood of the song. Typography is one way to go.</span>
 
 ## Typeface – FF RPTR9K
 
@@ -41,7 +41,7 @@ In Park, I brought up the idea to connect variable font and sound. Together we d
 
 <span class="p1000">![](/projects_img/vcrptr/app.png)</span>
 
-The font is a part of our service. The main magic happens in the web app. Under the hood, I connected microphone input with the typeface with the help of p5.js. The typeface will reflect sound inputs.
+<span class="p-text">The font is a part of our service. The main magic happens in the web app. Under the hood, I connected microphone input with the typeface with the help of p5.js. The typeface will reflect sound inputs.</span>
 
 
 
@@ -57,4 +57,4 @@ With the help of toolbar designers and musicans can set up the canvas for the be
 
 ## Park
 
-The project has been created in Park with the help of amazing Intuition team members. Please [read more](https://intuition.team/park) about Park and check other projects.
+<span class="p-text">The project has been created in Park with the help of amazing Intuition team members. Please [read more](https://intuition.team/park) about Park and check other projects.</span>
