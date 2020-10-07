@@ -190,15 +190,17 @@ a.product:hover {
 
 
 .item-titel {
-	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.1)));
-background-image: -webkit-linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
-background-image: -o-linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
-background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
-background-repeat: repeat-x;
-background-size: 100% 1px;
-background-position: 0 100%;
+    display: inline-block;
+transition: color ease 0.3s;
+text-decoration: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #d8d8d8;
+transition-property: border-bottom, border-color, background, color, fill;
+transition-duration: .33s;
+transition-timing-function: ease-out;
 padding-bottom: 2px;
-	font-size: 18px;
+font-size: 18px;
     
     
 }
