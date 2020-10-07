@@ -202,6 +202,17 @@ font-size: 18px;
     
 }
 
+.item-titel:hover {
+transition: color ease 0.3s;
+text-decoration: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #6a6a6a;
+transition-property: border-bottom, border-color, background, color, fill;
+transition-duration: .33s;
+transition-timing-function: ease-out;
+}
+
 .item-description {
 	font-size: 16px;
 	color: dimgrey;
@@ -412,6 +423,7 @@ padding: 0;}
 	max-width: 800px;
 	font-weight: bold;
 	line-height: 1.1em;
+    letter-spacing: -1px;
     
 	
 }
