@@ -426,7 +426,7 @@ h6 {
 	-moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	color: black;
-	line-height: 1.15em;
+	line-height: 1.2em;
 	margin-top: 3.5rem;
 	margin-bottom: 0.2rem;
 	font-family: "AftenScreen", sans-serif;
@@ -445,6 +445,7 @@ h2 {
 
 h3 {
 	font-size: 3rem;
+    line-height: 0.8em;
 }
 
 h4 {

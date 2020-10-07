@@ -190,7 +190,6 @@ a.product:hover {
 
 
 .item-titel {
-    display: inline-block;
 transition: color ease 0.3s;
 text-decoration: none;
 border-bottom-width: 1px;
@@ -202,12 +201,12 @@ transition-timing-function: ease-out;
 padding-bottom: 2px;
 font-size: 18px;
     
-    
 }
 
 .item-description {
 	font-size: 16px;
 	color: dimgrey;
+    line-height: 1.2em;
 }
 
 .sngl-prj-covr {
@@ -353,7 +352,15 @@ a.offer-button {
 
 .new-promo {
 	margin-bottom:10px;
-	display: inline-block;
+    transition: color ease 0.3s;
+text-decoration: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #d8d8d8;
+transition-property: border-bottom, border-color, background, color, fill;
+transition-duration: .33s;
+transition-timing-function: ease-out;
+margin-bottom: 20px;
 }
 
 .project-content {
