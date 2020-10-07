@@ -7,6 +7,7 @@ type: page
 intro-text: "XIXOIO making a complex of apps to cover various banking niches. There are apps to manage cryptocurrencies, send money transfers, bring investments and verify clients. For the whole group was created a visual identity."
 task: "<b>Task: </b>create an identity for crypto banking ecosystem"
 role: "<b>Role: </b>I assembled the design team, ideated and created the visual direction of the brand. I took responsibility for meeting the deadlines and delivering visual materials."
+web: xixoio.com
 
 block: three
 template: single-project-cover
