@@ -25,7 +25,7 @@ Designer: Anna Philippova</br>"
 <span class="p1000">![eew group logo and identity](/projects_img/eew/cid.png)
 </span>
 
-<span class="p-text">For the documentation was set up templates. They allow the company to create documents and maintain corporate visual style.<p>
+<span class="p-text">For the documentation was set up templates. They allow the company to create documents and maintain corporate visual style.</span>
 
 <span class="p1000">![eew group logo and identity](/projects_img/eew/bin.png)
 </span>

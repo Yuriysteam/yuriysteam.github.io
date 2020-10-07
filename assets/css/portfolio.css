@@ -1,5 +1,5 @@
 	* {
-	border: 0px dashed green;
+	border: 1px dashed green;
 }
 
 .projects-grid2 {
@@ -51,9 +51,9 @@ background-repeat: no-repeat;
 }
 
 .three {
-	width: 24%;
+	width: 28%;
 	padding: 0px;
-	margin-bottom: 40px;
+	
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -180,7 +180,6 @@ a.product:hover {
 }
 
 .image-name {
-	margin: 0px 0 20px;
 	z-index:999;
 }
 
@@ -207,6 +206,8 @@ font-size: 18px;
 	font-size: 16px;
 	color: dimgrey;
     line-height: 1.2em;
+    margin-top: 10px;
+
 }
 
 .sngl-prj-covr {
@@ -242,12 +243,13 @@ background-repeat: no-repeat;
 }
 
 .hero-text {
-	font-size: 3.7em;
+	font-size: 3.5em;
 	text-align: left;
 	color: #171717;
 	max-width: 1000px;
 	font-weight: bold;
 	line-height: 1.1em;
+    margin-top:-10px;
 	
 }
 
