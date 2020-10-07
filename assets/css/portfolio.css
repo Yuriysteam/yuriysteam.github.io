@@ -1,5 +1,5 @@
 	* {
-	border: 1px dashed green;
+	border: 0px dashed green;
 }
 
 .projects-grid2 {
@@ -305,13 +305,12 @@ background-repeat: no-repeat;
 
 .offer {
 	padding-left: 20px;
-    
 	display: block;
 	margin-top: 15px;
 	border-left: 0px solid #e6e6e6;
 	margin-left: 10px;
 	max-width: 400px;
-	line-height: 1.4em;
+	line-height: 1.8em;
 }
 
 .offer-button {
