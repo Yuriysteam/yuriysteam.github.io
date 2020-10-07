@@ -2101,12 +2101,22 @@ white-space: nowrap;
 }
 
 .single-project-title {
-	color: black;
+	color: #171717;
 	font-weight: bold;
 	font-size: 7rem;
 	text-align: left;
 	line-height: 1em;
 	margin-bottom: 10px;
+}
+
+.single-project-title-cv {
+	color: #171717;
+	font-weight: bold;
+	font-size: 6rem;
+	text-align: left;
+	line-height: 1em;
+	margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .single-project-description {
@@ -2602,16 +2612,15 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 	}
 	
 .cv-wrapper {
-	width: 100%;
-	max-width:1440px;
-	margin: 0 auto;
+	max-width:1000px;
+    padding-top: 1px;
 		
 	}
 	
 .cv-header {
-	color:black;
+	color:#171717;
 	text-transform: uppercase;
-	font-size: 3.7rem;
+	font-size: 2.2rem;
 	text-align: left;
 	line-height: 1.2em;
 	letter-spacing: 0px;
@@ -2639,7 +2648,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 }
 
 .position-name {
-	font-size: 2.5rem;
+	font-size: 2.9rem;
 	font-weight: bold;
 	margin-bottom:6px;
 }
@@ -3028,6 +3037,7 @@ transition-timing-function: ease-out;}
 		
 		.intro-text {
 			width: 100%;
+            margin-bottom: 20px;
 			
 		}
         
