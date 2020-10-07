@@ -2,6 +2,7 @@
 	border: 0px dashed green;
 }
 
+
 .projects-grid2 {
 	padding: 0 2%;
 	max-width: 1440px;
@@ -202,15 +203,20 @@ font-size: 18px;
     
 }
 
-.item-titel:hover {
-transition: color ease 0.3s;
-text-decoration: none;
-border-bottom-width: 1px;
-border-bottom-style: solid;
-border-bottom-color: #6a6a6a;
-transition-property: border-bottom, border-color, background, color, fill;
-transition-duration: .33s;
-transition-timing-function: ease-out;
+.three:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.half:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.seven:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.product:hover .item-titel {
+border-bottom-color: #3c3b3b;
 }
 
 .item-description {
@@ -260,7 +266,6 @@ background-repeat: no-repeat;
 	max-width: 1000px;
 	font-weight: bold;
 	line-height: 1.1em;
-    margin-top:-10px;
 	
 }
 
@@ -557,6 +562,9 @@ padding: 0;}
     .korea-description { 
     color: #ddc;
 }
+    .intro-link {
+     background: #2f2f2f; 
+    }
 	
 }
 

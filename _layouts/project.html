@@ -37,12 +37,11 @@ layout: default
 				</div>
 				<h2 class="intro-text-p">{{ page.intro-text }}</h2>
 				<div class="intro-text">
-					<div class="info-section">
-					<div class="intro-task">{{ page.task }}</div>
-						<div class="intro-task">{{ page.role }}</div>
-					<div class="intro-task"><a href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></div>
-					<div class="intro-task">{{ page.link_url }}</div>	
-					</div>
+					
+                        <div class="intro-task">{{ page.task }}</div>
+					<div class="intro-link"><a href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></div>
+						
+					
 					
 					
 					
@@ -59,8 +58,11 @@ layout: default
 			
 			<div class="intro">
 				<div class="intro-text">
-					<div class="info-section"><h3>About the project</h3>
-					<div class="intro-task">Created in: {{ page.days }}</div>
+					<div class="info-section">
+                        <h1>About the project</h1>
+                        <div class="intro-task">Created in: {{ page.days }}</div>
+                    <div class="intro-task">{{ page.role }}</div>
+                
 					<div class="intro-task">{{ page.author }}</div>	
 					</div>
 					
@@ -74,7 +76,7 @@ layout: default
 
             <!-- Share links section -->
             		
-			{% include promo.html %}
+			<!-- {% include promo.html %} -->
             
             <!-- Disqus comments -->
             

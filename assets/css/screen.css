@@ -2058,8 +2058,8 @@ white-space: nowrap;
 .intro {
 	display: block;
 	margin-bottom: 10px;
-	max-width: 870px;
-    margin-top: 30px;
+	max-width: 1000px;
+    margin-top: 0px;
 }
 
 .intro-info {
@@ -2069,33 +2069,44 @@ white-space: nowrap;
 
 .intro-text {
 	width: 100%;
-	margin:30px auto 60px;
+	margin:20px auto 60px;
 	
 }
 
 .intro-text-p {
-	margin-top: 30px;
+	margin-top: 15px;
 	font-size: 1.4em;
 	line-height: 1.1em;
     font-weight: 500;
 }
 
 .info-section {
-	margin-bottom: 10px;
+	margin-top: 50px;
 	padding: 0px;
+    border-top: 1px solid #EBF2F6;
 }
+
 
 .intro-task {
 	margin-bottom: 15px;
 }
 
+.intro-link {
+	margin-bottom: 15px;
+    font-size: 25px;
+    padding: 12px 18px;
+    background: #f2f2f2;
+    border-radius: 8px;
+    display:inline-block;
+}
+
 .single-project-title {
 	color: black;
 	font-weight: bold;
-	font-size: 6.7rem;
+	font-size: 7rem;
 	text-align: left;
 	line-height: 1em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .single-project-description {
@@ -3525,6 +3536,7 @@ h6 {
 		
 		.info-section {
 		margin-bottom: 10px;
+        margin-top: 20px;
 		padding: 0px;
 		}
 		
@@ -3594,7 +3606,8 @@ h6 {
 		
 		.intro-text-p {
 			font-size: 1.4em;
-			margin-top: 20px;
+			margin-top: 10px;
+            margin-bottom: 10px;
 		}
 		
 		.preposition-text {

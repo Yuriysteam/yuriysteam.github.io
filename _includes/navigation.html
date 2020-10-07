@@ -1,9 +1,11 @@
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}
-        <div class="blog-logo">
+        
+            <div class="blog-logo">
             <img src="/assets/images/logo.svg" alt="Yuriy Shiryaev Fintech Product designer" />
-        </div> 
+            </div>
+            
         {% endif %}
         <ul class="nav navbar-nav navbar-right">
             {% for nav_item in site.data.nav %} {% if page.url == nav_item.link %}
