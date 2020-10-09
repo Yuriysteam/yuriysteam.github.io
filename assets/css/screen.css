@@ -688,7 +688,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 p {
-	margin: 1.4rem 0;
+	margin: 0.8rem 0 1.4rem;
     line-height: 1.25em;
 }
 
@@ -2651,7 +2651,13 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 .position-name {
 	font-size: 2.9rem;
 	font-weight: bold;
+}
+
+.skill-name {
+	font-size: 2.9rem;
+	font-weight: bold;
 	margin-bottom:6px;
+    margin-top: 20px;
 }
 
 .position-text {
@@ -3085,7 +3091,13 @@ transition-timing-function: ease-out;}
 
 		.position-name {
 	font-weight: bold;
+	margin-bottom:5px;
+}
+        
+        .skill-name {
+	font-weight: bold;
 	margin-bottom:15px;
+            margin-top:0;
 }
 
 		.position-text {
@@ -3622,6 +3634,13 @@ h6 {
         .position-name {
             font-size: 2.4rem;
             margin-bottom: 8px;
+            margin-top: 0;
+        }
+        
+        .skill-name {
+            font-size: 2.4rem;
+            margin-bottom: 8px;
+            margin-top: 0;
         }
         
         h2.intro-text-p {
@@ -3690,7 +3709,13 @@ h6 {
 	   }
         
         .position-name {
-            font-size: 1.4rem
+            font-size: 1.4rem;
+            
+        }
+        
+        .skill-name {
+            font-size: 1.4rem;
+            margin-top: 0;
         }
 		
 }
