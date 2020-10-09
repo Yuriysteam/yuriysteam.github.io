@@ -35,8 +35,6 @@ days: 13 weeks
 
 <span class="p-text">Together with Chocotopia’s management, we had to come up with a more effective general approach to visual communication, build a strong connection to the physical locations, and unite the different entertainment offerings of the company. </span>
 
-<br>
-
 ### Let’s go
 
 <span class="p-text">We started by taking the time to fully understand the client's businesses through in-depth discussion with management, in order to better plan our effort. The client had also requested for us to create a more convenient system for editing web content.</span>
@@ -46,8 +44,6 @@ days: 13 weeks
 - Create an overall concept for the project and gather relevant feedback.
 - Development, testing, and bug fixing, on the website.
 - Provide guidance and support to Chocotopia staff.
-
-<br>
 
 ### **Study**
 
@@ -59,8 +55,6 @@ days: 13 weeks
 </span>
 
 <span class="p-text">These inputs helped us understand the gaps and issues, and eventually propose a concept to address these. On top of that, we also needed a restructured CMS module, through which Chocotopia could fill in content and make updates in the future. </span>
-
-<br>
 
 ### **Design and Development**
 
@@ -90,8 +84,6 @@ We designed custom maps to illustrate where each of the venues are.
 </span>
 
 <span class="p-text">Chocotopia had already been using a local provider for their ticket booking system, and so we helped integrate and match the styling of the booking system with that of the website. Similar adjustments were made to customer survey forms.</span>
-
-<br>
 
 ### **Result**
 

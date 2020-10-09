@@ -47,6 +47,14 @@ template: sngl-prj-covr
 
 <span class="p1000">![](/projects_img/hatch/line.png)</span>
 
+
+
+## Reception
+
+In a first week project got mentoned in big Telegram channels: [Odi about design](https://t.me/awdee/12663), [Wowohuenno](https://t.me/wowohuenno/408). 
+
+
+
 ## Park
 
 <span class="p-text">The project has been created in Park with the help of amazing Intuition team members. Please [read more](https://intuition.team/park) about Park and check other projects.</span>

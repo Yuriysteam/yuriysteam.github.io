@@ -54,6 +54,7 @@ background-repeat: no-repeat;
 .three {
 	width: 28%;
 	padding: 0px;
+    margin-bottom: 40px;
 	
 background-position: center;
 background-size: cover;
@@ -200,7 +201,13 @@ transition-duration: .33s;
 transition-timing-function: ease-out;
 padding-bottom: 2px;
 font-size: 18px;
+font-weight: bold;
+    line-height: 1em;
     
+}
+
+h3.item-titel {
+    margin-top: 0;
 }
 
 .three:hover .item-titel {
@@ -223,7 +230,7 @@ border-bottom-color: #3c3b3b;
 	font-size: 16px;
 	color: dimgrey;
     line-height: 1.2em;
-    margin-top: 10px;
+    margin-top: 5px;
 
 }
 
@@ -326,7 +333,10 @@ background-repeat: no-repeat;
 	border-left: 0px solid #e6e6e6;
 	margin-left: 10px;
 	max-width: 400px;
-	line-height: 1.8em;
+}
+
+.new-promo {
+	margin-bottom: 10px;
 }
 
 .offer-button {
@@ -368,8 +378,7 @@ a.offer-button {
 }
 
 .new-promo {
-	margin-bottom:10px;
-    transition: color ease 0.3s;
+transition: color ease 0.3s;
 text-decoration: none;
 border-bottom-width: 1px;
 border-bottom-style: solid;
@@ -377,7 +386,6 @@ border-bottom-color: #d8d8d8;
 transition-property: border-bottom, border-color, background, color, fill;
 transition-duration: .33s;
 transition-timing-function: ease-out;
-margin-bottom: 20px;
 }
 
 .project-content {
@@ -399,17 +407,21 @@ padding: 0;}
 	
 	.half {
 	width: 100%;
+        margin-bottom: 20px;
 	}
 	
 	.seven {
 		width: 100%;
+        margin-bottom: 20px;
 	}
 	.three {
 		width: 100%;
+        margin-bottom: 20px;
 	}
     
     .product {
 		width: 100%;
+        margin-bottom: 20px;
 	}
 	
 	.three-v {

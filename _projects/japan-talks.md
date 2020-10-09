@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Japanese tourist stickers"
+title: "Japanese Tourist Stickers"
 date:   2018-11-18 03:28:00
 description: "Sticker pack to express love to Japan"
 type: project

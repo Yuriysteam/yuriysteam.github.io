@@ -427,7 +427,7 @@ h6 {
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	color: black;
 	line-height: 1.2em;
-	margin-top: 1rem;
+	margin-top: 3.5rem;
 	margin-bottom: 0.2rem;
 	font-family: "AftenScreen", sans-serif;
 }
@@ -2639,6 +2639,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 .cv-date {
 	width:20%;
 	text-align: right;
+    color: #6a6a6a;
 }
 
 .cv-text {
@@ -3135,6 +3136,14 @@ transition-timing-function: ease-out;}
 			width: 100%;
 			padding: 2% 0;
 		}
+        
+        .single-project-title-cv {
+	       font-size: 4rem;
+	   }
+        
+        .cv-position {
+	       padding-bottom: 0;
+	   }
 		
 }
 	/* ==========================================================================
@@ -3599,6 +3608,29 @@ h6 {
 	line-height: 1.3em;
 	
 }
+        
+        .single-project-title-cv {
+	       font-size: 3.2rem;
+             margin-top: 0;
+	   }
+        
+        .cv-position {
+	       padding-bottom: 0;
+           
+	   }
+        
+        .position-name {
+            font-size: 2.4rem;
+            margin-bottom: 8px;
+        }
+        
+        h2.intro-text-p {
+            font-size: 2.6rem
+        }
+        
+        .cv-header {
+            margin: 0;
+        }
 		
 	}
 
@@ -3648,6 +3680,18 @@ h6 {
 	line-height: 1.3em;
 	
 }
+        
+        .single-project-title-cv {
+	       font-size: 2rem;
+	   }
+        
+        .cv-position {
+	       padding-bottom: 0;
+	   }
+        
+        .position-name {
+            font-size: 1.4rem
+        }
 		
 }
 
