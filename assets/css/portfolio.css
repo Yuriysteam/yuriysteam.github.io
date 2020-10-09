@@ -353,6 +353,7 @@ white-space: nowrap;
 background: #e9673e;
 text-decoration: none;
 color: white;
+    margin-right: 20px;
 }
 
 a.offer-button {
