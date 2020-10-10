@@ -2068,7 +2068,9 @@ white-space: nowrap;
 }
 
 .intro-text {
-	width: 100%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 	margin:20px auto 60px;
 	
 }
@@ -2613,8 +2615,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
 	
 .cv-wrapper {
 	max-width:1000px;
-    padding-top: 1px;
-		
+    
 	}
 	
 .cv-header {
@@ -3043,7 +3044,6 @@ transition-timing-function: ease-out;}
 		}
 		
 		.intro-text {
-			width: 100%;
             margin-bottom: 20px;
 			
 		}
@@ -3440,6 +3440,8 @@ h6 {
 		}
 		.intro-text {
 			width: 100%;
+            display: block;
+            margin-bottom: 40px;
 			
 		}
 		
@@ -3701,15 +3703,20 @@ h6 {
 }
         
         .single-project-title-cv {
-	       font-size: 2rem;
+	       font-size: 2.4rem;
 	   }
+        
         
         .cv-position {
 	       padding-bottom: 0;
 	   }
         
+        h2.intro-text-p {
+            font-size: 2rem;
+        }
+        
         .position-name {
-            font-size: 1.4rem;
+            font-size: 2.2rem;
             
         }
         

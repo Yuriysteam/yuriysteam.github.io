@@ -341,7 +341,7 @@ background-repeat: no-repeat;
 
 .offer-button {
 cursor: pointer;
-padding: 10px 18px;
+padding: 10px 18px 7px;
 height: 36px;
 border: none;
 border-radius: 3px;
@@ -367,8 +367,10 @@ a.offer-button {
 }
 
 .of-button-wrap {
-	margin: 40px 0px;
+	margin: 40px 0 30px;;
 	text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .offer-h {
@@ -403,6 +405,49 @@ padding: 0;
     font-weight: bold;
 line-height: 1.1em;
 padding: 0;}
+
+
+input.apple-switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+margin-left: 5px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 #fff;
+}
+
+input.apple-switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+input.apple-switch:checked {
+  box-shadow: inset 20px 0 0 0 #E9673E;
+  border-color: #e2e2e2;
+    border: 1px solid #E9673E;
+}
+
+input.apple-switch:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.0);
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
 
 @media only screen and (max-width: 900px) {
 	
@@ -496,10 +541,6 @@ padding: 0;}
     font-weight: bold;
     display: block;
 }
-
-
-
-
 
 .korea-description {
     display: block;
