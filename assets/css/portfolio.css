@@ -367,7 +367,7 @@ a.offer-button {
 }
 
 .of-button-wrap {
-	margin: 10px 0 30px;;
+	margin: 10px 0 0px;
 	text-align: left;
     display: flex;
     align-items: center;
@@ -447,6 +447,7 @@ input.apple-switch:checked:after {
     display: flex;
     align-items: center;
     padding-top: 12px;
+   
 }
 
 @media only screen and (max-width: 900px) {
@@ -560,6 +561,11 @@ padding: 0;}
     color: #ddc;
     background-color: #14191c;
   }
+    
+    
+    .intro-text {
+        background: #14191c;
+    }
 	
 	a {
 		color: #ddc;
