@@ -4,8 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>At glance</title>
-  <!--  <link rel="preload" href="/assets/fonts/AnonymousPro-Regular.ttf" as="font" type="font/ttf">
-    <link rel="preload" href="/assets/fonts/AnonymousPro-Regular.ttf" as="font" type="font/ttf"> --->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap" rel="stylesheet">
     <link async rel="stylesheet" type="text/css" href="/assets/css/glance.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
@@ -13,14 +12,84 @@
 
 <body>
 
+<div class="wrapper">
 
-    <div id="app">
-       <p v-if="flightData.length > 0">{{ flightData[0].price }} CZK</p>
+    <div class="tile">
+    <div class="headline">Japan</div>
+    <div class="pricing">
+        <div class="pricing-months">
+        <div class="price-per-month">Oct – €782</div>
+        <div class="price-per-month">Nov – €782</div>
+        </div>
+        <div class="pricing-big">€983</div>
+    </div>
+        
+        
+        
+    </div>
+    
+    
+    <div class="tile">
+    <div class="headline">Stocks</div>
+    <div class="pricing">
+        <div class="stock-prices">
+            <div class="stock-name">AAPL</div>
+            <div class="stock-price">$462</div>
+        </div>
+        
+        <div class="stock-prices">
+            <div class="stock-name">AMZ</div>
+            <div class="stock-price">$1123</div>
+        </div>
+        
+        <div class="stock-prices">
+            <div class="stock-name">SBR</div>
+            <div class="stock-price">$2344</div>
+        </div>
+        
+        
+    </div>
+        
+        <div class="pricing">
+        <div class="stock-prices">
+            <div class="stock-name">AAPL</div>
+            <div class="stock-price">$462</div>
+        </div>
+        
+        <div class="stock-prices">
+            <div class="stock-name">AMZ</div>
+            <div class="stock-price">$1123</div>
+        </div>
+        
+        <div class="stock-prices">
+            <div class="stock-name">SBR</div>
+            <div class="stock-price">$2344</div>
+        </div>
+        
+        
+    </div>
+        
+        
+        
+    </div>
+    
+    
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+   <!-- <div id="app">
+       <p v-if="flightData.length > 0">{{ flightData[0].price }}CZK</p>
     </div>
     
     <div id="app2">
        <p v-if="flightData.length > 0">{{ flightData[0].price }} CZK</p>
-    </div>
+    </div> -->
 
 
 

@@ -12,6 +12,8 @@
 /*
 
     0.  Normalize
+    1.  Main Part
+
     
 */
 
@@ -245,149 +247,64 @@ table {
 	margin-bottom: 20px;
 }
 
+
 /* ==========================================================================
-   2. Main page
+   1. Main Part
    ========================================================================== */
 
-
-
-*:focus {
-    outline: none;
-}
-
 body {
-	font-family: 'Lora', serif;
-	color: #171717;
+    font-family: 'Rubik', sans-serif;
 }
 
-a {
-	text-decoration: underline;
-}
-
-
-
-.nav {
-	font-size: 16px;
-	transition-duration: initial, initial, 0.2s;
-	transition-timing-function: initial, initial, ease-out;
-	transition-delay: initial, initial, initial;
-	transition-property: padding-left, padding-right, initial;
-	display: flex;
-	-webkit-box-pack: justify;
-	justify-content: space-between;
-	max-width: 1160px;
-	padding: 8px 5% 0;
-	margin: 0 auto;
-	color:#242f3c;
-}
-
-.nav-links {
-	display: inline-block;
-}
-
-.nav-link {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.nav-share {}
-
-.logo {
-	display: inline-block;
-	margin-right:10px;
-	width: 24x;
-	height: 24px;
-	background: #b7b7b7;
-}
 
 .wrapper {
-	max-width: 1160px;
-	padding: 0 5%;
-	margin: 0 auto;
-	
+    width: 380px;
+    margin: 0 auto;
 }
 
-.case-nav {
-	display: flex;
+.tile {
+    width: 100%;
+    margin: 40px 0;
 }
 
-.case-name {
-	width: 90%;
-	margin-right:20px;
-	padding-top: 40px;
-	padding-bottom: 0.2em;
-	font-weight: bold;
-	font-size: 48px;
-	color: #171717;
-	border-color: inherit;
-  -webkit-box-shadow: none;
-  	box-shadow: none;
+.headline {
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
-.case-alt {
-	width:10%;
-	padding-top: 55px;
+.pricing {
+    display: flex;
 }
 
-.next-case {
-	background-color: #fb263b;
-border-color: #fb263b;
-color: #fff;
-cursor: pointer;
-display: inline-block;
-fill: currentcolor;
-font-size: 14px;
-font-weight: 700;
-padding: 10px 20px;
-text-align: center;
-text-decoration: none;
--webkit-transition: .15s;
-transition: .15s;	
-	
+.pricing-months {
+    width: 50%;
+    font-size: 24px;
 }
 
-.case-body {
-	display: flex;
+.price-per-month {
+    margin-bottom: 5px;
 }
 
-.case {
-	width: 70%;
-	margin-bottom: 4em;
-	font-size: 20px;
+.pricing-big {
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.proposal {
-	width: 50%;
-	margin-bottom: 3em;
-	font-size: 18px;
-	padding-right:1%;
-}
-.solution {
-	width: 40%;
-	margin-bottom: 3em;
-	font-size: 18px;
-	padding:0 3% 3% 3%;
-	background-color:#fdf7ee;
-	display: none;
+.stock-prices {
+    width: 33%;
+    margin-bottom: 10px;
 }
 
 
-.result {
-	white-space: nowrap;
-margin: 0 0 50px 0;
-border: .1em solid currentColor;
-border-radius: 0;
-background-color: #fb263b;
-border-color: #fb263b;
-color: #fff;
-cursor: pointer;
-display: inline-block;
-fill: currentcolor;
-font-size: 18px;
-font-weight: 700;
-padding: 1em 1.875em;
-text-align: center;
-text-decoration: none;
--webkit-transition: .15s;
-transition: .15s;	
+.stock-name {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.stock-price {
+    font-size: 26px;
+    font-weight: 600;
 }
