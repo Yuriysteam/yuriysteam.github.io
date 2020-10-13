@@ -55,8 +55,7 @@ template {
 
 html {
 	font-family: sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	
 }
 
 body {
@@ -255,6 +254,59 @@ table {
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+.wrapper {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.tile {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.headline {
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    display: flex;
+}
+
+.pricing-months {
+    width: 50%;
+    font-size: 24px;
+}
+
+.price-per-month {
+    margin-bottom: 5px;
+}
+
+.pricing-big {
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.stock-prices {
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+
+.stock-name {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.stock-price {
+    font-size: 26px;
+    font-weight: 600;
+}
+
 
 
 
