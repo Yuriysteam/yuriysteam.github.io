@@ -257,6 +257,9 @@ body {
 }
 
 
+
+@media only screen and (max-width: 500px) {
+
 .wrapper {
     width: 380px;
     margin: 0 auto;
@@ -307,4 +310,6 @@ body {
 .stock-price {
     font-size: 26px;
     font-weight: 600;
+}
+
 }
