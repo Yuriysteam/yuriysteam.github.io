@@ -21,12 +21,12 @@
         <div class="price-per-month">Oct – €782</div>
         <div class="price-per-month">Nov – €782</div>
         </div>
-        <div class="pricing-big">€983</div>
+        <div id="app" class="pricing-big" v-if="flightData.length > 0">€{{ flightData[0].price }}</div>
     </div>
         
+    </div>  
         
-        
-    </div>
+    
     
     
     <div class="tile">
@@ -82,7 +82,6 @@
     
     
     
-    
    <!-- <div id="app">
        <p v-if="flightData.length > 0">{{ flightData[0].price }}CZK</p>
     </div>
@@ -112,7 +111,7 @@
 
             var curData = formattedDate()
             
-            let response = await fetch(`https://api.skypicker.com/flights?fly_from=PRG&fly_to=TYO&dateFrom=${curData}&dateTo=31/12/2020&partner=picky&v=3&price_from=0&price_to=100000&flightDurationMax=20&curr=CZK`);
+            let response = await fetch(`https://api.skypicker.com/flights?fly_from=PRG&fly_to=TYO&dateFrom=${curData}&dateTo=31/12/2020&partner=picky&v=3&price_from=0&price_to=100000&flightDurationMax=20&curr=EUR`);
 
             if (response.ok) {
                 let json = await response.json();
