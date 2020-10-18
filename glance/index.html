@@ -76,19 +76,6 @@
     
     
 </div>
-    
-    
-    
-    
-    
-    
-   <!-- <div id="app">
-       <p v-if="flightData.length > 0">{{ flightData[0].price }}CZK</p>
-    </div>
-    
-    <div id="app2">
-       <p v-if="flightData.length > 0">{{ flightData[0].price }} CZK</p>
-    </div> -->
 
 
 
@@ -115,42 +102,7 @@
 
             if (response.ok) {
                 let json = await response.json();
-                console.log(json)
                 
-                
-                this.flightData = json.data
-                
-
-            } else {
-                alert("Ошибка HTTP: " + response.status);
-            }
-        }
-
-    })
-    
-    
-    
-    var app2 = new Vue({
-        el: '#app2',
-        data: {
-            flightData: []
-        },
-
-        created: async function() {
-
-                function formattedDate(d = new Date) {
-                return [d.getDate(), d.getMonth() + 1, d.getFullYear()]
-                    .map(n => n < 10 ? `0${n}` : `${n}`).join('/');
-                        
-            }
-
-            var curData = formattedDate()
-            
-            let response = await fetch(`https://api.skypicker.com/flights?fly_from=PRG&fly_to=TYO&dateFrom=${curData}&dateTo=31/12/2020&partner=picky&v=3&price_from=0&price_to=100000&flightDurationMax=20&curr=CZK`);
-
-            if (response.ok) {
-                let json = await response.json();
-                console.log(json)
                 
                 
                 this.flightData = json.data
@@ -162,7 +114,10 @@
         }
 
     })
-
+    
+    
+    
+    
 
 </script>
     
