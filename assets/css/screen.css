@@ -639,11 +639,11 @@ table td {
 	line-height: 20px;
 	text-align: left;
 	vertical-align: top;
-	border-top: #EFEFEF 1px solid;
+	border-top: #EFEFEF 0px solid;
 }
 
 table th {
-	color: #000;
+	
 }
 
 table caption + thead tr:first-child th,
@@ -660,12 +660,12 @@ table tbody + tbody {
 }
 
 table table table {
-	background-color: #FFF;
+	
 }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-	background-color: #F6F6F6;
+	
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
