@@ -1,0 +1,47 @@
+---
+layout: default
+title: Fintech product designer
+cover: false
+logo: true
+
+
+---
+
+
+{% include navigation.html %}
+
+
+
+<div class="projects-grid2">
+	
+	{% include contact-wrap.html %}
+	
+    {% assign items = site.projects | sort: 'date' %}
+  {% for item in items reversed %}
+        
+        <a class="{{item.block}}" title="{{item.title}}" href="{{item.url}}">
+			<div class="{{ item.template }} {{ item.templateheight }} lazy" style="background-image: url(/assets/images/lazy.png);" data-echo-background="{{ item.new-cover }}"></div>
+			
+            <div class="{{item.nametemplate}} {{ item.custom-font }}">    
+                <span href="{{item.url}}" class="item-titel">{{item.title}}</span>
+                
+                <div class="item-description {{item.custom}}">{{item.description}}</div>
+            </div>  
+        </a>
+    
+  {% endfor %}
+	
+
+	<!--{% include promo.html %} -->
+	
+</div>
+
+<!--<div class="blog-posts">  
+{% for post in site.posts limit:4 %}
+  <div class="single-blog-post">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.description }}
+      </div>
+
+{% endfor %}
+    </div>  -->

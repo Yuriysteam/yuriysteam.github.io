@@ -1,0 +1,77 @@
+---
+layout: default
+title: Blog about Interfaces, Managment and Fintech  
+description: Blog about User Interfaces, Fintech, Typography and Managemnt  
+cover: false
+logo: true
+
+
+---
+
+{% include navigation-blog.html %}
+
+<div class="blog-wrapper">
+	
+	<div class="search-wrapper">
+		<div id="search-container"><ul class="search-results" id="results-container"></ul></div>	
+	</div>
+
+	{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">
+      ↑ Newer
+    </a>
+  {% else %}
+    <span style="display:none">Newer posts</span>
+  {% endif %}
+	
+
+</div>
+{% endif %}
+			
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1 class="post-name"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+	<section class="post-content">
+           {{post.content}}
+        </section>
+	<div class="post-date">
+	
+		{% assign d = post.date | date: "%-d"  %} 
+{% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st
+  {% when '2' or '22' %}{{ d }}nd
+  {% when '3' or '23' %}{{ d }}rd
+  {% else %}{{ d }}th
+  {% endcase %} 
+{{ post.date | date: "%B" }} 
+		<div class="post-share">{{ post.views }}</div><div class="post-share">Share on <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}" target="_blank">Twitter</a> <a href="https://telegram.me/share/url?url={{ site.url }}{{ post.url }}" target="_blank" >Telegram</a> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a></div>
+	</div> 
+	
+	
+	
+	
+	
+{% endfor %}
+				
+	
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  
+	
+
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">
+      ↓ Older
+    </a>
+  {% else %}
+    <span style="display:none">Older posts</span>
+  {% endif %}
+</div>
+{% endif %}
+	
+	
+</div>
+

@@ -1,0 +1,15 @@
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}
+        <a class="blog-logo" href="{{ site.url }}">
+            <img src="/assets/images/logo.svg" alt="Yuriy Shiryaev Fintech Product designer" />
+        </a>
+        {% endif %}
+        <ul class="nav navbar-nav navbar-right">
+             <li><input class="search-nav" type="text" id="search-input" placeholder="Search"></li>
+            <li><a href="/">Portfolio</a></li>
+			<li><a href="mailto:yuriysteam@icloud.com">Contact</a></li>
+            <li><a href="/feed.xml">RSS</a></li>
+        </ul>
+    </nav>
+</header>

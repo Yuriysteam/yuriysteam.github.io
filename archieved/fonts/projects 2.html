@@ -1,0 +1,25 @@
+---
+layout: default
+title: Projects
+cover: false
+logo: true
+
+
+---
+
+{% include navigation.html %}
+
+<div class="projects-grid">
+    {% assign items = site.projects | sort: 'date' %}
+  {% for item in items reversed %}
+        
+        <a class="project-name" href="{{item.url}}" class="project-title">
+                <div class="single-project-cover" style="background-image: url({{ item.project-cover }})"></div>
+            <div class="project-text-name">    
+                <div class="project-title">{{item.title}}</div>
+                <div class="project-description">{{item.description}}</div>
+            </div>    
+        </a>
+  {% endfor %}
+
+    </div>
