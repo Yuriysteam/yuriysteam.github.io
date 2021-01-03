@@ -2,6 +2,7 @@
 	border: 0px dashed green;
 }
 
+
 .projects-grid2 {
 	padding: 0 2%;
 	max-width: 1440px;
@@ -51,9 +52,10 @@ background-repeat: no-repeat;
 }
 
 .three {
-	width: 24%;
+	width: 28%;
 	padding: 0px;
-	margin-bottom: 40px;
+    margin-bottom: 40px;
+	
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -180,7 +182,6 @@ a.product:hover {
 }
 
 .image-name {
-	margin: 0px 0 20px;
 	z-index:999;
 }
 
@@ -190,19 +191,47 @@ a.product:hover {
 
 
 .item-titel {
-	display: inline-block;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #bab9b8;
-	transition-property: border-bottom, border-color, background, color, fill;
-	transition-duration: .33s;
-	transition-timing-function: ease-out;
-	font-size: 18px;
+transition: color ease 0.3s;
+text-decoration: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #d8d8d8;
+transition-property: border-bottom, border-color, background, color, fill;
+transition-duration: .33s;
+transition-timing-function: ease-out;
+padding-bottom: 2px;
+font-size: 18px;
+font-weight: bold;
+    line-height: 1em;
+    
+}
+
+h3.item-titel {
+    margin-top: 0;
+}
+
+.three:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.half:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.seven:hover .item-titel {
+border-bottom-color: #3c3b3b;
+}
+
+.product:hover .item-titel {
+border-bottom-color: #3c3b3b;
 }
 
 .item-description {
 	font-size: 16px;
 	color: dimgrey;
+    line-height: 1.2em;
+    margin-top: 5px;
+
 }
 
 .sngl-prj-covr {
@@ -238,7 +267,7 @@ background-repeat: no-repeat;
 }
 
 .hero-text {
-	font-size: 3.7em;
+	font-size: 3.5em;
 	text-align: left;
 	color: #171717;
 	max-width: 1000px;
@@ -300,16 +329,19 @@ background-repeat: no-repeat;
 .offer {
 	padding-left: 20px;
 	display: block;
-	margin-top:0;
+	margin-top: 15px;
 	border-left: 0px solid #e6e6e6;
 	margin-left: 10px;
 	max-width: 400px;
-	line-height: 1.4em;
+}
+
+.new-promo {
+	margin-bottom: 10px;
 }
 
 .offer-button {
 cursor: pointer;
-padding: 10px 18px;
+padding: 10px 18px 7px;
 height: 36px;
 border: none;
 border-radius: 3px;
@@ -321,6 +353,7 @@ white-space: nowrap;
 background: #e9673e;
 text-decoration: none;
 color: white;
+    margin-right: 20px;
 }
 
 a.offer-button {
@@ -334,8 +367,10 @@ a.offer-button {
 }
 
 .of-button-wrap {
-	margin: 20px 0px;
+	margin: 10px 0 0px;
 	text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .offer-h {
@@ -346,8 +381,14 @@ a.offer-button {
 }
 
 .new-promo {
-	margin-bottom:10px;
-	display: inline-block;
+transition: color ease 0.3s;
+text-decoration: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #d8d8d8;
+transition-property: border-bottom, border-color, background, color, fill;
+transition-duration: .33s;
+transition-timing-function: ease-out;
 }
 
 .project-content {
@@ -365,21 +406,69 @@ padding: 0;
 line-height: 1.1em;
 padding: 0;}
 
+
+input.apple-switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+margin-left: 5px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 #fff;
+}
+
+input.apple-switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+input.apple-switch:checked {
+  box-shadow: inset 20px 0 0 0 #E9673E;
+  border-color: #e2e2e2;
+    border: 1px solid #E9673E;
+}
+
+input.apple-switch:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.0);
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+   
+}
+
 @media only screen and (max-width: 900px) {
 	
 	.half {
 	width: 100%;
+        margin-bottom: 20px;
 	}
 	
 	.seven {
 		width: 100%;
+        margin-bottom: 20px;
 	}
 	.three {
 		width: 100%;
+        margin-bottom: 20px;
 	}
     
     .product {
 		width: 100%;
+        margin-bottom: 20px;
 	}
 	
 	.three-v {
@@ -398,6 +487,7 @@ padding: 0;}
 	max-width: 800px;
 	font-weight: bold;
 	line-height: 1.1em;
+    letter-spacing: -1px;
     
 	
 }
@@ -453,10 +543,6 @@ padding: 0;}
     display: block;
 }
 
-
-
-
-
 .korea-description {
     display: block;
     font-size: 18px;
@@ -475,6 +561,11 @@ padding: 0;}
     color: #ddc;
     background-color: #14191c;
   }
+    
+    
+    .intro-text {
+        background: #14191c;
+    }
 	
 	a {
 		color: #ddc;
@@ -488,6 +579,7 @@ padding: 0;}
 	.hero-text {color: #ddc;}
 	.contact-message {color: #ddc;}
 	.single-project-title {color: #ddc;}
+    .single-project-title-cv {color: #ddc;}
 	
 	.main-nav.overlay a:hover {color: #ddc;
 	border-bottom-color: #ddc;}
@@ -531,6 +623,9 @@ padding: 0;}
     .korea-description { 
     color: #ddc;
 }
+    .intro-link {
+     background: #2f2f2f; 
+    }
 	
 }
 

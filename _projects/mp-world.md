@@ -4,7 +4,7 @@ title: MoneyPolo.World money transfers
 date:   2018-11-18 01:30:00
 project-cover: "/projects_img/mp_world/cover.png"
 project-small-cover: "/projects_img/mp_world/mpworld-project.png"
-description: "User experience for online money transfers"
+description: "User experience for fintech money transfers"
 task: "<b>Task: </b>Design user experience for online money transfers."
 duration: "9 months"
 intro-text: "MoneyPolo provides an online service for sending money transfers. I created user interface and user experience for sending money for the web and mobile."

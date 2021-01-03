@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
 
-    <title>{{ site.name }} - {{ page.title }}</title>
+    <title>{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name=”keywords” content=”design, fintech, designer, UX, banking, product design, branding, startups, UI” />
 	<meta property="og:url" content="https://yuriy.eu{{ page.url }}" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{ site.name }} – {{ page.title }}" />
-	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:title" content="{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="og:image" content="https://yuriy.eu/{{ page.new-cover }}" />
 	<meta property="og:image:width" content="960px" />
 	<meta property="og:image:height" content="770px" />
@@ -18,7 +19,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
-	
+	<meta name="yandex-verification" content="0542dd8789b34050" />
 	
 	
     <link rel="preload" href="/assets/fonts/AftenScreen-Bold.woff" as="font" type="font/woff">

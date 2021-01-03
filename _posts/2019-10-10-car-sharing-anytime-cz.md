@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jak opravit newsletter carsharingu Anytime"
-description: ""
+description: "Jak opravit newsletter carsharingu Anytime"
 date: 2019-10-10 00:00:00
 categories: Design
 tags: interface

@@ -1,6 +1,5 @@
 name: Yuriy Shiryaev
-description: Finacial product designer
-meta_description: "Fintech product designer. Improving people’s lives through design. With business in mind. I help companies solve tough problems and deliver digital products."
+description: "Fintech product designer and manager. I help brands solve tough problems and deliver digital fintech products."
 
 markdown: kramdown
 highlighter: rouge
@@ -9,8 +8,8 @@ timezone: CZ
 domain_name: 'https://yuriy.eu'
 baseurl: 
 plugins:
-  - jekyll-sitemap 
   - jekyll-paginate
+  - jekyll-sitemap 
 
 paginate: 10
 paginate_path: "/blog/page:num/"
@@ -18,8 +17,8 @@ paginate_path: "/blog/page:num/"
 collections: 
  projects:
   output: true
- koreaposts:
-  output: true
+# koreaposts:
+#  output: true
 # cafe:
 #  output: true
 # loots:

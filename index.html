@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Finacial product designer
+title: Fintech product designer
 cover: false
 logo: true
 
@@ -19,18 +19,20 @@ logo: true
     {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
         
-        <a class="{{item.block}}" href="{{item.url}}">
+        <a class="{{item.block}}" title="{{item.title}}" href="{{item.url}}">
 			<div class="{{ item.template }} {{ item.templateheight }} lazy" style="background-image: url(/assets/images/lazy.png);" data-echo-background="{{ item.new-cover }}"></div>
 			
             <div class="{{item.nametemplate}} {{ item.custom-font }}">    
-                <div class="item-titel"><b>{{item.title}}</b></div>
+                <span href="{{item.url}}" class="item-titel">{{item.title}}</span>
+                
                 <div class="item-description {{item.custom}}">{{item.description}}</div>
             </div>  
         </a>
+    
   {% endfor %}
 	
 
-	{% include consultation-wrap-bottom.html %}
+	<!--{% include promo.html %} -->
 	
 </div>
 

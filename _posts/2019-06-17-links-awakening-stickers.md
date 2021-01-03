@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Link's Awakening Telegram Stickers"
-description: ""
+description: "A set of Stickers to celebrate an annonce of Zelda: Link's Awakening"
 date: 2019-06-17 00:00:00
 categories: Design
 tags: interface
