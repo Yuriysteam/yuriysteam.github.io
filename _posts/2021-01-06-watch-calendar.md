@@ -9,7 +9,7 @@ tags: design
 
 <span class="p900"><img src="/assets/images/lazy.png" alt="Apple Watch Calendar Wallpaper" data-echo="/blog_img/watch.jpg"></span> 
 
-Calender for a month for Apple Watch.
+Calendar for a month for Apple Watch.
 
 #### How to add
 
