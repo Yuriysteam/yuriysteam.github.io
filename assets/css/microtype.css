@@ -287,7 +287,7 @@ a {
   display: inline-block;
   padding: 6px 0 6px 0;
   margin: 0 -2px;
-  width: 25%; /* =100/tabs number */
+  width: 20%; /* =100/tabs number */
   background: #F7F2EF;
   border-bottom: 1px #d8d2ce solid;
   text-align: center;
@@ -301,15 +301,16 @@ a {
 .tabs #tab1:checked ~ .content #content1,
 .tabs #tab2:checked ~ .content #content2,
 .tabs #tab3:checked ~ .content #content3,
-.tabs #tab4:checked ~ .content #content4 {
+.tabs #tab4:checked ~ .content #content4,
+.tabs #tab5:checked ~ .content #content5 {
   display: block;
 }
 .tabs .content > div {
   display: none;
   padding-top: 20px;
   text-align: left;
-  /*height: 192px;*/
-  overflow: auto;
+  /*height: 192px;
+  overflow: auto; */
 }
 
 .selector {
@@ -337,6 +338,30 @@ a {
 .back-url {
     text-align: center;
     margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .example {
+    margin-top: 10px;
+    font-size:2.4em;
+    line-height: 1.1;
+   
+}
+    
+    .tabs {
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 350px) {
+  .example {
+    margin-top: 10px;
+    font-size:1.4em;
+    line-height: 1.1;
+   
+}
+    
 }
 
 
