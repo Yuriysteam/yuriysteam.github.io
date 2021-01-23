@@ -2094,7 +2094,7 @@ white-space: nowrap;
 .info-section {
 	margin-top: 50px;
 	padding: 0px;
-    border-top: 1px solid #EBF2F6;
+    border-top: 1px solid rgba(235, 242, 246, 0.49);
 }
 
 

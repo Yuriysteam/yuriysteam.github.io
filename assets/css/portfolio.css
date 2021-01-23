@@ -65,7 +65,7 @@ background-repeat: no-repeat;
 }
 
 .product {
-	width: 33%;
+	width: 24%;
 	padding: 0px;
 	margin-bottom: 40px;
 background-position: center;
@@ -74,6 +74,13 @@ background-repeat: no-repeat;
 	border-bottom-width: 0px;
     border-bottom-style: none;
 	background-color: transparent;
+}
+
+.region_type {
+    font-size: 40px;
+    text-align: center;
+   padding: 0 20%;
+    line-height: 1.2;
 }
 
 
