@@ -287,7 +287,7 @@ a {
   display: inline-block;
   padding: 6px 0 6px 0;
   margin: 0 -2px;
-  width: 20%; /* =100/tabs number */
+  width: 16.6%; /* =100/tabs number */
   border-bottom: 1px #d8d2ce solid;
   text-align: center;
 }
@@ -301,7 +301,8 @@ a {
 .tabs #tab2:checked ~ .content #content2,
 .tabs #tab3:checked ~ .content #content3,
 .tabs #tab4:checked ~ .content #content4,
-.tabs #tab5:checked ~ .content #content5 {
+.tabs #tab5:checked ~ .content #content5,
+.tabs #tab6:checked ~ .content #content6 {
   display: block;
 }
 .tabs .content > div {
