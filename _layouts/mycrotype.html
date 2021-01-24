@@ -4,35 +4,36 @@ layout: none
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	
+
 
     <title>{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name=”keywords” content=”design, fintech, designer, UX, banking, product design, branding, startups, UI” />
-	<meta property="og:url" content="https://yuriy.eu{{ page.url }}" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-	<meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
-	<meta property="og:image" content="https://yuriy.eu/{{ page.new-cover }}" />
-	<meta property="og:image:width" content="960px" />
-	<meta property="og:image:height" content="770px" />
-	<meta property="fb:app_id" content="1496306313741117" />
+    <meta property="og:url" content="https://yuriy.eu{{ page.url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ site.name }} - {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:image" content="https://yuriy.eu/{{ page.new-cover }}" />
+    <meta property="og:image:width" content="960px" />
+    <meta property="og:image:height" content="770px" />
+    <meta property="fb:app_id" content="1496306313741117" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
-	<meta name="yandex-verification" content="0542dd8789b34050" />
-	
-	<link async rel="stylesheet" type="text/css" href="/assets/css/microtype.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
-	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
     <meta name="yandex-verification" content="0542dd8789b34050" />
-	
- 
+
+    <link async rel="stylesheet" type="text/css" href="/assets/css/microtype.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+
+    <meta name="yandex-verification" content="0542dd8789b34050" />
+
+
     <!-- Customisation  -->
-    <link rel="icon" href="/icons/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -45,25 +46,33 @@ layout: none
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-	
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(45469323, "init", {
-        id:45469323,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        trackHash:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45469323" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-   
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(45469323, "init", {
+            id: 45469323,
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true,
+            trackHash: true
+        });
+
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/45469323" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
 
 </head>
 
@@ -71,96 +80,334 @@ layout: none
 <body>
 
 
-<div class="wrapper">
-    
-    <h1 class="headline">{{ page.title }}</h1>
-    
- <div class="tabs">
-    <input id="tab1" type="radio" name="tabs" checked>
-   <label for="tab1">🇬🇧</label>
-      <input id="tab2" type="radio" name="tabs">
-   <label for="tab2">🇺🇸</label>
-   <input id="tab3" type="radio" name="tabs">
-   <label for="tab3">🇷🇺</label>
-   <input id="tab4" type="radio" name="tabs">
-   <label for="tab4">🇨🇿</label>
-   <input id="tab5" type="radio" name="tabs">
-   <label for="tab5">🇩🇪</label>
-     <input id="tab6" type="radio" name="tabs">
-   <label for="tab6">🇨🇭</label>  
-   <div class="content">
-      <div id="content1">
-<div class="example">
-    Fred O<span class="orange">’</span>Malley (1930<span class="orange">—</span>2010) was waiting for the <span class="orange">‘</span>GRW Express<span class="orange">’</span> or <span class="orange">“</span>Cornishman<span class="orange">”</span>. Train came 24<span class="orange">/</span>02<span class="orange">/</span>2007 at 07<span class="orange">.</span>50 or 7<span class="orange">.</span>50&nbsp;a.m. Ticket was expensive <span class="orange">£</span>12<span class="orange">&nbsp;</span>300<span class="orange">.</span>99. But in the menu was whiskey 40<span class="orange">°</span>. Restaurant was open 08.00<span class="orange">&ndash;</span>20.00.
-    
+    <div class="wrapper">
+
+        <h1 class="headline">{{ page.title }}</h1>
+
+        <div class="tabs">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">🇬🇧</label>
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">🇺🇸</label>
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">🇷🇺</label>
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">🇨🇿</label>
+            <input id="tab5" type="radio" name="tabs">
+            <label for="tab5">🇩🇪</label>
+            <input id="tab6" type="radio" name="tabs">
+            <label for="tab6">🇨🇭</label>
+            <div class="content">
+                <div id="content1">
+                    <div class="example">
+                        Fred O<span class="orange">’</span>Malley (1930<span class="orange">—</span>2010) was waiting for the <span class="orange">‘</span>GRW Express<span class="orange">’</span> or <span class="orange">“</span>Cornishman<span class="orange">”</span>. Train came 24<span class="orange">/</span>02<span class="orange">/</span>2007 at 07<span class="orange">.</span>50 or 7<span class="orange">.</span>50&nbsp;a.m. Ticket was expensive <span class="orange">£</span>12<span class="orange">&nbsp;</span>300<span class="orange">.</span>99. But in the menu was whiskey 40<span class="orange">°</span>. Restaurant was open 08.00<span class="orange">&ndash;</span>20.00.
+
+
+                    </div>
+
+
+                </div>
+
+                <div id="content2">
+                    <div class="example">
+                        Ford O<span class="orange">’</span>Malley (1930<span class="orange">—</span>2010) was waiting for the <span class="orange">“</span>Aurora Winter Train<span class="orange">”</span> or <span class="orange">‘</span>Alaska Express<span class="orange">’</span>. Train came 02<span class="orange">/</span>24<span class="orange">/</span>2007 at 07<span class="orange">:</span>50 or 7<span class="orange">:</span>50&nbsp;<span class="orange">AM</span>. Ticket was expensive <span class="orange">$</span>12<span class="orange">,</span>300<span class="orange">.</span>99. But in the menu was whiskey 40<span class="orange">°</span>. Restaurant was open from 8 <span class="orange">AM</span> to 8 <span class="orange">PM</span>. Train Fairbanks<span class="orange">&ndash;</span>Anchorage was leaving soon.
+
+
+                    </div>
+
+
+                </div>
+
+                <div id="content3">
+                    <div class="example">
+                        Фёдор (1930<span class="orange">&thinsp;—&thinsp;</span>2010) ждал поезд <span class="orange">№</span>&nbsp;245 <span class="orange">«</span>Серебряная стрела<span class="orange">»</span> или <span class="orange">„</span>Стрелка<span class="orange">“</span>. Он пришел 24<span class="orange">.</span>02<span class="orange">.</span>2007 в 10<span class="orange">:</span>50. Билет был дорогой 12&nbsp;300<span class="orange">,</span>99<span class="orange">&nbsp;₽</span>. Но в меню была 40<span class="orange">°</span>водка. Рестаран был открыт 10:00<span class="orange">–</span>20:00. Пока Павел думал, поезд Москва<span class="orange">&thinsp;—&thinsp;</span>Владивосток, ушел.
+                    </div>
+                </div>
+
+                <div id="content4">
+                    <div class="example">
+                        František (<span class="orange">*</span>&thinsp;1930 <span class="orange">†</span>&thinsp;2010) čekal na vlak <span class="orange">„</span>Pendolino<span class="orange">“</span> přezdívaný <span class="orange">»</span>Pendo<span class="orange">«</span>. Vlak přijel 24<span class="orange">.</span><span class="orangebg">&thinsp;</span>02<span class="orange">.</span><span class="orangebg">&thinsp;</span>2007 v 10<span class="orange">:</span>50. Jízdenka stála 12&nbsp;300<span class="orange">,</span>90&nbsp;<span class="orange">Kč</span>. Ale v restauraci byla dobrá nabídka: šunka&thinsp;<span class="orange">/</span>&thinsp;sýr&thinsp;/&thinsp;čaj&thinsp;/&thinsp;pivo 12<span class="orange">°</span>. Otevírací doba byla 10:00<span class="orange"> až </span>20:00 hodin.
+                    </div>
+
+
+                    <div class="rules">
+
+                        <div class="rule-name">Quotation marks</div>
+                        <div class="rule-text">
+
+                            <ul>
+                                <li>Czech language uses <span class="orange">„ “</span> quotation marks</li>
+                                <li>Also possible to use single quotation marks <span class="orange">‚ ‘</span></li>
+                                <li>In minor cases allowed to use reversed French quotation marks <span class="orange">» «</span></li>
+                                <li>The <span class="orange">"</span> is a used for inches or seconds. Also in computer code.</li>
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            <span class="orange">„</span>Direct speech surrounded by <span class="orange">‚</span>quatations<span class="orange">‘</span>.<span class="orange">“</span><br>
+                            <span class="orange">„</span>The dot stays in quotation marks then the whole sentence is surrundd by them.<span class="orange">“</span>
+                            If there is only one word in quotation marks, the punctuation is outside the <span class="orange">„</span>symbol<span class="orange">“</span>.
+                        </div>
+
+                        <div class="rule-name">Apostrophe</div>
+                        <div class="rule-text">
+
+                            <ul>
+                                <li>Apostrophe <span class="orange">’</span> in Czech is used for softer constonants</li>
+                                <li>In foreign words</li>
+
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            lod<span class="orange">’</span>, to jsem se lek<span class="orange">’</span>.<br>
+                            can<span class="orange">’</span>t, O<span class="orange">’</span>Reilly, Geh<span class="orange">’</span> mit mir
+                        </div>
+                        
+                        <div class="rule-name">Paragraph</div>
+                        <div class="rule-text">
+
+                            §<span class="orangebg">&nbsp;</span>56 – with a space beyween symbol and number.<br>
+                            podle § 46 odst. 1 písm. c) zák. č. 65/65 Sb.
+                        </div>
+
+                        <div class="rule-name">Numbers</div>
+                        <div class="rule-text">
+
+                            18<span class="orangebg">&nbsp;</span>000 – nonbreaking space between digits. Also allowed to use the dot.<br>
+                            6<span class="orange">,</span>67 – comma is used as a decimal separator.
+                        </div>
+                        
+                        <div class="rule-name">Phone Numbers</div>
+                        <div class="rule-text">
+
+                            +420<span class="orangebg">&nbsp;</span>558<span class="orangebg">&nbsp;</span>225<span class="orangebg">&nbsp;</span>225 - writing with three digits and separating with spaces.
+                        </div>
+
+                        <div class="rule-name">Monetary amounts</div>
+                        <div class="rule-text">
+
+                            50<span class="orangebg">&nbsp;</span><span class="orange">Kč</span>&nbsp;&nbsp;<span class="orange">Kč</span><span class="orangebg">&nbsp;</span>50,00&nbsp;&nbsp;10<span class="orangebg">&nbsp;</span>000 <span class="orange">€</span>&nbsp;&nbsp;<span class="orangebg">&nbsp;</span>130 <span class="orange">Sk</span>&nbsp;&nbsp;<span style="font-variant: small-caps;">czk</span><span class="orangebg">&nbsp;</span>60<br>
+                            <ul>
+                                <li>Mdash <span class="orange">&mdash;</span> represents two zeros.</li>
+                                <li>Not a good tone to write 50,— Kč or Kč 50,—; much better: 50,00 Kč, the best 50 Kč</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="rule-name">Units</div>
+                        <div class="rule-text">
+
+                            <ul>
+                                <li>By default, the degree is separated by a nonbreaking space</li>
+                                <li>In the meaning as an adjective is used without a space</li>
+                                <li>The exception is the degree as a unit of angle with minutes and second: 75<span class="orange">°</span>26<span class="orange">‘</span>40<span class="orange">“</span></li>
+
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            30<span class="orangebg">&nbsp;</span><span class="orange">%</span> increase in sales.<br>
+                            Outside is -9<span class="orangebg">&nbsp;</span><span class="orange">°</span>C. Inside is +9<span class="orangebg">&nbsp;</span><span class="orange">°</span>C.<br>
+                            12 kg<br>
+                            We bought 12<span class="orange">°</span> beer (in CZ it will be dvanáctistupňové).<br>
+                            The angle is 35<span class="orangebg">&nbsp;</span><span class="orange">°</span>C.
+                        </div>
+
+                        <div class="rule-name">Dates and time</div>
+                        <div class="rule-text">
+
+                            <ul>
+                                <li>Czech uses dd. mm. yyyy format.</li>
+                                <li>Dates separated by spaces. Thin space also can be used.</li>
+                                <li>For birth and death range also can be used <span class="orange">*</span> <span class="orange">†</span>separated with thin spaces.</li>
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            18<span class="orange">.</span><span class="orangebg">&thinsp;</span>08<span class="orange">.</span><span class="orangebg">&thinsp;</span>2021.<br>
+                            18<span class="orange">.</span>&thinsp;serpnu&thinsp;2021 (in text),<br>
+                            František Muzika (<span class="orange">*</span>&thinsp;1930 <span class="orange">†</span>&thinsp;2010). Also allowed (1930<span class="orange">—</span>2010).<br>
+
+                        </div>
+
+                        <div class="rule-text">
+
+                            <ul>
+                                <li>Colon is used for time separator. But dot also allowed.</li>
+                                <li>In sports secods separated by comma.</li>
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            18<span class="orange">:</span>20 or 18<span class="orange">.</span>20<br>
+                            Martin finished first with time 10:59<span class="orange">,</span>23.
+
+                        </div>
+
+                        <div class="rule-name">Dash</div>
+                        <div class="rule-text">
+
+                            <b>Speach break</b>
+
+                            <ul>
+                                <li>Separated by regular space</li>
+                                <li>Never placed in the begining of the sentance (yes, at the end)</li>
+                                <li>Punctuation is placed immediately after the dash without a space</li>
+                            </ul>
+                        </div>
+                        <div class="rule-example">
+                            Být single<span class="orangebg"> </span>–<span class="orangebg"> </span>ale jak?<br>
+                            „Pozor<span class="orangebg"> </span>–<span class="orangebg"> </span>–<span class="orangebg"> </span>–!“
+                        </div>
+                        <div class="rule-text">
+                            <b>Introduction of direct speech</b>
+
+                            <ul>
+                                <li>Placed in the begining of the sentance</li>
+                                <li>Separated by the first word with a space</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-example">
+                            Maminka křičela:<br>
+                            —<span class="orangebg"> </span>Eliško domů!
+                        </div>
+
+                        <div class="rule-text">
+                            <b>Lists</b>
+
+                            <ul>
+                                <li>a hyphen (or other graphic symbol) can used as a bullet in the list</li>
+                                <li>Separated by the first word with a space</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-example">
+                            -<span class="orangebg"> </span>pivo<br>
+                            -<span class="orangebg"> </span>voda<br>
+                            -<span class="orangebg"> </span>džus<br>
+                            -<span class="orangebg"> </span>soda<br>
+                        </div>
+
+                        <div class="rule-text">
+                            <b>With meaning of range (from – to</b>
+
+                            <ul>
+                                <li>Recomended to use mdash.</li>
+                                <li>Used without spaces.</li>
+                                <li>If the line breaks is is better to chage dash with a word.</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-example">
+                            Otevírací doba byla 10:00<span class="orange">—</span>20:00 hodin<br>
+                            Otevírací doba byla 10:00<span class="orange"> až </span>20:00 hodin<br><br>
+                            Na zápas Česko<span class="orange">—</span>Maďarsko...<br>
+                            Na zápas Česko<span class="orange"> v </span>Maďarsko...<br><br>
+
+                            12. září<span class="orange">—</span>15. října 2000 (but) 12.<span class="orange">—</span>13. září 2006<br><br>
+                            Trasa Praha<span class="orange">—</span>Berlín.
+
+
+                        </div>
+
+                        <div class="rule-name">Hyphen</div>
+                        <div class="rule-text">
+
+
+                            <ul>
+                                <li>Used without spaces.</li>
+                                <li>In Czech if the expression is divided in the place of the hyphen, the sign is repeated on the next line.</li>
+                                <li>Shorter then dash.</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-example">
+                            mám-li, Brno-město, Ostrava-Poruba, slovník česko-anglický, Anežka Hodinová-Spurná<br>
+                            ISBN 3-8252-2197-0, on-line, e-mail<br>
+                            „Nebude-<br>
+                            -li vám totiž vaditi, že můj libosad jest pod vodou.“
+
+
+                        </div>
+
+                        <div class="rule-name">Slash</div>
+                        <div class="rule-text">
+
+
+                            <ul>
+                                <li>Usualy used without spaces.</li>
+                                <li>If is's a listing space is needed.</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-example">
+                            Speed 90 km<span class="orange">/</span>h.<br>
+                            3/4 kg<br>
+                            Financial report from 2010<span class="orange">/</span>2011<br>
+                            Nabídka: šunka&thinsp;<span class="orange">/</span>&thinsp;sýr&thinsp;<span class="orange">/</span>&thinsp;čaj&thinsp;<span class="orange">/</span>&thinsp;pivo 12<span class="orange">°</span><br>
+                            Page 1<span class="orangebg"> </span>/<span class="orangebg"> </span>8 (but also possible Page 1<span class="orange">/</span>8)
+
+
+                        </div>
+
+                        <div class="rule-name">Trademarks and Copyright</div>
+                        <div class="rule-text">
+
+
+                            <ul>
+                                <li>Copyright © placed with a space before name of the owner.</li>
+                                <li>Registered ® placed after the name of the company or logo without space.</li>
+                                <li>TradeMark&TRADE; placed after the name of the company or logo without space.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="rule-example">
+                            ©<span class="orangebg"> </span>Company name,<span class="orangebg"> </span>2021
+                        </div>
+                        <div class="rule-text">When writing in English we should follow English typography rules. All sentences written in English here only for example purposes. Rules based on standart <a href="hhttp://www.ujc.cas.cz/expertni-cinnost/csn016910/" target="">ČSN 01 6910</a> from 2014.</div>
+
+                    
+
+
+                </div>
+
+
+            </div>
+
+            <div id="content5">
+                <div class="example">
+                    Frank O<span class="orange">’</span>Malley (1930<span class="orange">–</span>2010) wartete auf den <span class="orange">»</span>München-Nürnberg-Express<span class="orange">«</span> oder <span class="orange">„</span>Fresh<span class="orange">“</span>. Der Zug kam am 24<span class="orange">.</span><span class="orangebg">&nbsp;</span>02<span class="orange">.</span><span class="orangebg">&nbsp;</span>2007 um 7<span class="orange">:</span>50 <span class="orange">Uhr</span>. Das Ticket war teuer 12<span class="orange">.</span>300<span class="orange">,</span>99 <span class="orange">€</span>. Das Restaurant ist <span class="orange">von</span> 8 <span class="orange">bis</span> 20&nbsp;Uhr&nbsp;geöffnet.</div>
+
+            </div>
+
+            <div id="content6">
+                <div class="example">Frank O<span class="orange">’</span>Malley (1930<span class="orange">–</span>2010) wartete auf den <span class="orange">«</span>München-Nürnberg-Express<span class="orange">»</span> oder <span class="orange">„</span>Fresh<span class="orange">“</span>. Der Zug kam am 24<span class="orange">.</span><span class="orangebg">&nbsp;</span>02<span class="orange">.</span><span class="orangebg">&nbsp;</span>2007 um 7<span class="orange">.</span>50 <span class="orange">Uhr</span>. Das Ticket war teuer <span class="orange">Fr.</span> 12<span class="orange">'</span>300<span class="orange">.</span>99. Das Restaurant ist <span class="orange">von</span> 8 <span class="orange">bis</span> 20&nbsp;Uhr&nbsp;geöffnet.</div>
+            </div>
+        </div>
 
     </div>
-          
-          
-      </div>
-       
-            <div id="content2">
-<div class="example">
-    Ford O<span class="orange">’</span>Malley (1930<span class="orange">—</span>2010) was waiting for the <span class="orange">“</span>Aurora Winter Train<span class="orange">”</span> or <span class="orange">‘</span>Alaska Express<span class="orange">’</span>. Train came 02<span class="orange">/</span>24<span class="orange">/</span>2007 at 07<span class="orange">:</span>50 or 7<span class="orange">:</span>50&nbsp;<span class="orange">AM</span>. Ticket was expensive <span class="orange">$</span>12<span class="orange">,</span>300<span class="orange">.</span>99. But in the menu was whiskey 40<span class="orange">°</span>. Restaurant was open from 8 <span class="orange">AM</span> to 8 <span class="orange">PM</span>. Train Fairbanks<span class="orange">&ndash;</span>Anchorage was leaving soon.
-    
 
-    </div>
-          
-          
-      </div>
-
-      <div id="content3">
-<div class="example">
-    Фёдор (1930<span class="orange">&thinsp;—&thinsp;</span>2010) ждал поезд <span class="orange">№</span>&nbsp;245 <span class="orange">«</span>Серебряная стрела<span class="orange">»</span> или <span class="orange">„</span>Стрелка<span class="orange">“</span>. Он пришел 24<span class="orange">.</span>02<span class="orange">.</span>2007 в 10<span class="orange">:</span>50. Билет был дорогой 12&nbsp;300<span class="orange">,</span>99<span class="orange">&nbsp;₽</span>. Но в меню была 40<span class="orange">°</span>водка. Рестаран был открыт 10:00<span class="orange">–</span>20:00. Пока Павел думал, поезд Москва<span class="orange">&thinsp;—&thinsp;</span>Владивосток, ушел.
-    </div>
-      </div>
-
-      <div id="content4">
-<div class="example">
-    František (<span class="orange">*</span>&thinsp;1930 <span class="orange">†</span>&thinsp;2010) čekal na vlak <span class="orange">„</span>Pendolino<span class="orange">“</span> přezdívaný <span class="orange">»</span>Pendo<span class="orange">«</span>. Vlak přijel 24<span class="orange">.</span><span class="orangebg">&thinsp;</span>02<span class="orange">.</span><span class="orangebg">&thinsp;</span>2007 v 10<span class="orange">:</span>50. Jízdenka stála 12&nbsp;300<span class="orange">,</span>90&nbsp;<span class="orange">Kč</span>. Ale v restauraci byla dobrá nabídka: šunka&thinsp;<span class="orange">/</span>&thinsp;sýr&thinsp;/&thinsp;čaj&thinsp;/&thinsp;pivo 12<span class="orange">°</span>. Otevírací doba byla 10.00<span class="orange">—</span>20.00 hodin. Vlak jel trasou Praha<span class="orange">—</span>Berlín.
-    </div>
-
-          
-      </div>
-     
-      <div id="content5">
-<div class="example">
-    Frank O<span class="orange">’</span>Malley (1930<span class="orange">–</span>2010) wartete auf den <span class="orange">»</span>München-Nürnberg-Express<span class="orange">«</span> oder <span class="orange">„</span>Fresh<span class="orange">“</span>. Der Zug kam am 24<span class="orange">.</span><span class="orangebg">&nbsp;</span>02<span class="orange">.</span><span class="orangebg">&nbsp;</span>2007 um 7<span class="orange">:</span>50 <span class="orange">Uhr</span>. Das Ticket war teuer 12<span class="orange">.</span>300<span class="orange">,</span>99 <span class="orange">€</span>. Das Restaurant ist <span class="orange">von</span> 8 <span class="orange">bis</span> 20&nbsp;Uhr&nbsp;geöffnet.</div>
-          
-       </div>
-       
-       <div id="content6">
-        <div class="example">Frank O<span class="orange">’</span>Malley (1930<span class="orange">–</span>2010) wartete auf den <span class="orange">«</span>München-Nürnberg-Express<span class="orange">»</span> oder <span class="orange">„</span>Fresh<span class="orange">“</span>. Der Zug kam am 24<span class="orange">.</span><span class="orangebg">&nbsp;</span>02<span class="orange">.</span><span class="orangebg">&nbsp;</span>2007 um 7<span class="orange">.</span>50 <span class="orange">Uhr</span>. Das Ticket war teuer <span class="orange">Fr.</span> 12<span class="orange">'</span>300<span class="orange">.</span>99. Das Restaurant ist <span class="orange">von</span> 8 <span class="orange">bis</span> 20&nbsp;Uhr&nbsp;geöffnet.</div>
-      </div>
-   </div>
-
-</div>
-    
     <div class="back-url"><a href="{{ site.url }}">Back to projects</a></div>
-    
+
     </div>
-    
-    
-        
-    
-    </body>
-    
-    <script>
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("lang");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-border-red";
-}
-        
-        
+
+
+
+
+</body>
+
+<script>
+    function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("lang");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
+    }
+
 </script>
-    
+
 </html>
