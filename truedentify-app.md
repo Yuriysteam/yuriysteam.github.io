@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Truedentify Fintech Verification Flow
 date:   2018-11-18 06:30:00
 project-cover: "/projects_img/truedentify/cover.jpg"

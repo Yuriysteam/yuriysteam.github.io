@@ -457,6 +457,49 @@ input.apple-switch:checked:after {
    
 }
 
+
+/* Guroteska part */
+
+@font-face {
+	font-family: "Gurotesuka";
+	src: url("/projects_img/kanjiaday/Gurotesuka-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	
+}
+
+.guroteskawrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.guroteskachar {
+    width: 30px;
+    font-family: "Gurotesuka";
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.guroteskacharm {
+    width: 69px;
+    font-family: "Gurotesuka";
+    font-size: 50px;
+    padding: 20px 20px 20px 0px;
+    text-align: center;
+}
+
+.guroteskacharw {
+    width: 55px;
+    font-family: "Gurotesuka";
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 900px) {
 	
 	.half {
@@ -580,7 +623,7 @@ padding: 0;}
 	}
 	
 	a:hover {color: #ebebeb;
-	border-bottom-color: #ebebeb;}
+	border-bottom-color: #a0a0a0;}
 	
 	h1,h2,h3,h4,h5,h6 {color: #ddc;}
 	.hero-text {color: #ddc;}
@@ -633,6 +676,32 @@ padding: 0;}
     .intro-link {
      background: #2f2f2f; 
     }
+    
+    .item-titel {
+border-bottom-color: #848484;
+}
+    
+     .item-titel:hover {
+border-bottom-color: #bfbebe;
+}
+    
+    
+    
+    .three:hover .item-titel {
+border-bottom-color: #bfbebe;
+}
+
+.half:hover .item-titel {
+border-bottom-color: #bfbebe;
+}
+
+.seven:hover .item-titel {
+border-bottom-color: #bfbebe;
+}
+
+.product:hover .item-titel {
+border-bottom-color: #bfbebe;
+}
 	
 }
 

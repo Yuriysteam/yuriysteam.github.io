@@ -4,7 +4,7 @@ title: "Japanese Tourist Stickers"
 date:   2018-11-18 03:28:00
 description: "Sticker pack to express love to Japan"
 type: project
-intro-text: "22 stickers to share favourite food, activities and mascots."
+intro-text: "40 stickers to share favourite food, activities and mascots."
 web: "<a href='https://t.me/addstickers/japantalks'>Get on Telegram</a> & <a href='https://apps.apple.com/cz/app/melonpan/id1520175595?app=messages'>Get on AppStore</a>"
 
 block: product
@@ -22,7 +22,11 @@ days: 3 days (published 22.01.20)
 
 ### Telegram: 1 month after launch
 
-Telegram downloads: **241**      Usage: **654**
+Installs: **241**      Usage: **654**
+
+### Telegram: 1 year after launch
+
+Installs: **3239**      Usage: **8093**
 
 ### Appstore
 

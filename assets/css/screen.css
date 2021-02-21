@@ -2473,6 +2473,14 @@ white-space: nowrap;
 	margin: 50px 0;
 }
 
+
+.p-full img {
+	width: 100%;
+    display:block;
+	margin: 50px 0;
+}
+
+
 .p1000 img {
 	max-width: 1440px;
 	width:90%;
