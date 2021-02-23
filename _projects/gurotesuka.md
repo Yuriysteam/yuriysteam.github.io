@@ -31,6 +31,9 @@ template: sngl-prj-covr
    <div class="guroteskachar">
 	本
   </div>
+   <div class="guroteskachar">
+	月
+  </div>
 </div> 
 <div class="guroteskawrap">
   <div class="guroteskachar">
@@ -113,6 +116,7 @@ template: sngl-prj-covr
   </div>
 
 
+
 </div>
 
 
@@ -120,6 +124,10 @@ template: sngl-prj-covr
 <br><br><br>グロテスカ (gu•ro•te•su•ka) is intentionally misspelled word grotesque in Japanese. Correct will be グロテスク (gu•ro•te•su•ku)
 
 ## How are we doing so far
+
+##### Day 2
+
+Didn't failed the second day and here is kanji for 月 moon and month. Font also updated.
 
 ##### Day 1
 
