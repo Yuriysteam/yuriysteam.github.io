@@ -22,7 +22,7 @@ template: sngl-prj-covr
 
 <img class="display: block" width="100%" src="/projects_img/kanjiaday/characters.png">
 
-## Already 28-ish glyphs
+## Already 29-ish glyphs
 
 <div class="guroteskawrap">
   <div class="guroteskachar">
@@ -127,7 +127,7 @@ template: sngl-prj-covr
 
 ##### Day 2
 
-Didn't failed the second day and here is kanji for 月 moon and month. Font also updated.
+Didn't fail the second day and here is kanji for 月 moon and month. Font also updated.
 
 ##### Day 1
 
