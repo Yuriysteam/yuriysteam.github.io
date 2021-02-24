@@ -22,7 +22,7 @@ template: sngl-prj-covr
 
 <img class="display: block" width="100%" src="/projects_img/kanjiaday/characters.png">
 
-## Already 29-ish glyphs
+## Already 33-ish glyphs
 
 <div class="guroteskawrap">
   <div class="guroteskachar">
@@ -33,6 +33,18 @@ template: sngl-prj-covr
   </div>
    <div class="guroteskachar">
 	月
+  </div>
+  <div class="guroteskachar">
+	円
+  </div>
+  <div class="guroteskachar">
+	口
+  </div>
+  <div class="guroteskachar">
+	田
+  </div>
+  <div class="guroteskachar">
+	目
   </div>
 </div> 
 <div class="guroteskawrap">
@@ -117,6 +129,7 @@ template: sngl-prj-covr
 
 
 
+
 </div>
 
 
@@ -125,11 +138,19 @@ template: sngl-prj-covr
 
 ## How are we doing so far
 
-##### Day 2
+##### Day 3 (+4 kanji)
+
+<span class="p-text">Adding and learning four new kanjis: 円 – cirlce, yen, round, 口 - mouth, 田 - rice field, and 目 - eye ball, eye sight. All of them are square and easy to draw and remeber. Also, made small font setting for kanjies and Latins so they play nice together. Still have a powerful move with kanji for one, two and three.</span>
+
+<span class="p1000">![guroteska illsutrator](/projects_img/kanjiaday/day3.png)</span>
+
+<span class="p1000">![guroteska illsutrator](/projects_img/kanjiaday/circle.png)</span>
+
+##### Day 2 (+1 kanji)
 
 Didn't fail the second day and here is kanji for 月 moon and month. Font also updated.
 
-##### Day 1
+##### Day 1 (+2 kanji)
 
 Started 22.02.
 
