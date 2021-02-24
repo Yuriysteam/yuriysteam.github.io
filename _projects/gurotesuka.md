@@ -140,7 +140,7 @@ template: sngl-prj-covr
 
 ##### Day 3 (+4 kanji)
 
-<span class="p-text">Adding and learning four new kanjis: 円 – cirlce, yen, round, 口 - mouth, 田 - rice field, and 目 - eye ball, eye sight. All of them are square and easy to draw and remeber. Also, made small font setting for kanjies and Latins so they play nice together. Still have a powerful move with kanji for one, two and three.</span>
+<span class="p-text">Adding and learning four new kanjis: 円 – circle, yen, round, 口 - mouth, 田 - rice field, and 目 - eye ball, eye sight. All of them are square and easy to draw and remeber. Also, made small font setting for kanjies and Latins so they play nice together. Still have a powerful move with kanji for one, two and three.</span>
 
 <span class="p1000">![guroteska illsutrator](/projects_img/kanjiaday/day3.png)</span>
 
