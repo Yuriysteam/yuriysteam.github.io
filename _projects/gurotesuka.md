@@ -138,6 +138,10 @@ template: sngl-prj-covr
 
 ## How are we doing so far
 
+##### Day 4 (+1 kanji)
+
+<span class="p-text">Aha, apperently 円口田 do have different height and sit differently on the baseline. Actually still not sure where should be a baseline for kanjies. Seams like kanji should sit a bit narrower than latins. Also, height of symbols are different and I have to study or google each to see the relationshp and how other's design those before.</span>
+
 ##### Day 3 (+4 kanji)
 
 <span class="p-text">Adding and learning four new kanjis: 円 – circle, yen, round, 口 - mouth, 田 - rice field, and 目 - eye ball, eye sight. All of them are square and easy to draw and remeber. Also, made small font setting for kanjies and Latins so they play nice together. Still have a powerful move with kanji for one, two and three.</span>
