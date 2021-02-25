@@ -145,7 +145,7 @@ template: sngl-prj-covr
 ##### Day 4 (+1 kanji)
 
 <span class="p-text">Aha, apperently 円口田 do have different height and sit differently on the baseline. Actually still not sure where should be a baseline for kanjies. Seams like kanji should sit a bit narrower than latins. Also, height of symbols are different and I have to study or google each to see the relationshp and how other's design those before.</span>
-<span class="p-text">Adding today 力 for strength. It looks super simmilar to Katakana ka カ (together 力カ ), but seams ka is a bit smaller. Have to investigate that. Also, fixing a base line for all kanjis, and making them a bit wide to reflect the nature of typeface. No, I can make small sentances to test the font.</span>
+<span class="p-text">Adding today 力 for strength. It looks super simmilar to Katakana ka カ (together 力カ ), but seams ka is a bit smaller. Here is [the explanation](https://japanese.stackexchange.com/questions/39867/is-there-any-difference-between-writing-the-katakana-カ-and-the-kanji-力). Also, fixing the base line for all kanjis. Making them a bit wider to reflect the nature of typeface. Now, I can make small sentances to test the font.</span>
 
 Also, I can almost write some brand name now [田力本](https://tariki-hongan.jp) I think it's like rice, power, real?
 
