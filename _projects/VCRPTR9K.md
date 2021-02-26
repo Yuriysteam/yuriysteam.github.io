@@ -45,7 +45,7 @@ UI and font designer: <a href='https://www.behance.net/fairymymyu' target='_blan
 
 
 
-Creatives can inport their own cover or iven a GIF.
+Creatives can inport their own cover or even a GIF.
 
 <span class="p1000">![](/projects_img/vcrptr/covers.png)</span>
 
