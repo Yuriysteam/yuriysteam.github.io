@@ -144,6 +144,10 @@ template: sngl-prj-covr
 
 ## How are we doing so far
 
+##### Day 5 (+1 kanji)
+
+<span class="p-text">Time managment failed. And I had to take 2 week break. But hey, new kanjies here. And everything now wider.</span>
+
 ##### Day 4 (+1 kanji)
 
 <span class="p-text">Aha, apperently 円口田 do have different height and sit differently on the baseline. Actually still not sure where should be a baseline for kanjies. Seams like kanji should sit a bit narrower than latins. Also, height of symbols are different and I have to study or google each to see the relationshp and how other's design those before.</span>
