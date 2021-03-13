@@ -16,6 +16,8 @@ block: half
 template: single-project-cover
 new-cover: "/projects_img/lijinen/cover-big.png"
 days: 61 days
+Real-date: November 2015
+
 ---
 
 <span class="p1000">![](/projects_img/lijinen/f-1.svg)</span>

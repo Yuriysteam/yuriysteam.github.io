@@ -18,6 +18,7 @@ author: "Designer: Yuriy Shiryaev</br>
 Code – Maxim Ivanov and Yuriy Shiryaev</br>
 Demo videos – HA Jhonny and TSON</br>
 SFM art work – Ronald_D_D"
+Real-date: August 2016
 ---
 
 

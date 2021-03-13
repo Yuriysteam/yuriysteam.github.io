@@ -19,6 +19,7 @@ Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
 Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 164 days
+Real-date: November 2018
 ---
 
 <span class="p900">![](/projects_img/rowab/cover-inside.png)</span>

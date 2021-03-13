@@ -20,6 +20,7 @@ author: "Art director and lead designer: Yuriy Shiryaev</br>
 Designer: Rebeca Naranjo Guzman</br>
 Illustrator: Yunjae Woo</br>
 Development team lead: <a style='color:white' href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
+Real-date: December 2018
 ---
 
 <span class="p-logo"><img src="/assets/images/lazy.png" alt="xixoio logo" data-echo="/projects_img/xixoio/logo.svg"></span>

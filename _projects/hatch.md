@@ -1,13 +1,15 @@
 ---
 layout: project
 title: Design for Manhole Covers
-date:   2020-09-28 02:30:00
+date:   2010-09-28 02:30:00
 description: "Made in Park: Web app with a library of 3D design for manhole covers"
 task: "<b>Task: </b>came up with 3D designs for manhole covers."
 intro-text: "Web app for constructing manhole covers with displaying in AR"
 type: project
 web: makeyourhatch.ru
 role: "<b>Role: </b>I helped to create a visual UI for the web, 3D models, and AR designs. Also, I prepared promo materials and videos."
+
+date-real: September 2020
 
 
 block: full

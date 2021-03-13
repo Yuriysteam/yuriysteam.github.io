@@ -8,6 +8,8 @@ intro-text: "At Dynameyes we developed a modern interface design for ATM and int
 task: "<b>Task: </b>create interface for the ATM and personal cabinet"
 role: "<b>Role: </b>Design of the flow, consulting the development team and testing."
 
+real-date: December 2019
+
 
 block: three
 template: single-project-cover

@@ -9,12 +9,14 @@ type: project
 web: "<a href='/projects_img/kanjiaday/Gurotesuka-Regular.ttf' download>Download Gurotesuka v0.01</a>"
 role: "<b>Role: </b>Font designer"
 
+real-date: February 2021
+
 
 block: full
 nametemplate: no-name
 new-cover: "/projects_img/kanjiaday/cover.png"
 author: ""
-days: currently going
+days: n days
 template: sngl-prj-covr
 ---
 

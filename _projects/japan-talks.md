@@ -12,7 +12,9 @@ template: single-project-cover
 nametemplate: image-name
 new-cover: "/projects_img/japan-talks/preview.png"
 author: "Author: Yuriy Shiryaev"
-days: 3 days (published 22.01.20)
+days: 3 days
+
+real-date: January 2020
 
 ---
 

@@ -262,8 +262,24 @@ background-repeat: no-repeat;
 	color: #bfbfbf;
 }
 
+.dark-bg .intro-text {
+	color: #bfbfbf;
+}
+
+.dark-bg .intro-text-p {
+	color: #bfbfbf;
+}
+
 .dark-bg.post-content {
 	color: #bfbfbf;
+}
+
+.dark-bg .info-section {
+    color: #bfbfbf;
+}
+
+.dark-bg .info-section h2{
+    color: #bfbfbf;
 }
 
 .customfont {

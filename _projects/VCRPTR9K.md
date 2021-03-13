@@ -1,13 +1,15 @@
 ---
 layout: project
 title: "VOICERAPTOR 9000"
-date:   2020-06-23 01:30:00
+date:   2010-06-23 01:30:00
 description: "Made in Park: Service for making visual covers"
 type: page
 intro-text: "Web app where musicians create album covers, bloggers making stories, and designers came up with font animations."
 task: "<b>Task: </b>create a project in Intuition's Park."
 role: "<b>Role: </b>I came up with the idea, assembled the team, helped with font design, did coding, hosting, and publication."
 web: "<a href='https://voiceraptor-9000.com' target='_blank'>voiceraptor-9000.com</a>"
+
+real-date: March 2020
 
 block: seven
 template: single-project-cover

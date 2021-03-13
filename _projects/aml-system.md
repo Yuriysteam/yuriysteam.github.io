@@ -11,6 +11,8 @@ role: "<b>Role: </b>In my responsibility was creating the logo and visual style 
 type: project
 web: amlsystem.com
 
+real-date: November 2018
+
 block: seven
 nametemplate: no-name
 template: single-project-cover

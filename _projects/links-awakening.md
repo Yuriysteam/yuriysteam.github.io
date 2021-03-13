@@ -12,7 +12,8 @@ template: single-project-cover
 nametemplate: name
 new-cover: "/projects_img/stickers/link-cover.png"
 author: "Author: Yuriy Shiryaev</br>Character and name: Nintendo"
-days: 12 days (published 11.06.19)
+days: 12 days
+Real-date: November 2019
 ---
 
 <span class="p1000">![link's awakening telegram stickers](/projects_img/stickers/link-preview.png)</span>

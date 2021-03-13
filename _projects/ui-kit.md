@@ -13,6 +13,7 @@ nametemplate: name
 new-cover: "/projects_img/uikit/cover_2.png"
 author: "Author: Yuriy Shiryaev"
 days: 7 days
+Real-date: August 2018
 ---
 
 

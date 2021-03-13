@@ -11,6 +11,8 @@ role: "<b>Role:</b> Art Direction and Management"
 type: project
 web: chocotopia.cz
 
+real-date: March 2020
+
 block: half
 template: single-project-cover
 nametemplate: image-name

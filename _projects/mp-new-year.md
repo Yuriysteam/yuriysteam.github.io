@@ -18,6 +18,7 @@ new-cover: "/projects_img/mp_new_year/cover-big.png"
 author: "Art director and lead designer: Yuriy Shiryaev</br>
 Development team lead: <a href='https://dynameyes.com' target='_blank'>Geronimo Matias</a>"
 days: 67 days
+Real-date: December 2017
 template: sngl-prj-covr
 ---
 

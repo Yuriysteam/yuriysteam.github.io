@@ -1,13 +1,15 @@
 ---
 layout: project
 title: "Eco Energy World Group Branding and Web"
-date:   2020-06-23 01:31:00
+date:   2010-06-23 01:31:00
 description: "Logo and web for the eco-energy company"
 type: page
 intro-text: "EEW Group is a Czech based company working in the fields of energy and finances. To help the group start their business I created identity and landing page."
 task: "<b>Task: </b>create an identity and promo page for the recycling company"
 role: "<b>Role: </b>I assembled the team, came up with the logo idea and the visual direction. Helped with web design and submission of final materials."
 web: "<a href='https://eco-energy.world' target='_blank'>eco-energy.world</a>"
+
+real-date: June 2020
 
 block: three
 template: single-project-cover
